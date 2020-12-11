@@ -1,11 +1,13 @@
 {
   "name": "tailwind-react-native",
   "bin": "cli/index",
+  "version": "0.0.2",
   "files": [
     "create.js",
     "tailwind.js",
     "transform.js",
-    "styles.json"
+    "styles.json",
+    "cli/*"
   ],
   "scripts": {
     "start": "expo start",
@@ -26,6 +28,5 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
     "react-native-web": "~0.13.12",
     "yargs": "^16.2.0"
-  },
-  "private": true
+  }
 }
