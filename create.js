@@ -1,6 +1,3 @@
-import { Platform } from "react-native";
-import styleMap from "./styles.json";
-
 function create(styles, fn) {
   const memo = {};
 
