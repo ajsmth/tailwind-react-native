@@ -1,0 +1,10683 @@
+{
+	"direction-ltr": {
+		"default": {
+			"direction": "ltr"
+		}
+	},
+	"direction-rtl": {
+		"default": {
+			"direction": "rtl"
+		}
+	},
+	"flex-negative": {
+		"default": {
+			"flex": -1
+		}
+	},
+	"flex-row": {
+		"default": {
+			"flexDirection": "row"
+		}
+	},
+	"flex-row-reverse": {
+		"default": {
+			"flexDirection": "row-reverse"
+		}
+	},
+	"flex-col": {
+		"default": {
+			"flexDirection": "column"
+		}
+	},
+	"flex-col-reverse": {
+		"default": {
+			"flexDirection": "column-reverse"
+		}
+	},
+	"flex-grow-0": {
+		"default": {
+			"flexGrow": 0
+		}
+	},
+	"flex-grow-1": {
+		"default": {
+			"flexGrow": 1
+		}
+	},
+	"flex-shrink-0": {
+		"default": {
+			"flexShrink": 0
+		}
+	},
+	"flex-shrink-1": {
+		"default": {
+			"flexShrink": 1
+		}
+	},
+	"justify-start": {
+		"default": {
+			"justifyContent": "flex-start"
+		}
+	},
+	"justify-end": {
+		"default": {
+			"justifyContent": "flex-end"
+		}
+	},
+	"justify-center": {
+		"default": {
+			"justifyContent": "center"
+		}
+	},
+	"justify-between": {
+		"default": {
+			"justifyContent": "space-between"
+		}
+	},
+	"justify-around": {
+		"default": {
+			"justifyContent": "space-around"
+		}
+	},
+	"justify-evenly": {
+		"default": {
+			"justifyContent": "space-evenly"
+		}
+	},
+	"items-start": {
+		"default": {
+			"alignItems": "flex-start"
+		}
+	},
+	"items-end": {
+		"default": {
+			"alignItems": "flex-end"
+		}
+	},
+	"items-center": {
+		"default": {
+			"alignItems": "center"
+		}
+	},
+	"items-baseline": {
+		"default": {
+			"alignItems": "baseline"
+		}
+	},
+	"items-stretch": {
+		"default": {
+			"alignItems": "stretch"
+		}
+	},
+	"content-start": {
+		"default": {
+			"alignContent": "flex-start"
+		}
+	},
+	"content-end": {
+		"default": {
+			"alignContent": "flex-end"
+		}
+	},
+	"content-center": {
+		"default": {
+			"alignContent": "center"
+		}
+	},
+	"content-between": {
+		"default": {
+			"alignContent": "space-between"
+		}
+	},
+	"content-around": {
+		"default": {
+			"alignContent": "space-around"
+		}
+	},
+	"content-stretch": {
+		"default": {
+			"alignContent": "stretch"
+		}
+	},
+	"self-auto": {
+		"default": {
+			"alignSelf": "auto"
+		}
+	},
+	"self-start": {
+		"default": {
+			"alignSelf": "flex-start"
+		}
+	},
+	"self-end": {
+		"default": {
+			"alignSelf": "flex-end"
+		}
+	},
+	"self-center": {
+		"default": {
+			"alignSelf": "center"
+		}
+	},
+	"self-stretch": {
+		"default": {
+			"alignSelf": "stretch"
+		}
+	},
+	"self-baseline": {
+		"default": {
+			"alignSelf": "baseline"
+		}
+	},
+	"flex-wrap": {
+		"default": {
+			"flexWrap": "wrap"
+		}
+	},
+	"flex-wrap-reverse": {
+		"default": {
+			"flexWrap": "wrap-reverse"
+		}
+	},
+	"flex-nowrap": {
+		"default": {
+			"flexWrap": "nowrap"
+		}
+	},
+	"border-solid": {
+		"default": {
+			"borderStyle": "solid"
+		}
+	},
+	"border-dotted": {
+		"default": {
+			"borderStyle": "dotted"
+		}
+	},
+	"border-dashed": {
+		"default": {
+			"borderStyle": "dashed"
+		}
+	},
+	"resize-cover": {
+		"default": {
+			"resizeMode": "cover"
+		}
+	},
+	"resize-contain": {
+		"default": {
+			"resizeMode": "contain"
+		}
+	},
+	"resize-stretch": {
+		"default": {
+			"resizeMode": "stretch"
+		}
+	},
+	"resize-repeat": {
+		"default": {
+			"resizeMode": "repeact"
+		}
+	},
+	"resize-center": {
+		"default": {
+			"resizeMode": "center"
+		}
+	},
+	"text-left": {
+		"default": {
+			"textAlign": "left"
+		}
+	},
+	"text-right": {
+		"default": {
+			"textAlign": "right"
+		}
+	},
+	"text-center": {
+		"default": {
+			"textAlign": "center"
+		}
+	},
+	"text-justify": {
+		"default": {
+			"textAlign": "justify"
+		}
+	},
+	"underline": {
+		"default": {
+			"textDecoration": "underline"
+		}
+	},
+	"line-through": {
+		"default": {
+			"textDecoration": "line-through"
+		}
+	},
+	"underline-line-through": {
+		"default": {
+			"textDecoration": "underline line-through"
+		}
+	},
+	"uppercase": {
+		"default": {
+			"textTransform": "uppercase"
+		}
+	},
+	"lowercase": {
+		"default": {
+			"textTransform": "lowercase"
+		}
+	},
+	"capitalize": {
+		"default": {
+			"textTransform": "capitalize"
+		}
+	},
+	"normal-case": {
+		"default": {
+			"textTransform": "none"
+		}
+	},
+	"text-decoration-solid": {
+		"default": {
+			"textDecorationStyle": "solid"
+		}
+	},
+	"text-decoration-double": {
+		"default": {
+			"textDecorationStyle": "double"
+		}
+	},
+	"text-decoration-dotted": {
+		"default": {
+			"textDecorationStyle": "dotted"
+		}
+	},
+	"text-decoration-dashed": {
+		"default": {
+			"textDecorationStyle": "dashed"
+		}
+	},
+	"text-align-vertical-auto": {
+		"default": {
+			"textAlignVertical": "auto"
+		}
+	},
+	"text-align-vertical-top": {
+		"default": {
+			"textAlignVertical": "top"
+		}
+	},
+	"text-align-vertical-bottom": {
+		"default": {
+			"textAlignVertical": "bottom"
+		}
+	},
+	"text-align-vertical-center": {
+		"default": {
+			"textAlignVertical": "center"
+		}
+	},
+	"text-direction-ltr": {
+		"default": {
+			"writingDirection": "ltr"
+		}
+	},
+	"text-direction-auto": {
+		"default": {
+			"writingDirection": "auto"
+		}
+	},
+	"text-direction-rtl": {
+		"default": {
+			"writingDirection": "rtl"
+		}
+	},
+	"aspect-ratio-none": {
+		"default": {
+			"aspectRatio": 0
+		}
+	},
+	"aspect-ratio-square": {
+		"default": {
+			"aspectRatio": 1
+		}
+	},
+	"aspect-ratio-16/9": {
+		"default": {
+			"aspectRatio": 1.7777777777777777
+		}
+	},
+	"aspect-ratio-4/3": {
+		"default": {
+			"aspectRatio": 1.3333333333333333
+		}
+	},
+	"aspect-ratio-21/9": {
+		"default": {
+			"aspectRatio": 2.3333333333333335
+		}
+	},
+	"bg-black": {
+		"default": {
+			"backgroundColor": "#000"
+		}
+	},
+	"bg-white": {
+		"default": {
+			"backgroundColor": "#fff"
+		}
+	},
+	"bg-gray-50": {
+		"default": {
+			"backgroundColor": "#f9fafb"
+		}
+	},
+	"bg-gray-100": {
+		"default": {
+			"backgroundColor": "#f3f4f6"
+		}
+	},
+	"bg-gray-200": {
+		"default": {
+			"backgroundColor": "#e5e7eb"
+		}
+	},
+	"bg-gray-300": {
+		"default": {
+			"backgroundColor": "#d1d5db"
+		}
+	},
+	"bg-gray-400": {
+		"default": {
+			"backgroundColor": "#9ca3af"
+		}
+	},
+	"bg-gray-500": {
+		"default": {
+			"backgroundColor": "#6b7280"
+		}
+	},
+	"bg-gray-600": {
+		"default": {
+			"backgroundColor": "#4b5563"
+		}
+	},
+	"bg-gray-700": {
+		"default": {
+			"backgroundColor": "#374151"
+		}
+	},
+	"bg-gray-800": {
+		"default": {
+			"backgroundColor": "#1f2937"
+		}
+	},
+	"bg-gray-900": {
+		"default": {
+			"backgroundColor": "#111827"
+		}
+	},
+	"bg-red-50": {
+		"default": {
+			"backgroundColor": "#fef2f2"
+		}
+	},
+	"bg-red-100": {
+		"default": {
+			"backgroundColor": "#fee2e2"
+		}
+	},
+	"bg-red-200": {
+		"default": {
+			"backgroundColor": "#fecaca"
+		}
+	},
+	"bg-red-300": {
+		"default": {
+			"backgroundColor": "#fca5a5"
+		}
+	},
+	"bg-red-400": {
+		"default": {
+			"backgroundColor": "#f87171"
+		}
+	},
+	"bg-red-500": {
+		"default": {
+			"backgroundColor": "#ef4444"
+		}
+	},
+	"bg-red-600": {
+		"default": {
+			"backgroundColor": "#dc2626"
+		}
+	},
+	"bg-red-700": {
+		"default": {
+			"backgroundColor": "#b91c1c"
+		}
+	},
+	"bg-red-800": {
+		"default": {
+			"backgroundColor": "#991b1b"
+		}
+	},
+	"bg-red-900": {
+		"default": {
+			"backgroundColor": "#7f1d1d"
+		}
+	},
+	"bg-yellow-50": {
+		"default": {
+			"backgroundColor": "#fffbeb"
+		}
+	},
+	"bg-yellow-100": {
+		"default": {
+			"backgroundColor": "#fef3c7"
+		}
+	},
+	"bg-yellow-200": {
+		"default": {
+			"backgroundColor": "#fde68a"
+		}
+	},
+	"bg-yellow-300": {
+		"default": {
+			"backgroundColor": "#fcd34d"
+		}
+	},
+	"bg-yellow-400": {
+		"default": {
+			"backgroundColor": "#fbbf24"
+		}
+	},
+	"bg-yellow-500": {
+		"default": {
+			"backgroundColor": "#f59e0b"
+		}
+	},
+	"bg-yellow-600": {
+		"default": {
+			"backgroundColor": "#d97706"
+		}
+	},
+	"bg-yellow-700": {
+		"default": {
+			"backgroundColor": "#b45309"
+		}
+	},
+	"bg-yellow-800": {
+		"default": {
+			"backgroundColor": "#92400e"
+		}
+	},
+	"bg-yellow-900": {
+		"default": {
+			"backgroundColor": "#78350f"
+		}
+	},
+	"bg-green-50": {
+		"default": {
+			"backgroundColor": "#ecfdf5"
+		}
+	},
+	"bg-green-100": {
+		"default": {
+			"backgroundColor": "#d1fae5"
+		}
+	},
+	"bg-green-200": {
+		"default": {
+			"backgroundColor": "#a7f3d0"
+		}
+	},
+	"bg-green-300": {
+		"default": {
+			"backgroundColor": "#6ee7b7"
+		}
+	},
+	"bg-green-400": {
+		"default": {
+			"backgroundColor": "#34d399"
+		}
+	},
+	"bg-green-500": {
+		"default": {
+			"backgroundColor": "#10b981"
+		}
+	},
+	"bg-green-600": {
+		"default": {
+			"backgroundColor": "#059669"
+		}
+	},
+	"bg-green-700": {
+		"default": {
+			"backgroundColor": "#047857"
+		}
+	},
+	"bg-green-800": {
+		"default": {
+			"backgroundColor": "#065f46"
+		}
+	},
+	"bg-green-900": {
+		"default": {
+			"backgroundColor": "#064e3b"
+		}
+	},
+	"bg-blue-50": {
+		"default": {
+			"backgroundColor": "#eff6ff"
+		}
+	},
+	"bg-blue-100": {
+		"default": {
+			"backgroundColor": "#dbeafe"
+		}
+	},
+	"bg-blue-200": {
+		"default": {
+			"backgroundColor": "#bfdbfe"
+		}
+	},
+	"bg-blue-300": {
+		"default": {
+			"backgroundColor": "#93c5fd"
+		}
+	},
+	"bg-blue-400": {
+		"default": {
+			"backgroundColor": "#60a5fa"
+		}
+	},
+	"bg-blue-500": {
+		"default": {
+			"backgroundColor": "#3b82f6"
+		}
+	},
+	"bg-blue-600": {
+		"default": {
+			"backgroundColor": "#2563eb"
+		}
+	},
+	"bg-blue-700": {
+		"default": {
+			"backgroundColor": "#1d4ed8"
+		}
+	},
+	"bg-blue-800": {
+		"default": {
+			"backgroundColor": "#1e40af"
+		}
+	},
+	"bg-blue-900": {
+		"default": {
+			"backgroundColor": "#1e3a8a"
+		}
+	},
+	"bg-indigo-50": {
+		"default": {
+			"backgroundColor": "#eef2ff"
+		}
+	},
+	"bg-indigo-100": {
+		"default": {
+			"backgroundColor": "#e0e7ff"
+		}
+	},
+	"bg-indigo-200": {
+		"default": {
+			"backgroundColor": "#c7d2fe"
+		}
+	},
+	"bg-indigo-300": {
+		"default": {
+			"backgroundColor": "#a5b4fc"
+		}
+	},
+	"bg-indigo-400": {
+		"default": {
+			"backgroundColor": "#818cf8"
+		}
+	},
+	"bg-indigo-500": {
+		"default": {
+			"backgroundColor": "#6366f1"
+		}
+	},
+	"bg-indigo-600": {
+		"default": {
+			"backgroundColor": "#4f46e5"
+		}
+	},
+	"bg-indigo-700": {
+		"default": {
+			"backgroundColor": "#4338ca"
+		}
+	},
+	"bg-indigo-800": {
+		"default": {
+			"backgroundColor": "#3730a3"
+		}
+	},
+	"bg-indigo-900": {
+		"default": {
+			"backgroundColor": "#312e81"
+		}
+	},
+	"bg-purple-50": {
+		"default": {
+			"backgroundColor": "#f5f3ff"
+		}
+	},
+	"bg-purple-100": {
+		"default": {
+			"backgroundColor": "#ede9fe"
+		}
+	},
+	"bg-purple-200": {
+		"default": {
+			"backgroundColor": "#ddd6fe"
+		}
+	},
+	"bg-purple-300": {
+		"default": {
+			"backgroundColor": "#c4b5fd"
+		}
+	},
+	"bg-purple-400": {
+		"default": {
+			"backgroundColor": "#a78bfa"
+		}
+	},
+	"bg-purple-500": {
+		"default": {
+			"backgroundColor": "#8b5cf6"
+		}
+	},
+	"bg-purple-600": {
+		"default": {
+			"backgroundColor": "#7c3aed"
+		}
+	},
+	"bg-purple-700": {
+		"default": {
+			"backgroundColor": "#6d28d9"
+		}
+	},
+	"bg-purple-800": {
+		"default": {
+			"backgroundColor": "#5b21b6"
+		}
+	},
+	"bg-purple-900": {
+		"default": {
+			"backgroundColor": "#4c1d95"
+		}
+	},
+	"bg-pink-50": {
+		"default": {
+			"backgroundColor": "#fdf2f8"
+		}
+	},
+	"bg-pink-100": {
+		"default": {
+			"backgroundColor": "#fce7f3"
+		}
+	},
+	"bg-pink-200": {
+		"default": {
+			"backgroundColor": "#fbcfe8"
+		}
+	},
+	"bg-pink-300": {
+		"default": {
+			"backgroundColor": "#f9a8d4"
+		}
+	},
+	"bg-pink-400": {
+		"default": {
+			"backgroundColor": "#f472b6"
+		}
+	},
+	"bg-pink-500": {
+		"default": {
+			"backgroundColor": "#ec4899"
+		}
+	},
+	"bg-pink-600": {
+		"default": {
+			"backgroundColor": "#db2777"
+		}
+	},
+	"bg-pink-700": {
+		"default": {
+			"backgroundColor": "#be185d"
+		}
+	},
+	"bg-pink-800": {
+		"default": {
+			"backgroundColor": "#9d174d"
+		}
+	},
+	"bg-pink-900": {
+		"default": {
+			"backgroundColor": "#831843"
+		}
+	},
+	"bg-transparent": {
+		"default": {
+			"backgroundColor": "transparent"
+		}
+	},
+	"bg-current": {
+		"default": {
+			"backgroundColor": "currentColor"
+		}
+	},
+	"border-black": {
+		"default": {
+			"borderColor": "#000"
+		}
+	},
+	"border-r-black": {
+		"default": {
+			"borderRightColor": "#000"
+		}
+	},
+	"border-l-black": {
+		"default": {
+			"borderLeft": "#000"
+		}
+	},
+	"border-t-black": {
+		"default": {
+			"borderTopColor": "#000"
+		}
+	},
+	"border-b-black": {
+		"default": {
+			"borderBottomColor": "#000"
+		}
+	},
+	"border-s-black": {
+		"default": {
+			"borderStartColor": "#000"
+		}
+	},
+	"border-e-black": {
+		"default": {
+			"borderEndColor": "#000"
+		}
+	},
+	"border-white": {
+		"default": {
+			"borderColor": "#fff"
+		}
+	},
+	"border-r-white": {
+		"default": {
+			"borderRightColor": "#fff"
+		}
+	},
+	"border-l-white": {
+		"default": {
+			"borderLeft": "#fff"
+		}
+	},
+	"border-t-white": {
+		"default": {
+			"borderTopColor": "#fff"
+		}
+	},
+	"border-b-white": {
+		"default": {
+			"borderBottomColor": "#fff"
+		}
+	},
+	"border-s-white": {
+		"default": {
+			"borderStartColor": "#fff"
+		}
+	},
+	"border-e-white": {
+		"default": {
+			"borderEndColor": "#fff"
+		}
+	},
+	"border-gray-50": {
+		"default": {
+			"borderColor": "#f9fafb"
+		}
+	},
+	"border-r-gray-50": {
+		"default": {
+			"borderRightColor": "#f9fafb"
+		}
+	},
+	"border-l-gray-50": {
+		"default": {
+			"borderLeft": "#f9fafb"
+		}
+	},
+	"border-t-gray-50": {
+		"default": {
+			"borderTopColor": "#f9fafb"
+		}
+	},
+	"border-b-gray-50": {
+		"default": {
+			"borderBottomColor": "#f9fafb"
+		}
+	},
+	"border-s-gray-50": {
+		"default": {
+			"borderStartColor": "#f9fafb"
+		}
+	},
+	"border-e-gray-50": {
+		"default": {
+			"borderEndColor": "#f9fafb"
+		}
+	},
+	"border-gray-100": {
+		"default": {
+			"borderColor": "#f3f4f6"
+		}
+	},
+	"border-r-gray-100": {
+		"default": {
+			"borderRightColor": "#f3f4f6"
+		}
+	},
+	"border-l-gray-100": {
+		"default": {
+			"borderLeft": "#f3f4f6"
+		}
+	},
+	"border-t-gray-100": {
+		"default": {
+			"borderTopColor": "#f3f4f6"
+		}
+	},
+	"border-b-gray-100": {
+		"default": {
+			"borderBottomColor": "#f3f4f6"
+		}
+	},
+	"border-s-gray-100": {
+		"default": {
+			"borderStartColor": "#f3f4f6"
+		}
+	},
+	"border-e-gray-100": {
+		"default": {
+			"borderEndColor": "#f3f4f6"
+		}
+	},
+	"border-gray-200": {
+		"default": {
+			"borderColor": "#e5e7eb"
+		}
+	},
+	"border-r-gray-200": {
+		"default": {
+			"borderRightColor": "#e5e7eb"
+		}
+	},
+	"border-l-gray-200": {
+		"default": {
+			"borderLeft": "#e5e7eb"
+		}
+	},
+	"border-t-gray-200": {
+		"default": {
+			"borderTopColor": "#e5e7eb"
+		}
+	},
+	"border-b-gray-200": {
+		"default": {
+			"borderBottomColor": "#e5e7eb"
+		}
+	},
+	"border-s-gray-200": {
+		"default": {
+			"borderStartColor": "#e5e7eb"
+		}
+	},
+	"border-e-gray-200": {
+		"default": {
+			"borderEndColor": "#e5e7eb"
+		}
+	},
+	"border-gray-300": {
+		"default": {
+			"borderColor": "#d1d5db"
+		}
+	},
+	"border-r-gray-300": {
+		"default": {
+			"borderRightColor": "#d1d5db"
+		}
+	},
+	"border-l-gray-300": {
+		"default": {
+			"borderLeft": "#d1d5db"
+		}
+	},
+	"border-t-gray-300": {
+		"default": {
+			"borderTopColor": "#d1d5db"
+		}
+	},
+	"border-b-gray-300": {
+		"default": {
+			"borderBottomColor": "#d1d5db"
+		}
+	},
+	"border-s-gray-300": {
+		"default": {
+			"borderStartColor": "#d1d5db"
+		}
+	},
+	"border-e-gray-300": {
+		"default": {
+			"borderEndColor": "#d1d5db"
+		}
+	},
+	"border-gray-400": {
+		"default": {
+			"borderColor": "#9ca3af"
+		}
+	},
+	"border-r-gray-400": {
+		"default": {
+			"borderRightColor": "#9ca3af"
+		}
+	},
+	"border-l-gray-400": {
+		"default": {
+			"borderLeft": "#9ca3af"
+		}
+	},
+	"border-t-gray-400": {
+		"default": {
+			"borderTopColor": "#9ca3af"
+		}
+	},
+	"border-b-gray-400": {
+		"default": {
+			"borderBottomColor": "#9ca3af"
+		}
+	},
+	"border-s-gray-400": {
+		"default": {
+			"borderStartColor": "#9ca3af"
+		}
+	},
+	"border-e-gray-400": {
+		"default": {
+			"borderEndColor": "#9ca3af"
+		}
+	},
+	"border-gray-500": {
+		"default": {
+			"borderColor": "#6b7280"
+		}
+	},
+	"border-r-gray-500": {
+		"default": {
+			"borderRightColor": "#6b7280"
+		}
+	},
+	"border-l-gray-500": {
+		"default": {
+			"borderLeft": "#6b7280"
+		}
+	},
+	"border-t-gray-500": {
+		"default": {
+			"borderTopColor": "#6b7280"
+		}
+	},
+	"border-b-gray-500": {
+		"default": {
+			"borderBottomColor": "#6b7280"
+		}
+	},
+	"border-s-gray-500": {
+		"default": {
+			"borderStartColor": "#6b7280"
+		}
+	},
+	"border-e-gray-500": {
+		"default": {
+			"borderEndColor": "#6b7280"
+		}
+	},
+	"border-gray-600": {
+		"default": {
+			"borderColor": "#4b5563"
+		}
+	},
+	"border-r-gray-600": {
+		"default": {
+			"borderRightColor": "#4b5563"
+		}
+	},
+	"border-l-gray-600": {
+		"default": {
+			"borderLeft": "#4b5563"
+		}
+	},
+	"border-t-gray-600": {
+		"default": {
+			"borderTopColor": "#4b5563"
+		}
+	},
+	"border-b-gray-600": {
+		"default": {
+			"borderBottomColor": "#4b5563"
+		}
+	},
+	"border-s-gray-600": {
+		"default": {
+			"borderStartColor": "#4b5563"
+		}
+	},
+	"border-e-gray-600": {
+		"default": {
+			"borderEndColor": "#4b5563"
+		}
+	},
+	"border-gray-700": {
+		"default": {
+			"borderColor": "#374151"
+		}
+	},
+	"border-r-gray-700": {
+		"default": {
+			"borderRightColor": "#374151"
+		}
+	},
+	"border-l-gray-700": {
+		"default": {
+			"borderLeft": "#374151"
+		}
+	},
+	"border-t-gray-700": {
+		"default": {
+			"borderTopColor": "#374151"
+		}
+	},
+	"border-b-gray-700": {
+		"default": {
+			"borderBottomColor": "#374151"
+		}
+	},
+	"border-s-gray-700": {
+		"default": {
+			"borderStartColor": "#374151"
+		}
+	},
+	"border-e-gray-700": {
+		"default": {
+			"borderEndColor": "#374151"
+		}
+	},
+	"border-gray-800": {
+		"default": {
+			"borderColor": "#1f2937"
+		}
+	},
+	"border-r-gray-800": {
+		"default": {
+			"borderRightColor": "#1f2937"
+		}
+	},
+	"border-l-gray-800": {
+		"default": {
+			"borderLeft": "#1f2937"
+		}
+	},
+	"border-t-gray-800": {
+		"default": {
+			"borderTopColor": "#1f2937"
+		}
+	},
+	"border-b-gray-800": {
+		"default": {
+			"borderBottomColor": "#1f2937"
+		}
+	},
+	"border-s-gray-800": {
+		"default": {
+			"borderStartColor": "#1f2937"
+		}
+	},
+	"border-e-gray-800": {
+		"default": {
+			"borderEndColor": "#1f2937"
+		}
+	},
+	"border-gray-900": {
+		"default": {
+			"borderColor": "#111827"
+		}
+	},
+	"border-r-gray-900": {
+		"default": {
+			"borderRightColor": "#111827"
+		}
+	},
+	"border-l-gray-900": {
+		"default": {
+			"borderLeft": "#111827"
+		}
+	},
+	"border-t-gray-900": {
+		"default": {
+			"borderTopColor": "#111827"
+		}
+	},
+	"border-b-gray-900": {
+		"default": {
+			"borderBottomColor": "#111827"
+		}
+	},
+	"border-s-gray-900": {
+		"default": {
+			"borderStartColor": "#111827"
+		}
+	},
+	"border-e-gray-900": {
+		"default": {
+			"borderEndColor": "#111827"
+		}
+	},
+	"border-red-50": {
+		"default": {
+			"borderColor": "#fef2f2"
+		}
+	},
+	"border-r-red-50": {
+		"default": {
+			"borderRightColor": "#fef2f2"
+		}
+	},
+	"border-l-red-50": {
+		"default": {
+			"borderLeft": "#fef2f2"
+		}
+	},
+	"border-t-red-50": {
+		"default": {
+			"borderTopColor": "#fef2f2"
+		}
+	},
+	"border-b-red-50": {
+		"default": {
+			"borderBottomColor": "#fef2f2"
+		}
+	},
+	"border-s-red-50": {
+		"default": {
+			"borderStartColor": "#fef2f2"
+		}
+	},
+	"border-e-red-50": {
+		"default": {
+			"borderEndColor": "#fef2f2"
+		}
+	},
+	"border-red-100": {
+		"default": {
+			"borderColor": "#fee2e2"
+		}
+	},
+	"border-r-red-100": {
+		"default": {
+			"borderRightColor": "#fee2e2"
+		}
+	},
+	"border-l-red-100": {
+		"default": {
+			"borderLeft": "#fee2e2"
+		}
+	},
+	"border-t-red-100": {
+		"default": {
+			"borderTopColor": "#fee2e2"
+		}
+	},
+	"border-b-red-100": {
+		"default": {
+			"borderBottomColor": "#fee2e2"
+		}
+	},
+	"border-s-red-100": {
+		"default": {
+			"borderStartColor": "#fee2e2"
+		}
+	},
+	"border-e-red-100": {
+		"default": {
+			"borderEndColor": "#fee2e2"
+		}
+	},
+	"border-red-200": {
+		"default": {
+			"borderColor": "#fecaca"
+		}
+	},
+	"border-r-red-200": {
+		"default": {
+			"borderRightColor": "#fecaca"
+		}
+	},
+	"border-l-red-200": {
+		"default": {
+			"borderLeft": "#fecaca"
+		}
+	},
+	"border-t-red-200": {
+		"default": {
+			"borderTopColor": "#fecaca"
+		}
+	},
+	"border-b-red-200": {
+		"default": {
+			"borderBottomColor": "#fecaca"
+		}
+	},
+	"border-s-red-200": {
+		"default": {
+			"borderStartColor": "#fecaca"
+		}
+	},
+	"border-e-red-200": {
+		"default": {
+			"borderEndColor": "#fecaca"
+		}
+	},
+	"border-red-300": {
+		"default": {
+			"borderColor": "#fca5a5"
+		}
+	},
+	"border-r-red-300": {
+		"default": {
+			"borderRightColor": "#fca5a5"
+		}
+	},
+	"border-l-red-300": {
+		"default": {
+			"borderLeft": "#fca5a5"
+		}
+	},
+	"border-t-red-300": {
+		"default": {
+			"borderTopColor": "#fca5a5"
+		}
+	},
+	"border-b-red-300": {
+		"default": {
+			"borderBottomColor": "#fca5a5"
+		}
+	},
+	"border-s-red-300": {
+		"default": {
+			"borderStartColor": "#fca5a5"
+		}
+	},
+	"border-e-red-300": {
+		"default": {
+			"borderEndColor": "#fca5a5"
+		}
+	},
+	"border-red-400": {
+		"default": {
+			"borderColor": "#f87171"
+		}
+	},
+	"border-r-red-400": {
+		"default": {
+			"borderRightColor": "#f87171"
+		}
+	},
+	"border-l-red-400": {
+		"default": {
+			"borderLeft": "#f87171"
+		}
+	},
+	"border-t-red-400": {
+		"default": {
+			"borderTopColor": "#f87171"
+		}
+	},
+	"border-b-red-400": {
+		"default": {
+			"borderBottomColor": "#f87171"
+		}
+	},
+	"border-s-red-400": {
+		"default": {
+			"borderStartColor": "#f87171"
+		}
+	},
+	"border-e-red-400": {
+		"default": {
+			"borderEndColor": "#f87171"
+		}
+	},
+	"border-red-500": {
+		"default": {
+			"borderColor": "#ef4444"
+		}
+	},
+	"border-r-red-500": {
+		"default": {
+			"borderRightColor": "#ef4444"
+		}
+	},
+	"border-l-red-500": {
+		"default": {
+			"borderLeft": "#ef4444"
+		}
+	},
+	"border-t-red-500": {
+		"default": {
+			"borderTopColor": "#ef4444"
+		}
+	},
+	"border-b-red-500": {
+		"default": {
+			"borderBottomColor": "#ef4444"
+		}
+	},
+	"border-s-red-500": {
+		"default": {
+			"borderStartColor": "#ef4444"
+		}
+	},
+	"border-e-red-500": {
+		"default": {
+			"borderEndColor": "#ef4444"
+		}
+	},
+	"border-red-600": {
+		"default": {
+			"borderColor": "#dc2626"
+		}
+	},
+	"border-r-red-600": {
+		"default": {
+			"borderRightColor": "#dc2626"
+		}
+	},
+	"border-l-red-600": {
+		"default": {
+			"borderLeft": "#dc2626"
+		}
+	},
+	"border-t-red-600": {
+		"default": {
+			"borderTopColor": "#dc2626"
+		}
+	},
+	"border-b-red-600": {
+		"default": {
+			"borderBottomColor": "#dc2626"
+		}
+	},
+	"border-s-red-600": {
+		"default": {
+			"borderStartColor": "#dc2626"
+		}
+	},
+	"border-e-red-600": {
+		"default": {
+			"borderEndColor": "#dc2626"
+		}
+	},
+	"border-red-700": {
+		"default": {
+			"borderColor": "#b91c1c"
+		}
+	},
+	"border-r-red-700": {
+		"default": {
+			"borderRightColor": "#b91c1c"
+		}
+	},
+	"border-l-red-700": {
+		"default": {
+			"borderLeft": "#b91c1c"
+		}
+	},
+	"border-t-red-700": {
+		"default": {
+			"borderTopColor": "#b91c1c"
+		}
+	},
+	"border-b-red-700": {
+		"default": {
+			"borderBottomColor": "#b91c1c"
+		}
+	},
+	"border-s-red-700": {
+		"default": {
+			"borderStartColor": "#b91c1c"
+		}
+	},
+	"border-e-red-700": {
+		"default": {
+			"borderEndColor": "#b91c1c"
+		}
+	},
+	"border-red-800": {
+		"default": {
+			"borderColor": "#991b1b"
+		}
+	},
+	"border-r-red-800": {
+		"default": {
+			"borderRightColor": "#991b1b"
+		}
+	},
+	"border-l-red-800": {
+		"default": {
+			"borderLeft": "#991b1b"
+		}
+	},
+	"border-t-red-800": {
+		"default": {
+			"borderTopColor": "#991b1b"
+		}
+	},
+	"border-b-red-800": {
+		"default": {
+			"borderBottomColor": "#991b1b"
+		}
+	},
+	"border-s-red-800": {
+		"default": {
+			"borderStartColor": "#991b1b"
+		}
+	},
+	"border-e-red-800": {
+		"default": {
+			"borderEndColor": "#991b1b"
+		}
+	},
+	"border-red-900": {
+		"default": {
+			"borderColor": "#7f1d1d"
+		}
+	},
+	"border-r-red-900": {
+		"default": {
+			"borderRightColor": "#7f1d1d"
+		}
+	},
+	"border-l-red-900": {
+		"default": {
+			"borderLeft": "#7f1d1d"
+		}
+	},
+	"border-t-red-900": {
+		"default": {
+			"borderTopColor": "#7f1d1d"
+		}
+	},
+	"border-b-red-900": {
+		"default": {
+			"borderBottomColor": "#7f1d1d"
+		}
+	},
+	"border-s-red-900": {
+		"default": {
+			"borderStartColor": "#7f1d1d"
+		}
+	},
+	"border-e-red-900": {
+		"default": {
+			"borderEndColor": "#7f1d1d"
+		}
+	},
+	"border-yellow-50": {
+		"default": {
+			"borderColor": "#fffbeb"
+		}
+	},
+	"border-r-yellow-50": {
+		"default": {
+			"borderRightColor": "#fffbeb"
+		}
+	},
+	"border-l-yellow-50": {
+		"default": {
+			"borderLeft": "#fffbeb"
+		}
+	},
+	"border-t-yellow-50": {
+		"default": {
+			"borderTopColor": "#fffbeb"
+		}
+	},
+	"border-b-yellow-50": {
+		"default": {
+			"borderBottomColor": "#fffbeb"
+		}
+	},
+	"border-s-yellow-50": {
+		"default": {
+			"borderStartColor": "#fffbeb"
+		}
+	},
+	"border-e-yellow-50": {
+		"default": {
+			"borderEndColor": "#fffbeb"
+		}
+	},
+	"border-yellow-100": {
+		"default": {
+			"borderColor": "#fef3c7"
+		}
+	},
+	"border-r-yellow-100": {
+		"default": {
+			"borderRightColor": "#fef3c7"
+		}
+	},
+	"border-l-yellow-100": {
+		"default": {
+			"borderLeft": "#fef3c7"
+		}
+	},
+	"border-t-yellow-100": {
+		"default": {
+			"borderTopColor": "#fef3c7"
+		}
+	},
+	"border-b-yellow-100": {
+		"default": {
+			"borderBottomColor": "#fef3c7"
+		}
+	},
+	"border-s-yellow-100": {
+		"default": {
+			"borderStartColor": "#fef3c7"
+		}
+	},
+	"border-e-yellow-100": {
+		"default": {
+			"borderEndColor": "#fef3c7"
+		}
+	},
+	"border-yellow-200": {
+		"default": {
+			"borderColor": "#fde68a"
+		}
+	},
+	"border-r-yellow-200": {
+		"default": {
+			"borderRightColor": "#fde68a"
+		}
+	},
+	"border-l-yellow-200": {
+		"default": {
+			"borderLeft": "#fde68a"
+		}
+	},
+	"border-t-yellow-200": {
+		"default": {
+			"borderTopColor": "#fde68a"
+		}
+	},
+	"border-b-yellow-200": {
+		"default": {
+			"borderBottomColor": "#fde68a"
+		}
+	},
+	"border-s-yellow-200": {
+		"default": {
+			"borderStartColor": "#fde68a"
+		}
+	},
+	"border-e-yellow-200": {
+		"default": {
+			"borderEndColor": "#fde68a"
+		}
+	},
+	"border-yellow-300": {
+		"default": {
+			"borderColor": "#fcd34d"
+		}
+	},
+	"border-r-yellow-300": {
+		"default": {
+			"borderRightColor": "#fcd34d"
+		}
+	},
+	"border-l-yellow-300": {
+		"default": {
+			"borderLeft": "#fcd34d"
+		}
+	},
+	"border-t-yellow-300": {
+		"default": {
+			"borderTopColor": "#fcd34d"
+		}
+	},
+	"border-b-yellow-300": {
+		"default": {
+			"borderBottomColor": "#fcd34d"
+		}
+	},
+	"border-s-yellow-300": {
+		"default": {
+			"borderStartColor": "#fcd34d"
+		}
+	},
+	"border-e-yellow-300": {
+		"default": {
+			"borderEndColor": "#fcd34d"
+		}
+	},
+	"border-yellow-400": {
+		"default": {
+			"borderColor": "#fbbf24"
+		}
+	},
+	"border-r-yellow-400": {
+		"default": {
+			"borderRightColor": "#fbbf24"
+		}
+	},
+	"border-l-yellow-400": {
+		"default": {
+			"borderLeft": "#fbbf24"
+		}
+	},
+	"border-t-yellow-400": {
+		"default": {
+			"borderTopColor": "#fbbf24"
+		}
+	},
+	"border-b-yellow-400": {
+		"default": {
+			"borderBottomColor": "#fbbf24"
+		}
+	},
+	"border-s-yellow-400": {
+		"default": {
+			"borderStartColor": "#fbbf24"
+		}
+	},
+	"border-e-yellow-400": {
+		"default": {
+			"borderEndColor": "#fbbf24"
+		}
+	},
+	"border-yellow-500": {
+		"default": {
+			"borderColor": "#f59e0b"
+		}
+	},
+	"border-r-yellow-500": {
+		"default": {
+			"borderRightColor": "#f59e0b"
+		}
+	},
+	"border-l-yellow-500": {
+		"default": {
+			"borderLeft": "#f59e0b"
+		}
+	},
+	"border-t-yellow-500": {
+		"default": {
+			"borderTopColor": "#f59e0b"
+		}
+	},
+	"border-b-yellow-500": {
+		"default": {
+			"borderBottomColor": "#f59e0b"
+		}
+	},
+	"border-s-yellow-500": {
+		"default": {
+			"borderStartColor": "#f59e0b"
+		}
+	},
+	"border-e-yellow-500": {
+		"default": {
+			"borderEndColor": "#f59e0b"
+		}
+	},
+	"border-yellow-600": {
+		"default": {
+			"borderColor": "#d97706"
+		}
+	},
+	"border-r-yellow-600": {
+		"default": {
+			"borderRightColor": "#d97706"
+		}
+	},
+	"border-l-yellow-600": {
+		"default": {
+			"borderLeft": "#d97706"
+		}
+	},
+	"border-t-yellow-600": {
+		"default": {
+			"borderTopColor": "#d97706"
+		}
+	},
+	"border-b-yellow-600": {
+		"default": {
+			"borderBottomColor": "#d97706"
+		}
+	},
+	"border-s-yellow-600": {
+		"default": {
+			"borderStartColor": "#d97706"
+		}
+	},
+	"border-e-yellow-600": {
+		"default": {
+			"borderEndColor": "#d97706"
+		}
+	},
+	"border-yellow-700": {
+		"default": {
+			"borderColor": "#b45309"
+		}
+	},
+	"border-r-yellow-700": {
+		"default": {
+			"borderRightColor": "#b45309"
+		}
+	},
+	"border-l-yellow-700": {
+		"default": {
+			"borderLeft": "#b45309"
+		}
+	},
+	"border-t-yellow-700": {
+		"default": {
+			"borderTopColor": "#b45309"
+		}
+	},
+	"border-b-yellow-700": {
+		"default": {
+			"borderBottomColor": "#b45309"
+		}
+	},
+	"border-s-yellow-700": {
+		"default": {
+			"borderStartColor": "#b45309"
+		}
+	},
+	"border-e-yellow-700": {
+		"default": {
+			"borderEndColor": "#b45309"
+		}
+	},
+	"border-yellow-800": {
+		"default": {
+			"borderColor": "#92400e"
+		}
+	},
+	"border-r-yellow-800": {
+		"default": {
+			"borderRightColor": "#92400e"
+		}
+	},
+	"border-l-yellow-800": {
+		"default": {
+			"borderLeft": "#92400e"
+		}
+	},
+	"border-t-yellow-800": {
+		"default": {
+			"borderTopColor": "#92400e"
+		}
+	},
+	"border-b-yellow-800": {
+		"default": {
+			"borderBottomColor": "#92400e"
+		}
+	},
+	"border-s-yellow-800": {
+		"default": {
+			"borderStartColor": "#92400e"
+		}
+	},
+	"border-e-yellow-800": {
+		"default": {
+			"borderEndColor": "#92400e"
+		}
+	},
+	"border-yellow-900": {
+		"default": {
+			"borderColor": "#78350f"
+		}
+	},
+	"border-r-yellow-900": {
+		"default": {
+			"borderRightColor": "#78350f"
+		}
+	},
+	"border-l-yellow-900": {
+		"default": {
+			"borderLeft": "#78350f"
+		}
+	},
+	"border-t-yellow-900": {
+		"default": {
+			"borderTopColor": "#78350f"
+		}
+	},
+	"border-b-yellow-900": {
+		"default": {
+			"borderBottomColor": "#78350f"
+		}
+	},
+	"border-s-yellow-900": {
+		"default": {
+			"borderStartColor": "#78350f"
+		}
+	},
+	"border-e-yellow-900": {
+		"default": {
+			"borderEndColor": "#78350f"
+		}
+	},
+	"border-green-50": {
+		"default": {
+			"borderColor": "#ecfdf5"
+		}
+	},
+	"border-r-green-50": {
+		"default": {
+			"borderRightColor": "#ecfdf5"
+		}
+	},
+	"border-l-green-50": {
+		"default": {
+			"borderLeft": "#ecfdf5"
+		}
+	},
+	"border-t-green-50": {
+		"default": {
+			"borderTopColor": "#ecfdf5"
+		}
+	},
+	"border-b-green-50": {
+		"default": {
+			"borderBottomColor": "#ecfdf5"
+		}
+	},
+	"border-s-green-50": {
+		"default": {
+			"borderStartColor": "#ecfdf5"
+		}
+	},
+	"border-e-green-50": {
+		"default": {
+			"borderEndColor": "#ecfdf5"
+		}
+	},
+	"border-green-100": {
+		"default": {
+			"borderColor": "#d1fae5"
+		}
+	},
+	"border-r-green-100": {
+		"default": {
+			"borderRightColor": "#d1fae5"
+		}
+	},
+	"border-l-green-100": {
+		"default": {
+			"borderLeft": "#d1fae5"
+		}
+	},
+	"border-t-green-100": {
+		"default": {
+			"borderTopColor": "#d1fae5"
+		}
+	},
+	"border-b-green-100": {
+		"default": {
+			"borderBottomColor": "#d1fae5"
+		}
+	},
+	"border-s-green-100": {
+		"default": {
+			"borderStartColor": "#d1fae5"
+		}
+	},
+	"border-e-green-100": {
+		"default": {
+			"borderEndColor": "#d1fae5"
+		}
+	},
+	"border-green-200": {
+		"default": {
+			"borderColor": "#a7f3d0"
+		}
+	},
+	"border-r-green-200": {
+		"default": {
+			"borderRightColor": "#a7f3d0"
+		}
+	},
+	"border-l-green-200": {
+		"default": {
+			"borderLeft": "#a7f3d0"
+		}
+	},
+	"border-t-green-200": {
+		"default": {
+			"borderTopColor": "#a7f3d0"
+		}
+	},
+	"border-b-green-200": {
+		"default": {
+			"borderBottomColor": "#a7f3d0"
+		}
+	},
+	"border-s-green-200": {
+		"default": {
+			"borderStartColor": "#a7f3d0"
+		}
+	},
+	"border-e-green-200": {
+		"default": {
+			"borderEndColor": "#a7f3d0"
+		}
+	},
+	"border-green-300": {
+		"default": {
+			"borderColor": "#6ee7b7"
+		}
+	},
+	"border-r-green-300": {
+		"default": {
+			"borderRightColor": "#6ee7b7"
+		}
+	},
+	"border-l-green-300": {
+		"default": {
+			"borderLeft": "#6ee7b7"
+		}
+	},
+	"border-t-green-300": {
+		"default": {
+			"borderTopColor": "#6ee7b7"
+		}
+	},
+	"border-b-green-300": {
+		"default": {
+			"borderBottomColor": "#6ee7b7"
+		}
+	},
+	"border-s-green-300": {
+		"default": {
+			"borderStartColor": "#6ee7b7"
+		}
+	},
+	"border-e-green-300": {
+		"default": {
+			"borderEndColor": "#6ee7b7"
+		}
+	},
+	"border-green-400": {
+		"default": {
+			"borderColor": "#34d399"
+		}
+	},
+	"border-r-green-400": {
+		"default": {
+			"borderRightColor": "#34d399"
+		}
+	},
+	"border-l-green-400": {
+		"default": {
+			"borderLeft": "#34d399"
+		}
+	},
+	"border-t-green-400": {
+		"default": {
+			"borderTopColor": "#34d399"
+		}
+	},
+	"border-b-green-400": {
+		"default": {
+			"borderBottomColor": "#34d399"
+		}
+	},
+	"border-s-green-400": {
+		"default": {
+			"borderStartColor": "#34d399"
+		}
+	},
+	"border-e-green-400": {
+		"default": {
+			"borderEndColor": "#34d399"
+		}
+	},
+	"border-green-500": {
+		"default": {
+			"borderColor": "#10b981"
+		}
+	},
+	"border-r-green-500": {
+		"default": {
+			"borderRightColor": "#10b981"
+		}
+	},
+	"border-l-green-500": {
+		"default": {
+			"borderLeft": "#10b981"
+		}
+	},
+	"border-t-green-500": {
+		"default": {
+			"borderTopColor": "#10b981"
+		}
+	},
+	"border-b-green-500": {
+		"default": {
+			"borderBottomColor": "#10b981"
+		}
+	},
+	"border-s-green-500": {
+		"default": {
+			"borderStartColor": "#10b981"
+		}
+	},
+	"border-e-green-500": {
+		"default": {
+			"borderEndColor": "#10b981"
+		}
+	},
+	"border-green-600": {
+		"default": {
+			"borderColor": "#059669"
+		}
+	},
+	"border-r-green-600": {
+		"default": {
+			"borderRightColor": "#059669"
+		}
+	},
+	"border-l-green-600": {
+		"default": {
+			"borderLeft": "#059669"
+		}
+	},
+	"border-t-green-600": {
+		"default": {
+			"borderTopColor": "#059669"
+		}
+	},
+	"border-b-green-600": {
+		"default": {
+			"borderBottomColor": "#059669"
+		}
+	},
+	"border-s-green-600": {
+		"default": {
+			"borderStartColor": "#059669"
+		}
+	},
+	"border-e-green-600": {
+		"default": {
+			"borderEndColor": "#059669"
+		}
+	},
+	"border-green-700": {
+		"default": {
+			"borderColor": "#047857"
+		}
+	},
+	"border-r-green-700": {
+		"default": {
+			"borderRightColor": "#047857"
+		}
+	},
+	"border-l-green-700": {
+		"default": {
+			"borderLeft": "#047857"
+		}
+	},
+	"border-t-green-700": {
+		"default": {
+			"borderTopColor": "#047857"
+		}
+	},
+	"border-b-green-700": {
+		"default": {
+			"borderBottomColor": "#047857"
+		}
+	},
+	"border-s-green-700": {
+		"default": {
+			"borderStartColor": "#047857"
+		}
+	},
+	"border-e-green-700": {
+		"default": {
+			"borderEndColor": "#047857"
+		}
+	},
+	"border-green-800": {
+		"default": {
+			"borderColor": "#065f46"
+		}
+	},
+	"border-r-green-800": {
+		"default": {
+			"borderRightColor": "#065f46"
+		}
+	},
+	"border-l-green-800": {
+		"default": {
+			"borderLeft": "#065f46"
+		}
+	},
+	"border-t-green-800": {
+		"default": {
+			"borderTopColor": "#065f46"
+		}
+	},
+	"border-b-green-800": {
+		"default": {
+			"borderBottomColor": "#065f46"
+		}
+	},
+	"border-s-green-800": {
+		"default": {
+			"borderStartColor": "#065f46"
+		}
+	},
+	"border-e-green-800": {
+		"default": {
+			"borderEndColor": "#065f46"
+		}
+	},
+	"border-green-900": {
+		"default": {
+			"borderColor": "#064e3b"
+		}
+	},
+	"border-r-green-900": {
+		"default": {
+			"borderRightColor": "#064e3b"
+		}
+	},
+	"border-l-green-900": {
+		"default": {
+			"borderLeft": "#064e3b"
+		}
+	},
+	"border-t-green-900": {
+		"default": {
+			"borderTopColor": "#064e3b"
+		}
+	},
+	"border-b-green-900": {
+		"default": {
+			"borderBottomColor": "#064e3b"
+		}
+	},
+	"border-s-green-900": {
+		"default": {
+			"borderStartColor": "#064e3b"
+		}
+	},
+	"border-e-green-900": {
+		"default": {
+			"borderEndColor": "#064e3b"
+		}
+	},
+	"border-blue-50": {
+		"default": {
+			"borderColor": "#eff6ff"
+		}
+	},
+	"border-r-blue-50": {
+		"default": {
+			"borderRightColor": "#eff6ff"
+		}
+	},
+	"border-l-blue-50": {
+		"default": {
+			"borderLeft": "#eff6ff"
+		}
+	},
+	"border-t-blue-50": {
+		"default": {
+			"borderTopColor": "#eff6ff"
+		}
+	},
+	"border-b-blue-50": {
+		"default": {
+			"borderBottomColor": "#eff6ff"
+		}
+	},
+	"border-s-blue-50": {
+		"default": {
+			"borderStartColor": "#eff6ff"
+		}
+	},
+	"border-e-blue-50": {
+		"default": {
+			"borderEndColor": "#eff6ff"
+		}
+	},
+	"border-blue-100": {
+		"default": {
+			"borderColor": "#dbeafe"
+		}
+	},
+	"border-r-blue-100": {
+		"default": {
+			"borderRightColor": "#dbeafe"
+		}
+	},
+	"border-l-blue-100": {
+		"default": {
+			"borderLeft": "#dbeafe"
+		}
+	},
+	"border-t-blue-100": {
+		"default": {
+			"borderTopColor": "#dbeafe"
+		}
+	},
+	"border-b-blue-100": {
+		"default": {
+			"borderBottomColor": "#dbeafe"
+		}
+	},
+	"border-s-blue-100": {
+		"default": {
+			"borderStartColor": "#dbeafe"
+		}
+	},
+	"border-e-blue-100": {
+		"default": {
+			"borderEndColor": "#dbeafe"
+		}
+	},
+	"border-blue-200": {
+		"default": {
+			"borderColor": "#bfdbfe"
+		}
+	},
+	"border-r-blue-200": {
+		"default": {
+			"borderRightColor": "#bfdbfe"
+		}
+	},
+	"border-l-blue-200": {
+		"default": {
+			"borderLeft": "#bfdbfe"
+		}
+	},
+	"border-t-blue-200": {
+		"default": {
+			"borderTopColor": "#bfdbfe"
+		}
+	},
+	"border-b-blue-200": {
+		"default": {
+			"borderBottomColor": "#bfdbfe"
+		}
+	},
+	"border-s-blue-200": {
+		"default": {
+			"borderStartColor": "#bfdbfe"
+		}
+	},
+	"border-e-blue-200": {
+		"default": {
+			"borderEndColor": "#bfdbfe"
+		}
+	},
+	"border-blue-300": {
+		"default": {
+			"borderColor": "#93c5fd"
+		}
+	},
+	"border-r-blue-300": {
+		"default": {
+			"borderRightColor": "#93c5fd"
+		}
+	},
+	"border-l-blue-300": {
+		"default": {
+			"borderLeft": "#93c5fd"
+		}
+	},
+	"border-t-blue-300": {
+		"default": {
+			"borderTopColor": "#93c5fd"
+		}
+	},
+	"border-b-blue-300": {
+		"default": {
+			"borderBottomColor": "#93c5fd"
+		}
+	},
+	"border-s-blue-300": {
+		"default": {
+			"borderStartColor": "#93c5fd"
+		}
+	},
+	"border-e-blue-300": {
+		"default": {
+			"borderEndColor": "#93c5fd"
+		}
+	},
+	"border-blue-400": {
+		"default": {
+			"borderColor": "#60a5fa"
+		}
+	},
+	"border-r-blue-400": {
+		"default": {
+			"borderRightColor": "#60a5fa"
+		}
+	},
+	"border-l-blue-400": {
+		"default": {
+			"borderLeft": "#60a5fa"
+		}
+	},
+	"border-t-blue-400": {
+		"default": {
+			"borderTopColor": "#60a5fa"
+		}
+	},
+	"border-b-blue-400": {
+		"default": {
+			"borderBottomColor": "#60a5fa"
+		}
+	},
+	"border-s-blue-400": {
+		"default": {
+			"borderStartColor": "#60a5fa"
+		}
+	},
+	"border-e-blue-400": {
+		"default": {
+			"borderEndColor": "#60a5fa"
+		}
+	},
+	"border-blue-500": {
+		"default": {
+			"borderColor": "#3b82f6"
+		}
+	},
+	"border-r-blue-500": {
+		"default": {
+			"borderRightColor": "#3b82f6"
+		}
+	},
+	"border-l-blue-500": {
+		"default": {
+			"borderLeft": "#3b82f6"
+		}
+	},
+	"border-t-blue-500": {
+		"default": {
+			"borderTopColor": "#3b82f6"
+		}
+	},
+	"border-b-blue-500": {
+		"default": {
+			"borderBottomColor": "#3b82f6"
+		}
+	},
+	"border-s-blue-500": {
+		"default": {
+			"borderStartColor": "#3b82f6"
+		}
+	},
+	"border-e-blue-500": {
+		"default": {
+			"borderEndColor": "#3b82f6"
+		}
+	},
+	"border-blue-600": {
+		"default": {
+			"borderColor": "#2563eb"
+		}
+	},
+	"border-r-blue-600": {
+		"default": {
+			"borderRightColor": "#2563eb"
+		}
+	},
+	"border-l-blue-600": {
+		"default": {
+			"borderLeft": "#2563eb"
+		}
+	},
+	"border-t-blue-600": {
+		"default": {
+			"borderTopColor": "#2563eb"
+		}
+	},
+	"border-b-blue-600": {
+		"default": {
+			"borderBottomColor": "#2563eb"
+		}
+	},
+	"border-s-blue-600": {
+		"default": {
+			"borderStartColor": "#2563eb"
+		}
+	},
+	"border-e-blue-600": {
+		"default": {
+			"borderEndColor": "#2563eb"
+		}
+	},
+	"border-blue-700": {
+		"default": {
+			"borderColor": "#1d4ed8"
+		}
+	},
+	"border-r-blue-700": {
+		"default": {
+			"borderRightColor": "#1d4ed8"
+		}
+	},
+	"border-l-blue-700": {
+		"default": {
+			"borderLeft": "#1d4ed8"
+		}
+	},
+	"border-t-blue-700": {
+		"default": {
+			"borderTopColor": "#1d4ed8"
+		}
+	},
+	"border-b-blue-700": {
+		"default": {
+			"borderBottomColor": "#1d4ed8"
+		}
+	},
+	"border-s-blue-700": {
+		"default": {
+			"borderStartColor": "#1d4ed8"
+		}
+	},
+	"border-e-blue-700": {
+		"default": {
+			"borderEndColor": "#1d4ed8"
+		}
+	},
+	"border-blue-800": {
+		"default": {
+			"borderColor": "#1e40af"
+		}
+	},
+	"border-r-blue-800": {
+		"default": {
+			"borderRightColor": "#1e40af"
+		}
+	},
+	"border-l-blue-800": {
+		"default": {
+			"borderLeft": "#1e40af"
+		}
+	},
+	"border-t-blue-800": {
+		"default": {
+			"borderTopColor": "#1e40af"
+		}
+	},
+	"border-b-blue-800": {
+		"default": {
+			"borderBottomColor": "#1e40af"
+		}
+	},
+	"border-s-blue-800": {
+		"default": {
+			"borderStartColor": "#1e40af"
+		}
+	},
+	"border-e-blue-800": {
+		"default": {
+			"borderEndColor": "#1e40af"
+		}
+	},
+	"border-blue-900": {
+		"default": {
+			"borderColor": "#1e3a8a"
+		}
+	},
+	"border-r-blue-900": {
+		"default": {
+			"borderRightColor": "#1e3a8a"
+		}
+	},
+	"border-l-blue-900": {
+		"default": {
+			"borderLeft": "#1e3a8a"
+		}
+	},
+	"border-t-blue-900": {
+		"default": {
+			"borderTopColor": "#1e3a8a"
+		}
+	},
+	"border-b-blue-900": {
+		"default": {
+			"borderBottomColor": "#1e3a8a"
+		}
+	},
+	"border-s-blue-900": {
+		"default": {
+			"borderStartColor": "#1e3a8a"
+		}
+	},
+	"border-e-blue-900": {
+		"default": {
+			"borderEndColor": "#1e3a8a"
+		}
+	},
+	"border-indigo-50": {
+		"default": {
+			"borderColor": "#eef2ff"
+		}
+	},
+	"border-r-indigo-50": {
+		"default": {
+			"borderRightColor": "#eef2ff"
+		}
+	},
+	"border-l-indigo-50": {
+		"default": {
+			"borderLeft": "#eef2ff"
+		}
+	},
+	"border-t-indigo-50": {
+		"default": {
+			"borderTopColor": "#eef2ff"
+		}
+	},
+	"border-b-indigo-50": {
+		"default": {
+			"borderBottomColor": "#eef2ff"
+		}
+	},
+	"border-s-indigo-50": {
+		"default": {
+			"borderStartColor": "#eef2ff"
+		}
+	},
+	"border-e-indigo-50": {
+		"default": {
+			"borderEndColor": "#eef2ff"
+		}
+	},
+	"border-indigo-100": {
+		"default": {
+			"borderColor": "#e0e7ff"
+		}
+	},
+	"border-r-indigo-100": {
+		"default": {
+			"borderRightColor": "#e0e7ff"
+		}
+	},
+	"border-l-indigo-100": {
+		"default": {
+			"borderLeft": "#e0e7ff"
+		}
+	},
+	"border-t-indigo-100": {
+		"default": {
+			"borderTopColor": "#e0e7ff"
+		}
+	},
+	"border-b-indigo-100": {
+		"default": {
+			"borderBottomColor": "#e0e7ff"
+		}
+	},
+	"border-s-indigo-100": {
+		"default": {
+			"borderStartColor": "#e0e7ff"
+		}
+	},
+	"border-e-indigo-100": {
+		"default": {
+			"borderEndColor": "#e0e7ff"
+		}
+	},
+	"border-indigo-200": {
+		"default": {
+			"borderColor": "#c7d2fe"
+		}
+	},
+	"border-r-indigo-200": {
+		"default": {
+			"borderRightColor": "#c7d2fe"
+		}
+	},
+	"border-l-indigo-200": {
+		"default": {
+			"borderLeft": "#c7d2fe"
+		}
+	},
+	"border-t-indigo-200": {
+		"default": {
+			"borderTopColor": "#c7d2fe"
+		}
+	},
+	"border-b-indigo-200": {
+		"default": {
+			"borderBottomColor": "#c7d2fe"
+		}
+	},
+	"border-s-indigo-200": {
+		"default": {
+			"borderStartColor": "#c7d2fe"
+		}
+	},
+	"border-e-indigo-200": {
+		"default": {
+			"borderEndColor": "#c7d2fe"
+		}
+	},
+	"border-indigo-300": {
+		"default": {
+			"borderColor": "#a5b4fc"
+		}
+	},
+	"border-r-indigo-300": {
+		"default": {
+			"borderRightColor": "#a5b4fc"
+		}
+	},
+	"border-l-indigo-300": {
+		"default": {
+			"borderLeft": "#a5b4fc"
+		}
+	},
+	"border-t-indigo-300": {
+		"default": {
+			"borderTopColor": "#a5b4fc"
+		}
+	},
+	"border-b-indigo-300": {
+		"default": {
+			"borderBottomColor": "#a5b4fc"
+		}
+	},
+	"border-s-indigo-300": {
+		"default": {
+			"borderStartColor": "#a5b4fc"
+		}
+	},
+	"border-e-indigo-300": {
+		"default": {
+			"borderEndColor": "#a5b4fc"
+		}
+	},
+	"border-indigo-400": {
+		"default": {
+			"borderColor": "#818cf8"
+		}
+	},
+	"border-r-indigo-400": {
+		"default": {
+			"borderRightColor": "#818cf8"
+		}
+	},
+	"border-l-indigo-400": {
+		"default": {
+			"borderLeft": "#818cf8"
+		}
+	},
+	"border-t-indigo-400": {
+		"default": {
+			"borderTopColor": "#818cf8"
+		}
+	},
+	"border-b-indigo-400": {
+		"default": {
+			"borderBottomColor": "#818cf8"
+		}
+	},
+	"border-s-indigo-400": {
+		"default": {
+			"borderStartColor": "#818cf8"
+		}
+	},
+	"border-e-indigo-400": {
+		"default": {
+			"borderEndColor": "#818cf8"
+		}
+	},
+	"border-indigo-500": {
+		"default": {
+			"borderColor": "#6366f1"
+		}
+	},
+	"border-r-indigo-500": {
+		"default": {
+			"borderRightColor": "#6366f1"
+		}
+	},
+	"border-l-indigo-500": {
+		"default": {
+			"borderLeft": "#6366f1"
+		}
+	},
+	"border-t-indigo-500": {
+		"default": {
+			"borderTopColor": "#6366f1"
+		}
+	},
+	"border-b-indigo-500": {
+		"default": {
+			"borderBottomColor": "#6366f1"
+		}
+	},
+	"border-s-indigo-500": {
+		"default": {
+			"borderStartColor": "#6366f1"
+		}
+	},
+	"border-e-indigo-500": {
+		"default": {
+			"borderEndColor": "#6366f1"
+		}
+	},
+	"border-indigo-600": {
+		"default": {
+			"borderColor": "#4f46e5"
+		}
+	},
+	"border-r-indigo-600": {
+		"default": {
+			"borderRightColor": "#4f46e5"
+		}
+	},
+	"border-l-indigo-600": {
+		"default": {
+			"borderLeft": "#4f46e5"
+		}
+	},
+	"border-t-indigo-600": {
+		"default": {
+			"borderTopColor": "#4f46e5"
+		}
+	},
+	"border-b-indigo-600": {
+		"default": {
+			"borderBottomColor": "#4f46e5"
+		}
+	},
+	"border-s-indigo-600": {
+		"default": {
+			"borderStartColor": "#4f46e5"
+		}
+	},
+	"border-e-indigo-600": {
+		"default": {
+			"borderEndColor": "#4f46e5"
+		}
+	},
+	"border-indigo-700": {
+		"default": {
+			"borderColor": "#4338ca"
+		}
+	},
+	"border-r-indigo-700": {
+		"default": {
+			"borderRightColor": "#4338ca"
+		}
+	},
+	"border-l-indigo-700": {
+		"default": {
+			"borderLeft": "#4338ca"
+		}
+	},
+	"border-t-indigo-700": {
+		"default": {
+			"borderTopColor": "#4338ca"
+		}
+	},
+	"border-b-indigo-700": {
+		"default": {
+			"borderBottomColor": "#4338ca"
+		}
+	},
+	"border-s-indigo-700": {
+		"default": {
+			"borderStartColor": "#4338ca"
+		}
+	},
+	"border-e-indigo-700": {
+		"default": {
+			"borderEndColor": "#4338ca"
+		}
+	},
+	"border-indigo-800": {
+		"default": {
+			"borderColor": "#3730a3"
+		}
+	},
+	"border-r-indigo-800": {
+		"default": {
+			"borderRightColor": "#3730a3"
+		}
+	},
+	"border-l-indigo-800": {
+		"default": {
+			"borderLeft": "#3730a3"
+		}
+	},
+	"border-t-indigo-800": {
+		"default": {
+			"borderTopColor": "#3730a3"
+		}
+	},
+	"border-b-indigo-800": {
+		"default": {
+			"borderBottomColor": "#3730a3"
+		}
+	},
+	"border-s-indigo-800": {
+		"default": {
+			"borderStartColor": "#3730a3"
+		}
+	},
+	"border-e-indigo-800": {
+		"default": {
+			"borderEndColor": "#3730a3"
+		}
+	},
+	"border-indigo-900": {
+		"default": {
+			"borderColor": "#312e81"
+		}
+	},
+	"border-r-indigo-900": {
+		"default": {
+			"borderRightColor": "#312e81"
+		}
+	},
+	"border-l-indigo-900": {
+		"default": {
+			"borderLeft": "#312e81"
+		}
+	},
+	"border-t-indigo-900": {
+		"default": {
+			"borderTopColor": "#312e81"
+		}
+	},
+	"border-b-indigo-900": {
+		"default": {
+			"borderBottomColor": "#312e81"
+		}
+	},
+	"border-s-indigo-900": {
+		"default": {
+			"borderStartColor": "#312e81"
+		}
+	},
+	"border-e-indigo-900": {
+		"default": {
+			"borderEndColor": "#312e81"
+		}
+	},
+	"border-purple-50": {
+		"default": {
+			"borderColor": "#f5f3ff"
+		}
+	},
+	"border-r-purple-50": {
+		"default": {
+			"borderRightColor": "#f5f3ff"
+		}
+	},
+	"border-l-purple-50": {
+		"default": {
+			"borderLeft": "#f5f3ff"
+		}
+	},
+	"border-t-purple-50": {
+		"default": {
+			"borderTopColor": "#f5f3ff"
+		}
+	},
+	"border-b-purple-50": {
+		"default": {
+			"borderBottomColor": "#f5f3ff"
+		}
+	},
+	"border-s-purple-50": {
+		"default": {
+			"borderStartColor": "#f5f3ff"
+		}
+	},
+	"border-e-purple-50": {
+		"default": {
+			"borderEndColor": "#f5f3ff"
+		}
+	},
+	"border-purple-100": {
+		"default": {
+			"borderColor": "#ede9fe"
+		}
+	},
+	"border-r-purple-100": {
+		"default": {
+			"borderRightColor": "#ede9fe"
+		}
+	},
+	"border-l-purple-100": {
+		"default": {
+			"borderLeft": "#ede9fe"
+		}
+	},
+	"border-t-purple-100": {
+		"default": {
+			"borderTopColor": "#ede9fe"
+		}
+	},
+	"border-b-purple-100": {
+		"default": {
+			"borderBottomColor": "#ede9fe"
+		}
+	},
+	"border-s-purple-100": {
+		"default": {
+			"borderStartColor": "#ede9fe"
+		}
+	},
+	"border-e-purple-100": {
+		"default": {
+			"borderEndColor": "#ede9fe"
+		}
+	},
+	"border-purple-200": {
+		"default": {
+			"borderColor": "#ddd6fe"
+		}
+	},
+	"border-r-purple-200": {
+		"default": {
+			"borderRightColor": "#ddd6fe"
+		}
+	},
+	"border-l-purple-200": {
+		"default": {
+			"borderLeft": "#ddd6fe"
+		}
+	},
+	"border-t-purple-200": {
+		"default": {
+			"borderTopColor": "#ddd6fe"
+		}
+	},
+	"border-b-purple-200": {
+		"default": {
+			"borderBottomColor": "#ddd6fe"
+		}
+	},
+	"border-s-purple-200": {
+		"default": {
+			"borderStartColor": "#ddd6fe"
+		}
+	},
+	"border-e-purple-200": {
+		"default": {
+			"borderEndColor": "#ddd6fe"
+		}
+	},
+	"border-purple-300": {
+		"default": {
+			"borderColor": "#c4b5fd"
+		}
+	},
+	"border-r-purple-300": {
+		"default": {
+			"borderRightColor": "#c4b5fd"
+		}
+	},
+	"border-l-purple-300": {
+		"default": {
+			"borderLeft": "#c4b5fd"
+		}
+	},
+	"border-t-purple-300": {
+		"default": {
+			"borderTopColor": "#c4b5fd"
+		}
+	},
+	"border-b-purple-300": {
+		"default": {
+			"borderBottomColor": "#c4b5fd"
+		}
+	},
+	"border-s-purple-300": {
+		"default": {
+			"borderStartColor": "#c4b5fd"
+		}
+	},
+	"border-e-purple-300": {
+		"default": {
+			"borderEndColor": "#c4b5fd"
+		}
+	},
+	"border-purple-400": {
+		"default": {
+			"borderColor": "#a78bfa"
+		}
+	},
+	"border-r-purple-400": {
+		"default": {
+			"borderRightColor": "#a78bfa"
+		}
+	},
+	"border-l-purple-400": {
+		"default": {
+			"borderLeft": "#a78bfa"
+		}
+	},
+	"border-t-purple-400": {
+		"default": {
+			"borderTopColor": "#a78bfa"
+		}
+	},
+	"border-b-purple-400": {
+		"default": {
+			"borderBottomColor": "#a78bfa"
+		}
+	},
+	"border-s-purple-400": {
+		"default": {
+			"borderStartColor": "#a78bfa"
+		}
+	},
+	"border-e-purple-400": {
+		"default": {
+			"borderEndColor": "#a78bfa"
+		}
+	},
+	"border-purple-500": {
+		"default": {
+			"borderColor": "#8b5cf6"
+		}
+	},
+	"border-r-purple-500": {
+		"default": {
+			"borderRightColor": "#8b5cf6"
+		}
+	},
+	"border-l-purple-500": {
+		"default": {
+			"borderLeft": "#8b5cf6"
+		}
+	},
+	"border-t-purple-500": {
+		"default": {
+			"borderTopColor": "#8b5cf6"
+		}
+	},
+	"border-b-purple-500": {
+		"default": {
+			"borderBottomColor": "#8b5cf6"
+		}
+	},
+	"border-s-purple-500": {
+		"default": {
+			"borderStartColor": "#8b5cf6"
+		}
+	},
+	"border-e-purple-500": {
+		"default": {
+			"borderEndColor": "#8b5cf6"
+		}
+	},
+	"border-purple-600": {
+		"default": {
+			"borderColor": "#7c3aed"
+		}
+	},
+	"border-r-purple-600": {
+		"default": {
+			"borderRightColor": "#7c3aed"
+		}
+	},
+	"border-l-purple-600": {
+		"default": {
+			"borderLeft": "#7c3aed"
+		}
+	},
+	"border-t-purple-600": {
+		"default": {
+			"borderTopColor": "#7c3aed"
+		}
+	},
+	"border-b-purple-600": {
+		"default": {
+			"borderBottomColor": "#7c3aed"
+		}
+	},
+	"border-s-purple-600": {
+		"default": {
+			"borderStartColor": "#7c3aed"
+		}
+	},
+	"border-e-purple-600": {
+		"default": {
+			"borderEndColor": "#7c3aed"
+		}
+	},
+	"border-purple-700": {
+		"default": {
+			"borderColor": "#6d28d9"
+		}
+	},
+	"border-r-purple-700": {
+		"default": {
+			"borderRightColor": "#6d28d9"
+		}
+	},
+	"border-l-purple-700": {
+		"default": {
+			"borderLeft": "#6d28d9"
+		}
+	},
+	"border-t-purple-700": {
+		"default": {
+			"borderTopColor": "#6d28d9"
+		}
+	},
+	"border-b-purple-700": {
+		"default": {
+			"borderBottomColor": "#6d28d9"
+		}
+	},
+	"border-s-purple-700": {
+		"default": {
+			"borderStartColor": "#6d28d9"
+		}
+	},
+	"border-e-purple-700": {
+		"default": {
+			"borderEndColor": "#6d28d9"
+		}
+	},
+	"border-purple-800": {
+		"default": {
+			"borderColor": "#5b21b6"
+		}
+	},
+	"border-r-purple-800": {
+		"default": {
+			"borderRightColor": "#5b21b6"
+		}
+	},
+	"border-l-purple-800": {
+		"default": {
+			"borderLeft": "#5b21b6"
+		}
+	},
+	"border-t-purple-800": {
+		"default": {
+			"borderTopColor": "#5b21b6"
+		}
+	},
+	"border-b-purple-800": {
+		"default": {
+			"borderBottomColor": "#5b21b6"
+		}
+	},
+	"border-s-purple-800": {
+		"default": {
+			"borderStartColor": "#5b21b6"
+		}
+	},
+	"border-e-purple-800": {
+		"default": {
+			"borderEndColor": "#5b21b6"
+		}
+	},
+	"border-purple-900": {
+		"default": {
+			"borderColor": "#4c1d95"
+		}
+	},
+	"border-r-purple-900": {
+		"default": {
+			"borderRightColor": "#4c1d95"
+		}
+	},
+	"border-l-purple-900": {
+		"default": {
+			"borderLeft": "#4c1d95"
+		}
+	},
+	"border-t-purple-900": {
+		"default": {
+			"borderTopColor": "#4c1d95"
+		}
+	},
+	"border-b-purple-900": {
+		"default": {
+			"borderBottomColor": "#4c1d95"
+		}
+	},
+	"border-s-purple-900": {
+		"default": {
+			"borderStartColor": "#4c1d95"
+		}
+	},
+	"border-e-purple-900": {
+		"default": {
+			"borderEndColor": "#4c1d95"
+		}
+	},
+	"border-pink-50": {
+		"default": {
+			"borderColor": "#fdf2f8"
+		}
+	},
+	"border-r-pink-50": {
+		"default": {
+			"borderRightColor": "#fdf2f8"
+		}
+	},
+	"border-l-pink-50": {
+		"default": {
+			"borderLeft": "#fdf2f8"
+		}
+	},
+	"border-t-pink-50": {
+		"default": {
+			"borderTopColor": "#fdf2f8"
+		}
+	},
+	"border-b-pink-50": {
+		"default": {
+			"borderBottomColor": "#fdf2f8"
+		}
+	},
+	"border-s-pink-50": {
+		"default": {
+			"borderStartColor": "#fdf2f8"
+		}
+	},
+	"border-e-pink-50": {
+		"default": {
+			"borderEndColor": "#fdf2f8"
+		}
+	},
+	"border-pink-100": {
+		"default": {
+			"borderColor": "#fce7f3"
+		}
+	},
+	"border-r-pink-100": {
+		"default": {
+			"borderRightColor": "#fce7f3"
+		}
+	},
+	"border-l-pink-100": {
+		"default": {
+			"borderLeft": "#fce7f3"
+		}
+	},
+	"border-t-pink-100": {
+		"default": {
+			"borderTopColor": "#fce7f3"
+		}
+	},
+	"border-b-pink-100": {
+		"default": {
+			"borderBottomColor": "#fce7f3"
+		}
+	},
+	"border-s-pink-100": {
+		"default": {
+			"borderStartColor": "#fce7f3"
+		}
+	},
+	"border-e-pink-100": {
+		"default": {
+			"borderEndColor": "#fce7f3"
+		}
+	},
+	"border-pink-200": {
+		"default": {
+			"borderColor": "#fbcfe8"
+		}
+	},
+	"border-r-pink-200": {
+		"default": {
+			"borderRightColor": "#fbcfe8"
+		}
+	},
+	"border-l-pink-200": {
+		"default": {
+			"borderLeft": "#fbcfe8"
+		}
+	},
+	"border-t-pink-200": {
+		"default": {
+			"borderTopColor": "#fbcfe8"
+		}
+	},
+	"border-b-pink-200": {
+		"default": {
+			"borderBottomColor": "#fbcfe8"
+		}
+	},
+	"border-s-pink-200": {
+		"default": {
+			"borderStartColor": "#fbcfe8"
+		}
+	},
+	"border-e-pink-200": {
+		"default": {
+			"borderEndColor": "#fbcfe8"
+		}
+	},
+	"border-pink-300": {
+		"default": {
+			"borderColor": "#f9a8d4"
+		}
+	},
+	"border-r-pink-300": {
+		"default": {
+			"borderRightColor": "#f9a8d4"
+		}
+	},
+	"border-l-pink-300": {
+		"default": {
+			"borderLeft": "#f9a8d4"
+		}
+	},
+	"border-t-pink-300": {
+		"default": {
+			"borderTopColor": "#f9a8d4"
+		}
+	},
+	"border-b-pink-300": {
+		"default": {
+			"borderBottomColor": "#f9a8d4"
+		}
+	},
+	"border-s-pink-300": {
+		"default": {
+			"borderStartColor": "#f9a8d4"
+		}
+	},
+	"border-e-pink-300": {
+		"default": {
+			"borderEndColor": "#f9a8d4"
+		}
+	},
+	"border-pink-400": {
+		"default": {
+			"borderColor": "#f472b6"
+		}
+	},
+	"border-r-pink-400": {
+		"default": {
+			"borderRightColor": "#f472b6"
+		}
+	},
+	"border-l-pink-400": {
+		"default": {
+			"borderLeft": "#f472b6"
+		}
+	},
+	"border-t-pink-400": {
+		"default": {
+			"borderTopColor": "#f472b6"
+		}
+	},
+	"border-b-pink-400": {
+		"default": {
+			"borderBottomColor": "#f472b6"
+		}
+	},
+	"border-s-pink-400": {
+		"default": {
+			"borderStartColor": "#f472b6"
+		}
+	},
+	"border-e-pink-400": {
+		"default": {
+			"borderEndColor": "#f472b6"
+		}
+	},
+	"border-pink-500": {
+		"default": {
+			"borderColor": "#ec4899"
+		}
+	},
+	"border-r-pink-500": {
+		"default": {
+			"borderRightColor": "#ec4899"
+		}
+	},
+	"border-l-pink-500": {
+		"default": {
+			"borderLeft": "#ec4899"
+		}
+	},
+	"border-t-pink-500": {
+		"default": {
+			"borderTopColor": "#ec4899"
+		}
+	},
+	"border-b-pink-500": {
+		"default": {
+			"borderBottomColor": "#ec4899"
+		}
+	},
+	"border-s-pink-500": {
+		"default": {
+			"borderStartColor": "#ec4899"
+		}
+	},
+	"border-e-pink-500": {
+		"default": {
+			"borderEndColor": "#ec4899"
+		}
+	},
+	"border-pink-600": {
+		"default": {
+			"borderColor": "#db2777"
+		}
+	},
+	"border-r-pink-600": {
+		"default": {
+			"borderRightColor": "#db2777"
+		}
+	},
+	"border-l-pink-600": {
+		"default": {
+			"borderLeft": "#db2777"
+		}
+	},
+	"border-t-pink-600": {
+		"default": {
+			"borderTopColor": "#db2777"
+		}
+	},
+	"border-b-pink-600": {
+		"default": {
+			"borderBottomColor": "#db2777"
+		}
+	},
+	"border-s-pink-600": {
+		"default": {
+			"borderStartColor": "#db2777"
+		}
+	},
+	"border-e-pink-600": {
+		"default": {
+			"borderEndColor": "#db2777"
+		}
+	},
+	"border-pink-700": {
+		"default": {
+			"borderColor": "#be185d"
+		}
+	},
+	"border-r-pink-700": {
+		"default": {
+			"borderRightColor": "#be185d"
+		}
+	},
+	"border-l-pink-700": {
+		"default": {
+			"borderLeft": "#be185d"
+		}
+	},
+	"border-t-pink-700": {
+		"default": {
+			"borderTopColor": "#be185d"
+		}
+	},
+	"border-b-pink-700": {
+		"default": {
+			"borderBottomColor": "#be185d"
+		}
+	},
+	"border-s-pink-700": {
+		"default": {
+			"borderStartColor": "#be185d"
+		}
+	},
+	"border-e-pink-700": {
+		"default": {
+			"borderEndColor": "#be185d"
+		}
+	},
+	"border-pink-800": {
+		"default": {
+			"borderColor": "#9d174d"
+		}
+	},
+	"border-r-pink-800": {
+		"default": {
+			"borderRightColor": "#9d174d"
+		}
+	},
+	"border-l-pink-800": {
+		"default": {
+			"borderLeft": "#9d174d"
+		}
+	},
+	"border-t-pink-800": {
+		"default": {
+			"borderTopColor": "#9d174d"
+		}
+	},
+	"border-b-pink-800": {
+		"default": {
+			"borderBottomColor": "#9d174d"
+		}
+	},
+	"border-s-pink-800": {
+		"default": {
+			"borderStartColor": "#9d174d"
+		}
+	},
+	"border-e-pink-800": {
+		"default": {
+			"borderEndColor": "#9d174d"
+		}
+	},
+	"border-pink-900": {
+		"default": {
+			"borderColor": "#831843"
+		}
+	},
+	"border-r-pink-900": {
+		"default": {
+			"borderRightColor": "#831843"
+		}
+	},
+	"border-l-pink-900": {
+		"default": {
+			"borderLeft": "#831843"
+		}
+	},
+	"border-t-pink-900": {
+		"default": {
+			"borderTopColor": "#831843"
+		}
+	},
+	"border-b-pink-900": {
+		"default": {
+			"borderBottomColor": "#831843"
+		}
+	},
+	"border-s-pink-900": {
+		"default": {
+			"borderStartColor": "#831843"
+		}
+	},
+	"border-e-pink-900": {
+		"default": {
+			"borderEndColor": "#831843"
+		}
+	},
+	"border-transparent": {
+		"default": {
+			"borderColor": "transparent"
+		}
+	},
+	"border-r-transparent": {
+		"default": {
+			"borderRightColor": "transparent"
+		}
+	},
+	"border-l-transparent": {
+		"default": {
+			"borderLeft": "transparent"
+		}
+	},
+	"border-t-transparent": {
+		"default": {
+			"borderTopColor": "transparent"
+		}
+	},
+	"border-b-transparent": {
+		"default": {
+			"borderBottomColor": "transparent"
+		}
+	},
+	"border-s-transparent": {
+		"default": {
+			"borderStartColor": "transparent"
+		}
+	},
+	"border-e-transparent": {
+		"default": {
+			"borderEndColor": "transparent"
+		}
+	},
+	"border-current": {
+		"default": {
+			"borderColor": "currentColor"
+		}
+	},
+	"border-r-current": {
+		"default": {
+			"borderRightColor": "currentColor"
+		}
+	},
+	"border-l-current": {
+		"default": {
+			"borderLeft": "currentColor"
+		}
+	},
+	"border-t-current": {
+		"default": {
+			"borderTopColor": "currentColor"
+		}
+	},
+	"border-b-current": {
+		"default": {
+			"borderBottomColor": "currentColor"
+		}
+	},
+	"border-s-current": {
+		"default": {
+			"borderStartColor": "currentColor"
+		}
+	},
+	"border-e-current": {
+		"default": {
+			"borderEndColor": "currentColor"
+		}
+	},
+	"rounded-none": {
+		"default": {
+			"borderRadius": 0
+		}
+	},
+	"rounded-t-none": {
+		"default": {
+			"borderRadiusTop": 0
+		}
+	},
+	"rounded-b-none": {
+		"default": {
+			"borderRadiusBottom": 0
+		}
+	},
+	"rounded-l-none": {
+		"default": {
+			"borderRadiusLeft": 0
+		}
+	},
+	"rounded-r-none": {
+		"default": {
+			"borderRadiusRight": 0
+		}
+	},
+	"rounded-tl-none": {
+		"default": {
+			"borderRadiusTopLeft": 0
+		}
+	},
+	"rounded-tr-none": {
+		"default": {
+			"borderRadiusTopRight": 0
+		}
+	},
+	"rounded-bl-none": {
+		"default": {
+			"borderRadiusBottomLeft": 0
+		}
+	},
+	"rounded-br-none": {
+		"default": {
+			"borderRadiusBottomRight": 0
+		}
+	},
+	"rounded-sm": {
+		"default": {
+			"borderRadius": 2
+		}
+	},
+	"rounded-t-sm": {
+		"default": {
+			"borderRadiusTop": 2
+		}
+	},
+	"rounded-b-sm": {
+		"default": {
+			"borderRadiusBottom": 2
+		}
+	},
+	"rounded-l-sm": {
+		"default": {
+			"borderRadiusLeft": 2
+		}
+	},
+	"rounded-r-sm": {
+		"default": {
+			"borderRadiusRight": 2
+		}
+	},
+	"rounded-tl-sm": {
+		"default": {
+			"borderRadiusTopLeft": 2
+		}
+	},
+	"rounded-tr-sm": {
+		"default": {
+			"borderRadiusTopRight": 2
+		}
+	},
+	"rounded-bl-sm": {
+		"default": {
+			"borderRadiusBottomLeft": 2
+		}
+	},
+	"rounded-br-sm": {
+		"default": {
+			"borderRadiusBottomRight": 2
+		}
+	},
+	"rounded": {
+		"default": {
+			"borderRadius": 4
+		}
+	},
+	"rounded-t": {
+		"default": {
+			"borderRadiusTop": 4
+		}
+	},
+	"rounded-b": {
+		"default": {
+			"borderRadiusBottom": 4
+		}
+	},
+	"rounded-l": {
+		"default": {
+			"borderRadiusLeft": 4
+		}
+	},
+	"rounded-r": {
+		"default": {
+			"borderRadiusRight": 4
+		}
+	},
+	"rounded-tl": {
+		"default": {
+			"borderRadiusTopLeft": 4
+		}
+	},
+	"rounded-tr": {
+		"default": {
+			"borderRadiusTopRight": 4
+		}
+	},
+	"rounded-bl": {
+		"default": {
+			"borderRadiusBottomLeft": 4
+		}
+	},
+	"rounded-br": {
+		"default": {
+			"borderRadiusBottomRight": 4
+		}
+	},
+	"rounded-md": {
+		"default": {
+			"borderRadius": 6
+		}
+	},
+	"rounded-t-md": {
+		"default": {
+			"borderRadiusTop": 6
+		}
+	},
+	"rounded-b-md": {
+		"default": {
+			"borderRadiusBottom": 6
+		}
+	},
+	"rounded-l-md": {
+		"default": {
+			"borderRadiusLeft": 6
+		}
+	},
+	"rounded-r-md": {
+		"default": {
+			"borderRadiusRight": 6
+		}
+	},
+	"rounded-tl-md": {
+		"default": {
+			"borderRadiusTopLeft": 6
+		}
+	},
+	"rounded-tr-md": {
+		"default": {
+			"borderRadiusTopRight": 6
+		}
+	},
+	"rounded-bl-md": {
+		"default": {
+			"borderRadiusBottomLeft": 6
+		}
+	},
+	"rounded-br-md": {
+		"default": {
+			"borderRadiusBottomRight": 6
+		}
+	},
+	"rounded-lg": {
+		"default": {
+			"borderRadius": 8
+		}
+	},
+	"rounded-t-lg": {
+		"default": {
+			"borderRadiusTop": 8
+		}
+	},
+	"rounded-b-lg": {
+		"default": {
+			"borderRadiusBottom": 8
+		}
+	},
+	"rounded-l-lg": {
+		"default": {
+			"borderRadiusLeft": 8
+		}
+	},
+	"rounded-r-lg": {
+		"default": {
+			"borderRadiusRight": 8
+		}
+	},
+	"rounded-tl-lg": {
+		"default": {
+			"borderRadiusTopLeft": 8
+		}
+	},
+	"rounded-tr-lg": {
+		"default": {
+			"borderRadiusTopRight": 8
+		}
+	},
+	"rounded-bl-lg": {
+		"default": {
+			"borderRadiusBottomLeft": 8
+		}
+	},
+	"rounded-br-lg": {
+		"default": {
+			"borderRadiusBottomRight": 8
+		}
+	},
+	"rounded-xl": {
+		"default": {
+			"borderRadius": 12
+		}
+	},
+	"rounded-t-xl": {
+		"default": {
+			"borderRadiusTop": 12
+		}
+	},
+	"rounded-b-xl": {
+		"default": {
+			"borderRadiusBottom": 12
+		}
+	},
+	"rounded-l-xl": {
+		"default": {
+			"borderRadiusLeft": 12
+		}
+	},
+	"rounded-r-xl": {
+		"default": {
+			"borderRadiusRight": 12
+		}
+	},
+	"rounded-tl-xl": {
+		"default": {
+			"borderRadiusTopLeft": 12
+		}
+	},
+	"rounded-tr-xl": {
+		"default": {
+			"borderRadiusTopRight": 12
+		}
+	},
+	"rounded-bl-xl": {
+		"default": {
+			"borderRadiusBottomLeft": 12
+		}
+	},
+	"rounded-br-xl": {
+		"default": {
+			"borderRadiusBottomRight": 12
+		}
+	},
+	"rounded-2xl": {
+		"default": {
+			"borderRadius": 16
+		}
+	},
+	"rounded-t-2xl": {
+		"default": {
+			"borderRadiusTop": 16
+		}
+	},
+	"rounded-b-2xl": {
+		"default": {
+			"borderRadiusBottom": 16
+		}
+	},
+	"rounded-l-2xl": {
+		"default": {
+			"borderRadiusLeft": 16
+		}
+	},
+	"rounded-r-2xl": {
+		"default": {
+			"borderRadiusRight": 16
+		}
+	},
+	"rounded-tl-2xl": {
+		"default": {
+			"borderRadiusTopLeft": 16
+		}
+	},
+	"rounded-tr-2xl": {
+		"default": {
+			"borderRadiusTopRight": 16
+		}
+	},
+	"rounded-bl-2xl": {
+		"default": {
+			"borderRadiusBottomLeft": 16
+		}
+	},
+	"rounded-br-2xl": {
+		"default": {
+			"borderRadiusBottomRight": 16
+		}
+	},
+	"rounded-3xl": {
+		"default": {
+			"borderRadius": 24
+		}
+	},
+	"rounded-t-3xl": {
+		"default": {
+			"borderRadiusTop": 24
+		}
+	},
+	"rounded-b-3xl": {
+		"default": {
+			"borderRadiusBottom": 24
+		}
+	},
+	"rounded-l-3xl": {
+		"default": {
+			"borderRadiusLeft": 24
+		}
+	},
+	"rounded-r-3xl": {
+		"default": {
+			"borderRadiusRight": 24
+		}
+	},
+	"rounded-tl-3xl": {
+		"default": {
+			"borderRadiusTopLeft": 24
+		}
+	},
+	"rounded-tr-3xl": {
+		"default": {
+			"borderRadiusTopRight": 24
+		}
+	},
+	"rounded-bl-3xl": {
+		"default": {
+			"borderRadiusBottomLeft": 24
+		}
+	},
+	"rounded-br-3xl": {
+		"default": {
+			"borderRadiusBottomRight": 24
+		}
+	},
+	"rounded-full": {
+		"default": {
+			"borderRadius": 159984
+		}
+	},
+	"rounded-t-full": {
+		"default": {
+			"borderRadiusTop": 159984
+		}
+	},
+	"rounded-b-full": {
+		"default": {
+			"borderRadiusBottom": 159984
+		}
+	},
+	"rounded-l-full": {
+		"default": {
+			"borderRadiusLeft": 159984
+		}
+	},
+	"rounded-r-full": {
+		"default": {
+			"borderRadiusRight": 159984
+		}
+	},
+	"rounded-tl-full": {
+		"default": {
+			"borderRadiusTopLeft": 159984
+		}
+	},
+	"rounded-tr-full": {
+		"default": {
+			"borderRadiusTopRight": 159984
+		}
+	},
+	"rounded-bl-full": {
+		"default": {
+			"borderRadiusBottomLeft": 159984
+		}
+	},
+	"rounded-br-full": {
+		"default": {
+			"borderRadiusBottomRight": 159984
+		}
+	},
+	"border-0": {
+		"default": {
+			"borderWidth": 0
+		}
+	},
+	"border-t-0": {
+		"default": {
+			"borderTopWidth": 0
+		}
+	},
+	"border-b-0": {
+		"default": {
+			"borderBottomWidth": 0
+		}
+	},
+	"border-l-0": {
+		"default": {
+			"borderLeftWidth": 0
+		}
+	},
+	"border-r-0": {
+		"default": {
+			"borderRightWidth": 0
+		}
+	},
+	"border-tl-0": {
+		"default": {
+			"borderWidthTopLeft": 0
+		}
+	},
+	"border-s-0": {
+		"default": {
+			"borderStartWidth": 0
+		}
+	},
+	"border-e-0": {
+		"default": {
+			"borderEndWidth": 0
+		}
+	},
+	"border-2": {
+		"default": {
+			"borderWidth": 2
+		}
+	},
+	"border-t-2": {
+		"default": {
+			"borderTopWidth": 2
+		}
+	},
+	"border-b-2": {
+		"default": {
+			"borderBottomWidth": 2
+		}
+	},
+	"border-l-2": {
+		"default": {
+			"borderLeftWidth": 2
+		}
+	},
+	"border-r-2": {
+		"default": {
+			"borderRightWidth": 2
+		}
+	},
+	"border-tl-2": {
+		"default": {
+			"borderWidthTopLeft": 2
+		}
+	},
+	"border-s-2": {
+		"default": {
+			"borderStartWidth": 2
+		}
+	},
+	"border-e-2": {
+		"default": {
+			"borderEndWidth": 2
+		}
+	},
+	"border-4": {
+		"default": {
+			"borderWidth": 4
+		}
+	},
+	"border-t-4": {
+		"default": {
+			"borderTopWidth": 4
+		}
+	},
+	"border-b-4": {
+		"default": {
+			"borderBottomWidth": 4
+		}
+	},
+	"border-l-4": {
+		"default": {
+			"borderLeftWidth": 4
+		}
+	},
+	"border-r-4": {
+		"default": {
+			"borderRightWidth": 4
+		}
+	},
+	"border-tl-4": {
+		"default": {
+			"borderWidthTopLeft": 4
+		}
+	},
+	"border-s-4": {
+		"default": {
+			"borderStartWidth": 4
+		}
+	},
+	"border-e-4": {
+		"default": {
+			"borderEndWidth": 4
+		}
+	},
+	"border-8": {
+		"default": {
+			"borderWidth": 8
+		}
+	},
+	"border-t-8": {
+		"default": {
+			"borderTopWidth": 8
+		}
+	},
+	"border-b-8": {
+		"default": {
+			"borderBottomWidth": 8
+		}
+	},
+	"border-l-8": {
+		"default": {
+			"borderLeftWidth": 8
+		}
+	},
+	"border-r-8": {
+		"default": {
+			"borderRightWidth": 8
+		}
+	},
+	"border-tl-8": {
+		"default": {
+			"borderWidthTopLeft": 8
+		}
+	},
+	"border-s-8": {
+		"default": {
+			"borderStartWidth": 8
+		}
+	},
+	"border-e-8": {
+		"default": {
+			"borderEndWidth": 8
+		}
+	},
+	"border": {
+		"default": {
+			"borderWidth": 1
+		}
+	},
+	"border-t": {
+		"default": {
+			"borderTopWidth": 1
+		}
+	},
+	"border-b": {
+		"default": {
+			"borderBottomWidth": 1
+		}
+	},
+	"border-l": {
+		"default": {
+			"borderLeftWidth": 1
+		}
+	},
+	"border-r": {
+		"default": {
+			"borderRightWidth": 1
+		}
+	},
+	"border-tl": {
+		"default": {
+			"borderWidthTopLeft": 1
+		}
+	},
+	"border-s": {
+		"default": {
+			"borderStartWidth": 1
+		}
+	},
+	"border-e": {
+		"default": {
+			"borderEndWidth": 1
+		}
+	},
+	"shadow-sm": {
+		"default": {
+			"shadowColor": "rgb(0,0,0)",
+			"shadowOffset": {
+				"width": 1,
+				"height": 2
+			},
+			"shadowOpacity": 0.05,
+			"shadowRadius": 1
+		}
+	},
+	"shadow-DEFAULT": {
+		"default": {
+			"shadowColor": "rgba(0,0,0)",
+			"shadowOffset": {
+				"width": 1,
+				"height": 3
+			},
+			"shadowOpacity": 0.1,
+			"shadowRadius": 1
+		}
+	},
+	"shadow-md": {
+		"default": {
+			"shadowColor": "rgb(0,0,0)",
+			"shadowOffset": {
+				"width": 4,
+				"height": 6
+			},
+			"shadowOpacity": 0.1,
+			"shadowRadius": -1
+		}
+	},
+	"shadow-lg": {
+		"default": {
+			"shadowColor": "rgb(0,0,0)",
+			"shadowOffset": {
+				"width": 10,
+				"height": 15
+			},
+			"shadowOpacity": 0.1,
+			"shadowRadius": -3
+		}
+	},
+	"shadow-xl": {
+		"default": {
+			"shadowColor": "rgb(0,0,0)",
+			"shadowOffset": {
+				"width": 20,
+				"height": 25
+			},
+			"shadowOpacity": 0.1,
+			"shadowRadius": -5
+		}
+	},
+	"shadow-2xl": {
+		"default": {
+			"shadowColor": "rgb(0,0,0)",
+			"shadowOffset": {
+				"width": 25,
+				"height": 50
+			},
+			"shadowOpacity": 0.25,
+			"shadowRadius": -12
+		}
+	},
+	"shadow-none": {
+		"default": {
+			"shadowColor": "rgb(0,0,0)",
+			"shadowOffset": {
+				"width": 0,
+				"height": 0
+			},
+			"shadowOpacity": 0,
+			"shadowRadius": 0
+		}
+	},
+	"flex": {
+		"default": {
+			"display": "flex"
+		}
+	},
+	"hidden": {
+		"default": {
+			"display": "hidden"
+		}
+	},
+	"flex-0": {
+		"default": {
+			"flex": 0
+		}
+	},
+	"flex-1": {
+		"default": {
+			"flex": 1
+		}
+	},
+	"flex-2": {
+		"default": {
+			"flex": 2
+		}
+	},
+	"flex-4": {
+		"default": {
+			"flex": 4
+		}
+	},
+	"flex-8": {
+		"default": {
+			"flex": 8
+		}
+	},
+	"font-sans": {
+		"default": {
+			"fontFamily": "ui-sans-serif"
+		}
+	},
+	"font-serif": {
+		"default": {
+			"fontFamily": "ui-serif"
+		}
+	},
+	"font-mono": {
+		"default": {
+			"fontFamily": "ui-monospace"
+		}
+	},
+	"text-xs": {
+		"default": {
+			"fontSize": 12,
+			"lineHeight": 16
+		}
+	},
+	"text-sm": {
+		"default": {
+			"fontSize": 14,
+			"lineHeight": 20
+		}
+	},
+	"text-base": {
+		"default": {
+			"fontSize": 16,
+			"lineHeight": 24
+		}
+	},
+	"text-lg": {
+		"default": {
+			"fontSize": 18,
+			"lineHeight": 28
+		}
+	},
+	"text-xl": {
+		"default": {
+			"fontSize": 20,
+			"lineHeight": 28
+		}
+	},
+	"text-2xl": {
+		"default": {
+			"fontSize": 24,
+			"lineHeight": 32
+		}
+	},
+	"text-3xl": {
+		"default": {
+			"fontSize": 30,
+			"lineHeight": 36
+		}
+	},
+	"text-4xl": {
+		"default": {
+			"fontSize": 36,
+			"lineHeight": 40
+		}
+	},
+	"text-5xl": {
+		"default": {
+			"fontSize": 48,
+			"lineHeight": 48
+		}
+	},
+	"text-6xl": {
+		"default": {
+			"fontSize": 60,
+			"lineHeight": 60
+		}
+	},
+	"text-7xl": {
+		"default": {
+			"fontSize": 72,
+			"lineHeight": 72
+		}
+	},
+	"text-8xl": {
+		"default": {
+			"fontSize": 96,
+			"lineHeight": 96
+		}
+	},
+	"text-9xl": {
+		"default": {
+			"fontSize": 128,
+			"lineHeight": 128
+		}
+	},
+	"font-thin": {
+		"default": {
+			"fontWeight": "100"
+		}
+	},
+	"font-extralight": {
+		"default": {
+			"fontWeight": "200"
+		}
+	},
+	"font-light": {
+		"default": {
+			"fontWeight": "300"
+		}
+	},
+	"font-normal": {
+		"default": {
+			"fontWeight": "400"
+		}
+	},
+	"font-medium": {
+		"default": {
+			"fontWeight": "500"
+		}
+	},
+	"font-semibold": {
+		"default": {
+			"fontWeight": "600"
+		}
+	},
+	"font-bold": {
+		"default": {
+			"fontWeight": "700"
+		}
+	},
+	"font-extrabold": {
+		"default": {
+			"fontWeight": "800"
+		}
+	},
+	"font-black": {
+		"default": {
+			"fontWeight": "900"
+		}
+	},
+	"h-0": {
+		"default": {
+			"height": 0
+		}
+	},
+	"h-1": {
+		"default": {
+			"height": 4
+		}
+	},
+	"h-2": {
+		"default": {
+			"height": 8
+		}
+	},
+	"h-3": {
+		"default": {
+			"height": 12
+		}
+	},
+	"h-4": {
+		"default": {
+			"height": 16
+		}
+	},
+	"h-5": {
+		"default": {
+			"height": 20
+		}
+	},
+	"h-6": {
+		"default": {
+			"height": 24
+		}
+	},
+	"h-7": {
+		"default": {
+			"height": 28
+		}
+	},
+	"h-8": {
+		"default": {
+			"height": 32
+		}
+	},
+	"h-9": {
+		"default": {
+			"height": 36
+		}
+	},
+	"h-10": {
+		"default": {
+			"height": 40
+		}
+	},
+	"h-11": {
+		"default": {
+			"height": 44
+		}
+	},
+	"h-12": {
+		"default": {
+			"height": 48
+		}
+	},
+	"h-14": {
+		"default": {
+			"height": 56
+		}
+	},
+	"h-16": {
+		"default": {
+			"height": 64
+		}
+	},
+	"h-20": {
+		"default": {
+			"height": 80
+		}
+	},
+	"h-24": {
+		"default": {
+			"height": 96
+		}
+	},
+	"h-28": {
+		"default": {
+			"height": 112
+		}
+	},
+	"h-32": {
+		"default": {
+			"height": 128
+		}
+	},
+	"h-36": {
+		"default": {
+			"height": 144
+		}
+	},
+	"h-40": {
+		"default": {
+			"height": 160
+		}
+	},
+	"h-44": {
+		"default": {
+			"height": 176
+		}
+	},
+	"h-48": {
+		"default": {
+			"height": 192
+		}
+	},
+	"h-52": {
+		"default": {
+			"height": 208
+		}
+	},
+	"h-56": {
+		"default": {
+			"height": 224
+		}
+	},
+	"h-60": {
+		"default": {
+			"height": 240
+		}
+	},
+	"h-64": {
+		"default": {
+			"height": 256
+		}
+	},
+	"h-72": {
+		"default": {
+			"height": 288
+		}
+	},
+	"h-80": {
+		"default": {
+			"height": 320
+		}
+	},
+	"h-96": {
+		"default": {
+			"height": 384
+		}
+	},
+	"h-px": {
+		"default": {
+			"height": 1
+		}
+	},
+	"h-0.5": {
+		"default": {
+			"height": 2
+		}
+	},
+	"h-1.5": {
+		"default": {
+			"height": 6
+		}
+	},
+	"h-2.5": {
+		"default": {
+			"height": 10
+		}
+	},
+	"h-3.5": {
+		"default": {
+			"height": 14
+		}
+	},
+	"h-1/2": {
+		"default": {
+			"height": "50%"
+		}
+	},
+	"h-1/3": {
+		"default": {
+			"height": "33.333333%"
+		}
+	},
+	"h-2/3": {
+		"default": {
+			"height": "66.666667%"
+		}
+	},
+	"h-1/4": {
+		"default": {
+			"height": "25%"
+		}
+	},
+	"h-2/4": {
+		"default": {
+			"height": "50%"
+		}
+	},
+	"h-3/4": {
+		"default": {
+			"height": "75%"
+		}
+	},
+	"h-1/5": {
+		"default": {
+			"height": "20%"
+		}
+	},
+	"h-2/5": {
+		"default": {
+			"height": "40%"
+		}
+	},
+	"h-3/5": {
+		"default": {
+			"height": "60%"
+		}
+	},
+	"h-4/5": {
+		"default": {
+			"height": "80%"
+		}
+	},
+	"h-1/6": {
+		"default": {
+			"height": "16.666667%"
+		}
+	},
+	"h-2/6": {
+		"default": {
+			"height": "33.333333%"
+		}
+	},
+	"h-3/6": {
+		"default": {
+			"height": "50%"
+		}
+	},
+	"h-4/6": {
+		"default": {
+			"height": "66.666667%"
+		}
+	},
+	"h-5/6": {
+		"default": {
+			"height": "83.333333%"
+		}
+	},
+	"h-full": {
+		"default": {
+			"height": "100%"
+		}
+	},
+	"tracking-tighter": {
+		"default": {
+			"letterSpacing": -0.8
+		}
+	},
+	"tracking-tight": {
+		"default": {
+			"letterSpacing": -0.4
+		}
+	},
+	"tracking-normal": {
+		"default": {
+			"letterSpacing": 0
+		}
+	},
+	"tracking-wide": {
+		"default": {
+			"letterSpacing": 0.4
+		}
+	},
+	"tracking-wider": {
+		"default": {
+			"letterSpacing": 0.8
+		}
+	},
+	"tracking-widest": {
+		"default": {
+			"letterSpacing": 1.6
+		}
+	},
+	"leading-3": {
+		"default": {
+			"lineHeight": 12
+		}
+	},
+	"leading-4": {
+		"default": {
+			"lineHeight": 16
+		}
+	},
+	"leading-5": {
+		"default": {
+			"lineHeight": 20
+		}
+	},
+	"leading-6": {
+		"default": {
+			"lineHeight": 24
+		}
+	},
+	"leading-7": {
+		"default": {
+			"lineHeight": 28
+		}
+	},
+	"leading-8": {
+		"default": {
+			"lineHeight": 32
+		}
+	},
+	"leading-9": {
+		"default": {
+			"lineHeight": 36
+		}
+	},
+	"leading-10": {
+		"default": {
+			"lineHeight": 40
+		}
+	},
+	"leading-tight": {
+		"default": {
+			"lineHeight": 20
+		}
+	},
+	"leading-snug": {
+		"default": {
+			"lineHeight": 22
+		}
+	},
+	"leading-normal": {
+		"default": {
+			"lineHeight": 24
+		}
+	},
+	"leading-relaxed": {
+		"default": {
+			"lineHeight": 26
+		}
+	},
+	"leading-loose": {
+		"default": {
+			"lineHeight": 32
+		}
+	},
+	"max-h-0": {
+		"default": {
+			"maxHeight": 0
+		}
+	},
+	"max-h-1": {
+		"default": {
+			"maxHeight": 4
+		}
+	},
+	"max-h-2": {
+		"default": {
+			"maxHeight": 8
+		}
+	},
+	"max-h-3": {
+		"default": {
+			"maxHeight": 12
+		}
+	},
+	"max-h-4": {
+		"default": {
+			"maxHeight": 16
+		}
+	},
+	"max-h-5": {
+		"default": {
+			"maxHeight": 20
+		}
+	},
+	"max-h-6": {
+		"default": {
+			"maxHeight": 24
+		}
+	},
+	"max-h-7": {
+		"default": {
+			"maxHeight": 28
+		}
+	},
+	"max-h-8": {
+		"default": {
+			"maxHeight": 32
+		}
+	},
+	"max-h-9": {
+		"default": {
+			"maxHeight": 36
+		}
+	},
+	"max-h-10": {
+		"default": {
+			"maxHeight": 40
+		}
+	},
+	"max-h-11": {
+		"default": {
+			"maxHeight": 44
+		}
+	},
+	"max-h-12": {
+		"default": {
+			"maxHeight": 48
+		}
+	},
+	"max-h-14": {
+		"default": {
+			"maxHeight": 56
+		}
+	},
+	"max-h-16": {
+		"default": {
+			"maxHeight": 64
+		}
+	},
+	"max-h-20": {
+		"default": {
+			"maxHeight": 80
+		}
+	},
+	"max-h-24": {
+		"default": {
+			"maxHeight": 96
+		}
+	},
+	"max-h-28": {
+		"default": {
+			"maxHeight": 112
+		}
+	},
+	"max-h-32": {
+		"default": {
+			"maxHeight": 128
+		}
+	},
+	"max-h-36": {
+		"default": {
+			"maxHeight": 144
+		}
+	},
+	"max-h-40": {
+		"default": {
+			"maxHeight": 160
+		}
+	},
+	"max-h-44": {
+		"default": {
+			"maxHeight": 176
+		}
+	},
+	"max-h-48": {
+		"default": {
+			"maxHeight": 192
+		}
+	},
+	"max-h-52": {
+		"default": {
+			"maxHeight": 208
+		}
+	},
+	"max-h-56": {
+		"default": {
+			"maxHeight": 224
+		}
+	},
+	"max-h-60": {
+		"default": {
+			"maxHeight": 240
+		}
+	},
+	"max-h-64": {
+		"default": {
+			"maxHeight": 256
+		}
+	},
+	"max-h-72": {
+		"default": {
+			"maxHeight": 288
+		}
+	},
+	"max-h-80": {
+		"default": {
+			"maxHeight": 320
+		}
+	},
+	"max-h-96": {
+		"default": {
+			"maxHeight": 384
+		}
+	},
+	"max-h-px": {
+		"default": {
+			"maxHeight": 1
+		}
+	},
+	"max-h-0.5": {
+		"default": {
+			"maxHeight": 2
+		}
+	},
+	"max-h-1.5": {
+		"default": {
+			"maxHeight": 6
+		}
+	},
+	"max-h-2.5": {
+		"default": {
+			"maxHeight": 10
+		}
+	},
+	"max-h-3.5": {
+		"default": {
+			"maxHeight": 14
+		}
+	},
+	"max-h-1/2": {
+		"default": {
+			"maxHeight": "50%"
+		}
+	},
+	"max-h-1/3": {
+		"default": {
+			"maxHeight": "33.333333%"
+		}
+	},
+	"max-h-2/3": {
+		"default": {
+			"maxHeight": "66.666667%"
+		}
+	},
+	"max-h-1/4": {
+		"default": {
+			"maxHeight": "25%"
+		}
+	},
+	"max-h-2/4": {
+		"default": {
+			"maxHeight": "50%"
+		}
+	},
+	"max-h-3/4": {
+		"default": {
+			"maxHeight": "75%"
+		}
+	},
+	"max-h-1/5": {
+		"default": {
+			"maxHeight": "20%"
+		}
+	},
+	"max-h-2/5": {
+		"default": {
+			"maxHeight": "40%"
+		}
+	},
+	"max-h-3/5": {
+		"default": {
+			"maxHeight": "60%"
+		}
+	},
+	"max-h-4/5": {
+		"default": {
+			"maxHeight": "80%"
+		}
+	},
+	"max-h-1/6": {
+		"default": {
+			"maxHeight": "16.666667%"
+		}
+	},
+	"max-h-2/6": {
+		"default": {
+			"maxHeight": "33.333333%"
+		}
+	},
+	"max-h-3/6": {
+		"default": {
+			"maxHeight": "50%"
+		}
+	},
+	"max-h-4/6": {
+		"default": {
+			"maxHeight": "66.666667%"
+		}
+	},
+	"max-h-5/6": {
+		"default": {
+			"maxHeight": "83.333333%"
+		}
+	},
+	"max-h-full": {
+		"default": {
+			"maxHeight": "100%"
+		}
+	},
+	"max-w-0": {
+		"default": {
+			"maxWidth": 0
+		}
+	},
+	"max-w-1": {
+		"default": {
+			"maxWidth": 4
+		}
+	},
+	"max-w-2": {
+		"default": {
+			"maxWidth": 8
+		}
+	},
+	"max-w-3": {
+		"default": {
+			"maxWidth": 12
+		}
+	},
+	"max-w-4": {
+		"default": {
+			"maxWidth": 16
+		}
+	},
+	"max-w-5": {
+		"default": {
+			"maxWidth": 20
+		}
+	},
+	"max-w-6": {
+		"default": {
+			"maxWidth": 24
+		}
+	},
+	"max-w-7": {
+		"default": {
+			"maxWidth": 28
+		}
+	},
+	"max-w-8": {
+		"default": {
+			"maxWidth": 32
+		}
+	},
+	"max-w-9": {
+		"default": {
+			"maxWidth": 36
+		}
+	},
+	"max-w-10": {
+		"default": {
+			"maxWidth": 40
+		}
+	},
+	"max-w-11": {
+		"default": {
+			"maxWidth": 44
+		}
+	},
+	"max-w-12": {
+		"default": {
+			"maxWidth": 48
+		}
+	},
+	"max-w-14": {
+		"default": {
+			"maxWidth": 56
+		}
+	},
+	"max-w-16": {
+		"default": {
+			"maxWidth": 64
+		}
+	},
+	"max-w-20": {
+		"default": {
+			"maxWidth": 80
+		}
+	},
+	"max-w-24": {
+		"default": {
+			"maxWidth": 96
+		}
+	},
+	"max-w-28": {
+		"default": {
+			"maxWidth": 112
+		}
+	},
+	"max-w-32": {
+		"default": {
+			"maxWidth": 128
+		}
+	},
+	"max-w-36": {
+		"default": {
+			"maxWidth": 144
+		}
+	},
+	"max-w-40": {
+		"default": {
+			"maxWidth": 160
+		}
+	},
+	"max-w-44": {
+		"default": {
+			"maxWidth": 176
+		}
+	},
+	"max-w-48": {
+		"default": {
+			"maxWidth": 192
+		}
+	},
+	"max-w-52": {
+		"default": {
+			"maxWidth": 208
+		}
+	},
+	"max-w-56": {
+		"default": {
+			"maxWidth": 224
+		}
+	},
+	"max-w-60": {
+		"default": {
+			"maxWidth": 240
+		}
+	},
+	"max-w-64": {
+		"default": {
+			"maxWidth": 256
+		}
+	},
+	"max-w-72": {
+		"default": {
+			"maxWidth": 288
+		}
+	},
+	"max-w-80": {
+		"default": {
+			"maxWidth": 320
+		}
+	},
+	"max-w-96": {
+		"default": {
+			"maxWidth": 384
+		}
+	},
+	"max-w-px": {
+		"default": {
+			"maxWidth": 1
+		}
+	},
+	"max-w-0.5": {
+		"default": {
+			"maxWidth": 2
+		}
+	},
+	"max-w-1.5": {
+		"default": {
+			"maxWidth": 6
+		}
+	},
+	"max-w-2.5": {
+		"default": {
+			"maxWidth": 10
+		}
+	},
+	"max-w-3.5": {
+		"default": {
+			"maxWidth": 14
+		}
+	},
+	"max-w-1/2": {
+		"default": {
+			"maxWidth": "50%"
+		}
+	},
+	"max-w-1/3": {
+		"default": {
+			"maxWidth": "33.333333%"
+		}
+	},
+	"max-w-2/3": {
+		"default": {
+			"maxWidth": "66.666667%"
+		}
+	},
+	"max-w-1/4": {
+		"default": {
+			"maxWidth": "25%"
+		}
+	},
+	"max-w-2/4": {
+		"default": {
+			"maxWidth": "50%"
+		}
+	},
+	"max-w-3/4": {
+		"default": {
+			"maxWidth": "75%"
+		}
+	},
+	"max-w-1/5": {
+		"default": {
+			"maxWidth": "20%"
+		}
+	},
+	"max-w-2/5": {
+		"default": {
+			"maxWidth": "40%"
+		}
+	},
+	"max-w-3/5": {
+		"default": {
+			"maxWidth": "60%"
+		}
+	},
+	"max-w-4/5": {
+		"default": {
+			"maxWidth": "80%"
+		}
+	},
+	"max-w-1/6": {
+		"default": {
+			"maxWidth": "16.666667%"
+		}
+	},
+	"max-w-2/6": {
+		"default": {
+			"maxWidth": "33.333333%"
+		}
+	},
+	"max-w-3/6": {
+		"default": {
+			"maxWidth": "50%"
+		}
+	},
+	"max-w-4/6": {
+		"default": {
+			"maxWidth": "66.666667%"
+		}
+	},
+	"max-w-5/6": {
+		"default": {
+			"maxWidth": "83.333333%"
+		}
+	},
+	"max-w-full": {
+		"default": {
+			"maxWidth": "100%"
+		}
+	},
+	"min-h-0": {
+		"default": {
+			"minHeight": 0
+		}
+	},
+	"min-h-1": {
+		"default": {
+			"minHeight": 4
+		}
+	},
+	"min-h-2": {
+		"default": {
+			"minHeight": 8
+		}
+	},
+	"min-h-3": {
+		"default": {
+			"minHeight": 12
+		}
+	},
+	"min-h-4": {
+		"default": {
+			"minHeight": 16
+		}
+	},
+	"min-h-5": {
+		"default": {
+			"minHeight": 20
+		}
+	},
+	"min-h-6": {
+		"default": {
+			"minHeight": 24
+		}
+	},
+	"min-h-7": {
+		"default": {
+			"minHeight": 28
+		}
+	},
+	"min-h-8": {
+		"default": {
+			"minHeight": 32
+		}
+	},
+	"min-h-9": {
+		"default": {
+			"minHeight": 36
+		}
+	},
+	"min-h-10": {
+		"default": {
+			"minHeight": 40
+		}
+	},
+	"min-h-11": {
+		"default": {
+			"minHeight": 44
+		}
+	},
+	"min-h-12": {
+		"default": {
+			"minHeight": 48
+		}
+	},
+	"min-h-14": {
+		"default": {
+			"minHeight": 56
+		}
+	},
+	"min-h-16": {
+		"default": {
+			"minHeight": 64
+		}
+	},
+	"min-h-20": {
+		"default": {
+			"minHeight": 80
+		}
+	},
+	"min-h-24": {
+		"default": {
+			"minHeight": 96
+		}
+	},
+	"min-h-28": {
+		"default": {
+			"minHeight": 112
+		}
+	},
+	"min-h-32": {
+		"default": {
+			"minHeight": 128
+		}
+	},
+	"min-h-36": {
+		"default": {
+			"minHeight": 144
+		}
+	},
+	"min-h-40": {
+		"default": {
+			"minHeight": 160
+		}
+	},
+	"min-h-44": {
+		"default": {
+			"minHeight": 176
+		}
+	},
+	"min-h-48": {
+		"default": {
+			"minHeight": 192
+		}
+	},
+	"min-h-52": {
+		"default": {
+			"minHeight": 208
+		}
+	},
+	"min-h-56": {
+		"default": {
+			"minHeight": 224
+		}
+	},
+	"min-h-60": {
+		"default": {
+			"minHeight": 240
+		}
+	},
+	"min-h-64": {
+		"default": {
+			"minHeight": 256
+		}
+	},
+	"min-h-72": {
+		"default": {
+			"minHeight": 288
+		}
+	},
+	"min-h-80": {
+		"default": {
+			"minHeight": 320
+		}
+	},
+	"min-h-96": {
+		"default": {
+			"minHeight": 384
+		}
+	},
+	"min-h-px": {
+		"default": {
+			"minHeight": 1
+		}
+	},
+	"min-h-0.5": {
+		"default": {
+			"minHeight": 2
+		}
+	},
+	"min-h-1.5": {
+		"default": {
+			"minHeight": 6
+		}
+	},
+	"min-h-2.5": {
+		"default": {
+			"minHeight": 10
+		}
+	},
+	"min-h-3.5": {
+		"default": {
+			"minHeight": 14
+		}
+	},
+	"min-h-1/2": {
+		"default": {
+			"minHeight": "50%"
+		}
+	},
+	"min-h-1/3": {
+		"default": {
+			"minHeight": "33.333333%"
+		}
+	},
+	"min-h-2/3": {
+		"default": {
+			"minHeight": "66.666667%"
+		}
+	},
+	"min-h-1/4": {
+		"default": {
+			"minHeight": "25%"
+		}
+	},
+	"min-h-2/4": {
+		"default": {
+			"minHeight": "50%"
+		}
+	},
+	"min-h-3/4": {
+		"default": {
+			"minHeight": "75%"
+		}
+	},
+	"min-h-1/5": {
+		"default": {
+			"minHeight": "20%"
+		}
+	},
+	"min-h-2/5": {
+		"default": {
+			"minHeight": "40%"
+		}
+	},
+	"min-h-3/5": {
+		"default": {
+			"minHeight": "60%"
+		}
+	},
+	"min-h-4/5": {
+		"default": {
+			"minHeight": "80%"
+		}
+	},
+	"min-h-1/6": {
+		"default": {
+			"minHeight": "16.666667%"
+		}
+	},
+	"min-h-2/6": {
+		"default": {
+			"minHeight": "33.333333%"
+		}
+	},
+	"min-h-3/6": {
+		"default": {
+			"minHeight": "50%"
+		}
+	},
+	"min-h-4/6": {
+		"default": {
+			"minHeight": "66.666667%"
+		}
+	},
+	"min-h-5/6": {
+		"default": {
+			"minHeight": "83.333333%"
+		}
+	},
+	"min-h-full": {
+		"default": {
+			"minHeight": "100%"
+		}
+	},
+	"min-w-0": {
+		"default": {
+			"minWidth": 0
+		}
+	},
+	"min-w-1": {
+		"default": {
+			"minWidth": 4
+		}
+	},
+	"min-w-2": {
+		"default": {
+			"minWidth": 8
+		}
+	},
+	"min-w-3": {
+		"default": {
+			"minWidth": 12
+		}
+	},
+	"min-w-4": {
+		"default": {
+			"minWidth": 16
+		}
+	},
+	"min-w-5": {
+		"default": {
+			"minWidth": 20
+		}
+	},
+	"min-w-6": {
+		"default": {
+			"minWidth": 24
+		}
+	},
+	"min-w-7": {
+		"default": {
+			"minWidth": 28
+		}
+	},
+	"min-w-8": {
+		"default": {
+			"minWidth": 32
+		}
+	},
+	"min-w-9": {
+		"default": {
+			"minWidth": 36
+		}
+	},
+	"min-w-10": {
+		"default": {
+			"minWidth": 40
+		}
+	},
+	"min-w-11": {
+		"default": {
+			"minWidth": 44
+		}
+	},
+	"min-w-12": {
+		"default": {
+			"minWidth": 48
+		}
+	},
+	"min-w-14": {
+		"default": {
+			"minWidth": 56
+		}
+	},
+	"min-w-16": {
+		"default": {
+			"minWidth": 64
+		}
+	},
+	"min-w-20": {
+		"default": {
+			"minWidth": 80
+		}
+	},
+	"min-w-24": {
+		"default": {
+			"minWidth": 96
+		}
+	},
+	"min-w-28": {
+		"default": {
+			"minWidth": 112
+		}
+	},
+	"min-w-32": {
+		"default": {
+			"minWidth": 128
+		}
+	},
+	"min-w-36": {
+		"default": {
+			"minWidth": 144
+		}
+	},
+	"min-w-40": {
+		"default": {
+			"minWidth": 160
+		}
+	},
+	"min-w-44": {
+		"default": {
+			"minWidth": 176
+		}
+	},
+	"min-w-48": {
+		"default": {
+			"minWidth": 192
+		}
+	},
+	"min-w-52": {
+		"default": {
+			"minWidth": 208
+		}
+	},
+	"min-w-56": {
+		"default": {
+			"minWidth": 224
+		}
+	},
+	"min-w-60": {
+		"default": {
+			"minWidth": 240
+		}
+	},
+	"min-w-64": {
+		"default": {
+			"minWidth": 256
+		}
+	},
+	"min-w-72": {
+		"default": {
+			"minWidth": 288
+		}
+	},
+	"min-w-80": {
+		"default": {
+			"minWidth": 320
+		}
+	},
+	"min-w-96": {
+		"default": {
+			"minWidth": 384
+		}
+	},
+	"min-w-px": {
+		"default": {
+			"minWidth": 1
+		}
+	},
+	"min-w-0.5": {
+		"default": {
+			"minWidth": 2
+		}
+	},
+	"min-w-1.5": {
+		"default": {
+			"minWidth": 6
+		}
+	},
+	"min-w-2.5": {
+		"default": {
+			"minWidth": 10
+		}
+	},
+	"min-w-3.5": {
+		"default": {
+			"minWidth": 14
+		}
+	},
+	"min-w-1/2": {
+		"default": {
+			"minWidth": "50%"
+		}
+	},
+	"min-w-1/3": {
+		"default": {
+			"minWidth": "33.333333%"
+		}
+	},
+	"min-w-2/3": {
+		"default": {
+			"minWidth": "66.666667%"
+		}
+	},
+	"min-w-1/4": {
+		"default": {
+			"minWidth": "25%"
+		}
+	},
+	"min-w-2/4": {
+		"default": {
+			"minWidth": "50%"
+		}
+	},
+	"min-w-3/4": {
+		"default": {
+			"minWidth": "75%"
+		}
+	},
+	"min-w-1/5": {
+		"default": {
+			"minWidth": "20%"
+		}
+	},
+	"min-w-2/5": {
+		"default": {
+			"minWidth": "40%"
+		}
+	},
+	"min-w-3/5": {
+		"default": {
+			"minWidth": "60%"
+		}
+	},
+	"min-w-4/5": {
+		"default": {
+			"minWidth": "80%"
+		}
+	},
+	"min-w-1/6": {
+		"default": {
+			"minWidth": "16.666667%"
+		}
+	},
+	"min-w-2/6": {
+		"default": {
+			"minWidth": "33.333333%"
+		}
+	},
+	"min-w-3/6": {
+		"default": {
+			"minWidth": "50%"
+		}
+	},
+	"min-w-4/6": {
+		"default": {
+			"minWidth": "66.666667%"
+		}
+	},
+	"min-w-5/6": {
+		"default": {
+			"minWidth": "83.333333%"
+		}
+	},
+	"min-w-full": {
+		"default": {
+			"minWidth": "100%"
+		}
+	},
+	"opacity-5": {
+		"default": {
+			"opacity": 0.05
+		}
+	},
+	"opacity-10": {
+		"default": {
+			"opacity": 0.1
+		}
+	},
+	"opacity-20": {
+		"default": {
+			"opacity": 0.2
+		}
+	},
+	"opacity-30": {
+		"default": {
+			"opacity": 0.3
+		}
+	},
+	"opacity-40": {
+		"default": {
+			"opacity": 0.4
+		}
+	},
+	"opacity-50": {
+		"default": {
+			"opacity": 0.5
+		}
+	},
+	"opacity-60": {
+		"default": {
+			"opacity": 0.6
+		}
+	},
+	"opacity-70": {
+		"default": {
+			"opacity": 0.7
+		}
+	},
+	"opacity-80": {
+		"default": {
+			"opacity": 0.8
+		}
+	},
+	"opacity-90": {
+		"default": {
+			"opacity": 0.9
+		}
+	},
+	"opacity-95": {
+		"default": {
+			"opacity": 0.95
+		}
+	},
+	"opacity-100": {
+		"default": {
+			"opacity": 1
+		}
+	},
+	"overflow-hidden": {
+		"default": {
+			"overflow": "hidden"
+		}
+	},
+	"overflow-scroll": {
+		"default": {
+			"overflow": "scroll"
+		}
+	},
+	"overflow-visible": {
+		"default": {
+			"overflow": "visible"
+		}
+	},
+	"relative": {
+		"default": {
+			"position": "relative"
+		}
+	},
+	"absolute": {
+		"default": {
+			"position": "absolute"
+		}
+	},
+	"rotate-0": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "0deg"
+				}
+			]
+		}
+	},
+	"-rotate-0": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-0": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "0deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-0": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-0": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "0deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-0": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-1": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "1deg"
+				}
+			]
+		}
+	},
+	"-rotate-1": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-1": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "1deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-1": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-1": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "1deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-1": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-2": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "2deg"
+				}
+			]
+		}
+	},
+	"-rotate-2": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-2": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "2deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-2": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-2": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "2deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-2": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-3": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "3deg"
+				}
+			]
+		}
+	},
+	"-rotate-3": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-3": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "3deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-3": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-3": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "3deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-3": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-6": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "6deg"
+				}
+			]
+		}
+	},
+	"-rotate-6": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-6": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "6deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-6": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-6": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "6deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-6": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-12": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "12deg"
+				}
+			]
+		}
+	},
+	"-rotate-12": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-12": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "12deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-12": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-12": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "12deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-12": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-45": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "45deg"
+				}
+			]
+		}
+	},
+	"-rotate-45": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-45": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "45deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-45": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-45": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "45deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-45": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-90": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "90deg"
+				}
+			]
+		}
+	},
+	"-rotate-90": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-90": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "90deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-90": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-90": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "90deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-90": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"rotate-180": {
+		"default": {
+			"transform": [
+				{
+					"rotate": "180deg"
+				}
+			]
+		}
+	},
+	"-rotate-180": {
+		"default": {
+			"transform": {
+				"rotate": null
+			}
+		}
+	},
+	"rotate-x-180": {
+		"default": {
+			"transform": [
+				{
+					"rotateX": "180deg"
+				}
+			]
+		}
+	},
+	"-rotate-x-180": {
+		"default": {
+			"transform": {
+				"rotateX": null
+			}
+		}
+	},
+	"rotate-y-180": {
+		"default": {
+			"transform": [
+				{
+					"rotateY": "180deg"
+				}
+			]
+		}
+	},
+	"-rotate-y-180": {
+		"default": {
+			"transform": {
+				"rotateY": null
+			}
+		}
+	},
+	"scale-0": {
+		"default": {
+			"transform": [
+				{
+					"scale": 0
+				}
+			]
+		}
+	},
+	"scale-x-0": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 0
+				}
+			]
+		}
+	},
+	"scale-y-0": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 0
+				}
+			]
+		}
+	},
+	"scale-50": {
+		"default": {
+			"transform": [
+				{
+					"scale": 0.5
+				}
+			]
+		}
+	},
+	"scale-x-50": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 0.5
+				}
+			]
+		}
+	},
+	"scale-y-50": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 0.5
+				}
+			]
+		}
+	},
+	"scale-75": {
+		"default": {
+			"transform": [
+				{
+					"scale": 0.75
+				}
+			]
+		}
+	},
+	"scale-x-75": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 0.75
+				}
+			]
+		}
+	},
+	"scale-y-75": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 0.75
+				}
+			]
+		}
+	},
+	"scale-90": {
+		"default": {
+			"transform": [
+				{
+					"scale": 0.9
+				}
+			]
+		}
+	},
+	"scale-x-90": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 0.9
+				}
+			]
+		}
+	},
+	"scale-y-90": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 0.9
+				}
+			]
+		}
+	},
+	"scale-95": {
+		"default": {
+			"transform": [
+				{
+					"scale": 0.95
+				}
+			]
+		}
+	},
+	"scale-x-95": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 0.95
+				}
+			]
+		}
+	},
+	"scale-y-95": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 0.95
+				}
+			]
+		}
+	},
+	"scale-100": {
+		"default": {
+			"transform": [
+				{
+					"scale": 1
+				}
+			]
+		}
+	},
+	"scale-x-100": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 1
+				}
+			]
+		}
+	},
+	"scale-y-100": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 1
+				}
+			]
+		}
+	},
+	"scale-105": {
+		"default": {
+			"transform": [
+				{
+					"scale": 1.05
+				}
+			]
+		}
+	},
+	"scale-x-105": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 1.05
+				}
+			]
+		}
+	},
+	"scale-y-105": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 1.05
+				}
+			]
+		}
+	},
+	"scale-110": {
+		"default": {
+			"transform": [
+				{
+					"scale": 1.1
+				}
+			]
+		}
+	},
+	"scale-x-110": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 1.1
+				}
+			]
+		}
+	},
+	"scale-y-110": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 1.1
+				}
+			]
+		}
+	},
+	"scale-125": {
+		"default": {
+			"transform": [
+				{
+					"scale": 1.25
+				}
+			]
+		}
+	},
+	"scale-x-125": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 1.25
+				}
+			]
+		}
+	},
+	"scale-y-125": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 1.25
+				}
+			]
+		}
+	},
+	"scale-150": {
+		"default": {
+			"transform": [
+				{
+					"scale": 1.5
+				}
+			]
+		}
+	},
+	"scale-x-150": {
+		"default": {
+			"transform": [
+				{
+					"scaleX": 1.5
+				}
+			]
+		}
+	},
+	"scale-y-150": {
+		"default": {
+			"transform": [
+				{
+					"scaleY": 1.5
+				}
+			]
+		}
+	},
+	"skew-0": {
+		"default": {
+			"transform": [
+				{
+					"skew": "0deg"
+				}
+			]
+		}
+	},
+	"-skew-0": {
+		"default": {
+			"transform": {
+				"skew": null
+			}
+		}
+	},
+	"skew-x-0": {
+		"default": {
+			"transform": [
+				{
+					"skewX": "0deg"
+				}
+			]
+		}
+	},
+	"-skew-x-0": {
+		"default": {
+			"transform": {
+				"skewX": null
+			}
+		}
+	},
+	"skew-y-0": {
+		"default": {
+			"transform": [
+				{
+					"skewY": "0deg"
+				}
+			]
+		}
+	},
+	"-skew-y-0": {
+		"default": {
+			"transform": {
+				"skewY": null
+			}
+		}
+	},
+	"skew-1": {
+		"default": {
+			"transform": [
+				{
+					"skew": "1deg"
+				}
+			]
+		}
+	},
+	"-skew-1": {
+		"default": {
+			"transform": {
+				"skew": null
+			}
+		}
+	},
+	"skew-x-1": {
+		"default": {
+			"transform": [
+				{
+					"skewX": "1deg"
+				}
+			]
+		}
+	},
+	"-skew-x-1": {
+		"default": {
+			"transform": {
+				"skewX": null
+			}
+		}
+	},
+	"skew-y-1": {
+		"default": {
+			"transform": [
+				{
+					"skewY": "1deg"
+				}
+			]
+		}
+	},
+	"-skew-y-1": {
+		"default": {
+			"transform": {
+				"skewY": null
+			}
+		}
+	},
+	"skew-2": {
+		"default": {
+			"transform": [
+				{
+					"skew": "2deg"
+				}
+			]
+		}
+	},
+	"-skew-2": {
+		"default": {
+			"transform": {
+				"skew": null
+			}
+		}
+	},
+	"skew-x-2": {
+		"default": {
+			"transform": [
+				{
+					"skewX": "2deg"
+				}
+			]
+		}
+	},
+	"-skew-x-2": {
+		"default": {
+			"transform": {
+				"skewX": null
+			}
+		}
+	},
+	"skew-y-2": {
+		"default": {
+			"transform": [
+				{
+					"skewY": "2deg"
+				}
+			]
+		}
+	},
+	"-skew-y-2": {
+		"default": {
+			"transform": {
+				"skewY": null
+			}
+		}
+	},
+	"skew-3": {
+		"default": {
+			"transform": [
+				{
+					"skew": "3deg"
+				}
+			]
+		}
+	},
+	"-skew-3": {
+		"default": {
+			"transform": {
+				"skew": null
+			}
+		}
+	},
+	"skew-x-3": {
+		"default": {
+			"transform": [
+				{
+					"skewX": "3deg"
+				}
+			]
+		}
+	},
+	"-skew-x-3": {
+		"default": {
+			"transform": {
+				"skewX": null
+			}
+		}
+	},
+	"skew-y-3": {
+		"default": {
+			"transform": [
+				{
+					"skewY": "3deg"
+				}
+			]
+		}
+	},
+	"-skew-y-3": {
+		"default": {
+			"transform": {
+				"skewY": null
+			}
+		}
+	},
+	"skew-6": {
+		"default": {
+			"transform": [
+				{
+					"skew": "6deg"
+				}
+			]
+		}
+	},
+	"-skew-6": {
+		"default": {
+			"transform": {
+				"skew": null
+			}
+		}
+	},
+	"skew-x-6": {
+		"default": {
+			"transform": [
+				{
+					"skewX": "6deg"
+				}
+			]
+		}
+	},
+	"-skew-x-6": {
+		"default": {
+			"transform": {
+				"skewX": null
+			}
+		}
+	},
+	"skew-y-6": {
+		"default": {
+			"transform": [
+				{
+					"skewY": "6deg"
+				}
+			]
+		}
+	},
+	"-skew-y-6": {
+		"default": {
+			"transform": {
+				"skewY": null
+			}
+		}
+	},
+	"skew-12": {
+		"default": {
+			"transform": [
+				{
+					"skew": "12deg"
+				}
+			]
+		}
+	},
+	"-skew-12": {
+		"default": {
+			"transform": {
+				"skew": null
+			}
+		}
+	},
+	"skew-x-12": {
+		"default": {
+			"transform": [
+				{
+					"skewX": "12deg"
+				}
+			]
+		}
+	},
+	"-skew-x-12": {
+		"default": {
+			"transform": {
+				"skewX": null
+			}
+		}
+	},
+	"skew-y-12": {
+		"default": {
+			"transform": [
+				{
+					"skewY": "12deg"
+				}
+			]
+		}
+	},
+	"-skew-y-12": {
+		"default": {
+			"transform": {
+				"skewY": null
+			}
+		}
+	},
+	"text-sc-blue": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemBlue"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemBlue"
+				]
+			}
+		},
+		"default": {
+			"color": "#3b82f6"
+		}
+	},
+	"bg-sc-blue": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemBlue"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemBlue"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#3b82f6"
+		}
+	},
+	"text-sc-brown": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemBrown"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemBrown"
+				]
+			}
+		},
+		"default": {
+			"color": "brown-500"
+		}
+	},
+	"bg-sc-brown": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemBrown"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemBrown"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "brown-500"
+		}
+	},
+	"text-sc-green": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGreen"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGreen"
+				]
+			}
+		},
+		"default": {
+			"color": "#22c55e"
+		}
+	},
+	"bg-sc-green": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGreen"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGreen"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#22c55e"
+		}
+	},
+	"text-sc-indigo": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemIndigo"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemIndigo"
+				]
+			}
+		},
+		"default": {
+			"color": "#6366f1"
+		}
+	},
+	"bg-sc-indigo": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemIndigo"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemIndigo"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#6366f1"
+		}
+	},
+	"text-sc-orange": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemOrange"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemOrange"
+				]
+			}
+		},
+		"default": {
+			"color": "#f97316"
+		}
+	},
+	"bg-sc-orange": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemOrange"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemOrange"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f97316"
+		}
+	},
+	"text-sc-pink": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemPink"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemPink"
+				]
+			}
+		},
+		"default": {
+			"color": "#ec4899"
+		}
+	},
+	"bg-sc-pink": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemPink"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemPink"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#ec4899"
+		}
+	},
+	"text-sc-purple": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemPurple"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemPurple"
+				]
+			}
+		},
+		"default": {
+			"color": "#a855f7"
+		}
+	},
+	"bg-sc-purple": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemPurple"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemPurple"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#a855f7"
+		}
+	},
+	"text-sc-red": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemRed"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemRed"
+				]
+			}
+		},
+		"default": {
+			"color": "#ef4444"
+		}
+	},
+	"bg-sc-red": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemRed"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemRed"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#ef4444"
+		}
+	},
+	"text-sc-teal": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemTeal"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemTeal"
+				]
+			}
+		},
+		"default": {
+			"color": "#14b8a6"
+		}
+	},
+	"bg-sc-teal": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemTeal"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemTeal"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#14b8a6"
+		}
+	},
+	"text-sc-yellow": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemYellow"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemYellow"
+				]
+			}
+		},
+		"default": {
+			"color": "#eab308"
+		}
+	},
+	"bg-sc-yellow": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemYellow"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemYellow"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#eab308"
+		}
+	},
+	"text-sc-gray-1": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGray"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGray"
+				]
+			}
+		},
+		"default": {
+			"color": "#52525b"
+		}
+	},
+	"bg-sc-gray-1": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGray"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGray"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#52525b"
+		}
+	},
+	"text-sc-gray-2": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGray2"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGray2"
+				]
+			}
+		},
+		"default": {
+			"color": "#71717a"
+		}
+	},
+	"bg-sc-gray-2": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGray2"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGray2"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#71717a"
+		}
+	},
+	"text-sc-gray-3": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGray3"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGray3"
+				]
+			}
+		},
+		"default": {
+			"color": "#a1a1aa"
+		}
+	},
+	"bg-sc-gray-3": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGray3"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGray3"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#a1a1aa"
+		}
+	},
+	"text-sc-gray-4": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGray4"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGray4"
+				]
+			}
+		},
+		"default": {
+			"color": "#d4d4d8"
+		}
+	},
+	"bg-sc-gray-4": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGray4"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGray4"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#d4d4d8"
+		}
+	},
+	"text-sc-gray-5": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGray5"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGray5"
+				]
+			}
+		},
+		"default": {
+			"color": "#e4e4e7"
+		}
+	},
+	"bg-sc-gray-5": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGray5"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGray5"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#e4e4e7"
+		}
+	},
+	"text-sc-gray-6": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGray6"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGray6"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-sc-gray-6": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGray6"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGray6"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-sc-clear": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"clear"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/clear"
+				]
+			}
+		},
+		"default": {
+			"color": "transparent"
+		}
+	},
+	"bg-sc-clear": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"clear"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/clear"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "transparent"
+		}
+	},
+	"text-black": {
+		"default": {
+			"color": "#000"
+		}
+	},
+	"text-s-black": {
+		"default": {
+			"textShadowColor": "#000"
+		}
+	},
+	"text-white": {
+		"default": {
+			"color": "#fff"
+		}
+	},
+	"text-s-white": {
+		"default": {
+			"textShadowColor": "#fff"
+		}
+	},
+	"text-gray-50": {
+		"default": {
+			"color": "#f9fafb"
+		}
+	},
+	"text-s-gray-50": {
+		"default": {
+			"textShadowColor": "#f9fafb"
+		}
+	},
+	"text-gray-100": {
+		"default": {
+			"color": "#f3f4f6"
+		}
+	},
+	"text-s-gray-100": {
+		"default": {
+			"textShadowColor": "#f3f4f6"
+		}
+	},
+	"text-gray-200": {
+		"default": {
+			"color": "#e5e7eb"
+		}
+	},
+	"text-s-gray-200": {
+		"default": {
+			"textShadowColor": "#e5e7eb"
+		}
+	},
+	"text-gray-300": {
+		"default": {
+			"color": "#d1d5db"
+		}
+	},
+	"text-s-gray-300": {
+		"default": {
+			"textShadowColor": "#d1d5db"
+		}
+	},
+	"text-gray-400": {
+		"default": {
+			"color": "#9ca3af"
+		}
+	},
+	"text-s-gray-400": {
+		"default": {
+			"textShadowColor": "#9ca3af"
+		}
+	},
+	"text-gray-500": {
+		"default": {
+			"color": "#6b7280"
+		}
+	},
+	"text-s-gray-500": {
+		"default": {
+			"textShadowColor": "#6b7280"
+		}
+	},
+	"text-gray-600": {
+		"default": {
+			"color": "#4b5563"
+		}
+	},
+	"text-s-gray-600": {
+		"default": {
+			"textShadowColor": "#4b5563"
+		}
+	},
+	"text-gray-700": {
+		"default": {
+			"color": "#374151"
+		}
+	},
+	"text-s-gray-700": {
+		"default": {
+			"textShadowColor": "#374151"
+		}
+	},
+	"text-gray-800": {
+		"default": {
+			"color": "#1f2937"
+		}
+	},
+	"text-s-gray-800": {
+		"default": {
+			"textShadowColor": "#1f2937"
+		}
+	},
+	"text-gray-900": {
+		"default": {
+			"color": "#111827"
+		}
+	},
+	"text-s-gray-900": {
+		"default": {
+			"textShadowColor": "#111827"
+		}
+	},
+	"text-red-50": {
+		"default": {
+			"color": "#fef2f2"
+		}
+	},
+	"text-s-red-50": {
+		"default": {
+			"textShadowColor": "#fef2f2"
+		}
+	},
+	"text-red-100": {
+		"default": {
+			"color": "#fee2e2"
+		}
+	},
+	"text-s-red-100": {
+		"default": {
+			"textShadowColor": "#fee2e2"
+		}
+	},
+	"text-red-200": {
+		"default": {
+			"color": "#fecaca"
+		}
+	},
+	"text-s-red-200": {
+		"default": {
+			"textShadowColor": "#fecaca"
+		}
+	},
+	"text-red-300": {
+		"default": {
+			"color": "#fca5a5"
+		}
+	},
+	"text-s-red-300": {
+		"default": {
+			"textShadowColor": "#fca5a5"
+		}
+	},
+	"text-red-400": {
+		"default": {
+			"color": "#f87171"
+		}
+	},
+	"text-s-red-400": {
+		"default": {
+			"textShadowColor": "#f87171"
+		}
+	},
+	"text-red-500": {
+		"default": {
+			"color": "#ef4444"
+		}
+	},
+	"text-s-red-500": {
+		"default": {
+			"textShadowColor": "#ef4444"
+		}
+	},
+	"text-red-600": {
+		"default": {
+			"color": "#dc2626"
+		}
+	},
+	"text-s-red-600": {
+		"default": {
+			"textShadowColor": "#dc2626"
+		}
+	},
+	"text-red-700": {
+		"default": {
+			"color": "#b91c1c"
+		}
+	},
+	"text-s-red-700": {
+		"default": {
+			"textShadowColor": "#b91c1c"
+		}
+	},
+	"text-red-800": {
+		"default": {
+			"color": "#991b1b"
+		}
+	},
+	"text-s-red-800": {
+		"default": {
+			"textShadowColor": "#991b1b"
+		}
+	},
+	"text-red-900": {
+		"default": {
+			"color": "#7f1d1d"
+		}
+	},
+	"text-s-red-900": {
+		"default": {
+			"textShadowColor": "#7f1d1d"
+		}
+	},
+	"text-yellow-50": {
+		"default": {
+			"color": "#fffbeb"
+		}
+	},
+	"text-s-yellow-50": {
+		"default": {
+			"textShadowColor": "#fffbeb"
+		}
+	},
+	"text-yellow-100": {
+		"default": {
+			"color": "#fef3c7"
+		}
+	},
+	"text-s-yellow-100": {
+		"default": {
+			"textShadowColor": "#fef3c7"
+		}
+	},
+	"text-yellow-200": {
+		"default": {
+			"color": "#fde68a"
+		}
+	},
+	"text-s-yellow-200": {
+		"default": {
+			"textShadowColor": "#fde68a"
+		}
+	},
+	"text-yellow-300": {
+		"default": {
+			"color": "#fcd34d"
+		}
+	},
+	"text-s-yellow-300": {
+		"default": {
+			"textShadowColor": "#fcd34d"
+		}
+	},
+	"text-yellow-400": {
+		"default": {
+			"color": "#fbbf24"
+		}
+	},
+	"text-s-yellow-400": {
+		"default": {
+			"textShadowColor": "#fbbf24"
+		}
+	},
+	"text-yellow-500": {
+		"default": {
+			"color": "#f59e0b"
+		}
+	},
+	"text-s-yellow-500": {
+		"default": {
+			"textShadowColor": "#f59e0b"
+		}
+	},
+	"text-yellow-600": {
+		"default": {
+			"color": "#d97706"
+		}
+	},
+	"text-s-yellow-600": {
+		"default": {
+			"textShadowColor": "#d97706"
+		}
+	},
+	"text-yellow-700": {
+		"default": {
+			"color": "#b45309"
+		}
+	},
+	"text-s-yellow-700": {
+		"default": {
+			"textShadowColor": "#b45309"
+		}
+	},
+	"text-yellow-800": {
+		"default": {
+			"color": "#92400e"
+		}
+	},
+	"text-s-yellow-800": {
+		"default": {
+			"textShadowColor": "#92400e"
+		}
+	},
+	"text-yellow-900": {
+		"default": {
+			"color": "#78350f"
+		}
+	},
+	"text-s-yellow-900": {
+		"default": {
+			"textShadowColor": "#78350f"
+		}
+	},
+	"text-green-50": {
+		"default": {
+			"color": "#ecfdf5"
+		}
+	},
+	"text-s-green-50": {
+		"default": {
+			"textShadowColor": "#ecfdf5"
+		}
+	},
+	"text-green-100": {
+		"default": {
+			"color": "#d1fae5"
+		}
+	},
+	"text-s-green-100": {
+		"default": {
+			"textShadowColor": "#d1fae5"
+		}
+	},
+	"text-green-200": {
+		"default": {
+			"color": "#a7f3d0"
+		}
+	},
+	"text-s-green-200": {
+		"default": {
+			"textShadowColor": "#a7f3d0"
+		}
+	},
+	"text-green-300": {
+		"default": {
+			"color": "#6ee7b7"
+		}
+	},
+	"text-s-green-300": {
+		"default": {
+			"textShadowColor": "#6ee7b7"
+		}
+	},
+	"text-green-400": {
+		"default": {
+			"color": "#34d399"
+		}
+	},
+	"text-s-green-400": {
+		"default": {
+			"textShadowColor": "#34d399"
+		}
+	},
+	"text-green-500": {
+		"default": {
+			"color": "#10b981"
+		}
+	},
+	"text-s-green-500": {
+		"default": {
+			"textShadowColor": "#10b981"
+		}
+	},
+	"text-green-600": {
+		"default": {
+			"color": "#059669"
+		}
+	},
+	"text-s-green-600": {
+		"default": {
+			"textShadowColor": "#059669"
+		}
+	},
+	"text-green-700": {
+		"default": {
+			"color": "#047857"
+		}
+	},
+	"text-s-green-700": {
+		"default": {
+			"textShadowColor": "#047857"
+		}
+	},
+	"text-green-800": {
+		"default": {
+			"color": "#065f46"
+		}
+	},
+	"text-s-green-800": {
+		"default": {
+			"textShadowColor": "#065f46"
+		}
+	},
+	"text-green-900": {
+		"default": {
+			"color": "#064e3b"
+		}
+	},
+	"text-s-green-900": {
+		"default": {
+			"textShadowColor": "#064e3b"
+		}
+	},
+	"text-blue-50": {
+		"default": {
+			"color": "#eff6ff"
+		}
+	},
+	"text-s-blue-50": {
+		"default": {
+			"textShadowColor": "#eff6ff"
+		}
+	},
+	"text-blue-100": {
+		"default": {
+			"color": "#dbeafe"
+		}
+	},
+	"text-s-blue-100": {
+		"default": {
+			"textShadowColor": "#dbeafe"
+		}
+	},
+	"text-blue-200": {
+		"default": {
+			"color": "#bfdbfe"
+		}
+	},
+	"text-s-blue-200": {
+		"default": {
+			"textShadowColor": "#bfdbfe"
+		}
+	},
+	"text-blue-300": {
+		"default": {
+			"color": "#93c5fd"
+		}
+	},
+	"text-s-blue-300": {
+		"default": {
+			"textShadowColor": "#93c5fd"
+		}
+	},
+	"text-blue-400": {
+		"default": {
+			"color": "#60a5fa"
+		}
+	},
+	"text-s-blue-400": {
+		"default": {
+			"textShadowColor": "#60a5fa"
+		}
+	},
+	"text-blue-500": {
+		"default": {
+			"color": "#3b82f6"
+		}
+	},
+	"text-s-blue-500": {
+		"default": {
+			"textShadowColor": "#3b82f6"
+		}
+	},
+	"text-blue-600": {
+		"default": {
+			"color": "#2563eb"
+		}
+	},
+	"text-s-blue-600": {
+		"default": {
+			"textShadowColor": "#2563eb"
+		}
+	},
+	"text-blue-700": {
+		"default": {
+			"color": "#1d4ed8"
+		}
+	},
+	"text-s-blue-700": {
+		"default": {
+			"textShadowColor": "#1d4ed8"
+		}
+	},
+	"text-blue-800": {
+		"default": {
+			"color": "#1e40af"
+		}
+	},
+	"text-s-blue-800": {
+		"default": {
+			"textShadowColor": "#1e40af"
+		}
+	},
+	"text-blue-900": {
+		"default": {
+			"color": "#1e3a8a"
+		}
+	},
+	"text-s-blue-900": {
+		"default": {
+			"textShadowColor": "#1e3a8a"
+		}
+	},
+	"text-indigo-50": {
+		"default": {
+			"color": "#eef2ff"
+		}
+	},
+	"text-s-indigo-50": {
+		"default": {
+			"textShadowColor": "#eef2ff"
+		}
+	},
+	"text-indigo-100": {
+		"default": {
+			"color": "#e0e7ff"
+		}
+	},
+	"text-s-indigo-100": {
+		"default": {
+			"textShadowColor": "#e0e7ff"
+		}
+	},
+	"text-indigo-200": {
+		"default": {
+			"color": "#c7d2fe"
+		}
+	},
+	"text-s-indigo-200": {
+		"default": {
+			"textShadowColor": "#c7d2fe"
+		}
+	},
+	"text-indigo-300": {
+		"default": {
+			"color": "#a5b4fc"
+		}
+	},
+	"text-s-indigo-300": {
+		"default": {
+			"textShadowColor": "#a5b4fc"
+		}
+	},
+	"text-indigo-400": {
+		"default": {
+			"color": "#818cf8"
+		}
+	},
+	"text-s-indigo-400": {
+		"default": {
+			"textShadowColor": "#818cf8"
+		}
+	},
+	"text-indigo-500": {
+		"default": {
+			"color": "#6366f1"
+		}
+	},
+	"text-s-indigo-500": {
+		"default": {
+			"textShadowColor": "#6366f1"
+		}
+	},
+	"text-indigo-600": {
+		"default": {
+			"color": "#4f46e5"
+		}
+	},
+	"text-s-indigo-600": {
+		"default": {
+			"textShadowColor": "#4f46e5"
+		}
+	},
+	"text-indigo-700": {
+		"default": {
+			"color": "#4338ca"
+		}
+	},
+	"text-s-indigo-700": {
+		"default": {
+			"textShadowColor": "#4338ca"
+		}
+	},
+	"text-indigo-800": {
+		"default": {
+			"color": "#3730a3"
+		}
+	},
+	"text-s-indigo-800": {
+		"default": {
+			"textShadowColor": "#3730a3"
+		}
+	},
+	"text-indigo-900": {
+		"default": {
+			"color": "#312e81"
+		}
+	},
+	"text-s-indigo-900": {
+		"default": {
+			"textShadowColor": "#312e81"
+		}
+	},
+	"text-purple-50": {
+		"default": {
+			"color": "#f5f3ff"
+		}
+	},
+	"text-s-purple-50": {
+		"default": {
+			"textShadowColor": "#f5f3ff"
+		}
+	},
+	"text-purple-100": {
+		"default": {
+			"color": "#ede9fe"
+		}
+	},
+	"text-s-purple-100": {
+		"default": {
+			"textShadowColor": "#ede9fe"
+		}
+	},
+	"text-purple-200": {
+		"default": {
+			"color": "#ddd6fe"
+		}
+	},
+	"text-s-purple-200": {
+		"default": {
+			"textShadowColor": "#ddd6fe"
+		}
+	},
+	"text-purple-300": {
+		"default": {
+			"color": "#c4b5fd"
+		}
+	},
+	"text-s-purple-300": {
+		"default": {
+			"textShadowColor": "#c4b5fd"
+		}
+	},
+	"text-purple-400": {
+		"default": {
+			"color": "#a78bfa"
+		}
+	},
+	"text-s-purple-400": {
+		"default": {
+			"textShadowColor": "#a78bfa"
+		}
+	},
+	"text-purple-500": {
+		"default": {
+			"color": "#8b5cf6"
+		}
+	},
+	"text-s-purple-500": {
+		"default": {
+			"textShadowColor": "#8b5cf6"
+		}
+	},
+	"text-purple-600": {
+		"default": {
+			"color": "#7c3aed"
+		}
+	},
+	"text-s-purple-600": {
+		"default": {
+			"textShadowColor": "#7c3aed"
+		}
+	},
+	"text-purple-700": {
+		"default": {
+			"color": "#6d28d9"
+		}
+	},
+	"text-s-purple-700": {
+		"default": {
+			"textShadowColor": "#6d28d9"
+		}
+	},
+	"text-purple-800": {
+		"default": {
+			"color": "#5b21b6"
+		}
+	},
+	"text-s-purple-800": {
+		"default": {
+			"textShadowColor": "#5b21b6"
+		}
+	},
+	"text-purple-900": {
+		"default": {
+			"color": "#4c1d95"
+		}
+	},
+	"text-s-purple-900": {
+		"default": {
+			"textShadowColor": "#4c1d95"
+		}
+	},
+	"text-pink-50": {
+		"default": {
+			"color": "#fdf2f8"
+		}
+	},
+	"text-s-pink-50": {
+		"default": {
+			"textShadowColor": "#fdf2f8"
+		}
+	},
+	"text-pink-100": {
+		"default": {
+			"color": "#fce7f3"
+		}
+	},
+	"text-s-pink-100": {
+		"default": {
+			"textShadowColor": "#fce7f3"
+		}
+	},
+	"text-pink-200": {
+		"default": {
+			"color": "#fbcfe8"
+		}
+	},
+	"text-s-pink-200": {
+		"default": {
+			"textShadowColor": "#fbcfe8"
+		}
+	},
+	"text-pink-300": {
+		"default": {
+			"color": "#f9a8d4"
+		}
+	},
+	"text-s-pink-300": {
+		"default": {
+			"textShadowColor": "#f9a8d4"
+		}
+	},
+	"text-pink-400": {
+		"default": {
+			"color": "#f472b6"
+		}
+	},
+	"text-s-pink-400": {
+		"default": {
+			"textShadowColor": "#f472b6"
+		}
+	},
+	"text-pink-500": {
+		"default": {
+			"color": "#ec4899"
+		}
+	},
+	"text-s-pink-500": {
+		"default": {
+			"textShadowColor": "#ec4899"
+		}
+	},
+	"text-pink-600": {
+		"default": {
+			"color": "#db2777"
+		}
+	},
+	"text-s-pink-600": {
+		"default": {
+			"textShadowColor": "#db2777"
+		}
+	},
+	"text-pink-700": {
+		"default": {
+			"color": "#be185d"
+		}
+	},
+	"text-s-pink-700": {
+		"default": {
+			"textShadowColor": "#be185d"
+		}
+	},
+	"text-pink-800": {
+		"default": {
+			"color": "#9d174d"
+		}
+	},
+	"text-s-pink-800": {
+		"default": {
+			"textShadowColor": "#9d174d"
+		}
+	},
+	"text-pink-900": {
+		"default": {
+			"color": "#831843"
+		}
+	},
+	"text-s-pink-900": {
+		"default": {
+			"textShadowColor": "#831843"
+		}
+	},
+	"text-transparent": {
+		"default": {
+			"color": "transparent"
+		}
+	},
+	"text-s-transparent": {
+		"default": {
+			"textShadowColor": "transparent"
+		}
+	},
+	"text-current": {
+		"default": {
+			"color": "currentColor"
+		}
+	},
+	"text-s-current": {
+		"default": {
+			"textShadowColor": "currentColor"
+		}
+	},
+	"translate-0": {
+		"default": {
+			"transform": [
+				{
+					"translate": 0
+				}
+			]
+		}
+	},
+	"-translate-0": {
+		"default": {
+			"transform": [
+				{
+					"translate": 0
+				}
+			]
+		}
+	},
+	"translate-x-0": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 0
+				}
+			]
+		}
+	},
+	"-translate-x-0": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 0
+				}
+			]
+		}
+	},
+	"translate-y-0": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 0
+				}
+			]
+		}
+	},
+	"-translate-y-0": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 0
+				}
+			]
+		}
+	},
+	"translate-1": {
+		"default": {
+			"transform": [
+				{
+					"translate": 4
+				}
+			]
+		}
+	},
+	"-translate-1": {
+		"default": {
+			"transform": [
+				{
+					"translate": -4
+				}
+			]
+		}
+	},
+	"translate-x-1": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 4
+				}
+			]
+		}
+	},
+	"-translate-x-1": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -4
+				}
+			]
+		}
+	},
+	"translate-y-1": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 4
+				}
+			]
+		}
+	},
+	"-translate-y-1": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -4
+				}
+			]
+		}
+	},
+	"translate-2": {
+		"default": {
+			"transform": [
+				{
+					"translate": 8
+				}
+			]
+		}
+	},
+	"-translate-2": {
+		"default": {
+			"transform": [
+				{
+					"translate": -8
+				}
+			]
+		}
+	},
+	"translate-x-2": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 8
+				}
+			]
+		}
+	},
+	"-translate-x-2": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -8
+				}
+			]
+		}
+	},
+	"translate-y-2": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 8
+				}
+			]
+		}
+	},
+	"-translate-y-2": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -8
+				}
+			]
+		}
+	},
+	"translate-3": {
+		"default": {
+			"transform": [
+				{
+					"translate": 12
+				}
+			]
+		}
+	},
+	"-translate-3": {
+		"default": {
+			"transform": [
+				{
+					"translate": -12
+				}
+			]
+		}
+	},
+	"translate-x-3": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 12
+				}
+			]
+		}
+	},
+	"-translate-x-3": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -12
+				}
+			]
+		}
+	},
+	"translate-y-3": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 12
+				}
+			]
+		}
+	},
+	"-translate-y-3": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -12
+				}
+			]
+		}
+	},
+	"translate-4": {
+		"default": {
+			"transform": [
+				{
+					"translate": 16
+				}
+			]
+		}
+	},
+	"-translate-4": {
+		"default": {
+			"transform": [
+				{
+					"translate": -16
+				}
+			]
+		}
+	},
+	"translate-x-4": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 16
+				}
+			]
+		}
+	},
+	"-translate-x-4": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -16
+				}
+			]
+		}
+	},
+	"translate-y-4": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 16
+				}
+			]
+		}
+	},
+	"-translate-y-4": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -16
+				}
+			]
+		}
+	},
+	"translate-5": {
+		"default": {
+			"transform": [
+				{
+					"translate": 20
+				}
+			]
+		}
+	},
+	"-translate-5": {
+		"default": {
+			"transform": [
+				{
+					"translate": -20
+				}
+			]
+		}
+	},
+	"translate-x-5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 20
+				}
+			]
+		}
+	},
+	"-translate-x-5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -20
+				}
+			]
+		}
+	},
+	"translate-y-5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 20
+				}
+			]
+		}
+	},
+	"-translate-y-5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -20
+				}
+			]
+		}
+	},
+	"translate-6": {
+		"default": {
+			"transform": [
+				{
+					"translate": 24
+				}
+			]
+		}
+	},
+	"-translate-6": {
+		"default": {
+			"transform": [
+				{
+					"translate": -24
+				}
+			]
+		}
+	},
+	"translate-x-6": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 24
+				}
+			]
+		}
+	},
+	"-translate-x-6": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -24
+				}
+			]
+		}
+	},
+	"translate-y-6": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 24
+				}
+			]
+		}
+	},
+	"-translate-y-6": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -24
+				}
+			]
+		}
+	},
+	"translate-7": {
+		"default": {
+			"transform": [
+				{
+					"translate": 28
+				}
+			]
+		}
+	},
+	"-translate-7": {
+		"default": {
+			"transform": [
+				{
+					"translate": -28
+				}
+			]
+		}
+	},
+	"translate-x-7": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 28
+				}
+			]
+		}
+	},
+	"-translate-x-7": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -28
+				}
+			]
+		}
+	},
+	"translate-y-7": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 28
+				}
+			]
+		}
+	},
+	"-translate-y-7": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -28
+				}
+			]
+		}
+	},
+	"translate-8": {
+		"default": {
+			"transform": [
+				{
+					"translate": 32
+				}
+			]
+		}
+	},
+	"-translate-8": {
+		"default": {
+			"transform": [
+				{
+					"translate": -32
+				}
+			]
+		}
+	},
+	"translate-x-8": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 32
+				}
+			]
+		}
+	},
+	"-translate-x-8": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -32
+				}
+			]
+		}
+	},
+	"translate-y-8": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 32
+				}
+			]
+		}
+	},
+	"-translate-y-8": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -32
+				}
+			]
+		}
+	},
+	"translate-9": {
+		"default": {
+			"transform": [
+				{
+					"translate": 36
+				}
+			]
+		}
+	},
+	"-translate-9": {
+		"default": {
+			"transform": [
+				{
+					"translate": -36
+				}
+			]
+		}
+	},
+	"translate-x-9": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 36
+				}
+			]
+		}
+	},
+	"-translate-x-9": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -36
+				}
+			]
+		}
+	},
+	"translate-y-9": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 36
+				}
+			]
+		}
+	},
+	"-translate-y-9": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -36
+				}
+			]
+		}
+	},
+	"translate-10": {
+		"default": {
+			"transform": [
+				{
+					"translate": 40
+				}
+			]
+		}
+	},
+	"-translate-10": {
+		"default": {
+			"transform": [
+				{
+					"translate": -40
+				}
+			]
+		}
+	},
+	"translate-x-10": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 40
+				}
+			]
+		}
+	},
+	"-translate-x-10": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -40
+				}
+			]
+		}
+	},
+	"translate-y-10": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 40
+				}
+			]
+		}
+	},
+	"-translate-y-10": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -40
+				}
+			]
+		}
+	},
+	"translate-11": {
+		"default": {
+			"transform": [
+				{
+					"translate": 44
+				}
+			]
+		}
+	},
+	"-translate-11": {
+		"default": {
+			"transform": [
+				{
+					"translate": -44
+				}
+			]
+		}
+	},
+	"translate-x-11": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 44
+				}
+			]
+		}
+	},
+	"-translate-x-11": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -44
+				}
+			]
+		}
+	},
+	"translate-y-11": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 44
+				}
+			]
+		}
+	},
+	"-translate-y-11": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -44
+				}
+			]
+		}
+	},
+	"translate-12": {
+		"default": {
+			"transform": [
+				{
+					"translate": 48
+				}
+			]
+		}
+	},
+	"-translate-12": {
+		"default": {
+			"transform": [
+				{
+					"translate": -48
+				}
+			]
+		}
+	},
+	"translate-x-12": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 48
+				}
+			]
+		}
+	},
+	"-translate-x-12": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -48
+				}
+			]
+		}
+	},
+	"translate-y-12": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 48
+				}
+			]
+		}
+	},
+	"-translate-y-12": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -48
+				}
+			]
+		}
+	},
+	"translate-14": {
+		"default": {
+			"transform": [
+				{
+					"translate": 56
+				}
+			]
+		}
+	},
+	"-translate-14": {
+		"default": {
+			"transform": [
+				{
+					"translate": -56
+				}
+			]
+		}
+	},
+	"translate-x-14": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 56
+				}
+			]
+		}
+	},
+	"-translate-x-14": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -56
+				}
+			]
+		}
+	},
+	"translate-y-14": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 56
+				}
+			]
+		}
+	},
+	"-translate-y-14": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -56
+				}
+			]
+		}
+	},
+	"translate-16": {
+		"default": {
+			"transform": [
+				{
+					"translate": 64
+				}
+			]
+		}
+	},
+	"-translate-16": {
+		"default": {
+			"transform": [
+				{
+					"translate": -64
+				}
+			]
+		}
+	},
+	"translate-x-16": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 64
+				}
+			]
+		}
+	},
+	"-translate-x-16": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -64
+				}
+			]
+		}
+	},
+	"translate-y-16": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 64
+				}
+			]
+		}
+	},
+	"-translate-y-16": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -64
+				}
+			]
+		}
+	},
+	"translate-20": {
+		"default": {
+			"transform": [
+				{
+					"translate": 80
+				}
+			]
+		}
+	},
+	"-translate-20": {
+		"default": {
+			"transform": [
+				{
+					"translate": -80
+				}
+			]
+		}
+	},
+	"translate-x-20": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 80
+				}
+			]
+		}
+	},
+	"-translate-x-20": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -80
+				}
+			]
+		}
+	},
+	"translate-y-20": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 80
+				}
+			]
+		}
+	},
+	"-translate-y-20": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -80
+				}
+			]
+		}
+	},
+	"translate-24": {
+		"default": {
+			"transform": [
+				{
+					"translate": 96
+				}
+			]
+		}
+	},
+	"-translate-24": {
+		"default": {
+			"transform": [
+				{
+					"translate": -96
+				}
+			]
+		}
+	},
+	"translate-x-24": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 96
+				}
+			]
+		}
+	},
+	"-translate-x-24": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -96
+				}
+			]
+		}
+	},
+	"translate-y-24": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 96
+				}
+			]
+		}
+	},
+	"-translate-y-24": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -96
+				}
+			]
+		}
+	},
+	"translate-28": {
+		"default": {
+			"transform": [
+				{
+					"translate": 112
+				}
+			]
+		}
+	},
+	"-translate-28": {
+		"default": {
+			"transform": [
+				{
+					"translate": -112
+				}
+			]
+		}
+	},
+	"translate-x-28": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 112
+				}
+			]
+		}
+	},
+	"-translate-x-28": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -112
+				}
+			]
+		}
+	},
+	"translate-y-28": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 112
+				}
+			]
+		}
+	},
+	"-translate-y-28": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -112
+				}
+			]
+		}
+	},
+	"translate-32": {
+		"default": {
+			"transform": [
+				{
+					"translate": 128
+				}
+			]
+		}
+	},
+	"-translate-32": {
+		"default": {
+			"transform": [
+				{
+					"translate": -128
+				}
+			]
+		}
+	},
+	"translate-x-32": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 128
+				}
+			]
+		}
+	},
+	"-translate-x-32": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -128
+				}
+			]
+		}
+	},
+	"translate-y-32": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 128
+				}
+			]
+		}
+	},
+	"-translate-y-32": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -128
+				}
+			]
+		}
+	},
+	"translate-36": {
+		"default": {
+			"transform": [
+				{
+					"translate": 144
+				}
+			]
+		}
+	},
+	"-translate-36": {
+		"default": {
+			"transform": [
+				{
+					"translate": -144
+				}
+			]
+		}
+	},
+	"translate-x-36": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 144
+				}
+			]
+		}
+	},
+	"-translate-x-36": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -144
+				}
+			]
+		}
+	},
+	"translate-y-36": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 144
+				}
+			]
+		}
+	},
+	"-translate-y-36": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -144
+				}
+			]
+		}
+	},
+	"translate-40": {
+		"default": {
+			"transform": [
+				{
+					"translate": 160
+				}
+			]
+		}
+	},
+	"-translate-40": {
+		"default": {
+			"transform": [
+				{
+					"translate": -160
+				}
+			]
+		}
+	},
+	"translate-x-40": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 160
+				}
+			]
+		}
+	},
+	"-translate-x-40": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -160
+				}
+			]
+		}
+	},
+	"translate-y-40": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 160
+				}
+			]
+		}
+	},
+	"-translate-y-40": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -160
+				}
+			]
+		}
+	},
+	"translate-44": {
+		"default": {
+			"transform": [
+				{
+					"translate": 176
+				}
+			]
+		}
+	},
+	"-translate-44": {
+		"default": {
+			"transform": [
+				{
+					"translate": -176
+				}
+			]
+		}
+	},
+	"translate-x-44": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 176
+				}
+			]
+		}
+	},
+	"-translate-x-44": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -176
+				}
+			]
+		}
+	},
+	"translate-y-44": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 176
+				}
+			]
+		}
+	},
+	"-translate-y-44": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -176
+				}
+			]
+		}
+	},
+	"translate-48": {
+		"default": {
+			"transform": [
+				{
+					"translate": 192
+				}
+			]
+		}
+	},
+	"-translate-48": {
+		"default": {
+			"transform": [
+				{
+					"translate": -192
+				}
+			]
+		}
+	},
+	"translate-x-48": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 192
+				}
+			]
+		}
+	},
+	"-translate-x-48": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -192
+				}
+			]
+		}
+	},
+	"translate-y-48": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 192
+				}
+			]
+		}
+	},
+	"-translate-y-48": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -192
+				}
+			]
+		}
+	},
+	"translate-52": {
+		"default": {
+			"transform": [
+				{
+					"translate": 208
+				}
+			]
+		}
+	},
+	"-translate-52": {
+		"default": {
+			"transform": [
+				{
+					"translate": -208
+				}
+			]
+		}
+	},
+	"translate-x-52": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 208
+				}
+			]
+		}
+	},
+	"-translate-x-52": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -208
+				}
+			]
+		}
+	},
+	"translate-y-52": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 208
+				}
+			]
+		}
+	},
+	"-translate-y-52": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -208
+				}
+			]
+		}
+	},
+	"translate-56": {
+		"default": {
+			"transform": [
+				{
+					"translate": 224
+				}
+			]
+		}
+	},
+	"-translate-56": {
+		"default": {
+			"transform": [
+				{
+					"translate": -224
+				}
+			]
+		}
+	},
+	"translate-x-56": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 224
+				}
+			]
+		}
+	},
+	"-translate-x-56": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -224
+				}
+			]
+		}
+	},
+	"translate-y-56": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 224
+				}
+			]
+		}
+	},
+	"-translate-y-56": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -224
+				}
+			]
+		}
+	},
+	"translate-60": {
+		"default": {
+			"transform": [
+				{
+					"translate": 240
+				}
+			]
+		}
+	},
+	"-translate-60": {
+		"default": {
+			"transform": [
+				{
+					"translate": -240
+				}
+			]
+		}
+	},
+	"translate-x-60": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 240
+				}
+			]
+		}
+	},
+	"-translate-x-60": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -240
+				}
+			]
+		}
+	},
+	"translate-y-60": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 240
+				}
+			]
+		}
+	},
+	"-translate-y-60": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -240
+				}
+			]
+		}
+	},
+	"translate-64": {
+		"default": {
+			"transform": [
+				{
+					"translate": 256
+				}
+			]
+		}
+	},
+	"-translate-64": {
+		"default": {
+			"transform": [
+				{
+					"translate": -256
+				}
+			]
+		}
+	},
+	"translate-x-64": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 256
+				}
+			]
+		}
+	},
+	"-translate-x-64": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -256
+				}
+			]
+		}
+	},
+	"translate-y-64": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 256
+				}
+			]
+		}
+	},
+	"-translate-y-64": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -256
+				}
+			]
+		}
+	},
+	"translate-72": {
+		"default": {
+			"transform": [
+				{
+					"translate": 288
+				}
+			]
+		}
+	},
+	"-translate-72": {
+		"default": {
+			"transform": [
+				{
+					"translate": -288
+				}
+			]
+		}
+	},
+	"translate-x-72": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 288
+				}
+			]
+		}
+	},
+	"-translate-x-72": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -288
+				}
+			]
+		}
+	},
+	"translate-y-72": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 288
+				}
+			]
+		}
+	},
+	"-translate-y-72": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -288
+				}
+			]
+		}
+	},
+	"translate-80": {
+		"default": {
+			"transform": [
+				{
+					"translate": 320
+				}
+			]
+		}
+	},
+	"-translate-80": {
+		"default": {
+			"transform": [
+				{
+					"translate": -320
+				}
+			]
+		}
+	},
+	"translate-x-80": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 320
+				}
+			]
+		}
+	},
+	"-translate-x-80": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -320
+				}
+			]
+		}
+	},
+	"translate-y-80": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 320
+				}
+			]
+		}
+	},
+	"-translate-y-80": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -320
+				}
+			]
+		}
+	},
+	"translate-96": {
+		"default": {
+			"transform": [
+				{
+					"translate": 384
+				}
+			]
+		}
+	},
+	"-translate-96": {
+		"default": {
+			"transform": [
+				{
+					"translate": -384
+				}
+			]
+		}
+	},
+	"translate-x-96": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 384
+				}
+			]
+		}
+	},
+	"-translate-x-96": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -384
+				}
+			]
+		}
+	},
+	"translate-y-96": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 384
+				}
+			]
+		}
+	},
+	"-translate-y-96": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -384
+				}
+			]
+		}
+	},
+	"translate-px": {
+		"default": {
+			"transform": [
+				{
+					"translate": 1
+				}
+			]
+		}
+	},
+	"-translate-px": {
+		"default": {
+			"transform": [
+				{
+					"translate": -1
+				}
+			]
+		}
+	},
+	"translate-x-px": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 1
+				}
+			]
+		}
+	},
+	"-translate-x-px": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -1
+				}
+			]
+		}
+	},
+	"translate-y-px": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 1
+				}
+			]
+		}
+	},
+	"-translate-y-px": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -1
+				}
+			]
+		}
+	},
+	"translate-0.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": 2
+				}
+			]
+		}
+	},
+	"-translate-0.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": -2
+				}
+			]
+		}
+	},
+	"translate-x-0.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 2
+				}
+			]
+		}
+	},
+	"-translate-x-0.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -2
+				}
+			]
+		}
+	},
+	"translate-y-0.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 2
+				}
+			]
+		}
+	},
+	"-translate-y-0.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -2
+				}
+			]
+		}
+	},
+	"translate-1.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": 6
+				}
+			]
+		}
+	},
+	"-translate-1.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": -6
+				}
+			]
+		}
+	},
+	"translate-x-1.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 6
+				}
+			]
+		}
+	},
+	"-translate-x-1.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -6
+				}
+			]
+		}
+	},
+	"translate-y-1.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 6
+				}
+			]
+		}
+	},
+	"-translate-y-1.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -6
+				}
+			]
+		}
+	},
+	"translate-2.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": 10
+				}
+			]
+		}
+	},
+	"-translate-2.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": -10
+				}
+			]
+		}
+	},
+	"translate-x-2.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 10
+				}
+			]
+		}
+	},
+	"-translate-x-2.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -10
+				}
+			]
+		}
+	},
+	"translate-y-2.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 10
+				}
+			]
+		}
+	},
+	"-translate-y-2.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -10
+				}
+			]
+		}
+	},
+	"translate-3.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": 14
+				}
+			]
+		}
+	},
+	"-translate-3.5": {
+		"default": {
+			"transform": [
+				{
+					"translate": -14
+				}
+			]
+		}
+	},
+	"translate-x-3.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": 14
+				}
+			]
+		}
+	},
+	"-translate-x-3.5": {
+		"default": {
+			"transform": [
+				{
+					"translateX": -14
+				}
+			]
+		}
+	},
+	"translate-y-3.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": 14
+				}
+			]
+		}
+	},
+	"-translate-y-3.5": {
+		"default": {
+			"transform": [
+				{
+					"translateY": -14
+				}
+			]
+		}
+	},
+	"w-0": {
+		"default": {
+			"width": 0
+		}
+	},
+	"w-1": {
+		"default": {
+			"width": 4
+		}
+	},
+	"w-2": {
+		"default": {
+			"width": 8
+		}
+	},
+	"w-3": {
+		"default": {
+			"width": 12
+		}
+	},
+	"w-4": {
+		"default": {
+			"width": 16
+		}
+	},
+	"w-5": {
+		"default": {
+			"width": 20
+		}
+	},
+	"w-6": {
+		"default": {
+			"width": 24
+		}
+	},
+	"w-7": {
+		"default": {
+			"width": 28
+		}
+	},
+	"w-8": {
+		"default": {
+			"width": 32
+		}
+	},
+	"w-9": {
+		"default": {
+			"width": 36
+		}
+	},
+	"w-10": {
+		"default": {
+			"width": 40
+		}
+	},
+	"w-11": {
+		"default": {
+			"width": 44
+		}
+	},
+	"w-12": {
+		"default": {
+			"width": 48
+		}
+	},
+	"w-14": {
+		"default": {
+			"width": 56
+		}
+	},
+	"w-16": {
+		"default": {
+			"width": 64
+		}
+	},
+	"w-20": {
+		"default": {
+			"width": 80
+		}
+	},
+	"w-24": {
+		"default": {
+			"width": 96
+		}
+	},
+	"w-28": {
+		"default": {
+			"width": 112
+		}
+	},
+	"w-32": {
+		"default": {
+			"width": 128
+		}
+	},
+	"w-36": {
+		"default": {
+			"width": 144
+		}
+	},
+	"w-40": {
+		"default": {
+			"width": 160
+		}
+	},
+	"w-44": {
+		"default": {
+			"width": 176
+		}
+	},
+	"w-48": {
+		"default": {
+			"width": 192
+		}
+	},
+	"w-52": {
+		"default": {
+			"width": 208
+		}
+	},
+	"w-56": {
+		"default": {
+			"width": 224
+		}
+	},
+	"w-60": {
+		"default": {
+			"width": 240
+		}
+	},
+	"w-64": {
+		"default": {
+			"width": 256
+		}
+	},
+	"w-72": {
+		"default": {
+			"width": 288
+		}
+	},
+	"w-80": {
+		"default": {
+			"width": 320
+		}
+	},
+	"w-96": {
+		"default": {
+			"width": 384
+		}
+	},
+	"w-px": {
+		"default": {
+			"width": 1
+		}
+	},
+	"w-0.5": {
+		"default": {
+			"width": 2
+		}
+	},
+	"w-1.5": {
+		"default": {
+			"width": 6
+		}
+	},
+	"w-2.5": {
+		"default": {
+			"width": 10
+		}
+	},
+	"w-3.5": {
+		"default": {
+			"width": 14
+		}
+	},
+	"w-1/2": {
+		"default": {
+			"width": "50%"
+		}
+	},
+	"w-1/3": {
+		"default": {
+			"width": "33.333333%"
+		}
+	},
+	"w-2/3": {
+		"default": {
+			"width": "66.666667%"
+		}
+	},
+	"w-1/4": {
+		"default": {
+			"width": "25%"
+		}
+	},
+	"w-2/4": {
+		"default": {
+			"width": "50%"
+		}
+	},
+	"w-3/4": {
+		"default": {
+			"width": "75%"
+		}
+	},
+	"w-1/5": {
+		"default": {
+			"width": "20%"
+		}
+	},
+	"w-2/5": {
+		"default": {
+			"width": "40%"
+		}
+	},
+	"w-3/5": {
+		"default": {
+			"width": "60%"
+		}
+	},
+	"w-4/5": {
+		"default": {
+			"width": "80%"
+		}
+	},
+	"w-1/6": {
+		"default": {
+			"width": "16.666667%"
+		}
+	},
+	"w-2/6": {
+		"default": {
+			"width": "33.333333%"
+		}
+	},
+	"w-3/6": {
+		"default": {
+			"width": "50%"
+		}
+	},
+	"w-4/6": {
+		"default": {
+			"width": "66.666667%"
+		}
+	},
+	"w-5/6": {
+		"default": {
+			"width": "83.333333%"
+		}
+	},
+	"w-full": {
+		"default": {
+			"width": "100%"
+		}
+	},
+	"zIndex-0": {
+		"default": {
+			"zIndex": 0
+		}
+	},
+	"zIndex-10": {
+		"default": {
+			"zIndex": 10
+		}
+	},
+	"zIndex-20": {
+		"default": {
+			"zIndex": 20
+		}
+	},
+	"zIndex-30": {
+		"default": {
+			"zIndex": 30
+		}
+	},
+	"zIndex-40": {
+		"default": {
+			"zIndex": 40
+		}
+	},
+	"zIndex-50": {
+		"default": {
+			"zIndex": 50
+		}
+	}
+}
