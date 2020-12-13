@@ -30,6 +30,10 @@ function MyComponent() {
 }
 ```
 
+### available styles
+
+see the plugins available here: https://github.com/ajsmth/tailwind-react-native/tree/main/cli/plugins
+
 ### cool stuff
 
 ```jsx
