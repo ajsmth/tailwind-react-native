@@ -18,7 +18,7 @@ import transform from "tailwind-react-native/transform";
 
 function MyComponent() {
   return (
-    <View style={style("flex-1 bg-plaform-red")}>
+    <View style={style("flex-1 bg-platform-red")}>
       <View
         style={[
           style("h-12 w-12 bg-platform-blue"),
