@@ -18,10 +18,10 @@ import transform from "tailwind-react-native/transform";
 
 function MyComponent() {
   return (
-    <View style={style("flex-1 bg-red-400")}>
+    <View style={style("flex-1 bg-plaform-red")}>
       <View
         style={[
-          style("h-12 w-12 bg-blue-500"),
+          style("h-12 w-12 bg-platform-blue"),
           transform("translate-y-12 rotate-x-12"),
         ]}
       />

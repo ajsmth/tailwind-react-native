@@ -6909,7 +6909,7 @@
 			}
 		}
 	},
-	"text-sc-blue": {
+	"text-platform-blue": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -6928,7 +6928,7 @@
 			"color": "#3b82f6"
 		}
 	},
-	"bg-sc-blue": {
+	"bg-platform-blue": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -6947,7 +6947,7 @@
 			"backgroundColor": "#3b82f6"
 		}
 	},
-	"text-sc-brown": {
+	"text-platform-brown": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -6966,7 +6966,7 @@
 			"color": "brown-500"
 		}
 	},
-	"bg-sc-brown": {
+	"bg-platform-brown": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -6985,7 +6985,7 @@
 			"backgroundColor": "brown-500"
 		}
 	},
-	"text-sc-green": {
+	"text-platform-green": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7004,7 +7004,7 @@
 			"color": "#22c55e"
 		}
 	},
-	"bg-sc-green": {
+	"bg-platform-green": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7023,7 +7023,7 @@
 			"backgroundColor": "#22c55e"
 		}
 	},
-	"text-sc-indigo": {
+	"text-platform-indigo": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7042,7 +7042,7 @@
 			"color": "#6366f1"
 		}
 	},
-	"bg-sc-indigo": {
+	"bg-platform-indigo": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7061,7 +7061,7 @@
 			"backgroundColor": "#6366f1"
 		}
 	},
-	"text-sc-orange": {
+	"text-platform-orange": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7080,7 +7080,7 @@
 			"color": "#f97316"
 		}
 	},
-	"bg-sc-orange": {
+	"bg-platform-orange": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7099,7 +7099,7 @@
 			"backgroundColor": "#f97316"
 		}
 	},
-	"text-sc-pink": {
+	"text-platform-pink": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7118,7 +7118,7 @@
 			"color": "#ec4899"
 		}
 	},
-	"bg-sc-pink": {
+	"bg-platform-pink": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7137,7 +7137,7 @@
 			"backgroundColor": "#ec4899"
 		}
 	},
-	"text-sc-purple": {
+	"text-platform-purple": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7156,7 +7156,7 @@
 			"color": "#a855f7"
 		}
 	},
-	"bg-sc-purple": {
+	"bg-platform-purple": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7175,7 +7175,7 @@
 			"backgroundColor": "#a855f7"
 		}
 	},
-	"text-sc-red": {
+	"text-platform-red": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7194,7 +7194,7 @@
 			"color": "#ef4444"
 		}
 	},
-	"bg-sc-red": {
+	"bg-platform-red": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7213,7 +7213,7 @@
 			"backgroundColor": "#ef4444"
 		}
 	},
-	"text-sc-teal": {
+	"text-platform-teal": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7232,7 +7232,7 @@
 			"color": "#14b8a6"
 		}
 	},
-	"bg-sc-teal": {
+	"bg-platform-teal": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7251,7 +7251,7 @@
 			"backgroundColor": "#14b8a6"
 		}
 	},
-	"text-sc-yellow": {
+	"text-platform-yellow": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7270,7 +7270,7 @@
 			"color": "#eab308"
 		}
 	},
-	"bg-sc-yellow": {
+	"bg-platform-yellow": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7289,7 +7289,7 @@
 			"backgroundColor": "#eab308"
 		}
 	},
-	"text-sc-gray-1": {
+	"text-platform-gray-1": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7308,7 +7308,7 @@
 			"color": "#52525b"
 		}
 	},
-	"bg-sc-gray-1": {
+	"bg-platform-gray-1": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7327,7 +7327,7 @@
 			"backgroundColor": "#52525b"
 		}
 	},
-	"text-sc-gray-2": {
+	"text-platform-gray-2": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7346,7 +7346,7 @@
 			"color": "#71717a"
 		}
 	},
-	"bg-sc-gray-2": {
+	"bg-platform-gray-2": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7365,7 +7365,7 @@
 			"backgroundColor": "#71717a"
 		}
 	},
-	"text-sc-gray-3": {
+	"text-platform-gray-3": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7384,7 +7384,7 @@
 			"color": "#a1a1aa"
 		}
 	},
-	"bg-sc-gray-3": {
+	"bg-platform-gray-3": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7403,7 +7403,7 @@
 			"backgroundColor": "#a1a1aa"
 		}
 	},
-	"text-sc-gray-4": {
+	"text-platform-gray-4": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7422,7 +7422,7 @@
 			"color": "#d4d4d8"
 		}
 	},
-	"bg-sc-gray-4": {
+	"bg-platform-gray-4": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7441,7 +7441,7 @@
 			"backgroundColor": "#d4d4d8"
 		}
 	},
-	"text-sc-gray-5": {
+	"text-platform-gray-5": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7460,7 +7460,7 @@
 			"color": "#e4e4e7"
 		}
 	},
-	"bg-sc-gray-5": {
+	"bg-platform-gray-5": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7479,7 +7479,7 @@
 			"backgroundColor": "#e4e4e7"
 		}
 	},
-	"text-sc-gray-6": {
+	"text-platform-gray-6": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7498,7 +7498,7 @@
 			"color": "#f4f4f5"
 		}
 	},
-	"bg-sc-gray-6": {
+	"bg-platform-gray-6": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
@@ -7517,7 +7517,7 @@
 			"backgroundColor": "#f4f4f5"
 		}
 	},
-	"text-sc-clear": {
+	"text-platform-clear": {
 		"ios": {
 			"color": {
 				"semantic": [
@@ -7536,7 +7536,7 @@
 			"color": "transparent"
 		}
 	},
-	"bg-sc-clear": {
+	"bg-platform-clear": {
 		"ios": {
 			"backgroundColor": {
 				"semantic": [
