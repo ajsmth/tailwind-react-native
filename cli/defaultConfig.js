@@ -5,11 +5,124 @@ const spacings = require("./spacings");
 module.exports = {
   theme: {
     flex: {
+      negative: -1,
       0: 0,
       1: 1,
       2: 2,
       4: 4,
       8: 8,
+    },
+
+    flexDirection: {
+      row: "row",
+      ["row-reverse"]: "row-reverse",
+      col: "column",
+      ["col-reverse"]: "column-reverse",
+    },
+
+    flexGrow: {
+      0: 0,
+      1: 1,
+    },
+
+    flexShrink: {
+      0: 0,
+      1: 1,
+    },
+
+    justifyContent: {
+      start: "flex-start",
+      end: "flex-end",
+      center: "center",
+      between: "space-between",
+      around: "space-around",
+      evenly: "space-evenly",
+    },
+
+    alignItems: {
+      start: "flex-start",
+      end: "flex-end",
+      center: "center",
+      baseline: "baseline",
+      stretch: "stretch",
+    },
+
+    alignContent: {
+      start: "flex-start",
+      end: "flex-end",
+      center: "center",
+      between: "space-between",
+      around: "space-around",
+      stretch: "stretch",
+    },
+
+    alignSelf: {
+      auto: "auto",
+      start: "flex-start",
+      end: "flex-end",
+      center: "center",
+      stretch: "stretch",
+      baseline: "baseline",
+    },
+
+    flexWrap: {
+      ["flex-wrap"]: "wrap",
+      ["flex-wrap-reverse"]: "wrap-reverse",
+      ["flex-nowrap"]: "nowrap",
+    },
+
+    borderStyle: {
+      soid: "solid",
+      dotted: "dotted",
+      dashed: "dashed",
+    },
+
+    resizeMode: {
+      cover: "cover",
+      contain: "contain",
+      stretch: "stretch",
+      repeat: "repeat",
+      center: "center",
+    },
+
+    textAlign: {
+      left: "left",
+      right: "right",
+      center: "center",
+      justify: "justify",
+    },
+
+    textDecoration: {
+      underline: "underline",
+      ["line-through"]: "line-through",
+      ["underline-line-through"]: "underline line-through",
+    },
+
+    textTransform: {
+      uppercase: "uppercase",
+      lowercase: "lowercase",
+      capitalize: "capitalize",
+      ["normal-case"]: "none",
+    },
+
+    textAlignVertical: {
+      auto: "auto",
+      top: "top",
+      bottom: "bottom",
+      center: "center",
+    },
+
+    writingDirection: {
+      ltr: "ltr",
+      auto: "auto",
+      rtl: "rtl",
+    },
+
+    textDecorationStyle: {
+      solid: "solid",
+      double: "double",
+      dotted: "dotted",
+      dashed: "dashed",
     },
 
     position: {
@@ -26,6 +139,11 @@ module.exports = {
     display: {
       flex: "flex",
       hidden: "hidden",
+    },
+
+    direction: {
+      ltr: "ltr",
+      rtl: "rtl",
     },
 
     colors: {

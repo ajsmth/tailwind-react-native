@@ -1,114 +1,4 @@
 {
-	"direction-ltr": {
-		"default": {
-			"direction": "ltr"
-		}
-	},
-	"direction-rtl": {
-		"default": {
-			"direction": "rtl"
-		}
-	},
-	"flex-negative": {
-		"default": {
-			"flex": -1
-		}
-	},
-	"flex-row": {
-		"default": {
-			"flexDirection": "row"
-		}
-	},
-	"flex-row-reverse": {
-		"default": {
-			"flexDirection": "row-reverse"
-		}
-	},
-	"flex-col": {
-		"default": {
-			"flexDirection": "column"
-		}
-	},
-	"flex-col-reverse": {
-		"default": {
-			"flexDirection": "column-reverse"
-		}
-	},
-	"flex-grow-0": {
-		"default": {
-			"flexGrow": 0
-		}
-	},
-	"flex-grow-1": {
-		"default": {
-			"flexGrow": 1
-		}
-	},
-	"flex-shrink-0": {
-		"default": {
-			"flexShrink": 0
-		}
-	},
-	"flex-shrink-1": {
-		"default": {
-			"flexShrink": 1
-		}
-	},
-	"justify-start": {
-		"default": {
-			"justifyContent": "flex-start"
-		}
-	},
-	"justify-end": {
-		"default": {
-			"justifyContent": "flex-end"
-		}
-	},
-	"justify-center": {
-		"default": {
-			"justifyContent": "center"
-		}
-	},
-	"justify-between": {
-		"default": {
-			"justifyContent": "space-between"
-		}
-	},
-	"justify-around": {
-		"default": {
-			"justifyContent": "space-around"
-		}
-	},
-	"justify-evenly": {
-		"default": {
-			"justifyContent": "space-evenly"
-		}
-	},
-	"items-start": {
-		"default": {
-			"alignItems": "flex-start"
-		}
-	},
-	"items-end": {
-		"default": {
-			"alignItems": "flex-end"
-		}
-	},
-	"items-center": {
-		"default": {
-			"alignItems": "center"
-		}
-	},
-	"items-baseline": {
-		"default": {
-			"alignItems": "baseline"
-		}
-	},
-	"items-stretch": {
-		"default": {
-			"alignItems": "stretch"
-		}
-	},
 	"content-start": {
 		"default": {
 			"alignContent": "flex-start"
@@ -139,6 +29,31 @@
 			"alignContent": "stretch"
 		}
 	},
+	"items-start": {
+		"default": {
+			"alignItems": "flex-start"
+		}
+	},
+	"items-end": {
+		"default": {
+			"alignItems": "flex-end"
+		}
+	},
+	"items-center": {
+		"default": {
+			"alignItems": "center"
+		}
+	},
+	"items-baseline": {
+		"default": {
+			"alignItems": "baseline"
+		}
+	},
+	"items-stretch": {
+		"default": {
+			"alignItems": "stretch"
+		}
+	},
 	"self-auto": {
 		"default": {
 			"alignSelf": "auto"
@@ -167,171 +82,6 @@
 	"self-baseline": {
 		"default": {
 			"alignSelf": "baseline"
-		}
-	},
-	"flex-wrap": {
-		"default": {
-			"flexWrap": "wrap"
-		}
-	},
-	"flex-wrap-reverse": {
-		"default": {
-			"flexWrap": "wrap-reverse"
-		}
-	},
-	"flex-nowrap": {
-		"default": {
-			"flexWrap": "nowrap"
-		}
-	},
-	"border-solid": {
-		"default": {
-			"borderStyle": "solid"
-		}
-	},
-	"border-dotted": {
-		"default": {
-			"borderStyle": "dotted"
-		}
-	},
-	"border-dashed": {
-		"default": {
-			"borderStyle": "dashed"
-		}
-	},
-	"resize-cover": {
-		"default": {
-			"resizeMode": "cover"
-		}
-	},
-	"resize-contain": {
-		"default": {
-			"resizeMode": "contain"
-		}
-	},
-	"resize-stretch": {
-		"default": {
-			"resizeMode": "stretch"
-		}
-	},
-	"resize-repeat": {
-		"default": {
-			"resizeMode": "repeact"
-		}
-	},
-	"resize-center": {
-		"default": {
-			"resizeMode": "center"
-		}
-	},
-	"text-left": {
-		"default": {
-			"textAlign": "left"
-		}
-	},
-	"text-right": {
-		"default": {
-			"textAlign": "right"
-		}
-	},
-	"text-center": {
-		"default": {
-			"textAlign": "center"
-		}
-	},
-	"text-justify": {
-		"default": {
-			"textAlign": "justify"
-		}
-	},
-	"underline": {
-		"default": {
-			"textDecoration": "underline"
-		}
-	},
-	"line-through": {
-		"default": {
-			"textDecoration": "line-through"
-		}
-	},
-	"underline-line-through": {
-		"default": {
-			"textDecoration": "underline line-through"
-		}
-	},
-	"uppercase": {
-		"default": {
-			"textTransform": "uppercase"
-		}
-	},
-	"lowercase": {
-		"default": {
-			"textTransform": "lowercase"
-		}
-	},
-	"capitalize": {
-		"default": {
-			"textTransform": "capitalize"
-		}
-	},
-	"normal-case": {
-		"default": {
-			"textTransform": "none"
-		}
-	},
-	"text-decoration-solid": {
-		"default": {
-			"textDecorationStyle": "solid"
-		}
-	},
-	"text-decoration-double": {
-		"default": {
-			"textDecorationStyle": "double"
-		}
-	},
-	"text-decoration-dotted": {
-		"default": {
-			"textDecorationStyle": "dotted"
-		}
-	},
-	"text-decoration-dashed": {
-		"default": {
-			"textDecorationStyle": "dashed"
-		}
-	},
-	"text-align-vertical-auto": {
-		"default": {
-			"textAlignVertical": "auto"
-		}
-	},
-	"text-align-vertical-top": {
-		"default": {
-			"textAlignVertical": "top"
-		}
-	},
-	"text-align-vertical-bottom": {
-		"default": {
-			"textAlignVertical": "bottom"
-		}
-	},
-	"text-align-vertical-center": {
-		"default": {
-			"textAlignVertical": "center"
-		}
-	},
-	"text-direction-ltr": {
-		"default": {
-			"writingDirection": "ltr"
-		}
-	},
-	"text-direction-auto": {
-		"default": {
-			"writingDirection": "auto"
-		}
-	},
-	"text-direction-rtl": {
-		"default": {
-			"writingDirection": "rtl"
 		}
 	},
 	"aspect-ratio-none": {
@@ -4124,6 +3874,21 @@
 			"borderRadiusBottomRight": 159984
 		}
 	},
+	"border-soid": {
+		"default": {
+			"borderStyle": "solid"
+		}
+	},
+	"border-dotted": {
+		"default": {
+			"borderStyle": "dotted"
+		}
+	},
+	"border-dashed": {
+		"default": {
+			"borderStyle": "dashed"
+		}
+	},
 	"border-0": {
 		"default": {
 			"borderWidth": 0
@@ -4401,6 +4166,16 @@
 			"shadowRadius": 0
 		}
 	},
+	"direction-ltr": {
+		"default": {
+			"direction": "ltr"
+		}
+	},
+	"direction-rtl": {
+		"default": {
+			"direction": "rtl"
+		}
+	},
 	"flex": {
 		"default": {
 			"display": "flex"
@@ -4434,6 +4209,66 @@
 	"flex-8": {
 		"default": {
 			"flex": 8
+		}
+	},
+	"flex-negative": {
+		"default": {
+			"flex": -1
+		}
+	},
+	"flex-row": {
+		"default": {
+			"flexDirection": "row"
+		}
+	},
+	"flex-row-reverse": {
+		"default": {
+			"flexDirection": "row-reverse"
+		}
+	},
+	"flex-col": {
+		"default": {
+			"flexDirection": "column"
+		}
+	},
+	"flex-col-reverse": {
+		"default": {
+			"flexDirection": "column-reverse"
+		}
+	},
+	"flex-grow-0": {
+		"default": {
+			"flexGrow": 0
+		}
+	},
+	"flex-grow-1": {
+		"default": {
+			"flexGrow": 1
+		}
+	},
+	"flex-shrink-0": {
+		"default": {
+			"flexShrink": 0
+		}
+	},
+	"flex-shrink-1": {
+		"default": {
+			"flexShrink": 1
+		}
+	},
+	"flex-wrap": {
+		"default": {
+			"flexWrap": "wrap"
+		}
+	},
+	"flex-wrap-reverse": {
+		"default": {
+			"flexWrap": "wrap-reverse"
+		}
+	},
+	"flex-nowrap": {
+		"default": {
+			"flexWrap": "nowrap"
 		}
 	},
 	"font-sans": {
@@ -4827,6 +4662,36 @@
 	"h-full": {
 		"default": {
 			"height": "100%"
+		}
+	},
+	"justify-start": {
+		"default": {
+			"justifyContent": "flex-start"
+		}
+	},
+	"justify-end": {
+		"default": {
+			"justifyContent": "flex-end"
+		}
+	},
+	"justify-center": {
+		"default": {
+			"justifyContent": "center"
+		}
+	},
+	"justify-between": {
+		"default": {
+			"justifyContent": "space-between"
+		}
+	},
+	"justify-around": {
+		"default": {
+			"justifyContent": "space-around"
+		}
+	},
+	"justify-evenly": {
+		"default": {
+			"justifyContent": "space-evenly"
 		}
 	},
 	"tracking-tighter": {
@@ -6027,6 +5892,31 @@
 	"absolute": {
 		"default": {
 			"position": "absolute"
+		}
+	},
+	"resize-cover": {
+		"default": {
+			"resizeMode": "cover"
+		}
+	},
+	"resize-contain": {
+		"default": {
+			"resizeMode": "contain"
+		}
+	},
+	"resize-stretch": {
+		"default": {
+			"resizeMode": "stretch"
+		}
+	},
+	"resize-repeat": {
+		"default": {
+			"resizeMode": "repeat"
+		}
+	},
+	"resize-center": {
+		"default": {
+			"resizeMode": "center"
 		}
 	},
 	"rotate-0": {
@@ -7665,6 +7555,46 @@
 			"backgroundColor": "transparent"
 		}
 	},
+	"text-left": {
+		"default": {
+			"textAlign": "left"
+		}
+	},
+	"text-right": {
+		"default": {
+			"textAlign": "right"
+		}
+	},
+	"text-center": {
+		"default": {
+			"textAlign": "center"
+		}
+	},
+	"text-justify": {
+		"default": {
+			"textAlign": "justify"
+		}
+	},
+	"text-vertical-auto": {
+		"default": {
+			"textAlignVertical": "auto"
+		}
+	},
+	"text-vertical-top": {
+		"default": {
+			"textAlignVertical": "top"
+		}
+	},
+	"text-vertical-bottom": {
+		"default": {
+			"textAlignVertical": "bottom"
+		}
+	},
+	"text-vertical-center": {
+		"default": {
+			"textAlignVertical": "center"
+		}
+	},
 	"text-black": {
 		"default": {
 			"color": "#000"
@@ -8503,6 +8433,61 @@
 	"text-s-current": {
 		"default": {
 			"textShadowColor": "currentColor"
+		}
+	},
+	"underline": {
+		"default": {
+			"textDecoration": "underline"
+		}
+	},
+	"line-through": {
+		"default": {
+			"textDecoration": "line-through"
+		}
+	},
+	"underline-line-through": {
+		"default": {
+			"textDecoration": "underline line-through"
+		}
+	},
+	"text-decoration-solid": {
+		"default": {
+			"textDecorationStyle": "solid"
+		}
+	},
+	"text-decoration-double": {
+		"default": {
+			"textDecorationStyle": "double"
+		}
+	},
+	"text-decoration-dotted": {
+		"default": {
+			"textDecorationStyle": "dotted"
+		}
+	},
+	"text-decoration-dashed": {
+		"default": {
+			"textDecorationStyle": "dashed"
+		}
+	},
+	"uppercase": {
+		"default": {
+			"textTransform": "uppercase"
+		}
+	},
+	"lowercase": {
+		"default": {
+			"textTransform": "lowercase"
+		}
+	},
+	"capitalize": {
+		"default": {
+			"textTransform": "capitalize"
+		}
+	},
+	"normal-case": {
+		"default": {
+			"textTransform": "none"
 		}
 	},
 	"translate-0": {
@@ -10648,6 +10633,21 @@
 	"w-full": {
 		"default": {
 			"width": "100%"
+		}
+	},
+	"text-direction-ltr": {
+		"default": {
+			"writingDirection": "ltr"
+		}
+	},
+	"text-direction-auto": {
+		"default": {
+			"writingDirection": "auto"
+		}
+	},
+	"text-direction-rtl": {
+		"default": {
+			"writingDirection": "rtl"
 		}
 	},
 	"zIndex-0": {

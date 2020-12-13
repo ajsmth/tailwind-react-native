@@ -6,7 +6,7 @@ function systemColor(theme) {
   for (let systemColorName in systemColors) {
     const value = systemColors[systemColorName];
 
-    systemColor[`text-sc-${systemColorName}`] = {
+    systemColor[`text-platform-${systemColorName}`] = {
       ios: {
         color: {
           semantic: [value.ios],
@@ -22,7 +22,7 @@ function systemColor(theme) {
       },
     };
 
-    systemColor[`bg-sc-${systemColorName}`] = {
+    systemColor[`bg-platform-${systemColorName}`] = {
       ios: {
         backgroundColor: {
           semantic: [value.ios],
