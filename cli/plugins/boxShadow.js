@@ -16,6 +16,9 @@ function boxShadow(theme) {
         shadowOpacity: opacity,
         shadowRadius: radius,
       },
+      android: {
+        elevation: radius,
+      },
     };
   }
 
