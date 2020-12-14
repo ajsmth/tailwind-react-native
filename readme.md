@@ -15,6 +15,7 @@ yarn add tailwind-react-native
 ```jsx
 import style from "tailwind-react-native/style";
 import transform from "tailwind-react-native/transform";
+import dynamic from "tailwind-react-native/dynamic";
 
 function MyComponent() {
   return (
@@ -23,6 +24,7 @@ function MyComponent() {
         style={[
           style("h-12 w-12 bg-platform-blue"),
           transform("translate-y-12 rotate-x-12"),
+          dynamic("w-12 sm:w-14 dark:bg-platform-purple")
         ]}
       />
     </View>

@@ -4098,6 +4098,9 @@
 			},
 			"shadowOpacity": 0.05,
 			"shadowRadius": 1
+		},
+		"android": {
+			"elevation": 1
 		}
 	},
 	"shadow-DEFAULT": {
@@ -4109,6 +4112,9 @@
 			},
 			"shadowOpacity": 0.1,
 			"shadowRadius": 1
+		},
+		"android": {
+			"elevation": 1
 		}
 	},
 	"shadow-md": {
@@ -4120,6 +4126,9 @@
 			},
 			"shadowOpacity": 0.1,
 			"shadowRadius": -1
+		},
+		"android": {
+			"elevation": -1
 		}
 	},
 	"shadow-lg": {
@@ -4131,6 +4140,9 @@
 			},
 			"shadowOpacity": 0.1,
 			"shadowRadius": -3
+		},
+		"android": {
+			"elevation": -3
 		}
 	},
 	"shadow-xl": {
@@ -4142,6 +4154,9 @@
 			},
 			"shadowOpacity": 0.1,
 			"shadowRadius": -5
+		},
+		"android": {
+			"elevation": -5
 		}
 	},
 	"shadow-2xl": {
@@ -4153,6 +4168,9 @@
 			},
 			"shadowOpacity": 0.25,
 			"shadowRadius": -12
+		},
+		"android": {
+			"elevation": -12
 		}
 	},
 	"shadow-none": {
@@ -4164,6 +4182,9 @@
 			},
 			"shadowOpacity": 0,
 			"shadowRadius": 0
+		},
+		"android": {
+			"elevation": 0
 		}
 	},
 	"direction-ltr": {
