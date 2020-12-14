@@ -21,4 +21,4 @@ function transform(classNames = "", styleMap = styles) {
   return assembledStyles;
 }
 
-export default create(styles, transform);
+export default create(transform, styles);

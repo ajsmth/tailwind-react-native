@@ -2,8 +2,9 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Text, View } from "react-native";
 
-import style from "./tailwind";
+import style from "./style";
 import transform from "./transform";
+import dynamic from './dynamic'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         style={[
           style("bg-red-500 w-12 h-12"),
           transform("translate-x-12 -translate-y-12 rotate-60"),
+          dynamic('sm:bg-purple-500')
         ]}
       />
       <StatusBar style="auto" />

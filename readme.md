@@ -2,7 +2,7 @@
 
 ### why
 
-`tailwind-rn` and other alternatives are great but rely on converting tailwindcss into react native. this library focuses on whats available in react native and matches it to tailwindcss naming conventions. this means things like platform colors, dynamic colors, and other native apis are available for use in your styles (now or in the near future) - aka this library is concerned with apis that tailwindcss will never be concerned with, but you might be
+this library focuses on whats available in react native and matches it to tailwindcss naming conventions. this means things like platform colors, dynamic colors, and other native apis are available for use in your styles (now or in the near future) - aka this library is concerned with apis that tailwindcss will probably never include, but you might want to use in your apps
 
 ### install
 
@@ -40,10 +40,19 @@ see the plugins available here: https://github.com/ajsmth/tailwind-react-native/
 // custom selectors allow you to quickly apply styles by specific platform
 
 <View
-  style={
-    style("h-12 w-12 ios:bg-blue-500 android:bg-red-500 web:bg-yellow-500"),
-  }
+  style={style(
+    "h-12 w-12 ios:bg-blue-500 android:bg-red-500 web:bg-yellow-500"
+  )}
 />
+```
+
+```jsx
+import dynamic from "tailwind-react-native/dynamic";
+
+// dynamic values based on width / theme
+<View
+  style={dynamic("h-12 w-12 light:bg-purple-500 lg:bg-blue-500 sm:bg-red-500")}
+/>;
 ```
 
 ### build a custom styles.json
@@ -62,14 +71,14 @@ import transformFn from "tailwind-react-native/transform";
 import create from "tailwind-react-native/create";
 import styles from "./styles.json";
 
-const customStyleFn = create(styles, styleFn);
-const customTransform = create(styles, transformFn);
+const style = create(styleFn, styles);
+const transform = create(transformFn, styles);
 
-const style = customStyleFn("flex-1 bg-green-500 py-12");
+style("flex-1 bg-green-500 py-12");
 ```
 
 ### future plans
 
 - more documentation on classes available
 - dynamic color ios / theme / screen size apis
-- basic animation api 
+- basic animation api

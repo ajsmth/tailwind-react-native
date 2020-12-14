@@ -1,15 +1,19 @@
-function create(styles, fn) {
+function create(fn, styles, memoize = true) {
   const memo = {};
 
   return function styleFn(classNames = "") {
-    if (memo[classNames]) {
+    if (memoize && memo[classNames]) {
       return memo[classNames];
     }
 
     const style = fn(classNames, styles);
-    memo[classNames] = style;
+
+    if (memoize) {
+      memo[classNames] = style;
+    }
+
     return style;
   };
 }
 
-export default create;
+module.exports = create;

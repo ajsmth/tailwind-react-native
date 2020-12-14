@@ -6,6 +6,7 @@
     "create.js",
     "style.js",
     "transform.js",
+    "dynamic.js",
     "styles.json",
     "cli/*"
   ],

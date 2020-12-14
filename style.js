@@ -34,4 +34,4 @@ function tailwind(classNames = "", styleMap = styles) {
   return assembledStyles;
 }
 
-export default create(styles, tailwind);
+export default create(tailwind, styles);
