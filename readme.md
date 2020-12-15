@@ -4,6 +4,11 @@
 
 this library focuses on whats available in react native and matches it to tailwindcss naming conventions. this means things like platform colors, dynamic colors, and other native apis are available for use in your styles (now or in the near future) - aka this library is concerned with apis that tailwindcss will probably never include, but you might want to use in your apps
 
+### alternatives
+
+- https://github.com/z0al/react-native-styled.macro - super cool build time macro
+- https://github.com/vadimdemedes/tailwind-rn
+
 ### install
 
 ```bash
@@ -29,17 +34,19 @@ export default function App() {
   return (
     <View style={style("flex-1 p-24")}>
       <View
-        style={style("w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12", {
-          status,
-          loading,
-          theme,
-          os,
-        })}
+        style={style(
+          "w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12",
+          {
+            status,
+            loading,
+            theme,
+            os,
+          }
+        )}
       />
     </View>
   );
 }
-
 ```
 
 ### available styles
