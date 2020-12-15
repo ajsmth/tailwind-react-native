@@ -76,13 +76,10 @@ npx tailwind-react-native@latest build
 ### using your own config / styles
 
 ```jsx
-import styleFn from "tailwind-react-native/style";
-import transformFn from "tailwind-react-native/transform";
-import create from "tailwind-react-native/create";
+import styleFn, { create } from "tailwind-react-native/style";
 import styles from "./styles.json";
 
 const style = create(styleFn, styles);
-const transform = create(transformFn, styles);
 
 style("flex-1 bg-green-500 py-12");
 ```
