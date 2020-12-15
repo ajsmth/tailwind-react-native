@@ -19,6 +19,7 @@ yarn add tailwind-react-native
 
 - dynamic style selectors based on component / app / phone states
 
+
 ```jsx
 import React from "react";
 import { Platform, useColorScheme, View } from "react-native";
@@ -26,9 +27,16 @@ import { Platform, useColorScheme, View } from "react-native";
 import style from "./style";
 
 export default function App() {
+  // selector: success:my-class
   const status = "success";
+
+  // selector: loading:my-class
   const loading = true;
+
+  // selector: dark:my-class / light:my-class
   const theme = useColorScheme();
+
+  // selector: ios:my-class / android:my-class ...etc
   const os = Platform.OS;
 
   return (
@@ -52,18 +60,6 @@ export default function App() {
 ### available styles
 
 see the plugins available here: https://github.com/ajsmth/tailwind-react-native/tree/main/cli/plugins
-
-### cool stuff
-
-```jsx
-// custom selectors allow you to quickly apply styles by specific platform
-
-<View
-  style={style(
-    "h-12 w-12 ios:bg-blue-500 android:bg-red-500 web:bg-yellow-500"
-  )}
-/>
-```
 
 ### build a custom styles.json
 
