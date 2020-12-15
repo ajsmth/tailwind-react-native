@@ -1,37 +1,79 @@
 import { Platform } from "react-native";
-import create from "./create";
 import styles from "./styles.json";
 
-function tailwind(classNames = "", styleMap = styles) {
-  const assembledStyles = {};
+const transformProps = ["translate", "rotate", "scale", "skew"];
 
-  for (let className of classNames.split(" ").filter(Boolean)) {
-    // platform specific queries
-    if (className.includes(":")) {
-      const [platform, cn] = className.split(":");
+function generateMemoKey(classNames = "", variants = {}) {
+  if (variants) {
+    const values = Object.values(variants);
+    return `${classNames}-${values}`;
+  }
 
-      const style = styleMap[cn];
+  return classNames;
+}
 
-      if (style) {
-        const platformStyles = Platform.select(style);
-        Object.assign(
-          assembledStyles,
-          Platform.select({ [platform]: platformStyles })
-        );
+const memo = {};
+
+function createStyleFn(styleMap = styles) {
+  return function getStyles(classNames = "", variants) {
+    const assembledStyles = {};
+    const key = generateMemoKey(classNames, variants);
+
+    variants = variants || {};
+
+    if (memo[key]) {
+      return memo[key];
+    }
+
+    let transforms = [];
+
+    for (let cn of classNames.split(" ")) {
+      if (!cn) {
         continue;
+      }
+
+      let [variant, className] = cn.split(":");
+      let includeStyle = false;
+
+      if (!className) {
+        className = variant;
+        variant = null;
+        includeStyle = true;
+      }
+
+      if (variant) {
+        includeStyle =
+          variants[variant] || Object.values(variants).includes(variant);
+      }
+
+      if (transformProps.filter((t) => className.includes(t)).length > 0) {
+        includeStyle && transforms.push(className);
+        continue;
+      }
+
+      const style = styleMap[className];
+
+      if (style && includeStyle) {
+        Object.assign(assembledStyles, Platform.select(style));
       }
     }
 
-    // general styles
-    const style = styleMap[className];
+    if (transforms.length > 0) {
+      const transform = [];
 
-    if (style) {
-      const platformStyles = Platform.select(style);
-      Object.assign(assembledStyles, platformStyles);
+      transforms.forEach((className) => {
+        const style = styleMap[className];
+        if (style) {
+          transform.push(...Platform.select(style).transform);
+        }
+      });
+
+      Object.assign(assembledStyles, { transform });
     }
-  }
 
-  return assembledStyles;
+    return assembledStyles;
+  };
 }
 
-export default create(tailwind, styles);
+export { createStyleFn as create }
+export default createStyleFn(styles)

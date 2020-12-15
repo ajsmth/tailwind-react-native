@@ -1,25 +1,24 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { Text, View } from "react-native";
+import { Platform, useColorScheme, View } from "react-native";
 
 import style from "./style";
-import transform from "./transform";
-import dynamic from './dynamic'
 
 export default function App() {
+  const status = "success";
+  const loading = true;
+  const theme = useColorScheme();
+  const os = Platform.OS;
+
   return (
-    <View style={style("flex-1 items-center justify-center")}>
-      <Text style={style("text-3xl text-blue-500 font-semibold")}>
-        Open up App.js to start working on your app!
-      </Text>
+    <View style={style("flex-1 p-24")}>
       <View
-        style={[
-          style("bg-red-500 w-12 h-12"),
-          transform("translate-x-12 -translate-y-12 rotate-60"),
-          dynamic('sm:bg-purple-500')
-        ]}
+        style={style("w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12", {
+          status,
+          loading,
+          theme,
+          os,
+        })}
       />
-      <StatusBar style="auto" />
     </View>
   );
 }

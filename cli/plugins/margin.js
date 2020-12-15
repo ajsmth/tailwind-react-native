@@ -2,6 +2,7 @@ function margin(theme) {
   const margins = {};
 
   for (let marginName in theme.margin) {
+    console.log({ marginName })
     const value = theme.margin[marginName];
 
     if (marginName === "auto") {
@@ -80,6 +81,8 @@ function margin(theme) {
       },
     };
   }
+
+  return margins
 }
 
 module.exports = margin;

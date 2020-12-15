@@ -12,24 +12,34 @@ yarn add tailwind-react-native
 
 ### functions
 
-```jsx
-import style from "tailwind-react-native/style";
-import transform from "tailwind-react-native/transform";
-import dynamic from "tailwind-react-native/dynamic";
+- dynamic style selectors based on component / app / phone states
 
-function MyComponent() {
+```jsx
+import React from "react";
+import { Platform, useColorScheme, View } from "react-native";
+
+import style from "./style";
+
+export default function App() {
+  const status = "success";
+  const loading = true;
+  const theme = useColorScheme();
+  const os = Platform.OS;
+
   return (
-    <View style={style("flex-1 bg-platform-red")}>
+    <View style={style("flex-1 p-24")}>
       <View
-        style={[
-          style("h-12 w-12 bg-platform-blue"),
-          transform("translate-y-12 rotate-x-12"),
-          dynamic("w-12 sm:w-14 dark:bg-platform-purple")
-        ]}
+        style={style("w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12", {
+          status,
+          loading,
+          theme,
+          os,
+        })}
       />
     </View>
   );
 }
+
 ```
 
 ### available styles
@@ -46,15 +56,6 @@ see the plugins available here: https://github.com/ajsmth/tailwind-react-native/
     "h-12 w-12 ios:bg-blue-500 android:bg-red-500 web:bg-yellow-500"
   )}
 />
-```
-
-```jsx
-import dynamic from "tailwind-react-native/dynamic";
-
-// dynamic values based on width / theme
-<View
-  style={dynamic("h-12 w-12 light:bg-purple-500 lg:bg-blue-500 sm:bg-red-500")}
-/>;
 ```
 
 ### build a custom styles.json

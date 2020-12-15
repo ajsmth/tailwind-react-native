@@ -80,6 +80,8 @@ function padding(theme) {
         },
       };
     }
+
+    return padding
   }
   
   module.exports = padding;
