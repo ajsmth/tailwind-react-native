@@ -170,6 +170,10 @@ module.exports = {
       ...spacings,
     },
 
+    inset: {
+      ...spacings
+    },
+
     width: {
       ...spacings,
       "1/2": "50%",

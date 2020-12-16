@@ -17,8 +17,9 @@ yargs(hideBin(process.argv)).command("build", "build the styles", (argv) => {
   }
 
   const styles = build(customConfig);
+  const filePath = path.resolve(process.cwd(), "styles.json");
 
-  fs.writeFile("./styles.json", JSON.stringify(styles, null, "\t"), (err) => {
+  fs.writeFile(filePath, JSON.stringify(styles, null, "\t"), (err) => {
     if (err !== null) {
       console.log("ERR: ", err);
     }
