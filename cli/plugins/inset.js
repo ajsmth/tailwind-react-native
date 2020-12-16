@@ -31,6 +31,12 @@ function inset(theme) {
       },
     };
 
+    insets[`right-${insetName}`] = {
+      default: {
+        right: value,
+      },
+    };
+
     insets[`start-${insetName}`] = {
       default: {
         start: value,
