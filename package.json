@@ -2,6 +2,7 @@
   "name": "tailwind-react-native",
   "bin": "cli/index.js",
   "version": "0.1.5",
+  "main": "./style.js",
   "files": [
     "create.js",
     "style.js",
