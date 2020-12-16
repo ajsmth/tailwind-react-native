@@ -26,7 +26,7 @@ export default function App() {
     <View style={styles("flex-1 p-24")}>
       <View
         style={styles(
-          "w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12"
+          "w-24 h-24 bg-platform-red"
         )}
       />
     </View>
