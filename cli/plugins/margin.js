@@ -68,13 +68,13 @@ function margin(theme) {
       },
     };
 
-    margins[`m-s-${marginName}`] = {
+    margins[`ms-${marginName}`] = {
       default: {
         marginStart: value,
       },
     };
 
-    margins[`m-e-${marginName}`] = {
+    margins[`me-${marginName}`] = {
       default: {
         marginEnd: value,
       },

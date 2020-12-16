@@ -12,6 +12,36 @@ function inset(theme) {
         bottom: value,
       },
     };
+
+    insets[`bottom-${insetName}`] = {
+      default: {
+        bottom: value,
+      },
+    };
+
+    insets[`top-${insetName}`] = {
+      default: {
+        top: value,
+      },
+    };
+
+    insets[`left-${insetName}`] = {
+      default: {
+        left: value,
+      },
+    };
+
+    insets[`start-${insetName}`] = {
+      default: {
+        start: value,
+      },
+    };
+
+    insets[`end-${insetName}`] = {
+      default: {
+        end: value,
+      },
+    };
   }
 
   return insets;

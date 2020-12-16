@@ -69,12 +69,12 @@ function padding(theme) {
       };
 
 
-      padding[`p-s-${paddingName}`] = {
+      padding[`ps-${paddingName}`] = {
         default: {
           paddingStart: value,
         },
       };
-      padding[`p-e-${paddingName}`] = {
+      padding[`pe-${paddingName}`] = {
         default: {
           paddingEnd: value,
         },
