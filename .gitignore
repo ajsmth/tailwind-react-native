@@ -13,3 +13,4 @@ web-build/
 .DS_Store
 
 notes.md
+tailwind.config.js

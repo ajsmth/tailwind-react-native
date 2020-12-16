@@ -131,22 +131,22 @@
 	},
 	"bg-gray-200": {
 		"default": {
-			"backgroundColor": "#e5e7eb"
+			"backgroundColor": "#ececec"
 		}
 	},
 	"bg-gray-300": {
 		"default": {
-			"backgroundColor": "#d1d5db"
+			"backgroundColor": "#99A1A8"
 		}
 	},
 	"bg-gray-400": {
 		"default": {
-			"backgroundColor": "#9ca3af"
+			"backgroundColor": "#A4AEAE"
 		}
 	},
 	"bg-gray-500": {
 		"default": {
-			"backgroundColor": "#6b7280"
+			"backgroundColor": "#696c6d"
 		}
 	},
 	"bg-gray-600": {
@@ -156,7 +156,7 @@
 	},
 	"bg-gray-700": {
 		"default": {
-			"backgroundColor": "#374151"
+			"backgroundColor": "#464b4f"
 		}
 	},
 	"bg-gray-800": {
@@ -181,7 +181,7 @@
 	},
 	"bg-red-200": {
 		"default": {
-			"backgroundColor": "#fecaca"
+			"backgroundColor": "#F1B092"
 		}
 	},
 	"bg-red-300": {
@@ -226,7 +226,7 @@
 	},
 	"bg-yellow-100": {
 		"default": {
-			"backgroundColor": "#fef3c7"
+			"backgroundColor": "#f8f4ed"
 		}
 	},
 	"bg-yellow-200": {
@@ -236,7 +236,7 @@
 	},
 	"bg-yellow-300": {
 		"default": {
-			"backgroundColor": "#fcd34d"
+			"backgroundColor": "#d5b86f"
 		}
 	},
 	"bg-yellow-400": {
@@ -246,7 +246,7 @@
 	},
 	"bg-yellow-500": {
 		"default": {
-			"backgroundColor": "#f59e0b"
+			"backgroundColor": "#bfa565"
 		}
 	},
 	"bg-yellow-600": {
@@ -256,7 +256,7 @@
 	},
 	"bg-yellow-700": {
 		"default": {
-			"backgroundColor": "#b45309"
+			"backgroundColor": "#b1975c"
 		}
 	},
 	"bg-yellow-800": {
@@ -281,12 +281,12 @@
 	},
 	"bg-green-200": {
 		"default": {
-			"backgroundColor": "#a7f3d0"
+			"backgroundColor": "#EDF3F3"
 		}
 	},
 	"bg-green-300": {
 		"default": {
-			"backgroundColor": "#6ee7b7"
+			"backgroundColor": "#DCE8E8"
 		}
 	},
 	"bg-green-400": {
@@ -671,142 +671,142 @@
 	},
 	"border-gray-200": {
 		"default": {
-			"borderColor": "#e5e7eb"
+			"borderColor": "#ececec"
 		}
 	},
 	"border-r-gray-200": {
 		"default": {
-			"borderRightColor": "#e5e7eb"
+			"borderRightColor": "#ececec"
 		}
 	},
 	"border-l-gray-200": {
 		"default": {
-			"borderLeft": "#e5e7eb"
+			"borderLeft": "#ececec"
 		}
 	},
 	"border-t-gray-200": {
 		"default": {
-			"borderTopColor": "#e5e7eb"
+			"borderTopColor": "#ececec"
 		}
 	},
 	"border-b-gray-200": {
 		"default": {
-			"borderBottomColor": "#e5e7eb"
+			"borderBottomColor": "#ececec"
 		}
 	},
 	"border-s-gray-200": {
 		"default": {
-			"borderStartColor": "#e5e7eb"
+			"borderStartColor": "#ececec"
 		}
 	},
 	"border-e-gray-200": {
 		"default": {
-			"borderEndColor": "#e5e7eb"
+			"borderEndColor": "#ececec"
 		}
 	},
 	"border-gray-300": {
 		"default": {
-			"borderColor": "#d1d5db"
+			"borderColor": "#99A1A8"
 		}
 	},
 	"border-r-gray-300": {
 		"default": {
-			"borderRightColor": "#d1d5db"
+			"borderRightColor": "#99A1A8"
 		}
 	},
 	"border-l-gray-300": {
 		"default": {
-			"borderLeft": "#d1d5db"
+			"borderLeft": "#99A1A8"
 		}
 	},
 	"border-t-gray-300": {
 		"default": {
-			"borderTopColor": "#d1d5db"
+			"borderTopColor": "#99A1A8"
 		}
 	},
 	"border-b-gray-300": {
 		"default": {
-			"borderBottomColor": "#d1d5db"
+			"borderBottomColor": "#99A1A8"
 		}
 	},
 	"border-s-gray-300": {
 		"default": {
-			"borderStartColor": "#d1d5db"
+			"borderStartColor": "#99A1A8"
 		}
 	},
 	"border-e-gray-300": {
 		"default": {
-			"borderEndColor": "#d1d5db"
+			"borderEndColor": "#99A1A8"
 		}
 	},
 	"border-gray-400": {
 		"default": {
-			"borderColor": "#9ca3af"
+			"borderColor": "#A4AEAE"
 		}
 	},
 	"border-r-gray-400": {
 		"default": {
-			"borderRightColor": "#9ca3af"
+			"borderRightColor": "#A4AEAE"
 		}
 	},
 	"border-l-gray-400": {
 		"default": {
-			"borderLeft": "#9ca3af"
+			"borderLeft": "#A4AEAE"
 		}
 	},
 	"border-t-gray-400": {
 		"default": {
-			"borderTopColor": "#9ca3af"
+			"borderTopColor": "#A4AEAE"
 		}
 	},
 	"border-b-gray-400": {
 		"default": {
-			"borderBottomColor": "#9ca3af"
+			"borderBottomColor": "#A4AEAE"
 		}
 	},
 	"border-s-gray-400": {
 		"default": {
-			"borderStartColor": "#9ca3af"
+			"borderStartColor": "#A4AEAE"
 		}
 	},
 	"border-e-gray-400": {
 		"default": {
-			"borderEndColor": "#9ca3af"
+			"borderEndColor": "#A4AEAE"
 		}
 	},
 	"border-gray-500": {
 		"default": {
-			"borderColor": "#6b7280"
+			"borderColor": "#696c6d"
 		}
 	},
 	"border-r-gray-500": {
 		"default": {
-			"borderRightColor": "#6b7280"
+			"borderRightColor": "#696c6d"
 		}
 	},
 	"border-l-gray-500": {
 		"default": {
-			"borderLeft": "#6b7280"
+			"borderLeft": "#696c6d"
 		}
 	},
 	"border-t-gray-500": {
 		"default": {
-			"borderTopColor": "#6b7280"
+			"borderTopColor": "#696c6d"
 		}
 	},
 	"border-b-gray-500": {
 		"default": {
-			"borderBottomColor": "#6b7280"
+			"borderBottomColor": "#696c6d"
 		}
 	},
 	"border-s-gray-500": {
 		"default": {
-			"borderStartColor": "#6b7280"
+			"borderStartColor": "#696c6d"
 		}
 	},
 	"border-e-gray-500": {
 		"default": {
-			"borderEndColor": "#6b7280"
+			"borderEndColor": "#696c6d"
 		}
 	},
 	"border-gray-600": {
@@ -846,37 +846,37 @@
 	},
 	"border-gray-700": {
 		"default": {
-			"borderColor": "#374151"
+			"borderColor": "#464b4f"
 		}
 	},
 	"border-r-gray-700": {
 		"default": {
-			"borderRightColor": "#374151"
+			"borderRightColor": "#464b4f"
 		}
 	},
 	"border-l-gray-700": {
 		"default": {
-			"borderLeft": "#374151"
+			"borderLeft": "#464b4f"
 		}
 	},
 	"border-t-gray-700": {
 		"default": {
-			"borderTopColor": "#374151"
+			"borderTopColor": "#464b4f"
 		}
 	},
 	"border-b-gray-700": {
 		"default": {
-			"borderBottomColor": "#374151"
+			"borderBottomColor": "#464b4f"
 		}
 	},
 	"border-s-gray-700": {
 		"default": {
-			"borderStartColor": "#374151"
+			"borderStartColor": "#464b4f"
 		}
 	},
 	"border-e-gray-700": {
 		"default": {
-			"borderEndColor": "#374151"
+			"borderEndColor": "#464b4f"
 		}
 	},
 	"border-gray-800": {
@@ -1021,37 +1021,37 @@
 	},
 	"border-red-200": {
 		"default": {
-			"borderColor": "#fecaca"
+			"borderColor": "#F1B092"
 		}
 	},
 	"border-r-red-200": {
 		"default": {
-			"borderRightColor": "#fecaca"
+			"borderRightColor": "#F1B092"
 		}
 	},
 	"border-l-red-200": {
 		"default": {
-			"borderLeft": "#fecaca"
+			"borderLeft": "#F1B092"
 		}
 	},
 	"border-t-red-200": {
 		"default": {
-			"borderTopColor": "#fecaca"
+			"borderTopColor": "#F1B092"
 		}
 	},
 	"border-b-red-200": {
 		"default": {
-			"borderBottomColor": "#fecaca"
+			"borderBottomColor": "#F1B092"
 		}
 	},
 	"border-s-red-200": {
 		"default": {
-			"borderStartColor": "#fecaca"
+			"borderStartColor": "#F1B092"
 		}
 	},
 	"border-e-red-200": {
 		"default": {
-			"borderEndColor": "#fecaca"
+			"borderEndColor": "#F1B092"
 		}
 	},
 	"border-red-300": {
@@ -1336,37 +1336,37 @@
 	},
 	"border-yellow-100": {
 		"default": {
-			"borderColor": "#fef3c7"
+			"borderColor": "#f8f4ed"
 		}
 	},
 	"border-r-yellow-100": {
 		"default": {
-			"borderRightColor": "#fef3c7"
+			"borderRightColor": "#f8f4ed"
 		}
 	},
 	"border-l-yellow-100": {
 		"default": {
-			"borderLeft": "#fef3c7"
+			"borderLeft": "#f8f4ed"
 		}
 	},
 	"border-t-yellow-100": {
 		"default": {
-			"borderTopColor": "#fef3c7"
+			"borderTopColor": "#f8f4ed"
 		}
 	},
 	"border-b-yellow-100": {
 		"default": {
-			"borderBottomColor": "#fef3c7"
+			"borderBottomColor": "#f8f4ed"
 		}
 	},
 	"border-s-yellow-100": {
 		"default": {
-			"borderStartColor": "#fef3c7"
+			"borderStartColor": "#f8f4ed"
 		}
 	},
 	"border-e-yellow-100": {
 		"default": {
-			"borderEndColor": "#fef3c7"
+			"borderEndColor": "#f8f4ed"
 		}
 	},
 	"border-yellow-200": {
@@ -1406,37 +1406,37 @@
 	},
 	"border-yellow-300": {
 		"default": {
-			"borderColor": "#fcd34d"
+			"borderColor": "#d5b86f"
 		}
 	},
 	"border-r-yellow-300": {
 		"default": {
-			"borderRightColor": "#fcd34d"
+			"borderRightColor": "#d5b86f"
 		}
 	},
 	"border-l-yellow-300": {
 		"default": {
-			"borderLeft": "#fcd34d"
+			"borderLeft": "#d5b86f"
 		}
 	},
 	"border-t-yellow-300": {
 		"default": {
-			"borderTopColor": "#fcd34d"
+			"borderTopColor": "#d5b86f"
 		}
 	},
 	"border-b-yellow-300": {
 		"default": {
-			"borderBottomColor": "#fcd34d"
+			"borderBottomColor": "#d5b86f"
 		}
 	},
 	"border-s-yellow-300": {
 		"default": {
-			"borderStartColor": "#fcd34d"
+			"borderStartColor": "#d5b86f"
 		}
 	},
 	"border-e-yellow-300": {
 		"default": {
-			"borderEndColor": "#fcd34d"
+			"borderEndColor": "#d5b86f"
 		}
 	},
 	"border-yellow-400": {
@@ -1476,37 +1476,37 @@
 	},
 	"border-yellow-500": {
 		"default": {
-			"borderColor": "#f59e0b"
+			"borderColor": "#bfa565"
 		}
 	},
 	"border-r-yellow-500": {
 		"default": {
-			"borderRightColor": "#f59e0b"
+			"borderRightColor": "#bfa565"
 		}
 	},
 	"border-l-yellow-500": {
 		"default": {
-			"borderLeft": "#f59e0b"
+			"borderLeft": "#bfa565"
 		}
 	},
 	"border-t-yellow-500": {
 		"default": {
-			"borderTopColor": "#f59e0b"
+			"borderTopColor": "#bfa565"
 		}
 	},
 	"border-b-yellow-500": {
 		"default": {
-			"borderBottomColor": "#f59e0b"
+			"borderBottomColor": "#bfa565"
 		}
 	},
 	"border-s-yellow-500": {
 		"default": {
-			"borderStartColor": "#f59e0b"
+			"borderStartColor": "#bfa565"
 		}
 	},
 	"border-e-yellow-500": {
 		"default": {
-			"borderEndColor": "#f59e0b"
+			"borderEndColor": "#bfa565"
 		}
 	},
 	"border-yellow-600": {
@@ -1546,37 +1546,37 @@
 	},
 	"border-yellow-700": {
 		"default": {
-			"borderColor": "#b45309"
+			"borderColor": "#b1975c"
 		}
 	},
 	"border-r-yellow-700": {
 		"default": {
-			"borderRightColor": "#b45309"
+			"borderRightColor": "#b1975c"
 		}
 	},
 	"border-l-yellow-700": {
 		"default": {
-			"borderLeft": "#b45309"
+			"borderLeft": "#b1975c"
 		}
 	},
 	"border-t-yellow-700": {
 		"default": {
-			"borderTopColor": "#b45309"
+			"borderTopColor": "#b1975c"
 		}
 	},
 	"border-b-yellow-700": {
 		"default": {
-			"borderBottomColor": "#b45309"
+			"borderBottomColor": "#b1975c"
 		}
 	},
 	"border-s-yellow-700": {
 		"default": {
-			"borderStartColor": "#b45309"
+			"borderStartColor": "#b1975c"
 		}
 	},
 	"border-e-yellow-700": {
 		"default": {
-			"borderEndColor": "#b45309"
+			"borderEndColor": "#b1975c"
 		}
 	},
 	"border-yellow-800": {
@@ -1721,72 +1721,72 @@
 	},
 	"border-green-200": {
 		"default": {
-			"borderColor": "#a7f3d0"
+			"borderColor": "#EDF3F3"
 		}
 	},
 	"border-r-green-200": {
 		"default": {
-			"borderRightColor": "#a7f3d0"
+			"borderRightColor": "#EDF3F3"
 		}
 	},
 	"border-l-green-200": {
 		"default": {
-			"borderLeft": "#a7f3d0"
+			"borderLeft": "#EDF3F3"
 		}
 	},
 	"border-t-green-200": {
 		"default": {
-			"borderTopColor": "#a7f3d0"
+			"borderTopColor": "#EDF3F3"
 		}
 	},
 	"border-b-green-200": {
 		"default": {
-			"borderBottomColor": "#a7f3d0"
+			"borderBottomColor": "#EDF3F3"
 		}
 	},
 	"border-s-green-200": {
 		"default": {
-			"borderStartColor": "#a7f3d0"
+			"borderStartColor": "#EDF3F3"
 		}
 	},
 	"border-e-green-200": {
 		"default": {
-			"borderEndColor": "#a7f3d0"
+			"borderEndColor": "#EDF3F3"
 		}
 	},
 	"border-green-300": {
 		"default": {
-			"borderColor": "#6ee7b7"
+			"borderColor": "#DCE8E8"
 		}
 	},
 	"border-r-green-300": {
 		"default": {
-			"borderRightColor": "#6ee7b7"
+			"borderRightColor": "#DCE8E8"
 		}
 	},
 	"border-l-green-300": {
 		"default": {
-			"borderLeft": "#6ee7b7"
+			"borderLeft": "#DCE8E8"
 		}
 	},
 	"border-t-green-300": {
 		"default": {
-			"borderTopColor": "#6ee7b7"
+			"borderTopColor": "#DCE8E8"
 		}
 	},
 	"border-b-green-300": {
 		"default": {
-			"borderBottomColor": "#6ee7b7"
+			"borderBottomColor": "#DCE8E8"
 		}
 	},
 	"border-s-green-300": {
 		"default": {
-			"borderStartColor": "#6ee7b7"
+			"borderStartColor": "#DCE8E8"
 		}
 	},
 	"border-e-green-300": {
 		"default": {
-			"borderEndColor": "#6ee7b7"
+			"borderEndColor": "#DCE8E8"
 		}
 	},
 	"border-green-400": {
@@ -3651,47 +3651,47 @@
 	},
 	"rounded-lg": {
 		"default": {
-			"borderRadius": 8
+			"borderRadius": 10
 		}
 	},
 	"rounded-t-lg": {
 		"default": {
-			"borderRadiusTop": 8
+			"borderRadiusTop": 10
 		}
 	},
 	"rounded-b-lg": {
 		"default": {
-			"borderRadiusBottom": 8
+			"borderRadiusBottom": 10
 		}
 	},
 	"rounded-l-lg": {
 		"default": {
-			"borderRadiusLeft": 8
+			"borderRadiusLeft": 10
 		}
 	},
 	"rounded-r-lg": {
 		"default": {
-			"borderRadiusRight": 8
+			"borderRadiusRight": 10
 		}
 	},
 	"rounded-tl-lg": {
 		"default": {
-			"borderRadiusTopLeft": 8
+			"borderRadiusTopLeft": 10
 		}
 	},
 	"rounded-tr-lg": {
 		"default": {
-			"borderRadiusTopRight": 8
+			"borderRadiusTopRight": 10
 		}
 	},
 	"rounded-bl-lg": {
 		"default": {
-			"borderRadiusBottomLeft": 8
+			"borderRadiusBottomLeft": 10
 		}
 	},
 	"rounded-br-lg": {
 		"default": {
-			"borderRadiusBottomRight": 8
+			"borderRadiusBottomRight": 10
 		}
 	},
 	"rounded-xl": {
@@ -3872,6 +3872,51 @@
 	"rounded-br-full": {
 		"default": {
 			"borderRadiusBottomRight": 159984
+		}
+	},
+	"rounded-xs": {
+		"default": {
+			"borderRadius": 1
+		}
+	},
+	"rounded-t-xs": {
+		"default": {
+			"borderRadiusTop": 1
+		}
+	},
+	"rounded-b-xs": {
+		"default": {
+			"borderRadiusBottom": 1
+		}
+	},
+	"rounded-l-xs": {
+		"default": {
+			"borderRadiusLeft": 1
+		}
+	},
+	"rounded-r-xs": {
+		"default": {
+			"borderRadiusRight": 1
+		}
+	},
+	"rounded-tl-xs": {
+		"default": {
+			"borderRadiusTopLeft": 1
+		}
+	},
+	"rounded-tr-xs": {
+		"default": {
+			"borderRadiusTopRight": 1
+		}
+	},
+	"rounded-bl-xs": {
+		"default": {
+			"borderRadiusBottomLeft": 1
+		}
+	},
+	"rounded-br-xs": {
+		"default": {
+			"borderRadiusBottomRight": 1
 		}
 	},
 	"border-soid": {
@@ -4091,100 +4136,44 @@
 	},
 	"shadow-sm": {
 		"default": {
-			"shadowColor": "rgb(0,0,0)",
+			"shadowColor": "rgb(70, 75, 79)",
 			"shadowOffset": {
-				"width": 1,
-				"height": 2
+				"width": 0,
+				"height": 4
 			},
-			"shadowOpacity": 0.05,
-			"shadowRadius": 1
+			"shadowOpacity": 0.06,
+			"shadowRadius": 9
 		},
 		"android": {
-			"elevation": 1
-		}
-	},
-	"shadow-DEFAULT": {
-		"default": {
-			"shadowColor": "rgba(0,0,0)",
-			"shadowOffset": {
-				"width": 1,
-				"height": 3
-			},
-			"shadowOpacity": 0.1,
-			"shadowRadius": 1
-		},
-		"android": {
-			"elevation": 1
+			"elevation": 9
 		}
 	},
 	"shadow-md": {
 		"default": {
 			"shadowColor": "rgb(0,0,0)",
 			"shadowOffset": {
-				"width": 4,
-				"height": 6
+				"width": 0,
+				"height": 3
 			},
-			"shadowOpacity": 0.1,
-			"shadowRadius": -1
+			"shadowOpacity": 0.03,
+			"shadowRadius": 4
 		},
 		"android": {
-			"elevation": -1
+			"elevation": 4
 		}
 	},
 	"shadow-lg": {
 		"default": {
-			"shadowColor": "rgb(0,0,0)",
-			"shadowOffset": {
-				"width": 10,
-				"height": 15
-			},
-			"shadowOpacity": 0.1,
-			"shadowRadius": -3
-		},
-		"android": {
-			"elevation": -3
-		}
-	},
-	"shadow-xl": {
-		"default": {
-			"shadowColor": "rgb(0,0,0)",
-			"shadowOffset": {
-				"width": 20,
-				"height": 25
-			},
-			"shadowOpacity": 0.1,
-			"shadowRadius": -5
-		},
-		"android": {
-			"elevation": -5
-		}
-	},
-	"shadow-2xl": {
-		"default": {
-			"shadowColor": "rgb(0,0,0)",
-			"shadowOffset": {
-				"width": 25,
-				"height": 50
-			},
-			"shadowOpacity": 0.25,
-			"shadowRadius": -12
-		},
-		"android": {
-			"elevation": -12
-		}
-	},
-	"shadow-none": {
-		"default": {
-			"shadowColor": "rgb(0,0,0)",
+			"shadowColor": "rgb(227, 233, 233)",
 			"shadowOffset": {
 				"width": 0,
-				"height": 0
+				"height": 19
 			},
-			"shadowOpacity": 0,
-			"shadowRadius": 0
+			"shadowOpacity": 0.78,
+			"shadowRadius": 34
 		},
 		"android": {
-			"elevation": 0
+			"elevation": 34
 		}
 	},
 	"direction-ltr": {
@@ -4294,17 +4283,60 @@
 	},
 	"font-sans": {
 		"default": {
-			"fontFamily": "ui-sans-serif"
+			"fontFamily": "Raleway"
 		}
 	},
 	"font-serif": {
 		"default": {
-			"fontFamily": "ui-serif"
+			"fontFamily": "Times New Roman"
 		}
 	},
-	"font-mono": {
+	"text-8": {
 		"default": {
-			"fontFamily": "ui-monospace"
+			"fontSize": 8,
+			"lineHeight": 8
+		}
+	},
+	"text-9": {
+		"default": {
+			"fontSize": 9,
+			"lineHeight": 9
+		}
+	},
+	"text-10": {
+		"default": {
+			"fontSize": 10,
+			"lineHeight": 10
+		}
+	},
+	"text-11": {
+		"default": {
+			"fontSize": 11,
+			"lineHeight": 11
+		}
+	},
+	"text-13": {
+		"default": {
+			"fontSize": 13,
+			"lineHeight": 13
+		}
+	},
+	"text-17": {
+		"default": {
+			"fontSize": 17,
+			"lineHeight": 17
+		}
+	},
+	"text-22": {
+		"default": {
+			"fontSize": 22,
+			"lineHeight": 22
+		}
+	},
+	"text-26": {
+		"default": {
+			"fontSize": 26,
+			"lineHeight": 26
 		}
 	},
 	"text-xs": {
@@ -4346,13 +4378,13 @@
 	"text-3xl": {
 		"default": {
 			"fontSize": 30,
-			"lineHeight": 36
+			"lineHeight": 30
 		}
 	},
 	"text-4xl": {
 		"default": {
-			"fontSize": 36,
-			"lineHeight": 40
+			"fontSize": 37,
+			"lineHeight": 37
 		}
 	},
 	"text-5xl": {
@@ -4383,6 +4415,12 @@
 		"default": {
 			"fontSize": 128,
 			"lineHeight": 128
+		}
+	},
+	"text-tiny": {
+		"default": {
+			"fontSize": 10,
+			"lineHeight": 10
 		}
 	},
 	"font-thin": {
@@ -4528,6 +4566,11 @@
 	"h-36": {
 		"default": {
 			"height": 144
+		}
+	},
+	"h-38": {
+		"default": {
+			"height": 158
 		}
 	},
 	"h-40": {
@@ -4717,12 +4760,12 @@
 	},
 	"tracking-tighter": {
 		"default": {
-			"letterSpacing": -0.8
+			"letterSpacing": 0.05
 		}
 	},
 	"tracking-tight": {
 		"default": {
-			"letterSpacing": -0.4
+			"letterSpacing": -0.025
 		}
 	},
 	"tracking-normal": {
@@ -4732,17 +4775,17 @@
 	},
 	"tracking-wide": {
 		"default": {
-			"letterSpacing": 0.4
+			"letterSpacing": 0.3
 		}
 	},
 	"tracking-wider": {
 		"default": {
-			"letterSpacing": 0.8
+			"letterSpacing": 2.8
 		}
 	},
 	"tracking-widest": {
 		"default": {
-			"letterSpacing": 1.6
+			"letterSpacing": 3.5
 		}
 	},
 	"leading-3": {
@@ -6160,6 +6203,51 @@
 			"marginEnd": 384
 		}
 	},
+	"m-128": {
+		"default": {
+			"margin": 550
+		}
+	},
+	"mt-128": {
+		"default": {
+			"marginTop": 550
+		}
+	},
+	"mb-128": {
+		"default": {
+			"marginBottom": 550
+		}
+	},
+	"ml-128": {
+		"default": {
+			"marginLeft": 550
+		}
+	},
+	"mr-128": {
+		"default": {
+			"marginRight": 550
+		}
+	},
+	"mx-128": {
+		"default": {
+			"marginHorizontal": 550
+		}
+	},
+	"my-128": {
+		"default": {
+			"marginVertical": 550
+		}
+	},
+	"m-s-128": {
+		"default": {
+			"marginStart": 550
+		}
+	},
+	"m-e-128": {
+		"default": {
+			"marginEnd": 550
+		}
+	},
 	"m-auto": {
 		"default": {
 			"margin": "auto"
@@ -6500,6 +6588,11 @@
 			"maxHeight": 144
 		}
 	},
+	"max-h-38": {
+		"default": {
+			"maxHeight": 158
+		}
+	},
 	"max-h-40": {
 		"default": {
 			"maxHeight": 160
@@ -6753,6 +6846,11 @@
 	"max-w-36": {
 		"default": {
 			"maxWidth": 144
+		}
+	},
+	"max-w-38": {
+		"default": {
+			"maxWidth": 158
 		}
 	},
 	"max-w-40": {
@@ -7010,6 +7108,11 @@
 			"minHeight": 144
 		}
 	},
+	"min-h-38": {
+		"default": {
+			"minHeight": 158
+		}
+	},
 	"min-h-40": {
 		"default": {
 			"minHeight": 160
@@ -7263,6 +7366,11 @@
 	"min-w-36": {
 		"default": {
 			"minWidth": 144
+		}
+	},
+	"min-w-38": {
+		"default": {
+			"minWidth": 158
 		}
 	},
 	"min-w-40": {
@@ -10823,42 +10931,42 @@
 	},
 	"text-gray-200": {
 		"default": {
-			"color": "#e5e7eb"
+			"color": "#ececec"
 		}
 	},
 	"text-s-gray-200": {
 		"default": {
-			"textShadowColor": "#e5e7eb"
+			"textShadowColor": "#ececec"
 		}
 	},
 	"text-gray-300": {
 		"default": {
-			"color": "#d1d5db"
+			"color": "#99A1A8"
 		}
 	},
 	"text-s-gray-300": {
 		"default": {
-			"textShadowColor": "#d1d5db"
+			"textShadowColor": "#99A1A8"
 		}
 	},
 	"text-gray-400": {
 		"default": {
-			"color": "#9ca3af"
+			"color": "#A4AEAE"
 		}
 	},
 	"text-s-gray-400": {
 		"default": {
-			"textShadowColor": "#9ca3af"
+			"textShadowColor": "#A4AEAE"
 		}
 	},
 	"text-gray-500": {
 		"default": {
-			"color": "#6b7280"
+			"color": "#696c6d"
 		}
 	},
 	"text-s-gray-500": {
 		"default": {
-			"textShadowColor": "#6b7280"
+			"textShadowColor": "#696c6d"
 		}
 	},
 	"text-gray-600": {
@@ -10873,12 +10981,12 @@
 	},
 	"text-gray-700": {
 		"default": {
-			"color": "#374151"
+			"color": "#464b4f"
 		}
 	},
 	"text-s-gray-700": {
 		"default": {
-			"textShadowColor": "#374151"
+			"textShadowColor": "#464b4f"
 		}
 	},
 	"text-gray-800": {
@@ -10923,12 +11031,12 @@
 	},
 	"text-red-200": {
 		"default": {
-			"color": "#fecaca"
+			"color": "#F1B092"
 		}
 	},
 	"text-s-red-200": {
 		"default": {
-			"textShadowColor": "#fecaca"
+			"textShadowColor": "#F1B092"
 		}
 	},
 	"text-red-300": {
@@ -11013,12 +11121,12 @@
 	},
 	"text-yellow-100": {
 		"default": {
-			"color": "#fef3c7"
+			"color": "#f8f4ed"
 		}
 	},
 	"text-s-yellow-100": {
 		"default": {
-			"textShadowColor": "#fef3c7"
+			"textShadowColor": "#f8f4ed"
 		}
 	},
 	"text-yellow-200": {
@@ -11033,12 +11141,12 @@
 	},
 	"text-yellow-300": {
 		"default": {
-			"color": "#fcd34d"
+			"color": "#d5b86f"
 		}
 	},
 	"text-s-yellow-300": {
 		"default": {
-			"textShadowColor": "#fcd34d"
+			"textShadowColor": "#d5b86f"
 		}
 	},
 	"text-yellow-400": {
@@ -11053,12 +11161,12 @@
 	},
 	"text-yellow-500": {
 		"default": {
-			"color": "#f59e0b"
+			"color": "#bfa565"
 		}
 	},
 	"text-s-yellow-500": {
 		"default": {
-			"textShadowColor": "#f59e0b"
+			"textShadowColor": "#bfa565"
 		}
 	},
 	"text-yellow-600": {
@@ -11073,12 +11181,12 @@
 	},
 	"text-yellow-700": {
 		"default": {
-			"color": "#b45309"
+			"color": "#b1975c"
 		}
 	},
 	"text-s-yellow-700": {
 		"default": {
-			"textShadowColor": "#b45309"
+			"textShadowColor": "#b1975c"
 		}
 	},
 	"text-yellow-800": {
@@ -11123,22 +11231,22 @@
 	},
 	"text-green-200": {
 		"default": {
-			"color": "#a7f3d0"
+			"color": "#EDF3F3"
 		}
 	},
 	"text-s-green-200": {
 		"default": {
-			"textShadowColor": "#a7f3d0"
+			"textShadowColor": "#EDF3F3"
 		}
 	},
 	"text-green-300": {
 		"default": {
-			"color": "#6ee7b7"
+			"color": "#DCE8E8"
 		}
 	},
 	"text-s-green-300": {
 		"default": {
-			"textShadowColor": "#6ee7b7"
+			"textShadowColor": "#DCE8E8"
 		}
 	},
 	"text-green-400": {
@@ -13664,6 +13772,11 @@
 	"w-36": {
 		"default": {
 			"width": 144
+		}
+	},
+	"w-38": {
+		"default": {
+			"width": 158
 		}
 	},
 	"w-40": {

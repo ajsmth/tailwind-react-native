@@ -12,7 +12,14 @@ function mergeConfigs(...configs) {
     mergedConfigs.theme = mergedThemes;
 
     for (let key in extend) {
-      mergedConfigs.theme[key] = extend[key];
+      for (let prop in extend[key]) {
+        const value = extend[key][prop];
+
+        mergedConfigs.theme[key] = {
+          ...mergedConfigs.theme[key],
+          [prop]: value,
+        };
+      }
     }
   }
 

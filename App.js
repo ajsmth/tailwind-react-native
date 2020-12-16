@@ -1,23 +1,26 @@
 import React from "react";
-import { Platform, useColorScheme, View } from "react-native";
+import { Button, View } from "react-native";
 
-import style from "./style";
+import { create } from "./style";
+import styles from "./styles.json";
+const style = create(styles);
 
 export default function App() {
-  const status = "success";
-  const loading = true;
-  const theme = useColorScheme();
-  const os = Platform.OS;
+  const [status, setStatus] = React.useState("idle");
 
   return (
     <View style={style("flex-1 p-24")}>
       <View
-        style={style("w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12", {
+        style={style("w-24 h-24 border error:scale-95 success:scale-125", {
           status,
-          loading,
-          theme,
-          os,
         })}
+      />
+
+      <Button
+        title="Toggle Status"
+        onPress={() =>
+          setStatus((s) => (s === "success" ? "error" : "success"))
+        }
       />
     </View>
   );

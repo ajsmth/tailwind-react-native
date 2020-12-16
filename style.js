@@ -3,18 +3,18 @@ import styles from "./styles.json";
 
 const transformProps = ["translate", "rotate", "scale", "skew"];
 
-function generateMemoKey(classNames = "", variants = {}) {
+function generateMemoKey(classNames = "", variants) {
   if (variants) {
     const values = Object.values(variants);
-    return `${classNames}-${values}`;
+    return `${classNames}-${values.join("-")}`;
   }
 
   return classNames;
 }
 
-const memo = {};
-
 function createStyleFn(styleMap = styles) {
+  const memo = {};
+
   return function getStyles(classNames = "", variants) {
     const assembledStyles = {};
     const key = generateMemoKey(classNames, variants);
@@ -71,9 +71,11 @@ function createStyleFn(styleMap = styles) {
       Object.assign(assembledStyles, { transform });
     }
 
+    memo[key] = assembledStyles;
+
     return assembledStyles;
   };
 }
 
-export { createStyleFn as create }
-export default createStyleFn(styles)
+export { createStyleFn as create };
+export default createStyleFn(styles);
