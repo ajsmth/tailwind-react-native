@@ -1,4 +1,4 @@
-import { Platform } from "react-native";
+import { Platform, Animated } from "react-native";
 import styles from "./styles.json";
 
 const transformProps = ["translate", "rotate", "scale", "skew"];
@@ -41,7 +41,9 @@ function createStyleFn(styleMap = styles) {
         includeStyle = true;
       }
 
-      if (variant) {
+      const style = styleMap[className];
+
+      if (variant && style) {
         includeStyle =
           variants[variant] || Object.values(variants).includes(variant);
       }
@@ -50,8 +52,6 @@ function createStyleFn(styleMap = styles) {
         includeStyle && transforms.push(className);
         continue;
       }
-
-      const style = styleMap[className];
 
       if (style && includeStyle) {
         Object.assign(assembledStyles, Platform.select(style));
@@ -72,10 +72,9 @@ function createStyleFn(styleMap = styles) {
     }
 
     memo[key] = assembledStyles;
-
     return assembledStyles;
   };
 }
 
 export { createStyleFn as create };
-export default createStyleFn(styles);
+export default styles;

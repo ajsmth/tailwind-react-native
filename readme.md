@@ -15,48 +15,48 @@ this library focuses on whats available in react native and matches it to tailwi
 yarn add tailwind-react-native
 ```
 
-### functions
-
-- dynamic style selectors based on component / app / phone states
-
+### api
 
 ```jsx
 import React from "react";
-import { Platform, useColorScheme, View } from "react-native";
-
-import style from "./style";
+import styles from "tailwind-react-native";
 
 export default function App() {
-  // selector: success:my-class
-  const status = "success";
-
-  // selector: loading:my-class
-  const loading = true;
-
-  // selector: dark:my-class / light:my-class
-  const theme = useColorScheme();
-
-  // selector: ios:my-class / android:my-class ...etc
-  const os = Platform.OS;
-
   return (
-    <View style={style("flex-1 p-24")}>
+    <View style={styles("flex-1 p-24")}>
       <View
-        style={style(
-          "w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12",
-          {
-            status,
-            loading,
-            theme,
-            os,
-          }
+        style={styles(
+          "w-24 h-24 light:bg-platform-red loading:scale-110 success:border-2 ios:translate-y-12"
         )}
       />
-
     </View>
   );
 }
 ```
+
+### variants / selectors
+
+you can add custom selectors that represent dynamic styles in your components
+
+```jsx
+function MyComponent() {
+  // apply styles based on the OS the app is running on
+  const os = Platform.OS;
+
+  const style = styles(
+    `w-12 h-12 ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
+    { os }
+  );
+
+  return <View style={style} />;
+}
+```
+
+this can be useful for applying different styles based on enums like:
+
+- Platform.OS
+- useColorScheme()
+- loading state
 
 ### available styles
 
@@ -85,4 +85,4 @@ style("flex-1 bg-green-500 py-12");
 
 - more documentation on classes available
 - dynamic color ios / theme / screen size apis
-- basic animation api
+- transitions
