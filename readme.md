@@ -7,7 +7,7 @@ this library focuses on whats available in react native and matches it to tailwi
 ### alternatives
 
 - https://github.com/z0al/react-native-styled.macro - super cool build time macro
-- https://github.com/vadimdemedes/tailwind-rn
+- https://github.com/vadimdemedes/tailwind-rn - tailwindcss converted to stylesheet styles
 
 ### install
 
@@ -84,5 +84,7 @@ style("flex-1 bg-green-500 py-12");
 ### future plans
 
 - more documentation on classes available
-- dynamic color ios / theme / screen size apis
 - transitions
+- improve android platform colors, update ios platform colors to include UI colors
+- reduce styles.json size
+- typescript definitions / autocomplete (if possible)
