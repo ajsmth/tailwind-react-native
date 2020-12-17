@@ -19,12 +19,12 @@ yarn add tailwind-react-native
 
 ```jsx
 import React from "react";
-import styles from "tailwind-react-native";
+import style from "tailwind-react-native/fns";
 
 export default function App() {
   return (
-    <View style={styles("flex-1 p-24")}>
-      <View style={styles("w-24 h-24 bg-platform-red")} />
+    <View style={style("flex-1 p-24")}>
+      <View style={style("w-24 h-24 bg-platform-red")} />
     </View>
   );
 }
@@ -35,13 +35,13 @@ export default function App() {
 you can add custom selectors that represent dynamic styles in your components
 
 ```jsx
+import { variant } from "tailwind-react-native/fns";
+
 function MyComponent() {
   // apply styles based on the OS the app is running on
-  const os = Platform.OS;
-
-  const style = styles(
-    `w-12 h-12 ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
-    { os }
+  const style = variant(
+    `ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
+    Platform.OS
   );
 
   return <View style={style} />;
@@ -67,10 +67,10 @@ npx tailwind-react-native@latest build --config path/to/config --out path/for/st
 ### using your own config / styles
 
 ```jsx
-import styleFn, { create } from "tailwind-react-native/style";
+import { create } from "tailwind-react-native/fns";
 import styles from "./styles.json";
 
-const style = create(styleFn, styles);
+const { style, variant } = create(styles);
 
 style("flex-1 bg-green-500 py-12");
 ```

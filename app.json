@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tailwindcss-rn",
-    "slug": "tailwindcss-rn",
+    "name": "tailwind-react-native",
+    "slug": "tailwind-react-native",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
