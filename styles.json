@@ -7464,163 +7464,163 @@
 		"rotate": "0deg"
 	},
 	"-rotate-0": {
-		"rotate": null
+		"rotate": "-0deg"
 	},
 	"rotate-x-0": {
 		"rotateX": "0deg"
 	},
 	"-rotate-x-0": {
-		"rotateX": null
+		"rotateX": "-0deg"
 	},
 	"rotate-y-0": {
 		"rotateY": "0deg"
 	},
 	"-rotate-y-0": {
-		"rotateY": null
+		"rotateY": "-0deg"
 	},
 	"rotate-1": {
 		"rotate": "1deg"
 	},
 	"-rotate-1": {
-		"rotate": null
+		"rotate": "-1deg"
 	},
 	"rotate-x-1": {
 		"rotateX": "1deg"
 	},
 	"-rotate-x-1": {
-		"rotateX": null
+		"rotateX": "-1deg"
 	},
 	"rotate-y-1": {
 		"rotateY": "1deg"
 	},
 	"-rotate-y-1": {
-		"rotateY": null
+		"rotateY": "-1deg"
 	},
 	"rotate-2": {
 		"rotate": "2deg"
 	},
 	"-rotate-2": {
-		"rotate": null
+		"rotate": "-2deg"
 	},
 	"rotate-x-2": {
 		"rotateX": "2deg"
 	},
 	"-rotate-x-2": {
-		"rotateX": null
+		"rotateX": "-2deg"
 	},
 	"rotate-y-2": {
 		"rotateY": "2deg"
 	},
 	"-rotate-y-2": {
-		"rotateY": null
+		"rotateY": "-2deg"
 	},
 	"rotate-3": {
 		"rotate": "3deg"
 	},
 	"-rotate-3": {
-		"rotate": null
+		"rotate": "-3deg"
 	},
 	"rotate-x-3": {
 		"rotateX": "3deg"
 	},
 	"-rotate-x-3": {
-		"rotateX": null
+		"rotateX": "-3deg"
 	},
 	"rotate-y-3": {
 		"rotateY": "3deg"
 	},
 	"-rotate-y-3": {
-		"rotateY": null
+		"rotateY": "-3deg"
 	},
 	"rotate-6": {
 		"rotate": "6deg"
 	},
 	"-rotate-6": {
-		"rotate": null
+		"rotate": "-6deg"
 	},
 	"rotate-x-6": {
 		"rotateX": "6deg"
 	},
 	"-rotate-x-6": {
-		"rotateX": null
+		"rotateX": "-6deg"
 	},
 	"rotate-y-6": {
 		"rotateY": "6deg"
 	},
 	"-rotate-y-6": {
-		"rotateY": null
+		"rotateY": "-6deg"
 	},
 	"rotate-12": {
 		"rotate": "12deg"
 	},
 	"-rotate-12": {
-		"rotate": null
+		"rotate": "-12deg"
 	},
 	"rotate-x-12": {
 		"rotateX": "12deg"
 	},
 	"-rotate-x-12": {
-		"rotateX": null
+		"rotateX": "-12deg"
 	},
 	"rotate-y-12": {
 		"rotateY": "12deg"
 	},
 	"-rotate-y-12": {
-		"rotateY": null
+		"rotateY": "-12deg"
 	},
 	"rotate-45": {
 		"rotate": "45deg"
 	},
 	"-rotate-45": {
-		"rotate": null
+		"rotate": "-45deg"
 	},
 	"rotate-x-45": {
 		"rotateX": "45deg"
 	},
 	"-rotate-x-45": {
-		"rotateX": null
+		"rotateX": "-45deg"
 	},
 	"rotate-y-45": {
 		"rotateY": "45deg"
 	},
 	"-rotate-y-45": {
-		"rotateY": null
+		"rotateY": "-45deg"
 	},
 	"rotate-90": {
 		"rotate": "90deg"
 	},
 	"-rotate-90": {
-		"rotate": null
+		"rotate": "-90deg"
 	},
 	"rotate-x-90": {
 		"rotateX": "90deg"
 	},
 	"-rotate-x-90": {
-		"rotateX": null
+		"rotateX": "-90deg"
 	},
 	"rotate-y-90": {
 		"rotateY": "90deg"
 	},
 	"-rotate-y-90": {
-		"rotateY": null
+		"rotateY": "-90deg"
 	},
 	"rotate-180": {
 		"rotate": "180deg"
 	},
 	"-rotate-180": {
-		"rotate": null
+		"rotate": "-180deg"
 	},
 	"rotate-x-180": {
 		"rotateX": "180deg"
 	},
 	"-rotate-x-180": {
-		"rotateX": null
+		"rotateX": "-180deg"
 	},
 	"rotate-y-180": {
 		"rotateY": "180deg"
 	},
 	"-rotate-y-180": {
-		"rotateY": null
+		"rotateY": "-180deg"
 	},
 	"scale-0": {
 		"scale": 0
@@ -7716,121 +7716,109 @@
 		"skew": "0deg"
 	},
 	"-skew-0": {
-		"transform": {
-			"skew": null
-		}
+		"skew": "-0deg"
 	},
 	"skew-x-0": {
 		"skewX": "0deg"
 	},
 	"-skew-x-0": {
-		"skewX": null
+		"skewX": "-0deg"
 	},
 	"skew-y-0": {
 		"skewY": "0deg"
 	},
 	"-skew-y-0": {
-		"skewY": null
+		"skewY": "-0deg"
 	},
 	"skew-1": {
 		"skew": "1deg"
 	},
 	"-skew-1": {
-		"transform": {
-			"skew": null
-		}
+		"skew": "-1deg"
 	},
 	"skew-x-1": {
 		"skewX": "1deg"
 	},
 	"-skew-x-1": {
-		"skewX": null
+		"skewX": "-1deg"
 	},
 	"skew-y-1": {
 		"skewY": "1deg"
 	},
 	"-skew-y-1": {
-		"skewY": null
+		"skewY": "-1deg"
 	},
 	"skew-2": {
 		"skew": "2deg"
 	},
 	"-skew-2": {
-		"transform": {
-			"skew": null
-		}
+		"skew": "-2deg"
 	},
 	"skew-x-2": {
 		"skewX": "2deg"
 	},
 	"-skew-x-2": {
-		"skewX": null
+		"skewX": "-2deg"
 	},
 	"skew-y-2": {
 		"skewY": "2deg"
 	},
 	"-skew-y-2": {
-		"skewY": null
+		"skewY": "-2deg"
 	},
 	"skew-3": {
 		"skew": "3deg"
 	},
 	"-skew-3": {
-		"transform": {
-			"skew": null
-		}
+		"skew": "-3deg"
 	},
 	"skew-x-3": {
 		"skewX": "3deg"
 	},
 	"-skew-x-3": {
-		"skewX": null
+		"skewX": "-3deg"
 	},
 	"skew-y-3": {
 		"skewY": "3deg"
 	},
 	"-skew-y-3": {
-		"skewY": null
+		"skewY": "-3deg"
 	},
 	"skew-6": {
 		"skew": "6deg"
 	},
 	"-skew-6": {
-		"transform": {
-			"skew": null
-		}
+		"skew": "-6deg"
 	},
 	"skew-x-6": {
 		"skewX": "6deg"
 	},
 	"-skew-x-6": {
-		"skewX": null
+		"skewX": "-6deg"
 	},
 	"skew-y-6": {
 		"skewY": "6deg"
 	},
 	"-skew-y-6": {
-		"skewY": null
+		"skewY": "-6deg"
 	},
 	"skew-12": {
 		"skew": "12deg"
 	},
 	"-skew-12": {
-		"transform": {
-			"skew": null
-		}
+		"skew": "-12deg"
 	},
 	"skew-x-12": {
 		"skewX": "12deg"
 	},
 	"-skew-x-12": {
-		"skewX": null
+		"skewX": "-12deg"
 	},
 	"skew-y-12": {
 		"skewY": "12deg"
 	},
 	"-skew-y-12": {
-		"skewY": null
+		"skewY": "-12deg"
 	},
 	"text-platform-blue": {
 		"ios": {
@@ -9028,24 +9016,16 @@
 		"textDecorationStyle": "dashed"
 	},
 	"uppercase": {
-		"default": {
-			"textTransform": "uppercase"
-		}
+		"textTransform": "uppercase"
 	},
 	"lowercase": {
-		"default": {
-			"textTransform": "lowercase"
-		}
+		"textTransform": "lowercase"
 	},
 	"capitalize": {
-		"default": {
-			"textTransform": "capitalize"
-		}
+		"textTransform": "capitalize"
 	},
 	"normal-case": {
-		"default": {
-			"textTransform": "none"
-		}
+		"textTransform": "none"
 	},
 	"translate-0": {
 		"translate": 0
@@ -9678,274 +9658,166 @@
 		"translateY": -14
 	},
 	"w-0": {
-		"default": {
-			"width": 0
-		}
+		"width": 0
 	},
 	"w-1": {
-		"default": {
-			"width": 4
-		}
+		"width": 4
 	},
 	"w-2": {
-		"default": {
-			"width": 8
-		}
+		"width": 8
 	},
 	"w-3": {
-		"default": {
-			"width": 12
-		}
+		"width": 12
 	},
 	"w-4": {
-		"default": {
-			"width": 16
-		}
+		"width": 16
 	},
 	"w-5": {
-		"default": {
-			"width": 20
-		}
+		"width": 20
 	},
 	"w-6": {
-		"default": {
-			"width": 24
-		}
+		"width": 24
 	},
 	"w-7": {
-		"default": {
-			"width": 28
-		}
+		"width": 28
 	},
 	"w-8": {
-		"default": {
-			"width": 32
-		}
+		"width": 32
 	},
 	"w-9": {
-		"default": {
-			"width": 36
-		}
+		"width": 36
 	},
 	"w-10": {
-		"default": {
-			"width": 40
-		}
+		"width": 40
 	},
 	"w-11": {
-		"default": {
-			"width": 44
-		}
+		"width": 44
 	},
 	"w-12": {
-		"default": {
-			"width": 48
-		}
+		"width": 48
 	},
 	"w-14": {
-		"default": {
-			"width": 56
-		}
+		"width": 56
 	},
 	"w-16": {
-		"default": {
-			"width": 64
-		}
+		"width": 64
 	},
 	"w-20": {
-		"default": {
-			"width": 80
-		}
+		"width": 80
 	},
 	"w-24": {
-		"default": {
-			"width": 96
-		}
+		"width": 96
 	},
 	"w-28": {
-		"default": {
-			"width": 112
-		}
+		"width": 112
 	},
 	"w-32": {
-		"default": {
-			"width": 128
-		}
+		"width": 128
 	},
 	"w-36": {
-		"default": {
-			"width": 144
-		}
+		"width": 144
 	},
 	"w-40": {
-		"default": {
-			"width": 160
-		}
+		"width": 160
 	},
 	"w-44": {
-		"default": {
-			"width": 176
-		}
+		"width": 176
 	},
 	"w-48": {
-		"default": {
-			"width": 192
-		}
+		"width": 192
 	},
 	"w-52": {
-		"default": {
-			"width": 208
-		}
+		"width": 208
 	},
 	"w-56": {
-		"default": {
-			"width": 224
-		}
+		"width": 224
 	},
 	"w-60": {
-		"default": {
-			"width": 240
-		}
+		"width": 240
 	},
 	"w-64": {
-		"default": {
-			"width": 256
-		}
+		"width": 256
 	},
 	"w-72": {
-		"default": {
-			"width": 288
-		}
+		"width": 288
 	},
 	"w-80": {
-		"default": {
-			"width": 320
-		}
+		"width": 320
 	},
 	"w-96": {
-		"default": {
-			"width": 384
-		}
+		"width": 384
 	},
 	"w-px": {
-		"default": {
-			"width": 1
-		}
+		"width": 1
 	},
 	"w-0.5": {
-		"default": {
-			"width": 2
-		}
+		"width": 2
 	},
 	"w-1.5": {
-		"default": {
-			"width": 6
-		}
+		"width": 6
 	},
 	"w-2.5": {
-		"default": {
-			"width": 10
-		}
+		"width": 10
 	},
 	"w-3.5": {
-		"default": {
-			"width": 14
-		}
+		"width": 14
 	},
 	"w-1/2": {
-		"default": {
-			"width": "50%"
-		}
+		"width": "50%"
 	},
 	"w-1/3": {
-		"default": {
-			"width": "33.333333%"
-		}
+		"width": "33.333333%"
 	},
 	"w-2/3": {
-		"default": {
-			"width": "66.666667%"
-		}
+		"width": "66.666667%"
 	},
 	"w-1/4": {
-		"default": {
-			"width": "25%"
-		}
+		"width": "25%"
 	},
 	"w-2/4": {
-		"default": {
-			"width": "50%"
-		}
+		"width": "50%"
 	},
 	"w-3/4": {
-		"default": {
-			"width": "75%"
-		}
+		"width": "75%"
 	},
 	"w-1/5": {
-		"default": {
-			"width": "20%"
-		}
+		"width": "20%"
 	},
 	"w-2/5": {
-		"default": {
-			"width": "40%"
-		}
+		"width": "40%"
 	},
 	"w-3/5": {
-		"default": {
-			"width": "60%"
-		}
+		"width": "60%"
 	},
 	"w-4/5": {
-		"default": {
-			"width": "80%"
-		}
+		"width": "80%"
 	},
 	"w-1/6": {
-		"default": {
-			"width": "16.666667%"
-		}
+		"width": "16.666667%"
 	},
 	"w-2/6": {
-		"default": {
-			"width": "33.333333%"
-		}
+		"width": "33.333333%"
 	},
 	"w-3/6": {
-		"default": {
-			"width": "50%"
-		}
+		"width": "50%"
 	},
 	"w-4/6": {
-		"default": {
-			"width": "66.666667%"
-		}
+		"width": "66.666667%"
 	},
 	"w-5/6": {
-		"default": {
-			"width": "83.333333%"
-		}
+		"width": "83.333333%"
 	},
 	"w-full": {
-		"default": {
-			"width": "100%"
-		}
+		"width": "100%"
 	},
 	"text-direction-ltr": {
-		"default": {
-			"writingDirection": "ltr"
-		}
+		"writingDirection": "ltr"
 	},
 	"text-direction-auto": {
-		"default": {
-			"writingDirection": "auto"
-		}
+		"writingDirection": "auto"
 	},
 	"text-direction-rtl": {
-		"default": {
-			"writingDirection": "rtl"
-		}
+		"writingDirection": "rtl"
 	},
 	"zIndex-0": {
 		"zIndex": 0

@@ -39,12 +39,12 @@ import { variant } from "tailwind-react-native/fns";
 
 function MyComponent() {
   // apply styles based on the OS the app is running on
-  const style = variant(
+  const platformStyles = variant(
     `ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
     Platform.OS
   );
 
-  return <View style={style} />;
+  return <View style={platformStyles} />;
 }
 ```
 

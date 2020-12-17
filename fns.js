@@ -4,4 +4,4 @@ import styles from "./styles.json";
 const { style, variant } = create(styles);
 
 export default style;
-export { variant, create };
+export { variant, create, style };

@@ -9,7 +9,7 @@ function rotate(theme) {
     };
 
     rotate[`-rotate-${rotateName}`] = {
-      rotate: -value,
+      rotate: `-${value}`,
     };
 
     rotate[`rotate-x-${rotateName}`] = {
@@ -17,7 +17,7 @@ function rotate(theme) {
     };
 
     rotate[`-rotate-x-${rotateName}`] = {
-      rotateX: -value,
+      rotateX: `-${value}`,
     };
 
     rotate[`rotate-y-${rotateName}`] = {
@@ -25,7 +25,7 @@ function rotate(theme) {
     };
 
     rotate[`-rotate-y-${rotateName}`] = {
-      rotateY: -value,
+      rotateY: `-${value}`,
     };
   }
 

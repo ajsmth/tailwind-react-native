@@ -9,9 +9,7 @@ function skew(theme) {
     };
 
     skew[`-skew-${skewName}`] = {
-      transform: {
-        skew: -value,
-      },
+      skew: `-${value}`,
     };
 
     skew[`skew-x-${skewName}`] = {
@@ -19,7 +17,7 @@ function skew(theme) {
     };
 
     skew[`-skew-x-${skewName}`] = {
-      skewX: -value,
+      skewX: `-${value}`,
     };
 
     skew[`skew-y-${skewName}`] = {
@@ -27,7 +25,7 @@ function skew(theme) {
     };
 
     skew[`-skew-y-${skewName}`] = {
-      skewY: -value,
+      skewY: `-${value}`,
     };
   }
 

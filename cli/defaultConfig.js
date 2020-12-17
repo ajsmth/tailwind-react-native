@@ -395,5 +395,93 @@ module.exports = {
       6: "6deg",
       12: "12deg",
     },
+
+    platformColors: ({ color }) => ({
+      blue: {
+        ios: "systemBlue",
+        android: "?attr/systemBlue",
+        default: color("blue-500"),
+      },
+      brown: {
+        ios: "systemBrown",
+        android: "?attr/systemBrown",
+        default: color("brown-500"),
+      },
+      green: {
+        ios: "systemGreen",
+        android: "?attr/systemGreen",
+        default: color("green-500"),
+      },
+      indigo: {
+        ios: "systemIndigo",
+        android: "?attr/systemIndigo",
+        default: color("indigo-500"),
+      },
+      orange: {
+        ios: "systemOrange",
+        android: "?attr/systemOrange",
+        default: color("orange-500"),
+      },
+      pink: {
+        ios: "systemPink",
+        android: "?attr/systemPink",
+        default: color("pink-500"),
+      },
+      purple: {
+        ios: "systemPurple",
+        android: "?attr/systemPurple",
+        default: color("purple-500"),
+      },
+      red: {
+        ios: "systemRed",
+        android: "?attr/systemRed",
+        default: color("red-500"),
+      },
+      teal: {
+        ios: "systemTeal",
+        android: "?attr/systemTeal",
+        default: color("teal-500"),
+      },
+      yellow: {
+        ios: "systemYellow",
+        android: "?attr/systemYellow",
+        default: color("yellow-500"),
+      },
+      ["gray-1"]: {
+        ios: "systemGray",
+        android: "?attr/systemGray",
+        default: color("gray-600"),
+      },
+      ["gray-2"]: {
+        ios: "systemGray2",
+        android: "?attr/systemGray2",
+        default: color("gray-500"),
+      },
+      ["gray-3"]: {
+        ios: "systemGray3",
+        android: "?attr/systemGray3",
+        default: color("gray-400"),
+      },
+      ["gray-4"]: {
+        ios: "systemGray4",
+        android: "?attr/systemGray4",
+        default: color("gray-300"),
+      },
+      ["gray-5"]: {
+        ios: "systemGray5",
+        android: "?attr/systemGray5",
+        default: color("gray-200"),
+      },
+      ["gray-6"]: {
+        ios: "systemGray6",
+        android: "?attr/systemGray6",
+        default: color("gray-100"),
+      },
+      clear: {
+        ios: "clear",
+        android: "?attr/clear",
+        default: color("transparent"),
+      },
+    }),
   },
 };
