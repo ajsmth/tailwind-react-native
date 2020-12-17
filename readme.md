@@ -61,7 +61,7 @@ see the plugins available here: https://github.com/ajsmth/tailwind-react-native/
 ### build a custom styles.json
 
 ```bash
-npx tailwind-react-native@latest build --config path/to/config/tailwind.config.js --out path/for/styles
+npx tailwind-react-native@latest build --config path/to/config --out path/for/styles
 ```
 
 ### using your own config / styles

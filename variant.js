@@ -2,19 +2,28 @@ import { Platform } from "react-native";
 
 const transformProps = ["translate", "rotate", "scale", "skew"];
 
-function createStyleFn(styleMap) {
+function createVariantFn(styleMap) {
   const memo = {};
 
-  return function getStylesForClassnames(classNames = "") {
-    if (memo[classNames]) {
-      return memo[classNames];
+  return function getStylesForVariant(classNames = "", variantValue) {
+    const memoKey = `${classNames}-${variantValue}`;
+
+    if (memo[memoKey]) {
+      return memo[memoKey];
     }
 
     const assembledStyles = {};
 
     let transforms = [];
 
-    for (let className of classNames.split(" ")) {
+    for (let cn of classNames.split(" ")) {
+      if (!cn) {
+        continue;
+      }
+
+      const [variant, className] = cn.split(":");
+
+      // todo - build out all variants on initial pass
       if (!className) {
         continue;
       }
@@ -26,7 +35,7 @@ function createStyleFn(styleMap) {
         continue;
       }
 
-      if (style) {
+      if (style && variant === variantValue) {
         Object.assign(assembledStyles, Platform.select(style));
       }
     }
@@ -44,9 +53,9 @@ function createStyleFn(styleMap) {
       Object.assign(assembledStyles, { transform });
     }
 
-    memo[classNames] = assembledStyles;
+    memo[memoKey] = assembledStyles;
     return assembledStyles;
   };
 }
 
-export default createStyleFn;
+export default createVariantFn;

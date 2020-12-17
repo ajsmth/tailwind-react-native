@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-import { create } from "./style";
-import styles from "./styles.json";
-const style = create(styles);
+const style = () => {}
+
+// const { style, variant } = create(styles);
 
 export default function App() {
   return (

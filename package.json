@@ -3,7 +3,6 @@
   "bin": "cli/index.js",
   "version": "0.1.8",
   "files": [
-    "style.js",
     "styles.json",
     "cli/*"
   ],
