@@ -8,9 +8,7 @@ function backgroundColor(theme) {
     const hex = flattenedColors[color];
 
     colors[`bg-${color}`] = {
-      default: {
-        backgroundColor: hex,
-      },
+      backgroundColor: hex,
     };
   }
 

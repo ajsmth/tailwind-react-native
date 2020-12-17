@@ -5,21 +5,15 @@ function scale(theme) {
     const value = theme.scale[scaleName];
 
     scale[`scale-${scaleName}`] = {
-      default: {
-        transform: [{ scale: value }],
-      },
+      scale: value,
     };
 
     scale[`scale-x-${scaleName}`] = {
-      default: {
-        transform: [{ scaleX: value }],
-      },
+      scaleX: value,
     };
 
     scale[`scale-y-${scaleName}`] = {
-      default: {
-        transform: [{ scaleY: value }],
-      },
+      scaleY: value,
     };
   }
 

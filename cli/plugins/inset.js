@@ -5,48 +5,34 @@ function inset(theme) {
     const value = theme.inset[insetName];
 
     insets[`inset-${insetName}`] = {
-      default: {
-        top: value,
-        left: value,
-        right: value,
-        bottom: value,
-      },
+      top: value,
+      left: value,
+      right: value,
+      bottom: value,
     };
 
     insets[`bottom-${insetName}`] = {
-      default: {
-        bottom: value,
-      },
+      bottom: value,
     };
 
     insets[`top-${insetName}`] = {
-      default: {
-        top: value,
-      },
+      top: value,
     };
 
     insets[`left-${insetName}`] = {
-      default: {
-        left: value,
-      },
+      left: value,
     };
 
     insets[`right-${insetName}`] = {
-      default: {
-        right: value,
-      },
+      right: value,
     };
 
     insets[`start-${insetName}`] = {
-      default: {
-        start: value,
-      },
+      start: value,
     };
 
     insets[`end-${insetName}`] = {
-      default: {
-        end: value,
-      },
+      end: value,
     };
   }
 

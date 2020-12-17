@@ -80,5 +80,5 @@ style("flex-1 bg-green-500 py-12");
 - more documentation on classes available
 - transitions
 - improve android platform colors, update ios platform colors to include UI colors
-- reduce styles.json size
 - typescript definitions / autocomplete (if possible)
+- make it simple to extend / remove unused styles

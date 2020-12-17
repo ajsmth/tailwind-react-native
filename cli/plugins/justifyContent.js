@@ -5,9 +5,7 @@ function justifyContent(theme) {
     const value = theme.justifyContent[justifyContentName];
 
     justifyContent[`justify-${justifyContentName}`] = {
-      default: {
-        justifyContent: value,
-      },
+      justifyContent: value,
     };
   }
 

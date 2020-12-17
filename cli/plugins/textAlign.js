@@ -5,9 +5,7 @@ function textAlign(theme) {
     const value = theme.textAlign[textAlignName];
 
     textAlign[`text-${textAlignName}`] = {
-      default: {
-        textAlign: value,
-      },
+      textAlign: value,
     };
   }
 

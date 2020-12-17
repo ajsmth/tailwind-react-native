@@ -5,9 +5,7 @@ function flex(theme) {
     const value = theme.flex[flexName];
 
     flex[`flex-${flexName}`] = {
-      default: {
-        flex: value,
-      },
+      flex: value,
     };
   }
 

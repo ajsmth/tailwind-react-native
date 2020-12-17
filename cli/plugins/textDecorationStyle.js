@@ -5,9 +5,7 @@ function textDecorationStyle(theme) {
     const value = theme.textDecorationStyle[textDecorationStyleName];
 
     textDecorationStyle[`text-decoration-${textDecorationStyleName}`] = {
-      default: {
-        textDecorationStyle: value,
-      },
+      textDecorationStyle: value,
     };
   }
 

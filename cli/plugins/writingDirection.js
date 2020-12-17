@@ -1,18 +1,15 @@
 function writingDirection(theme) {
-    const writingDirection = {};
-  
-    for (let writingDirectionName in theme.writingDirection) {
-      const value = theme.writingDirection[writingDirectionName];
-  
-      writingDirection[`text-direction-${writingDirectionName}`] = {
-        default: {
-          writingDirection: value,
-        },
-      };
-    }
-  
-    return writingDirection;
+  const writingDirection = {};
+
+  for (let writingDirectionName in theme.writingDirection) {
+    const value = theme.writingDirection[writingDirectionName];
+
+    writingDirection[`text-direction-${writingDirectionName}`] = {
+      writingDirection: value,
+    };
   }
-  
-  module.exports = writingDirection;
-  
+
+  return writingDirection;
+}
+
+module.exports = writingDirection;

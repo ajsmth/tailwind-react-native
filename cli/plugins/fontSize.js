@@ -4,10 +4,8 @@ function fontSize(theme) {
   for (let fontSizeName in theme.fontSize) {
     if (typeof theme.fontSize[fontSizeName] === "number") {
       fontSize[`text-${fontSizeName}`] = {
-        default: {
-          fontSize: fontSizeValue,
-          ...lineHeightConfigs,
-        },
+        fontSize: fontSizeValue,
+        ...lineHeightConfigs,
       };
     }
 
@@ -16,10 +14,8 @@ function fontSize(theme) {
     ];
 
     fontSize[`text-${fontSizeName}`] = {
-      default: {
-        fontSize: fontSizeValue,
-        ...lineHeightConfigs,
-      },
+      fontSize: fontSizeValue,
+      ...lineHeightConfigs,
     };
   }
 

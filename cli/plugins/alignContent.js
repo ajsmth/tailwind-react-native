@@ -1,18 +1,15 @@
 function alignContent(theme) {
-    const alignContent = {};
-  
-    for (let alignContentName in theme.alignContent) {
-      const value = theme.alignContent[alignContentName];
-  
-      alignContent[`content-${alignContentName}`] = {
-        default: {
-          alignContent: value,
-        },
-      };
-    }
-  
-    return alignContent;
+  const alignContent = {};
+
+  for (let alignContentName in theme.alignContent) {
+    const value = theme.alignContent[alignContentName];
+
+    alignContent[`content-${alignContentName}`] = {
+      alignContent: value,
+    };
   }
-  
-  module.exports = alignContent;
-  
+
+  return alignContent;
+}
+
+module.exports = alignContent;

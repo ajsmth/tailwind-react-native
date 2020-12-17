@@ -5,9 +5,7 @@ function direction(theme) {
     const value = theme.direction[directionName];
 
     direction[`direction-${directionName}`] = {
-      default: {
-        direction: value,
-      },
+      direction: value,
     };
   }
 

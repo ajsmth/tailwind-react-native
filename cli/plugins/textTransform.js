@@ -5,9 +5,7 @@ function textTransform(theme) {
     const value = theme.textTransform[textTransformName];
 
     textTransform[`${textTransformName}`] = {
-      default: {
-        textTransform: value,
-      },
+      textTransform: value,
     };
   }
 

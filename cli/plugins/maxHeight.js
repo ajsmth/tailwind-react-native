@@ -5,13 +5,11 @@ function maxHeight(theme) {
     const value = theme.height[heightName];
 
     heights[`max-h-${heightName}`] = {
-      default: {
-        maxHeight: value,
-      },
+      maxHeight: value,
     };
   }
 
-  return heights
+  return heights;
 }
 
 module.exports = maxHeight;

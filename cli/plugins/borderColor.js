@@ -8,45 +8,31 @@ function borderColor(theme) {
     const hex = flattenedColors[color];
 
     colors[`border-${color}`] = {
-      default: {
-        borderColor: hex,
-      },
+      borderColor: hex,
     };
 
     colors[`border-r-${color}`] = {
-      default: {
-        borderRightColor: hex,
-      },
+      borderRightColor: hex,
     };
 
     colors[`border-l-${color}`] = {
-      default: {
-        borderLeft: hex,
-      },
+      borderLeft: hex,
     };
 
     colors[`border-t-${color}`] = {
-      default: {
-        borderTopColor: hex,
-      },
+      borderTopColor: hex,
     };
 
     colors[`border-b-${color}`] = {
-      default: {
-        borderBottomColor: hex,
-      },
+      borderBottomColor: hex,
     };
 
     colors[`border-s-${color}`] = {
-      default: {
-        borderStartColor: hex,
-      },
+      borderStartColor: hex,
     };
 
     colors[`border-e-${color}`] = {
-      default: {
-        borderEndColor: hex,
-      },
+      borderEndColor: hex,
     };
   }
 

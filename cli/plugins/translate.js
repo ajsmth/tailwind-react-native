@@ -5,51 +5,27 @@ function translate(theme) {
     const value = theme.translate[translateName];
 
     translate[`translate-${translateName}`] = {
-      default: {
-        transform: [{ translate: value }],
-      },
+      translate: value,
     };
 
     translate[`-translate-${translateName}`] = {
-      default: {
-        transform: [
-          {
-            translate: -value,
-          },
-        ],
-      },
+      translate: -value,
     };
 
     translate[`translate-x-${translateName}`] = {
-      default: {
-        transform: [{ translateX: value }],
-      },
+      translateX: value,
     };
 
     translate[`-translate-x-${translateName}`] = {
-      default: {
-        transform: [
-          {
-            translateX: -value,
-          },
-        ],
-      },
+      translateX: -value,
     };
 
     translate[`translate-y-${translateName}`] = {
-      default: {
-        transform: [{ translateY: value }],
-      },
+      translateY: value,
     };
 
     translate[`-translate-y-${translateName}`] = {
-      default: {
-        transform: [
-          {
-            translateY: -value,
-          },
-        ],
-      },
+      translateY: -value,
     };
   }
 

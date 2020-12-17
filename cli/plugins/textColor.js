@@ -8,15 +8,11 @@ function textColor(theme) {
     const hex = flattenedColors[color];
 
     colors[`text-${color}`] = {
-      default: {
-        color: hex,
-      },
+      color: hex,
     };
 
     colors[`text-s-${color}`] = {
-      default: {
-        textShadowColor: hex,
-      },
+      textShadowColor: hex,
     };
   }
 

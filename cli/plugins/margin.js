@@ -6,132 +6,90 @@ function margin(theme) {
 
     if (marginName === "auto") {
       margins[`m-auto`] = {
-        default: {
-          margin: "auto",
-        },
+        margin: "auto",
       };
 
       margins[`mx-auto`] = {
-        default: {
-          marginHorizontal: "auto",
-        },
+        marginHorizontal: "auto",
       };
 
       margins[`my-auto`] = {
-        default: {
-          marginVertical: "auto",
-        },
+        marginVertical: "auto",
       };
 
       continue;
     }
 
     margins[`m-${marginName}`] = {
-      default: {
-        margin: value,
-      },
+      margin: value,
     };
 
     margins[`mt-${marginName}`] = {
-      default: {
-        marginTop: value,
-      },
+      marginTop: value,
     };
 
     margins[`mb-${marginName}`] = {
-      default: {
-        marginBottom: value,
-      },
+      marginBottom: value,
     };
 
     margins[`ml-${marginName}`] = {
-      default: {
-        marginLeft: value,
-      },
+      marginLeft: value,
     };
 
     margins[`mr-${marginName}`] = {
-      default: {
-        marginRight: value,
-      },
+      marginRight: value,
     };
 
     margins[`mx-${marginName}`] = {
-      default: {
-        marginHorizontal: value,
-      },
+      marginHorizontal: value,
     };
 
     margins[`my-${marginName}`] = {
-      default: {
-        marginVertical: value,
-      },
+      marginVertical: value,
     };
 
     margins[`ms-${marginName}`] = {
-      default: {
-        marginStart: value,
-      },
+      marginStart: value,
     };
 
     margins[`me-${marginName}`] = {
-      default: {
-        marginEnd: value,
-      },
+      marginEnd: value,
     };
 
     margins[`-m-${marginName}`] = {
-      default: {
-        margin: value,
-      },
+      margin: value,
     };
 
     margins[`-mt-${marginName}`] = {
-      default: {
-        marginTop: value,
-      },
+      marginTop: value,
     };
 
     margins[`-mb-${marginName}`] = {
-      default: {
-        marginBottom: value,
-      },
+      marginBottom: value,
     };
 
     margins[`-ml-${marginName}`] = {
-      default: {
-        marginLeft: value,
-      },
+      marginLeft: value,
     };
 
     margins[`-mr-${marginName}`] = {
-      default: {
-        marginRight: value,
-      },
+      marginRight: value,
     };
 
     margins[`-mx-${marginName}`] = {
-      default: {
-        marginHorizontal: value,
-      },
+      marginHorizontal: value,
     };
 
     margins[`-my-${marginName}`] = {
-      default: {
-        marginVertical: value,
-      },
+      marginVertical: value,
     };
 
     margins[`-ms-${marginName}`] = {
-      default: {
-        marginStart: value,
-      },
+      marginStart: value,
     };
 
     margins[`-me-${marginName}`] = {
-      default: {
-        marginEnd: value,
-      },
+      marginEnd: value,
     };
   }
 

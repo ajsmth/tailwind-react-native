@@ -5,9 +5,7 @@ function opacity(theme) {
     const value = theme.opacity[opacityName];
 
     opacities[`opacity-${opacityName}`] = {
-      default: {
-        opacity: value,
-      },
+      opacity: value,
     };
   }
 

@@ -10,8 +10,8 @@ export default function App() {
     <View style={style("flex-1 p-24")}>
       <View
         style={[
-          style("w-24 h-24 bg-platform-red"),
-          variant("ios:bg-platform-blue", Platform.OS),
+          style("w-12 h-24 bg-platform-red"),
+          variant("ios:bg-platform-red", Platform.OS),
         ]}
       />
       <Text style={style("text-2xl")}>Hi</Text>

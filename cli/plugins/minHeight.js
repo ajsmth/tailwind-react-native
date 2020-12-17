@@ -5,13 +5,11 @@ function minHeight(theme) {
     const value = theme.height[heightName];
 
     heights[`min-h-${heightName}`] = {
-      default: {
-        minHeight: value,
-      },
+      minHeight: value,
     };
   }
 
-  return heights
+  return heights;
 }
 
 module.exports = minHeight;

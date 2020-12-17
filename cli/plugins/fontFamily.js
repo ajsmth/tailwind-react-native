@@ -1,18 +1,15 @@
 function fontFamily(theme) {
-    const fontFamily = {};
-  
-    for (let fontFamilyName in theme.fontFamily) {
-      const value = theme.fontFamily[fontFamilyName];
-  
-      fontFamily[`font-${fontFamilyName}`] = {
-        default: {
-          fontFamily: value,
-        },
-      };
-    }
-  
-    return fontFamily;
+  const fontFamily = {};
+
+  for (let fontFamilyName in theme.fontFamily) {
+    const value = theme.fontFamily[fontFamilyName];
+
+    fontFamily[`font-${fontFamilyName}`] = {
+      fontFamily: value,
+    };
   }
-  
-  module.exports = fontFamily;
-  
+
+  return fontFamily;
+}
+
+module.exports = fontFamily;

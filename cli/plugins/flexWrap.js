@@ -1,18 +1,15 @@
 function flexWrap(theme) {
-    const flexWrap = {};
-  
-    for (let flexWrapName in theme.flexWrap) {
-      const value = theme.flexWrap[flexWrapName];
-  
-      flexWrap[`${flexWrapName}`] = {
-        default: {
-          flexWrap: value,
-        },
-      };
-    }
-  
-    return flexWrap;
+  const flexWrap = {};
+
+  for (let flexWrapName in theme.flexWrap) {
+    const value = theme.flexWrap[flexWrapName];
+
+    flexWrap[`${flexWrapName}`] = {
+      flexWrap: value,
+    };
   }
-  
-  module.exports = flexWrap;
-  
+
+  return flexWrap;
+}
+
+module.exports = flexWrap;

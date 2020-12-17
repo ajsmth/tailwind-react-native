@@ -1,18 +1,15 @@
 function height(theme) {
-    const heights = {};
-  
-    for (let heightName in theme.height) {
-      const value = theme.height[heightName];
-  
-      heights[`h-${heightName}`] = {
-        default: {
-          height: value,
-        },
-      };
-    }
-    
-    return heights
+  const heights = {};
+
+  for (let heightName in theme.height) {
+    const value = theme.height[heightName];
+
+    heights[`h-${heightName}`] = {
+      height: value,
+    };
   }
-  
-  module.exports = height;
-  
+
+  return heights;
+}
+
+module.exports = height;

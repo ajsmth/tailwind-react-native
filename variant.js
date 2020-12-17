@@ -31,7 +31,7 @@ function createVariantFn(styleMap) {
       const style = styleMap[className];
 
       if (transformProps.filter((t) => className.includes(t)).length > 0) {
-        transforms.push(className);
+        transforms.push(style);
         continue;
       }
 
@@ -41,16 +41,7 @@ function createVariantFn(styleMap) {
     }
 
     if (transforms.length > 0) {
-      const transform = [];
-
-      transforms.forEach((className) => {
-        const style = styleMap[className];
-        if (style) {
-          transform.push(...Platform.select(style).transform);
-        }
-      });
-
-      Object.assign(assembledStyles, { transform });
+      Object.assign(assembledStyles, { transform: transforms });
     }
 
     memo[memoKey] = assembledStyles;

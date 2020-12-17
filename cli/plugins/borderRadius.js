@@ -11,57 +11,39 @@ function borderRadius(theme) {
     }
 
     borderRadius[`rounded${borderRadiusName}`] = {
-      default: {
-        borderRadius: value,
-      },
+      borderRadius: value,
     };
 
     borderRadius[`rounded-t${borderRadiusName}`] = {
-      default: {
-        borderRadiusTop: value,
-      },
+      borderRadiusTop: value,
     };
 
     borderRadius[`rounded-b${borderRadiusName}`] = {
-      default: {
-        borderRadiusBottom: value,
-      },
+      borderRadiusBottom: value,
     };
 
     borderRadius[`rounded-l${borderRadiusName}`] = {
-      default: {
-        borderRadiusLeft: value,
-      },
+      borderRadiusLeft: value,
     };
 
     borderRadius[`rounded-r${borderRadiusName}`] = {
-      default: {
-        borderRadiusRight: value,
-      },
+      borderRadiusRight: value,
     };
 
     borderRadius[`rounded-tl${borderRadiusName}`] = {
-      default: {
-        borderRadiusTopLeft: value,
-      },
+      borderRadiusTopLeft: value,
     };
 
     borderRadius[`rounded-tr${borderRadiusName}`] = {
-      default: {
-        borderRadiusTopRight: value,
-      },
+      borderRadiusTopRight: value,
     };
 
     borderRadius[`rounded-bl${borderRadiusName}`] = {
-      default: {
-        borderRadiusBottomLeft: value,
-      },
+      borderRadiusBottomLeft: value,
     };
 
     borderRadius[`rounded-br${borderRadiusName}`] = {
-      default: {
-        borderRadiusBottomRight: value,
-      },
+      borderRadiusBottomRight: value,
     };
   }
 

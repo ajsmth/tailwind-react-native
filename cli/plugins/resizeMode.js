@@ -5,9 +5,7 @@ function resizeMode(theme) {
     const value = theme.resizeMode[resizeModeName];
 
     resizeMode[`resize-${resizeModeName}`] = {
-      default: {
-        resizeMode: value,
-      },
+      resizeMode: value,
     };
   }
 

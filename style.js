@@ -19,29 +19,23 @@ function createStyleFn(styleMap) {
         continue;
       }
 
-      const style = styleMap[className];
+      let style = styleMap[className];
 
       if (transformProps.filter((t) => className.includes(t)).length > 0) {
-        transforms.push(className);
+        transforms.push(style);
         continue;
       }
 
-      if (style) {
-        Object.assign(assembledStyles, Platform.select(style));
+      const platformStyle = Platform.select(style);
+      if (platformStyle) {
+        style = platformStyle;
       }
+
+      Object.assign(assembledStyles, style);
     }
 
     if (transforms.length > 0) {
-      const transform = [];
-
-      transforms.forEach((className) => {
-        const style = styleMap[className];
-        if (style) {
-          transform.push(...Platform.select(style).transform);
-        }
-      });
-
-      Object.assign(assembledStyles, { transform });
+      Object.assign(assembledStyles, { transform: transforms });
     }
 
     memo[classNames] = assembledStyles;

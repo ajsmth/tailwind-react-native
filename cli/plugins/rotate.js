@@ -1,54 +1,35 @@
 function rotate(theme) {
-    const rotate = {};
-  
-    for (let rotateName in theme.rotate) {
-      const value = theme.rotate[rotateName];
-  
-      rotate[`rotate-${rotateName}`] = {
-        default: {
-          transform: [{ rotate: value }],
-        },
-      };
-  
-      rotate[`-rotate-${rotateName}`] = {
-        default: {
-          transform: {
-            rotate: -value,
-          },
-        },
-      };
-  
-      rotate[`rotate-x-${rotateName}`] = {
-        default: {
-          transform: [{ rotateX: value }],
-        },
-      };
-  
-      rotate[`-rotate-x-${rotateName}`] = {
-        default: {
-          transform: {
-            rotateX: -value,
-          },
-        },
-      };
-  
-      rotate[`rotate-y-${rotateName}`] = {
-        default: {
-          transform: [{ rotateY: value }],
-        },
-      };
-  
-      rotate[`-rotate-y-${rotateName}`] = {
-        default: {
-          transform: {
-            rotateY: -value,
-          },
-        },
-      };
-    }
-  
-    return rotate;
+  const rotate = {};
+
+  for (let rotateName in theme.rotate) {
+    const value = theme.rotate[rotateName];
+
+    rotate[`rotate-${rotateName}`] = {
+      rotate: value,
+    };
+
+    rotate[`-rotate-${rotateName}`] = {
+      rotate: -value,
+    };
+
+    rotate[`rotate-x-${rotateName}`] = {
+      rotateX: value,
+    };
+
+    rotate[`-rotate-x-${rotateName}`] = {
+      rotateX: -value,
+    };
+
+    rotate[`rotate-y-${rotateName}`] = {
+      rotateY: value,
+    };
+
+    rotate[`-rotate-y-${rotateName}`] = {
+      rotateY: -value,
+    };
   }
-  
-  module.exports = rotate;
-  
+
+  return rotate;
+}
+
+module.exports = rotate;

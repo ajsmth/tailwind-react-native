@@ -5,9 +5,7 @@ function textAlignVertical(theme) {
     const value = theme.textAlignVertical[textAlignVerticalName];
 
     textAlignVertical[`text-vertical-${textAlignVerticalName}`] = {
-      default: {
-        textAlignVertical: value,
-      },
+      textAlignVertical: value,
     };
   }
 

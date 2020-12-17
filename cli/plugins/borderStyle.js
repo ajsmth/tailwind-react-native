@@ -1,18 +1,15 @@
 function borderStyle(theme) {
-    const borderStyle = {};
-  
-    for (let borderStyleName in theme.borderStyle) {
-      const value = theme.borderStyle[borderStyleName];
-  
-      borderStyle[`border-${borderStyleName}`] = {
-        default: {
-          borderStyle: value,
-        },
-      };
-    }
-  
-    return borderStyle;
+  const borderStyle = {};
+
+  for (let borderStyleName in theme.borderStyle) {
+    const value = theme.borderStyle[borderStyleName];
+
+    borderStyle[`border-${borderStyleName}`] = {
+      borderStyle: value,
+    };
   }
-  
-  module.exports = borderStyle;
-  
+
+  return borderStyle;
+}
+
+module.exports = borderStyle;

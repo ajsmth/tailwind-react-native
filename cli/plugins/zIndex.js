@@ -5,9 +5,7 @@ function zIndex(theme) {
     const value = theme.zIndex[zIndexName];
 
     zIndexes[`zIndex-${zIndexName}`] = {
-      default: {
-        zIndex: value,
-      },
+      zIndex: value,
     };
   }
 

@@ -1,18 +1,15 @@
 function aspectRatio(theme) {
-    const aspectRatio = {};
-  
-    for (let aspectRatioName in theme.aspectRatio) {
-      const value = theme.aspectRatio[aspectRatioName];
-  
-      aspectRatio[`aspect-ratio-${aspectRatioName}`] = {
-        default: {
-          aspectRatio: value,
-        },
-      };
-    }
-  
-    return aspectRatio;
+  const aspectRatio = {};
+
+  for (let aspectRatioName in theme.aspectRatio) {
+    const value = theme.aspectRatio[aspectRatioName];
+
+    aspectRatio[`aspect-ratio-${aspectRatioName}`] = {
+      aspectRatio: value,
+    };
   }
-  
-  module.exports = aspectRatio;
-  
+
+  return aspectRatio;
+}
+
+module.exports = aspectRatio;

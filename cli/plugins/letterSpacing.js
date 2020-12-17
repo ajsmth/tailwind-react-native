@@ -5,9 +5,7 @@ function letterSpacing(theme) {
     const value = theme.letterSpacing[letterSpacingName];
 
     letterSpacing[`tracking-${letterSpacingName}`] = {
-      default: {
-        letterSpacing: value,
-      },
+      letterSpacing: value,
     };
   }
 

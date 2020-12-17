@@ -5,13 +5,11 @@ function minWidth(theme) {
     const value = theme.width[widthName];
 
     widths[`min-w-${widthName}`] = {
-      default: {
-        minWidth: value,
-      },
+      minWidth: value,
     };
   }
-  
-  return widths
+
+  return widths;
 }
 
 module.exports = minWidth;

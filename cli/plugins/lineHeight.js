@@ -1,18 +1,15 @@
 function lineHeight(theme) {
-    const lineHeight = {};
-  
-    for (let lineHeightName in theme.lineHeight) {
-      const value = theme.lineHeight[lineHeightName];
-  
-      lineHeight[`leading-${lineHeightName}`] = {
-        default: {
-          lineHeight: value,
-        },
-      };
-    }
-  
-    return lineHeight;
+  const lineHeight = {};
+
+  for (let lineHeightName in theme.lineHeight) {
+    const value = theme.lineHeight[lineHeightName];
+
+    lineHeight[`leading-${lineHeightName}`] = {
+      lineHeight: value,
+    };
   }
-  
-  module.exports = lineHeight;
-  
+
+  return lineHeight;
+}
+
+module.exports = lineHeight;

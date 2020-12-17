@@ -5,9 +5,7 @@ function width(theme) {
     const value = theme.width[widthName];
 
     widths[`w-${widthName}`] = {
-      default: {
-        width: value,
-      },
+      width: value,
     };
   }
 

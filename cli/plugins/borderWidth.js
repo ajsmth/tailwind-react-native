@@ -11,51 +11,35 @@ function borderWidth(theme) {
     }
 
     borderWidth[`border${borderWidthName}`] = {
-      default: {
-        borderWidth: value,
-      },
+      borderWidth: value,
     };
 
     borderWidth[`border-t${borderWidthName}`] = {
-      default: {
-        borderTopWidth: value,
-      },
+      borderTopWidth: value,
     };
 
     borderWidth[`border-b${borderWidthName}`] = {
-      default: {
-        borderBottomWidth: value,
-      },
+      borderBottomWidth: value,
     };
 
     borderWidth[`border-l${borderWidthName}`] = {
-      default: {
-        borderLeftWidth: value,
-      },
+      borderLeftWidth: value,
     };
 
     borderWidth[`border-r${borderWidthName}`] = {
-      default: {
-        borderRightWidth: value,
-      },
+      borderRightWidth: value,
     };
 
     borderWidth[`border-tl${borderWidthName}`] = {
-      default: {
-        borderWidthTopLeft: value,
-      },
+      borderWidthTopLeft: value,
     };
 
     borderWidth[`border-s${borderWidthName}`] = {
-      default: {
-        borderStartWidth: value,
-      },
+      borderStartWidth: value,
     };
 
     borderWidth[`border-e${borderWidthName}`] = {
-      default: {
-        borderEndWidth: value,
-      },
+      borderEndWidth: value,
     };
   }
 
