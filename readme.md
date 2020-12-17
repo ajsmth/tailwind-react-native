@@ -24,11 +24,7 @@ import styles from "tailwind-react-native";
 export default function App() {
   return (
     <View style={styles("flex-1 p-24")}>
-      <View
-        style={styles(
-          "w-24 h-24 bg-platform-red"
-        )}
-      />
+      <View style={styles("w-24 h-24 bg-platform-red")} />
     </View>
   );
 }
@@ -65,10 +61,8 @@ see the plugins available here: https://github.com/ajsmth/tailwind-react-native/
 ### build a custom styles.json
 
 ```bash
-npx tailwind-react-native@latest build
+npx tailwind-react-native@latest build --config path/to/config/tailwind.config.js --out path/for/styles
 ```
-
-- tailwind.config.js in cwd will be used for any customizations
 
 ### using your own config / styles
 
