@@ -6451,6 +6451,51 @@
 			"marginEnd": 0
 		}
 	},
+	"-m-0": {
+		"default": {
+			"margin": 0
+		}
+	},
+	"-mt-0": {
+		"default": {
+			"marginTop": 0
+		}
+	},
+	"-mb-0": {
+		"default": {
+			"marginBottom": 0
+		}
+	},
+	"-ml-0": {
+		"default": {
+			"marginLeft": 0
+		}
+	},
+	"-mr-0": {
+		"default": {
+			"marginRight": 0
+		}
+	},
+	"-mx-0": {
+		"default": {
+			"marginHorizontal": 0
+		}
+	},
+	"-my-0": {
+		"default": {
+			"marginVertical": 0
+		}
+	},
+	"-ms-0": {
+		"default": {
+			"marginStart": 0
+		}
+	},
+	"-me-0": {
+		"default": {
+			"marginEnd": 0
+		}
+	},
 	"m-1": {
 		"default": {
 			"margin": 4
@@ -6492,6 +6537,51 @@
 		}
 	},
 	"me-1": {
+		"default": {
+			"marginEnd": 4
+		}
+	},
+	"-m-1": {
+		"default": {
+			"margin": 4
+		}
+	},
+	"-mt-1": {
+		"default": {
+			"marginTop": 4
+		}
+	},
+	"-mb-1": {
+		"default": {
+			"marginBottom": 4
+		}
+	},
+	"-ml-1": {
+		"default": {
+			"marginLeft": 4
+		}
+	},
+	"-mr-1": {
+		"default": {
+			"marginRight": 4
+		}
+	},
+	"-mx-1": {
+		"default": {
+			"marginHorizontal": 4
+		}
+	},
+	"-my-1": {
+		"default": {
+			"marginVertical": 4
+		}
+	},
+	"-ms-1": {
+		"default": {
+			"marginStart": 4
+		}
+	},
+	"-me-1": {
 		"default": {
 			"marginEnd": 4
 		}
@@ -6541,6 +6631,51 @@
 			"marginEnd": 8
 		}
 	},
+	"-m-2": {
+		"default": {
+			"margin": 8
+		}
+	},
+	"-mt-2": {
+		"default": {
+			"marginTop": 8
+		}
+	},
+	"-mb-2": {
+		"default": {
+			"marginBottom": 8
+		}
+	},
+	"-ml-2": {
+		"default": {
+			"marginLeft": 8
+		}
+	},
+	"-mr-2": {
+		"default": {
+			"marginRight": 8
+		}
+	},
+	"-mx-2": {
+		"default": {
+			"marginHorizontal": 8
+		}
+	},
+	"-my-2": {
+		"default": {
+			"marginVertical": 8
+		}
+	},
+	"-ms-2": {
+		"default": {
+			"marginStart": 8
+		}
+	},
+	"-me-2": {
+		"default": {
+			"marginEnd": 8
+		}
+	},
 	"m-3": {
 		"default": {
 			"margin": 12
@@ -6582,6 +6717,51 @@
 		}
 	},
 	"me-3": {
+		"default": {
+			"marginEnd": 12
+		}
+	},
+	"-m-3": {
+		"default": {
+			"margin": 12
+		}
+	},
+	"-mt-3": {
+		"default": {
+			"marginTop": 12
+		}
+	},
+	"-mb-3": {
+		"default": {
+			"marginBottom": 12
+		}
+	},
+	"-ml-3": {
+		"default": {
+			"marginLeft": 12
+		}
+	},
+	"-mr-3": {
+		"default": {
+			"marginRight": 12
+		}
+	},
+	"-mx-3": {
+		"default": {
+			"marginHorizontal": 12
+		}
+	},
+	"-my-3": {
+		"default": {
+			"marginVertical": 12
+		}
+	},
+	"-ms-3": {
+		"default": {
+			"marginStart": 12
+		}
+	},
+	"-me-3": {
 		"default": {
 			"marginEnd": 12
 		}
@@ -6631,6 +6811,51 @@
 			"marginEnd": 16
 		}
 	},
+	"-m-4": {
+		"default": {
+			"margin": 16
+		}
+	},
+	"-mt-4": {
+		"default": {
+			"marginTop": 16
+		}
+	},
+	"-mb-4": {
+		"default": {
+			"marginBottom": 16
+		}
+	},
+	"-ml-4": {
+		"default": {
+			"marginLeft": 16
+		}
+	},
+	"-mr-4": {
+		"default": {
+			"marginRight": 16
+		}
+	},
+	"-mx-4": {
+		"default": {
+			"marginHorizontal": 16
+		}
+	},
+	"-my-4": {
+		"default": {
+			"marginVertical": 16
+		}
+	},
+	"-ms-4": {
+		"default": {
+			"marginStart": 16
+		}
+	},
+	"-me-4": {
+		"default": {
+			"marginEnd": 16
+		}
+	},
 	"m-5": {
 		"default": {
 			"margin": 20
@@ -6672,6 +6897,51 @@
 		}
 	},
 	"me-5": {
+		"default": {
+			"marginEnd": 20
+		}
+	},
+	"-m-5": {
+		"default": {
+			"margin": 20
+		}
+	},
+	"-mt-5": {
+		"default": {
+			"marginTop": 20
+		}
+	},
+	"-mb-5": {
+		"default": {
+			"marginBottom": 20
+		}
+	},
+	"-ml-5": {
+		"default": {
+			"marginLeft": 20
+		}
+	},
+	"-mr-5": {
+		"default": {
+			"marginRight": 20
+		}
+	},
+	"-mx-5": {
+		"default": {
+			"marginHorizontal": 20
+		}
+	},
+	"-my-5": {
+		"default": {
+			"marginVertical": 20
+		}
+	},
+	"-ms-5": {
+		"default": {
+			"marginStart": 20
+		}
+	},
+	"-me-5": {
 		"default": {
 			"marginEnd": 20
 		}
@@ -6721,6 +6991,51 @@
 			"marginEnd": 24
 		}
 	},
+	"-m-6": {
+		"default": {
+			"margin": 24
+		}
+	},
+	"-mt-6": {
+		"default": {
+			"marginTop": 24
+		}
+	},
+	"-mb-6": {
+		"default": {
+			"marginBottom": 24
+		}
+	},
+	"-ml-6": {
+		"default": {
+			"marginLeft": 24
+		}
+	},
+	"-mr-6": {
+		"default": {
+			"marginRight": 24
+		}
+	},
+	"-mx-6": {
+		"default": {
+			"marginHorizontal": 24
+		}
+	},
+	"-my-6": {
+		"default": {
+			"marginVertical": 24
+		}
+	},
+	"-ms-6": {
+		"default": {
+			"marginStart": 24
+		}
+	},
+	"-me-6": {
+		"default": {
+			"marginEnd": 24
+		}
+	},
 	"m-7": {
 		"default": {
 			"margin": 28
@@ -6762,6 +7077,51 @@
 		}
 	},
 	"me-7": {
+		"default": {
+			"marginEnd": 28
+		}
+	},
+	"-m-7": {
+		"default": {
+			"margin": 28
+		}
+	},
+	"-mt-7": {
+		"default": {
+			"marginTop": 28
+		}
+	},
+	"-mb-7": {
+		"default": {
+			"marginBottom": 28
+		}
+	},
+	"-ml-7": {
+		"default": {
+			"marginLeft": 28
+		}
+	},
+	"-mr-7": {
+		"default": {
+			"marginRight": 28
+		}
+	},
+	"-mx-7": {
+		"default": {
+			"marginHorizontal": 28
+		}
+	},
+	"-my-7": {
+		"default": {
+			"marginVertical": 28
+		}
+	},
+	"-ms-7": {
+		"default": {
+			"marginStart": 28
+		}
+	},
+	"-me-7": {
 		"default": {
 			"marginEnd": 28
 		}
@@ -6811,6 +7171,51 @@
 			"marginEnd": 32
 		}
 	},
+	"-m-8": {
+		"default": {
+			"margin": 32
+		}
+	},
+	"-mt-8": {
+		"default": {
+			"marginTop": 32
+		}
+	},
+	"-mb-8": {
+		"default": {
+			"marginBottom": 32
+		}
+	},
+	"-ml-8": {
+		"default": {
+			"marginLeft": 32
+		}
+	},
+	"-mr-8": {
+		"default": {
+			"marginRight": 32
+		}
+	},
+	"-mx-8": {
+		"default": {
+			"marginHorizontal": 32
+		}
+	},
+	"-my-8": {
+		"default": {
+			"marginVertical": 32
+		}
+	},
+	"-ms-8": {
+		"default": {
+			"marginStart": 32
+		}
+	},
+	"-me-8": {
+		"default": {
+			"marginEnd": 32
+		}
+	},
 	"m-9": {
 		"default": {
 			"margin": 36
@@ -6852,6 +7257,51 @@
 		}
 	},
 	"me-9": {
+		"default": {
+			"marginEnd": 36
+		}
+	},
+	"-m-9": {
+		"default": {
+			"margin": 36
+		}
+	},
+	"-mt-9": {
+		"default": {
+			"marginTop": 36
+		}
+	},
+	"-mb-9": {
+		"default": {
+			"marginBottom": 36
+		}
+	},
+	"-ml-9": {
+		"default": {
+			"marginLeft": 36
+		}
+	},
+	"-mr-9": {
+		"default": {
+			"marginRight": 36
+		}
+	},
+	"-mx-9": {
+		"default": {
+			"marginHorizontal": 36
+		}
+	},
+	"-my-9": {
+		"default": {
+			"marginVertical": 36
+		}
+	},
+	"-ms-9": {
+		"default": {
+			"marginStart": 36
+		}
+	},
+	"-me-9": {
 		"default": {
 			"marginEnd": 36
 		}
@@ -6901,6 +7351,51 @@
 			"marginEnd": 40
 		}
 	},
+	"-m-10": {
+		"default": {
+			"margin": 40
+		}
+	},
+	"-mt-10": {
+		"default": {
+			"marginTop": 40
+		}
+	},
+	"-mb-10": {
+		"default": {
+			"marginBottom": 40
+		}
+	},
+	"-ml-10": {
+		"default": {
+			"marginLeft": 40
+		}
+	},
+	"-mr-10": {
+		"default": {
+			"marginRight": 40
+		}
+	},
+	"-mx-10": {
+		"default": {
+			"marginHorizontal": 40
+		}
+	},
+	"-my-10": {
+		"default": {
+			"marginVertical": 40
+		}
+	},
+	"-ms-10": {
+		"default": {
+			"marginStart": 40
+		}
+	},
+	"-me-10": {
+		"default": {
+			"marginEnd": 40
+		}
+	},
 	"m-11": {
 		"default": {
 			"margin": 44
@@ -6942,6 +7437,51 @@
 		}
 	},
 	"me-11": {
+		"default": {
+			"marginEnd": 44
+		}
+	},
+	"-m-11": {
+		"default": {
+			"margin": 44
+		}
+	},
+	"-mt-11": {
+		"default": {
+			"marginTop": 44
+		}
+	},
+	"-mb-11": {
+		"default": {
+			"marginBottom": 44
+		}
+	},
+	"-ml-11": {
+		"default": {
+			"marginLeft": 44
+		}
+	},
+	"-mr-11": {
+		"default": {
+			"marginRight": 44
+		}
+	},
+	"-mx-11": {
+		"default": {
+			"marginHorizontal": 44
+		}
+	},
+	"-my-11": {
+		"default": {
+			"marginVertical": 44
+		}
+	},
+	"-ms-11": {
+		"default": {
+			"marginStart": 44
+		}
+	},
+	"-me-11": {
 		"default": {
 			"marginEnd": 44
 		}
@@ -6991,6 +7531,51 @@
 			"marginEnd": 48
 		}
 	},
+	"-m-12": {
+		"default": {
+			"margin": 48
+		}
+	},
+	"-mt-12": {
+		"default": {
+			"marginTop": 48
+		}
+	},
+	"-mb-12": {
+		"default": {
+			"marginBottom": 48
+		}
+	},
+	"-ml-12": {
+		"default": {
+			"marginLeft": 48
+		}
+	},
+	"-mr-12": {
+		"default": {
+			"marginRight": 48
+		}
+	},
+	"-mx-12": {
+		"default": {
+			"marginHorizontal": 48
+		}
+	},
+	"-my-12": {
+		"default": {
+			"marginVertical": 48
+		}
+	},
+	"-ms-12": {
+		"default": {
+			"marginStart": 48
+		}
+	},
+	"-me-12": {
+		"default": {
+			"marginEnd": 48
+		}
+	},
 	"m-14": {
 		"default": {
 			"margin": 56
@@ -7032,6 +7617,51 @@
 		}
 	},
 	"me-14": {
+		"default": {
+			"marginEnd": 56
+		}
+	},
+	"-m-14": {
+		"default": {
+			"margin": 56
+		}
+	},
+	"-mt-14": {
+		"default": {
+			"marginTop": 56
+		}
+	},
+	"-mb-14": {
+		"default": {
+			"marginBottom": 56
+		}
+	},
+	"-ml-14": {
+		"default": {
+			"marginLeft": 56
+		}
+	},
+	"-mr-14": {
+		"default": {
+			"marginRight": 56
+		}
+	},
+	"-mx-14": {
+		"default": {
+			"marginHorizontal": 56
+		}
+	},
+	"-my-14": {
+		"default": {
+			"marginVertical": 56
+		}
+	},
+	"-ms-14": {
+		"default": {
+			"marginStart": 56
+		}
+	},
+	"-me-14": {
 		"default": {
 			"marginEnd": 56
 		}
@@ -7081,6 +7711,51 @@
 			"marginEnd": 64
 		}
 	},
+	"-m-16": {
+		"default": {
+			"margin": 64
+		}
+	},
+	"-mt-16": {
+		"default": {
+			"marginTop": 64
+		}
+	},
+	"-mb-16": {
+		"default": {
+			"marginBottom": 64
+		}
+	},
+	"-ml-16": {
+		"default": {
+			"marginLeft": 64
+		}
+	},
+	"-mr-16": {
+		"default": {
+			"marginRight": 64
+		}
+	},
+	"-mx-16": {
+		"default": {
+			"marginHorizontal": 64
+		}
+	},
+	"-my-16": {
+		"default": {
+			"marginVertical": 64
+		}
+	},
+	"-ms-16": {
+		"default": {
+			"marginStart": 64
+		}
+	},
+	"-me-16": {
+		"default": {
+			"marginEnd": 64
+		}
+	},
 	"m-20": {
 		"default": {
 			"margin": 80
@@ -7122,6 +7797,51 @@
 		}
 	},
 	"me-20": {
+		"default": {
+			"marginEnd": 80
+		}
+	},
+	"-m-20": {
+		"default": {
+			"margin": 80
+		}
+	},
+	"-mt-20": {
+		"default": {
+			"marginTop": 80
+		}
+	},
+	"-mb-20": {
+		"default": {
+			"marginBottom": 80
+		}
+	},
+	"-ml-20": {
+		"default": {
+			"marginLeft": 80
+		}
+	},
+	"-mr-20": {
+		"default": {
+			"marginRight": 80
+		}
+	},
+	"-mx-20": {
+		"default": {
+			"marginHorizontal": 80
+		}
+	},
+	"-my-20": {
+		"default": {
+			"marginVertical": 80
+		}
+	},
+	"-ms-20": {
+		"default": {
+			"marginStart": 80
+		}
+	},
+	"-me-20": {
 		"default": {
 			"marginEnd": 80
 		}
@@ -7171,6 +7891,51 @@
 			"marginEnd": 96
 		}
 	},
+	"-m-24": {
+		"default": {
+			"margin": 96
+		}
+	},
+	"-mt-24": {
+		"default": {
+			"marginTop": 96
+		}
+	},
+	"-mb-24": {
+		"default": {
+			"marginBottom": 96
+		}
+	},
+	"-ml-24": {
+		"default": {
+			"marginLeft": 96
+		}
+	},
+	"-mr-24": {
+		"default": {
+			"marginRight": 96
+		}
+	},
+	"-mx-24": {
+		"default": {
+			"marginHorizontal": 96
+		}
+	},
+	"-my-24": {
+		"default": {
+			"marginVertical": 96
+		}
+	},
+	"-ms-24": {
+		"default": {
+			"marginStart": 96
+		}
+	},
+	"-me-24": {
+		"default": {
+			"marginEnd": 96
+		}
+	},
 	"m-28": {
 		"default": {
 			"margin": 112
@@ -7212,6 +7977,51 @@
 		}
 	},
 	"me-28": {
+		"default": {
+			"marginEnd": 112
+		}
+	},
+	"-m-28": {
+		"default": {
+			"margin": 112
+		}
+	},
+	"-mt-28": {
+		"default": {
+			"marginTop": 112
+		}
+	},
+	"-mb-28": {
+		"default": {
+			"marginBottom": 112
+		}
+	},
+	"-ml-28": {
+		"default": {
+			"marginLeft": 112
+		}
+	},
+	"-mr-28": {
+		"default": {
+			"marginRight": 112
+		}
+	},
+	"-mx-28": {
+		"default": {
+			"marginHorizontal": 112
+		}
+	},
+	"-my-28": {
+		"default": {
+			"marginVertical": 112
+		}
+	},
+	"-ms-28": {
+		"default": {
+			"marginStart": 112
+		}
+	},
+	"-me-28": {
 		"default": {
 			"marginEnd": 112
 		}
@@ -7261,6 +8071,51 @@
 			"marginEnd": 128
 		}
 	},
+	"-m-32": {
+		"default": {
+			"margin": 128
+		}
+	},
+	"-mt-32": {
+		"default": {
+			"marginTop": 128
+		}
+	},
+	"-mb-32": {
+		"default": {
+			"marginBottom": 128
+		}
+	},
+	"-ml-32": {
+		"default": {
+			"marginLeft": 128
+		}
+	},
+	"-mr-32": {
+		"default": {
+			"marginRight": 128
+		}
+	},
+	"-mx-32": {
+		"default": {
+			"marginHorizontal": 128
+		}
+	},
+	"-my-32": {
+		"default": {
+			"marginVertical": 128
+		}
+	},
+	"-ms-32": {
+		"default": {
+			"marginStart": 128
+		}
+	},
+	"-me-32": {
+		"default": {
+			"marginEnd": 128
+		}
+	},
 	"m-36": {
 		"default": {
 			"margin": 144
@@ -7302,6 +8157,51 @@
 		}
 	},
 	"me-36": {
+		"default": {
+			"marginEnd": 144
+		}
+	},
+	"-m-36": {
+		"default": {
+			"margin": 144
+		}
+	},
+	"-mt-36": {
+		"default": {
+			"marginTop": 144
+		}
+	},
+	"-mb-36": {
+		"default": {
+			"marginBottom": 144
+		}
+	},
+	"-ml-36": {
+		"default": {
+			"marginLeft": 144
+		}
+	},
+	"-mr-36": {
+		"default": {
+			"marginRight": 144
+		}
+	},
+	"-mx-36": {
+		"default": {
+			"marginHorizontal": 144
+		}
+	},
+	"-my-36": {
+		"default": {
+			"marginVertical": 144
+		}
+	},
+	"-ms-36": {
+		"default": {
+			"marginStart": 144
+		}
+	},
+	"-me-36": {
 		"default": {
 			"marginEnd": 144
 		}
@@ -7351,6 +8251,51 @@
 			"marginEnd": 160
 		}
 	},
+	"-m-40": {
+		"default": {
+			"margin": 160
+		}
+	},
+	"-mt-40": {
+		"default": {
+			"marginTop": 160
+		}
+	},
+	"-mb-40": {
+		"default": {
+			"marginBottom": 160
+		}
+	},
+	"-ml-40": {
+		"default": {
+			"marginLeft": 160
+		}
+	},
+	"-mr-40": {
+		"default": {
+			"marginRight": 160
+		}
+	},
+	"-mx-40": {
+		"default": {
+			"marginHorizontal": 160
+		}
+	},
+	"-my-40": {
+		"default": {
+			"marginVertical": 160
+		}
+	},
+	"-ms-40": {
+		"default": {
+			"marginStart": 160
+		}
+	},
+	"-me-40": {
+		"default": {
+			"marginEnd": 160
+		}
+	},
 	"m-44": {
 		"default": {
 			"margin": 176
@@ -7392,6 +8337,51 @@
 		}
 	},
 	"me-44": {
+		"default": {
+			"marginEnd": 176
+		}
+	},
+	"-m-44": {
+		"default": {
+			"margin": 176
+		}
+	},
+	"-mt-44": {
+		"default": {
+			"marginTop": 176
+		}
+	},
+	"-mb-44": {
+		"default": {
+			"marginBottom": 176
+		}
+	},
+	"-ml-44": {
+		"default": {
+			"marginLeft": 176
+		}
+	},
+	"-mr-44": {
+		"default": {
+			"marginRight": 176
+		}
+	},
+	"-mx-44": {
+		"default": {
+			"marginHorizontal": 176
+		}
+	},
+	"-my-44": {
+		"default": {
+			"marginVertical": 176
+		}
+	},
+	"-ms-44": {
+		"default": {
+			"marginStart": 176
+		}
+	},
+	"-me-44": {
 		"default": {
 			"marginEnd": 176
 		}
@@ -7441,6 +8431,51 @@
 			"marginEnd": 192
 		}
 	},
+	"-m-48": {
+		"default": {
+			"margin": 192
+		}
+	},
+	"-mt-48": {
+		"default": {
+			"marginTop": 192
+		}
+	},
+	"-mb-48": {
+		"default": {
+			"marginBottom": 192
+		}
+	},
+	"-ml-48": {
+		"default": {
+			"marginLeft": 192
+		}
+	},
+	"-mr-48": {
+		"default": {
+			"marginRight": 192
+		}
+	},
+	"-mx-48": {
+		"default": {
+			"marginHorizontal": 192
+		}
+	},
+	"-my-48": {
+		"default": {
+			"marginVertical": 192
+		}
+	},
+	"-ms-48": {
+		"default": {
+			"marginStart": 192
+		}
+	},
+	"-me-48": {
+		"default": {
+			"marginEnd": 192
+		}
+	},
 	"m-52": {
 		"default": {
 			"margin": 208
@@ -7482,6 +8517,51 @@
 		}
 	},
 	"me-52": {
+		"default": {
+			"marginEnd": 208
+		}
+	},
+	"-m-52": {
+		"default": {
+			"margin": 208
+		}
+	},
+	"-mt-52": {
+		"default": {
+			"marginTop": 208
+		}
+	},
+	"-mb-52": {
+		"default": {
+			"marginBottom": 208
+		}
+	},
+	"-ml-52": {
+		"default": {
+			"marginLeft": 208
+		}
+	},
+	"-mr-52": {
+		"default": {
+			"marginRight": 208
+		}
+	},
+	"-mx-52": {
+		"default": {
+			"marginHorizontal": 208
+		}
+	},
+	"-my-52": {
+		"default": {
+			"marginVertical": 208
+		}
+	},
+	"-ms-52": {
+		"default": {
+			"marginStart": 208
+		}
+	},
+	"-me-52": {
 		"default": {
 			"marginEnd": 208
 		}
@@ -7531,6 +8611,51 @@
 			"marginEnd": 224
 		}
 	},
+	"-m-56": {
+		"default": {
+			"margin": 224
+		}
+	},
+	"-mt-56": {
+		"default": {
+			"marginTop": 224
+		}
+	},
+	"-mb-56": {
+		"default": {
+			"marginBottom": 224
+		}
+	},
+	"-ml-56": {
+		"default": {
+			"marginLeft": 224
+		}
+	},
+	"-mr-56": {
+		"default": {
+			"marginRight": 224
+		}
+	},
+	"-mx-56": {
+		"default": {
+			"marginHorizontal": 224
+		}
+	},
+	"-my-56": {
+		"default": {
+			"marginVertical": 224
+		}
+	},
+	"-ms-56": {
+		"default": {
+			"marginStart": 224
+		}
+	},
+	"-me-56": {
+		"default": {
+			"marginEnd": 224
+		}
+	},
 	"m-60": {
 		"default": {
 			"margin": 240
@@ -7572,6 +8697,51 @@
 		}
 	},
 	"me-60": {
+		"default": {
+			"marginEnd": 240
+		}
+	},
+	"-m-60": {
+		"default": {
+			"margin": 240
+		}
+	},
+	"-mt-60": {
+		"default": {
+			"marginTop": 240
+		}
+	},
+	"-mb-60": {
+		"default": {
+			"marginBottom": 240
+		}
+	},
+	"-ml-60": {
+		"default": {
+			"marginLeft": 240
+		}
+	},
+	"-mr-60": {
+		"default": {
+			"marginRight": 240
+		}
+	},
+	"-mx-60": {
+		"default": {
+			"marginHorizontal": 240
+		}
+	},
+	"-my-60": {
+		"default": {
+			"marginVertical": 240
+		}
+	},
+	"-ms-60": {
+		"default": {
+			"marginStart": 240
+		}
+	},
+	"-me-60": {
 		"default": {
 			"marginEnd": 240
 		}
@@ -7621,6 +8791,51 @@
 			"marginEnd": 256
 		}
 	},
+	"-m-64": {
+		"default": {
+			"margin": 256
+		}
+	},
+	"-mt-64": {
+		"default": {
+			"marginTop": 256
+		}
+	},
+	"-mb-64": {
+		"default": {
+			"marginBottom": 256
+		}
+	},
+	"-ml-64": {
+		"default": {
+			"marginLeft": 256
+		}
+	},
+	"-mr-64": {
+		"default": {
+			"marginRight": 256
+		}
+	},
+	"-mx-64": {
+		"default": {
+			"marginHorizontal": 256
+		}
+	},
+	"-my-64": {
+		"default": {
+			"marginVertical": 256
+		}
+	},
+	"-ms-64": {
+		"default": {
+			"marginStart": 256
+		}
+	},
+	"-me-64": {
+		"default": {
+			"marginEnd": 256
+		}
+	},
 	"m-72": {
 		"default": {
 			"margin": 288
@@ -7662,6 +8877,51 @@
 		}
 	},
 	"me-72": {
+		"default": {
+			"marginEnd": 288
+		}
+	},
+	"-m-72": {
+		"default": {
+			"margin": 288
+		}
+	},
+	"-mt-72": {
+		"default": {
+			"marginTop": 288
+		}
+	},
+	"-mb-72": {
+		"default": {
+			"marginBottom": 288
+		}
+	},
+	"-ml-72": {
+		"default": {
+			"marginLeft": 288
+		}
+	},
+	"-mr-72": {
+		"default": {
+			"marginRight": 288
+		}
+	},
+	"-mx-72": {
+		"default": {
+			"marginHorizontal": 288
+		}
+	},
+	"-my-72": {
+		"default": {
+			"marginVertical": 288
+		}
+	},
+	"-ms-72": {
+		"default": {
+			"marginStart": 288
+		}
+	},
+	"-me-72": {
 		"default": {
 			"marginEnd": 288
 		}
@@ -7711,6 +8971,51 @@
 			"marginEnd": 320
 		}
 	},
+	"-m-80": {
+		"default": {
+			"margin": 320
+		}
+	},
+	"-mt-80": {
+		"default": {
+			"marginTop": 320
+		}
+	},
+	"-mb-80": {
+		"default": {
+			"marginBottom": 320
+		}
+	},
+	"-ml-80": {
+		"default": {
+			"marginLeft": 320
+		}
+	},
+	"-mr-80": {
+		"default": {
+			"marginRight": 320
+		}
+	},
+	"-mx-80": {
+		"default": {
+			"marginHorizontal": 320
+		}
+	},
+	"-my-80": {
+		"default": {
+			"marginVertical": 320
+		}
+	},
+	"-ms-80": {
+		"default": {
+			"marginStart": 320
+		}
+	},
+	"-me-80": {
+		"default": {
+			"marginEnd": 320
+		}
+	},
 	"m-96": {
 		"default": {
 			"margin": 384
@@ -7752,6 +9057,51 @@
 		}
 	},
 	"me-96": {
+		"default": {
+			"marginEnd": 384
+		}
+	},
+	"-m-96": {
+		"default": {
+			"margin": 384
+		}
+	},
+	"-mt-96": {
+		"default": {
+			"marginTop": 384
+		}
+	},
+	"-mb-96": {
+		"default": {
+			"marginBottom": 384
+		}
+	},
+	"-ml-96": {
+		"default": {
+			"marginLeft": 384
+		}
+	},
+	"-mr-96": {
+		"default": {
+			"marginRight": 384
+		}
+	},
+	"-mx-96": {
+		"default": {
+			"marginHorizontal": 384
+		}
+	},
+	"-my-96": {
+		"default": {
+			"marginVertical": 384
+		}
+	},
+	"-ms-96": {
+		"default": {
+			"marginStart": 384
+		}
+	},
+	"-me-96": {
 		"default": {
 			"marginEnd": 384
 		}
@@ -7816,6 +9166,51 @@
 			"marginEnd": 1
 		}
 	},
+	"-m-px": {
+		"default": {
+			"margin": 1
+		}
+	},
+	"-mt-px": {
+		"default": {
+			"marginTop": 1
+		}
+	},
+	"-mb-px": {
+		"default": {
+			"marginBottom": 1
+		}
+	},
+	"-ml-px": {
+		"default": {
+			"marginLeft": 1
+		}
+	},
+	"-mr-px": {
+		"default": {
+			"marginRight": 1
+		}
+	},
+	"-mx-px": {
+		"default": {
+			"marginHorizontal": 1
+		}
+	},
+	"-my-px": {
+		"default": {
+			"marginVertical": 1
+		}
+	},
+	"-ms-px": {
+		"default": {
+			"marginStart": 1
+		}
+	},
+	"-me-px": {
+		"default": {
+			"marginEnd": 1
+		}
+	},
 	"m-0.5": {
 		"default": {
 			"margin": 2
@@ -7857,6 +9252,51 @@
 		}
 	},
 	"me-0.5": {
+		"default": {
+			"marginEnd": 2
+		}
+	},
+	"-m-0.5": {
+		"default": {
+			"margin": 2
+		}
+	},
+	"-mt-0.5": {
+		"default": {
+			"marginTop": 2
+		}
+	},
+	"-mb-0.5": {
+		"default": {
+			"marginBottom": 2
+		}
+	},
+	"-ml-0.5": {
+		"default": {
+			"marginLeft": 2
+		}
+	},
+	"-mr-0.5": {
+		"default": {
+			"marginRight": 2
+		}
+	},
+	"-mx-0.5": {
+		"default": {
+			"marginHorizontal": 2
+		}
+	},
+	"-my-0.5": {
+		"default": {
+			"marginVertical": 2
+		}
+	},
+	"-ms-0.5": {
+		"default": {
+			"marginStart": 2
+		}
+	},
+	"-me-0.5": {
 		"default": {
 			"marginEnd": 2
 		}
@@ -7906,6 +9346,51 @@
 			"marginEnd": 6
 		}
 	},
+	"-m-1.5": {
+		"default": {
+			"margin": 6
+		}
+	},
+	"-mt-1.5": {
+		"default": {
+			"marginTop": 6
+		}
+	},
+	"-mb-1.5": {
+		"default": {
+			"marginBottom": 6
+		}
+	},
+	"-ml-1.5": {
+		"default": {
+			"marginLeft": 6
+		}
+	},
+	"-mr-1.5": {
+		"default": {
+			"marginRight": 6
+		}
+	},
+	"-mx-1.5": {
+		"default": {
+			"marginHorizontal": 6
+		}
+	},
+	"-my-1.5": {
+		"default": {
+			"marginVertical": 6
+		}
+	},
+	"-ms-1.5": {
+		"default": {
+			"marginStart": 6
+		}
+	},
+	"-me-1.5": {
+		"default": {
+			"marginEnd": 6
+		}
+	},
 	"m-2.5": {
 		"default": {
 			"margin": 10
@@ -7951,6 +9436,51 @@
 			"marginEnd": 10
 		}
 	},
+	"-m-2.5": {
+		"default": {
+			"margin": 10
+		}
+	},
+	"-mt-2.5": {
+		"default": {
+			"marginTop": 10
+		}
+	},
+	"-mb-2.5": {
+		"default": {
+			"marginBottom": 10
+		}
+	},
+	"-ml-2.5": {
+		"default": {
+			"marginLeft": 10
+		}
+	},
+	"-mr-2.5": {
+		"default": {
+			"marginRight": 10
+		}
+	},
+	"-mx-2.5": {
+		"default": {
+			"marginHorizontal": 10
+		}
+	},
+	"-my-2.5": {
+		"default": {
+			"marginVertical": 10
+		}
+	},
+	"-ms-2.5": {
+		"default": {
+			"marginStart": 10
+		}
+	},
+	"-me-2.5": {
+		"default": {
+			"marginEnd": 10
+		}
+	},
 	"m-3.5": {
 		"default": {
 			"margin": 14
@@ -7992,6 +9522,51 @@
 		}
 	},
 	"me-3.5": {
+		"default": {
+			"marginEnd": 14
+		}
+	},
+	"-m-3.5": {
+		"default": {
+			"margin": 14
+		}
+	},
+	"-mt-3.5": {
+		"default": {
+			"marginTop": 14
+		}
+	},
+	"-mb-3.5": {
+		"default": {
+			"marginBottom": 14
+		}
+	},
+	"-ml-3.5": {
+		"default": {
+			"marginLeft": 14
+		}
+	},
+	"-mr-3.5": {
+		"default": {
+			"marginRight": 14
+		}
+	},
+	"-mx-3.5": {
+		"default": {
+			"marginHorizontal": 14
+		}
+	},
+	"-my-3.5": {
+		"default": {
+			"marginVertical": 14
+		}
+	},
+	"-ms-3.5": {
+		"default": {
+			"marginStart": 14
+		}
+	},
+	"-me-3.5": {
 		"default": {
 			"marginEnd": 14
 		}
