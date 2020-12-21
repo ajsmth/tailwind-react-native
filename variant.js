@@ -1,20 +1,20 @@
-import { Platform } from "react-native";
-
-const transformProps = ["translate", "rotate", "scale", "skew"];
-
-function createVariantFn(styleMap) {
+function createVariantFn(styleFn) {
   const memo = {};
 
   return function getStylesForVariant(classNames = "", variantValue) {
-    const memoKey = `${classNames}-${variantValue}`;
-
-    if (memo[memoKey]) {
-      return memo[memoKey];
+    if (typeof classNames === "object") {
+      return styleFn(classNames[variantValue]);
     }
 
-    const assembledStyles = {};
+    let key = `${classNames}`;
 
-    let transforms = [];
+    if (memo[key]) {
+      return styleFn(memo[key][variantValue]);
+    }
+
+    memo[key] = {};
+
+    let stylesByVariant = {};
 
     for (let cn of classNames.split(" ")) {
       if (!cn) {
@@ -23,29 +23,24 @@ function createVariantFn(styleMap) {
 
       const [variant, className] = cn.split(":");
 
-      // todo - build out all variants on initial pass
-      if (!className) {
+      if (!stylesByVariant[variant]) {
+        stylesByVariant[variant] = [];
+      }
+
+      if (!variant || !className) {
         continue;
       }
 
-      const style = styleMap[className];
+      stylesByVariant[variant] += `${className} `;
+    } 
 
-      if (transformProps.filter((t) => className.includes(t)).length > 0) {
-        transforms.push(style);
-        continue;
-      }
+    Object.keys(stylesByVariant).forEach((variant) => {
+      console.log({ variant });
+    });
 
-      if (style && variant === variantValue) {
-        Object.assign(assembledStyles, Platform.select(style));
-      }
-    }
-
-    if (transforms.length > 0) {
-      Object.assign(assembledStyles, { transform: transforms });
-    }
-
-    memo[memoKey] = assembledStyles;
-    return assembledStyles;
+    memo[key] = stylesByVariant;
+    console.log({ stylesByVariant });
+    return styleFn(stylesByVariant[variantValue]);
   };
 }
 

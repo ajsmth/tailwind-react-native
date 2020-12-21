@@ -7568,6 +7568,24 @@
 	"-rotate-y-12": {
 		"rotateY": "-12deg"
 	},
+	"rotate-30": {
+		"rotate": "30deg"
+	},
+	"-rotate-30": {
+		"rotate": "-30deg"
+	},
+	"rotate-x-30": {
+		"rotateX": "30deg"
+	},
+	"-rotate-x-30": {
+		"rotateX": "-30deg"
+	},
+	"rotate-y-30": {
+		"rotateY": "30deg"
+	},
+	"-rotate-y-30": {
+		"rotateY": "-30deg"
+	},
 	"rotate-45": {
 		"rotate": "45deg"
 	},

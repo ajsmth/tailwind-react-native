@@ -8,6 +8,7 @@
     "create.js",
     "style.js",
     "variant.js",
+    "interpolate.js",
     "cli/*"
   ],
   "scripts": {
