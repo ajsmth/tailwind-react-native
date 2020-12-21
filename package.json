@@ -9,6 +9,7 @@
     "style.js",
     "variant.js",
     "interpolate.js",
+    "transition.js",
     "cli/*"
   ],
   "scripts": {
