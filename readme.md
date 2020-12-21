@@ -39,8 +39,18 @@ import { variant } from "tailwind-react-native/fns";
 
 function MyComponent() {
   // apply styles based on the OS the app is running on
-  const platformStyles = variant(
+  let platformStyles = variant(
     `ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
+    Platform.OS
+  );
+
+  // optional API using an object instead:
+  platformStyles = variant(
+    {
+      ios: "bg-platform-yellow",
+      android: "bg-platform-blue",
+      web: "bg-platform-red",
+    },
     Platform.OS
   );
 
@@ -53,6 +63,29 @@ this can be useful for applying different styles based on enums like:
 - Platform.OS
 - useColorScheme()
 - loading state
+
+### transition between styles
+
+```jsx
+import { useTransition } from "tailwind-react-native/fns";
+
+function MyComponent() {
+  const { status } = useMyApi("...");
+
+  const platformStyles = useTransition(
+    {
+      success: "scale-100 opacity-100",
+      error: "scale-100 opacity-95",
+      loading: "scale-95 opacity-90",
+    },
+    status
+  );
+
+  return <Animated.View style={platformStyles} />;
+}
+```
+
+`useTransition()` will interpolate between style values and animate these changes for you! 
 
 ### available styles
 
@@ -70,7 +103,7 @@ npx tailwind-react-native@latest build --config path/to/config --out path/for/st
 import { create } from "tailwind-react-native/fns";
 import styles from "./styles.json";
 
-const { style, variant } = create(styles);
+const { style, variant, useTransition } = create(styles);
 
 style("flex-1 bg-green-500 py-12");
 ```
