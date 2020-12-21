@@ -1,4 +1,4 @@
-import styles from "./styles.json";
+import styles from "../styles.json";
 import createStyleFn from "./style";
 import createVariantFn from "./variant";
 import createTransitionFn from "./transition";

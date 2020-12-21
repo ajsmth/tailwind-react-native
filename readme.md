@@ -19,7 +19,7 @@ yarn add tailwind-react-native
 
 ```jsx
 import React from "react";
-import style from "tailwind-react-native/fns";
+import { style } from "tailwind-react-native";
 
 export default function App() {
   return (
@@ -35,7 +35,7 @@ export default function App() {
 you can add custom selectors that represent dynamic styles in your components
 
 ```jsx
-import { variant } from "tailwind-react-native/fns";
+import { variant } from "tailwind-react-native";
 
 function MyComponent() {
   // apply styles based on the OS the app is running on
@@ -67,7 +67,7 @@ this can be useful for applying different styles based on enums like:
 ### transition between styles
 
 ```jsx
-import { useTransition } from "tailwind-react-native/fns";
+import { useTransition } from "tailwind-react-native";
 
 function MyComponent() {
   const { status } = useMyApi("...");
@@ -85,7 +85,7 @@ function MyComponent() {
 }
 ```
 
-`useTransition()` will interpolate between style values and animate these changes for you! 
+`useTransition()` will interpolate between style values and animate these changes for you!
 
 ### available styles
 
@@ -100,7 +100,7 @@ npx tailwind-react-native@latest build --config path/to/config --out path/for/st
 ### using your own config / styles
 
 ```jsx
-import { create } from "tailwind-react-native/fns";
+import { create } from "tailwind-react-native";
 import styles from "./styles.json";
 
 const { style, variant, useTransition } = create(styles);

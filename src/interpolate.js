@@ -1,5 +1,3 @@
-
-
 function interpolateStyles(value, ...styles) {
   const interpolations = getInterpolationsForStyles(...styles);
   const interpolatedStyle = applyAnimatedValueToInterpolations(value, interpolations);
