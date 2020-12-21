@@ -21,6 +21,10 @@ function createStyleFn(styleMap) {
 
       let style = styleMap[className];
 
+      if (!style) {
+        continue;
+      }
+
       if (transformProps.filter((t) => className.includes(t)).length > 0) {
         transforms.push(style);
         continue;
