@@ -14,6 +14,7 @@ function createVariantFn(styleFn) {
 
     memo[key] = {};
 
+    // map out each [variant]: `${classname}` and memoize
     let stylesByVariant = {};
 
     for (let cn of classNames.split(" ")) {
@@ -32,14 +33,9 @@ function createVariantFn(styleFn) {
       }
 
       stylesByVariant[variant] += `${className} `;
-    } 
-
-    Object.keys(stylesByVariant).forEach((variant) => {
-      console.log({ variant });
-    });
+    }
 
     memo[key] = stylesByVariant;
-    console.log({ stylesByVariant });
     return styleFn(stylesByVariant[variantValue]);
   };
 }
