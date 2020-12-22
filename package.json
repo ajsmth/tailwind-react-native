@@ -10,7 +10,7 @@
     "cli/*"
   ],
   "scripts": {
-    "dev": "microbundle build -i index.js -o example/lib",
+    "dev": "gulp",
     "prepublish": "node cli/index.js build"
   },
   "peerDependencies": {
@@ -21,12 +21,11 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
     "expo": "~40.0.0",
     "expo-status-bar": "~1.0.3",
-    "microbundle": "^0.13.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-watch": "^5.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "0.63.4",

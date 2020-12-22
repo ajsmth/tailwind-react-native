@@ -2,7 +2,7 @@ import React from "react";
 import { Animated, Button, Text, View } from "react-native";
 
 import styles from "./styles.json";
-import { create } from "./lib/tailwind-react-native";
+import { create } from "./lib";
 
 const { style, variant, useTransition } = create(styles);
 
