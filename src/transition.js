@@ -11,6 +11,9 @@ function createTransitionFn(variantFn) {
   // improvements:
   // we can map over the classNames object and get the interpolations matrix all at once?
   // we can hold onto the animatedValue over rerenders and transition to new styles smoothlier
+
+  // memoize variantValue orders and mapped interpolations -> go 1 -> 0 or 0 -> 1 if we've seen it before
+
   return function useTransition(
     classNames = "",
     variantValue,

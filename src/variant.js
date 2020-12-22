@@ -25,7 +25,7 @@ function createVariantFn(styleFn) {
       const [variant, className] = cn.split(":");
 
       if (!stylesByVariant[variant]) {
-        stylesByVariant[variant] = [];
+        stylesByVariant[variant] = ``;
       }
 
       if (!variant || !className) {
