@@ -72,7 +72,7 @@ import { useTransition } from "tailwind-react-native";
 function MyComponent() {
   const { status } = useMyApi("...");
 
-  const platformStyles = useTransition(
+  const transitionStyles = useTransition(
     {
       success: "scale-100 opacity-100",
       error: "scale-100 opacity-95",
@@ -81,7 +81,7 @@ function MyComponent() {
     status
   );
 
-  return <Animated.View style={platformStyles} />;
+  return <Animated.View style={transitionStyles} />;
 }
 ```
 
@@ -107,6 +107,14 @@ const { style, variant, useTransition } = create(styles);
 
 style("flex-1 bg-green-500 py-12");
 ```
+
+### purging unused styles
+
+```bash
+npx tailwind-react-native@latest purge --styles path/to/styles.json --out ./styles.json
+```
+
+similar to purgecss - this will scan the source code of the directory and attempt to remove any unused styles in the project
 
 ### future plans
 

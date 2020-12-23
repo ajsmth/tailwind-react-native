@@ -11,13 +11,15 @@
   ],
   "scripts": {
     "dev": "gulp",
-    "prepublish": "node cli/index.js build"
+    "prepublish": "node cli/index.js build",
+    "dev:purge": "node cli/index.js purge"
   },
   "peerDependencies": {
     "react": "~16.x",
     "react-native": "~0.63.x"
   },
   "dependencies": {
+    "glob": "^7.1.6",
     "yargs": "^16.2.0"
   },
   "devDependencies": {

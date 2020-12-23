@@ -7,6 +7,7 @@ const util = require("util");
 const path = require("path");
 
 const build = require("./build");
+const purge = require("./purge");
 
 yargs(hideBin(process.argv))
   .command("build", "build the styles", ({ argv }) => {
@@ -34,12 +35,57 @@ yargs(hideBin(process.argv))
     });
   })
   .option("config", {
-    alis: "c",
+    alias: "c",
     type: "string",
     description: "path to a custom tailwind.config.js file",
   })
   .option("out", {
-    alis: "o",
+    alias: "o",
     type: "string",
     description: "path to write the generated styles.json file",
+  })
+  .command("purge", "purge unused styles from styles.json", ({ argv }) => {
+    const projectFolder = argv.dir || process.cwd();
+    const jsonFile = argv.styles;
+    let json = require("../styles.json");
+
+    if (!fs.existsSync(jsonFile)) {
+      throw new Error(
+        `file not found at ${jsonFile} -- you need a custom styles.json in order to purge styles`
+      );
+    }
+
+    console.log(`using custom config at ${jsonFile} to purge styles`);
+    const outPath = argv.out || process.cwd();
+    const outfilePath = path.resolve(outPath);
+
+    purge(projectFolder, json).then((purgedStyles) => {
+      console.log(`writing purged styles to file ${outfilePath}`);
+      fs.writeFile(
+        outfilePath,
+        JSON.stringify(purgedStyles, null, "\t"),
+        (err) => {
+          if (err !== null) {
+            console.log("ERR: ", err);
+          }
+
+          console.log("DONE!");
+        }
+      );
+    });
+  })
+  .option("dir", {
+    alias: "d",
+    type: "string",
+    description: "directory of the source code to scan for styles",
+  })
+  .option("out", {
+    alias: "o",
+    type: "string",
+    description: "file path to write to",
+  })
+  .option("styles", {
+    alias: "s",
+    type: "string",
+    description: "path to your styles json file",
   }).argv;
