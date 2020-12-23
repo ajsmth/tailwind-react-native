@@ -7,21 +7,30 @@ import { create } from "./lib";
 const { style, variant, useTransition } = create(styles);
 
 export default function App() {
+  return (
+    <View style={style("flex-1 p-24")}>
+      <MyComponent />
+      <MyComponent />
+    </View>
+  );
+}
+
+function MyComponent() {
   const [status, setStatus] = React.useState("loading");
 
-  const transition = variant(
+  const useTransitionStyle = useTransition(
     {
-      success:
-        "scale-100 opacity-100 rounded-lg translate-y-10 translate-x-12 rotate-90",
-      loading:
-        "opacity-60 scale-95 rounded-none translate-y-56 translate-x-0 rotate-0",
+      success: "bg-red-500 scale-110",
+      loading: "bg-blue-500 scale-90",
     },
     status
   );
 
   return (
-    <View style={style("flex-1 p-24")}>
-      <Animated.View style={[style("w-12 h-24  bg-red-500"), transition]} />
+    <View>
+      <Animated.View
+        style={[style("w-12 h-24  bg-red-500"), useTransitionStyle]}
+      />
       <Text style={style("text-2xl")}>Status: {status}</Text>
       <Button
         title="toggle"

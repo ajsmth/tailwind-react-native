@@ -7,18 +7,11 @@ const defaultAnimatedConfig = {
   useNativeDriver: true,
 };
 
-function createTransitionFn(variantFn) {
-  // improvements:
-  // we can map over the classNames object and get the interpolations matrix all at once?
-  // we can hold onto the animatedValue over rerenders and transition to new styles smoothlier
+function createTransitionFns(variantFn) {
+  function useTransition(classNames = "", variantValue, animatedConfig = {}) {
+    const memo = React.useRef({}).current;
+    const animatedValue = React.useRef(new Animated.Value(0)).current;
 
-  // memoize variantValue orders and mapped interpolations -> go 1 -> 0 or 0 -> 1 if we've seen it before
-
-  return function useTransition(
-    classNames = "",
-    variantValue,
-    animatedConfig = {}
-  ) {
     const previousVariant = usePrevious(variantValue);
 
     const currentStyle = variantFn(classNames, variantValue);
@@ -27,9 +20,31 @@ function createTransitionFn(variantFn) {
       return currentStyle;
     }
 
-    let previousStyle = variantFn(classNames, previousVariant);
+    if (memo[`${variantValue}-${previousVariant}`]) {
+      animatedValue.setValue(1);
+      runAnimation(0);
+      return memo[`${variantValue}-${previousVariant}`];
+    }
 
-    const animatedValue = new Animated.Value(1);
+    if (memo[`${previousVariant}-${variantValue}`]) {
+      animatedValue.setValue(0);
+      runAnimation(1);
+      return memo[`${previousVariant}-${variantValue}`];
+    }
+
+    function runAnimation(toValue) {
+      const { method, ...rest } = {
+        ...defaultAnimatedConfig,
+        ...animatedConfig,
+      };
+
+      method(animatedValue, {
+        toValue,
+        ...rest,
+      }).start();
+    }
+
+    let previousStyle = variantFn(classNames, previousVariant);
 
     const animatedStyle = interpolateStyles(
       animatedValue,
@@ -37,21 +52,20 @@ function createTransitionFn(variantFn) {
       previousStyle
     );
 
-    const { method, ...rest } = {
-      ...defaultAnimatedConfig,
-      ...animatedConfig,
-    };
+    memo[`${variantValue}-${previousVariant}`] = animatedStyle;
 
-    method(animatedValue, {
-      toValue: 0,
-      ...rest,
-    }).start();
+    animatedValue.setValue(1);
+    runAnimation(0);
 
     return animatedStyle;
+  }
+
+  return {
+    useTransition,
   };
 }
 
-export default createTransitionFn;
+export default createTransitionFns;
 
 function usePrevious(value) {
   // The ref object is a generic container whose current property is mutable ...
