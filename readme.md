@@ -116,10 +116,11 @@ npx tailwind-react-native@latest purge --styles path/to/styles.json --out ./styl
 
 similar to purgecss - this will scan the source code of the directory and attempt to remove any unused styles in the project
 
+as noted by the tailwindcss docs, dynamic styles are a tough nut to crack - this lib will offer a whitelisting option to specify any dynamic styles you know you'll need to be included (WIP)
+
 ### future plans
 
 - more documentation on classes available
-- transitions
 - improve android platform colors, update ios platform colors to include UI colors
 - typescript definitions / autocomplete (if possible)
-- make it simple to extend / remove unused styles
+- add purge configurations to tailwind.config.js
