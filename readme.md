@@ -114,7 +114,7 @@ style("flex-1 bg-green-500 py-12");
 npx tailwind-react-native@latest purge --styles path/to/styles.json --out ./styles.json
 ```
 
-similar to purgecss - this will scan the source code of the directory and attempt to remove any unused styles in the project
+similar to purgecss - this will scan the source code of the directory and attempt to remove any unused styles in the project. you'll likely want to do this before building and / or deploying your app to reduce the bundle sizes included (styles.json is ~200kb out of the box).
 
 as noted by the tailwindcss docs, dynamic styles are a tough nut to crack - this lib will offer a whitelisting option to specify any dynamic styles you know you'll need to be included (WIP)
 
