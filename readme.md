@@ -111,12 +111,24 @@ style("flex-1 bg-green-500 py-12");
 ### purging unused styles
 
 ```bash
-npx tailwind-react-native@latest purge --styles path/to/styles --out ./
+npx tailwind-react-native@latest purge --config path/to/config --out path/to/output
+```
+
+you can configure the purge function via your tailwind.config.js file:
+
+```js
+module.exports = {
+  // ...rest of your config
+  purge: {
+    files: "**/*.{js,tsx}", // what file extensions to scan for styles
+    whitelist: ["bg-red-500", "h-12"], // what classNames to keep regardless of what is scanned
+  },
+};
 ```
 
 similar to purgecss - this will scan the source code of the directory and attempt to remove any unused styles in the project. you'll likely want to do this before building and / or deploying your app to reduce the bundle sizes included (styles.json is ~200kb out of the box).
 
-as noted by the tailwindcss docs, dynamic styles are a tough nut to crack - this lib will offer a whitelisting option to specify any dynamic styles you know you'll need to be included (WIP)
+as noted by the tailwindcss docs, dynamic styles are a tough nut to crack - if you know the dynamic styles your app is using, you can specify them in the whitelist property of your tailwind config to keep these styles from being stripped.
 
 ### future plans
 

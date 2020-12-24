@@ -45,47 +45,42 @@ yargs(hideBin(process.argv))
     description: "path to write the generated styles.json file",
   })
   .command("purge", "purge unused styles from styles.json", ({ argv }) => {
-    const projectFolder = argv.dir || process.cwd();
-    const jsonFile = argv.styles;
+    const configDir = argv.config || process.cwd();
+    const configPath = path.resolve(configDir, "tailwind.config.js");
 
-    if (!fs.existsSync(jsonFile)) {
-      throw new Error(
-        `file not found at ${jsonFile} -- you need a custom styles.json in order to purge styles`
-      );
-    }
+    const config = require(configPath);
+    const styles = build(config);
 
-    let json = require(path.resolve(jsonFile));
-    console.log(`using custom config at ${jsonFile} to purge styles`);
-    const outPath = argv.out || process.cwd();
-    const outfilePath = path.resolve(outPath, "styles.json");
+    const projectFolder = process.cwd();
 
-    purge(projectFolder, json).then((purgedStyles) => {
-      console.log(`writing purged styles to file ${outfilePath}`);
-      fs.writeFile(
-        outfilePath,
-        JSON.stringify(purgedStyles, null, "\t"),
-        (err) => {
-          if (err !== null) {
-            console.log("ERR: ", err);
-          }
+    config.purge = config.purge || {};
 
-          console.log("DONE!");
+    const filesGlob = config.purge.files;
+    const whitelist = config.purge.whitelist;
+
+    const outDir = argv.out || process.cwd();
+    const outPath = path.resolve(outDir, "styles.json");
+
+    console.log(`scanning ${projectFolder} for styles`);
+    purge(projectFolder, styles, filesGlob, whitelist).then((purgedStyles) => {
+      console.log(`writing purged styles to file ${outPath}`);
+      fs.writeFile(outPath, JSON.stringify(purgedStyles, null, "\t"), (err) => {
+        if (err !== null) {
+          console.log("ERR: ", err);
         }
-      );
+
+        console.log("DONE!");
+      });
     });
   })
-  .option("dir", {
-    alias: "d",
-    type: "string",
-    description: "directory of the source code to scan for styles",
-  })
+
   .option("out", {
     alias: "o",
     type: "string",
     description: "file path to write to",
   })
-  .option("styles", {
-    alias: "s",
+  .option("config", {
+    alias: "c",
     type: "string",
-    description: "path to your styles json file",
+    description: "path to your tailwind.config.js file",
   }).argv;

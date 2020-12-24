@@ -10,7 +10,7 @@ const globPromise = util.promisify(glob);
 async function purge(
   directory,
   json,
-  filesGlob = "**/*.{ts,tsx,js}",
+  filesGlob = "**/*.{ts,tsx,js,jsx}",
   whitelist = []
 ) {
   const classNames = Object.keys(json);

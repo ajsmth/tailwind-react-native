@@ -369,7 +369,7 @@ module.exports = {
       3: "3deg",
       6: "6deg",
       12: "12deg",
-      30: '30deg',
+      30: "30deg",
       45: "45deg",
       90: "90deg",
       180: "180deg",
@@ -484,5 +484,10 @@ module.exports = {
         default: color("transparent"),
       },
     }),
+  },
+
+  purge: {
+    whitelist: [],
+    files: `**/*.{ts,tsx,js,jsx}`,
   },
 };
