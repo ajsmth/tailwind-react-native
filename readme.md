@@ -111,7 +111,7 @@ style("flex-1 bg-green-500 py-12");
 ### purging unused styles
 
 ```bash
-npx tailwind-react-native@latest purge --styles path/to/styles.json --out ./styles.json
+npx tailwind-react-native@latest purge --styles path/to/styles --out ./
 ```
 
 similar to purgecss - this will scan the source code of the directory and attempt to remove any unused styles in the project. you'll likely want to do this before building and / or deploying your app to reduce the bundle sizes included (styles.json is ~200kb out of the box).
