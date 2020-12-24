@@ -45,6 +45,7 @@ async function purge(
     const purgedStyles = {};
 
     classNamesToKeep.forEach((className) => {
+
       const style = json[className];
       if (style) {
         purgedStyles[className] = style;

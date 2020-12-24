@@ -47,7 +47,6 @@ yargs(hideBin(process.argv))
   .command("purge", "purge unused styles from styles.json", ({ argv }) => {
     const projectFolder = argv.dir || process.cwd();
     const jsonFile = argv.styles;
-    let json = require("../styles.json");
 
     if (!fs.existsSync(jsonFile)) {
       throw new Error(
@@ -55,9 +54,10 @@ yargs(hideBin(process.argv))
       );
     }
 
+    let json = require(path.resolve(jsonFile));
     console.log(`using custom config at ${jsonFile} to purge styles`);
     const outPath = argv.out || process.cwd();
-    const outfilePath = path.resolve(outPath);
+    const outfilePath = path.resolve(outPath, "styles.json");
 
     purge(projectFolder, json).then((purgedStyles) => {
       console.log(`writing purged styles to file ${outfilePath}`);
