@@ -1,36 +1,13 @@
 {
-  "name": "tailwind-react-native",
-  "bin": "cli/index.js",
-  "version": "0.2.10",
-  "main": "index.js",
-  "files": [
-    "styles.json",
-    "index.js",
-    "src/*",
-    "cli/*"
-  ],
+  "private": true,
   "scripts": {
-    "dev": "gulp",
-    "prepublish": "node cli/index.js build",
-    "dev:purge": "node cli/index.js purge"
+    "postinstall": "expo-yarn-workspaces postinstall"
   },
-  "peerDependencies": {
-    "react": "~16.x",
-    "react-native": "~0.63.x"
-  },
-  "dependencies": {
-    "glob": "^7.1.6",
-    "yargs": "^16.2.0"
-  },
+  "workspaces": [
+    "example",
+    "lib"
+  ],
   "devDependencies": {
-    "expo": "~40.0.0",
-    "expo-status-bar": "~1.0.3",
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0",
-    "gulp-watch": "^5.0.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-native": "0.63.4",
-    "react-native-web": "~0.13.12"
+    "expo-yarn-workspaces": "^1.2.1"
   }
 }
