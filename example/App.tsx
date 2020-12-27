@@ -1,8 +1,10 @@
-import React from "react";
+import * as React from "react";
 import { Animated, Button, Text, View } from "react-native";
 
 import styles from "./styles.json";
-import { create } from "./lib";
+
+// @ts-ignore
+import { create } from "tailwind-react-native";
 
 const { style, variant, useTransition } = create(styles);
 
@@ -20,8 +22,9 @@ function MyComponent() {
 
   const useTransitionStyle = useTransition(
     {
-      success: ["bg-red-500", "scale-100"],
-      loading: ["bg-blue-500", "scale-90"],
+      // commented out bg-* because backgroundColor can't be animated with native driver
+      success: "scale-110", // "bg-red-500 scale-110",
+      loading: "scale-90", // "bg-blue-500 scale-90",
     },
     status,
     { useNativeDriver: false }
