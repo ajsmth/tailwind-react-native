@@ -1,8 +1,10 @@
 # tailwind-react-native
 
-### why
+### what
 
-this library focuses on whats available in react native and matches it to tailwindcss naming conventions. this means things like platform colors, dynamic colors, and other native apis are available for use in your styles (now or in the near future) - aka this library is concerned with apis that tailwindcss will probably never include, but you might want to use in your apps
+this library matches react native styles to tailwindcss naming conventions. things like platform colors, dynamic colors, and other native apis are available for use in your styles (now or in the near future) similar to how you might use them with tailwind css - but it includes style apis that tailwindcss will probably never include
+
+supports custom configurations fairly thoroughly, as well as the ability to purge unused styles similar to how purgecss works with tailwindcss
 
 ### alternatives
 
@@ -111,7 +113,7 @@ style("flex-1 bg-green-500 py-12");
 ### purging unused styles
 
 ```bash
-npx tailwind-react-native@latest purge --config path/to/config --out path/to/output
+npx tailwind-react-native@latest purge --config path/to/config --out path/for/styles
 ```
 
 you can configure the purge function via your tailwind.config.js file:
@@ -134,5 +136,3 @@ as noted by the tailwindcss docs, dynamic styles are a tough nut to crack - if y
 
 - more documentation on classes available
 - improve android platform colors, update ios platform colors to include UI colors
-- typescript definitions / autocomplete (if possible)
-- add purge configurations to tailwind.config.js
