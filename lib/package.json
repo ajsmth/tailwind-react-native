@@ -1,7 +1,7 @@
 {
   "name": "tailwind-react-native",
   "bin": "cli/index.js",
-  "version": "0.2.10",
+  "version": "0.2.13",
   "main": "index.js",
   "files": [
     "styles.json",
