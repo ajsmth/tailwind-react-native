@@ -1,14 +1,16 @@
-import React from "react";
+import * as React from "react";
 import { Animated, Button, Text, View } from "react-native";
 
 import styles from "./styles.json";
-import { create } from "./lib";
+
+// @ts-ignore
+import { create } from "tailwind-react-native";
 
 const { style, variant, useTransition } = create(styles);
 
 export default function App() {
   return (
-    <View style={[style(["flex-1", "p-24"])]}>
+    <View style={[style(["flex-1", "p-24", "bg-my-awesome-color"])]}>
       <MyComponent />
       <MyComponent />
     </View>
@@ -20,11 +22,10 @@ function MyComponent() {
 
   const useTransitionStyle = useTransition(
     {
-      success: ["bg-red-500", "scale-100"],
-      loading: ["bg-blue-500", "scale-90"],
+      success: "scale-110",
+      loading: "scale-90",
     },
-    status,
-    { useNativeDriver: false }
+    status
   );
 
   return (

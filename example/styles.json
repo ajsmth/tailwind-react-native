@@ -317,6 +317,9 @@
 	"bg-current": {
 		"backgroundColor": "currentColor"
 	},
+	"bg-my-awesome-color": {
+		"backgroundColor": "aquamarine"
+	},
 	"border-black": {
 		"borderColor": "#000"
 	},
@@ -2080,6 +2083,27 @@
 	},
 	"border-e-current": {
 		"borderEndColor": "currentColor"
+	},
+	"border-my-awesome-color": {
+		"borderColor": "aquamarine"
+	},
+	"border-r-my-awesome-color": {
+		"borderRightColor": "aquamarine"
+	},
+	"border-l-my-awesome-color": {
+		"borderLeft": "aquamarine"
+	},
+	"border-t-my-awesome-color": {
+		"borderTopColor": "aquamarine"
+	},
+	"border-b-my-awesome-color": {
+		"borderBottomColor": "aquamarine"
+	},
+	"border-s-my-awesome-color": {
+		"borderStartColor": "aquamarine"
+	},
+	"border-e-my-awesome-color": {
+		"borderEndColor": "aquamarine"
 	},
 	"rounded-none": {
 		"borderRadius": 0
@@ -9771,6 +9795,12 @@
 	},
 	"text-s-current": {
 		"textShadowColor": "currentColor"
+	},
+	"text-my-awesome-color": {
+		"color": "aquamarine"
+	},
+	"text-s-my-awesome-color": {
+		"textShadowColor": "aquamarine"
 	},
 	"underline": {
 		"textDecoration": "underline"
