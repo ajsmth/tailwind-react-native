@@ -6,6 +6,10 @@ function createStyleFn(styleMap) {
   const memo = {};
 
   return function getStylesForClassnames(classNames = "") {
+    if (Array.isArray(classNames)) {
+      classNames = classNames.join(" ");
+    }
+
     if (memo[classNames]) {
       return memo[classNames];
     }

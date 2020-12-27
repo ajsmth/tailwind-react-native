@@ -8,7 +8,7 @@ const { style, variant, useTransition } = create(styles);
 
 export default function App() {
   return (
-    <View style={style("flex-1 p-24")}>
+    <View style={style(["flex-1", "p-24"])}>
       <MyComponent />
       <MyComponent />
     </View>
@@ -20,8 +20,8 @@ function MyComponent() {
 
   const useTransitionStyle = useTransition(
     {
-      success: "bg-red-500 scale-110",
-      loading: "bg-blue-500 scale-90",
+      success: ["bg-red-500", "scale-100"],
+      loading: ["bg-blue-500", "scale-90"],
     },
     status
   );
