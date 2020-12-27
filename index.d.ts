@@ -22,7 +22,7 @@ export function create<T>(
   ) => ViewStyle;
 };
 
-import JSON from "../styles.json";
+import JSON from "./styles.json";
 type Keys = keyof typeof JSON;
 
 export function style(classNames: string | Keys[]): ViewStyle;
