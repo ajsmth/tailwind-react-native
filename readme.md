@@ -2,9 +2,9 @@
 
 ### what
 
-this library matches react native styles to tailwindcss naming conventions. things like platform colors, dynamic colors, and other native apis are available for use in your styles (now or in the near future) similar to how you might use them with tailwind css - but it includes style apis that tailwindcss will probably never include
+this library marries react native specific apis like platform colors, dynamic colors, etc with tailwindcss naming conventions and api
 
-supports custom configurations fairly thoroughly, as well as the ability to purge unused styles similar to how purgecss works with tailwindcss
+supports custom configurations fairly thoroughly, as well as the ability to purge unused styles
 
 ### alternatives
 
