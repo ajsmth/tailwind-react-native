@@ -10,7 +10,7 @@ const { style, variant, useTransition } = create(styles);
 
 export default function App() {
   return (
-    <View style={[style(["flex-1", "p-24"])]}>
+    <View style={[style(["flex-1", "p-24", "bg-my-awesome-color"])]}>
       <MyComponent />
       <MyComponent />
     </View>
@@ -22,12 +22,10 @@ function MyComponent() {
 
   const useTransitionStyle = useTransition(
     {
-      // commented out bg-* because backgroundColor can't be animated with native driver
-      success: "scale-110", // "bg-red-500 scale-110",
-      loading: "scale-90", // "bg-blue-500 scale-90",
+      success: "scale-110",
+      loading: "scale-90",
     },
-    status,
-    { useNativeDriver: false }
+    status
   );
 
   return (

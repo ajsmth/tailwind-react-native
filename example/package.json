@@ -8,7 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "postinstall": "expo-yarn-workspaces postinstall"
+    "postinstall": "expo-yarn-workspaces postinstall",
+    "build": "tailwind-react-native build"
   },
   "dependencies": {
     "expo": "~40.0.0",
