@@ -333,22 +333,6 @@ module.exports = {
       10: remToPts("2.5rem"),
     },
 
-    textShadowRadius: {
-      tight: remToPts("1.25rem"),
-      snug: remToPts("1.375rem"),
-      normal: remToPts("1.5rem"),
-      relaxed: remToPts("1.625rem"),
-      loose: remToPts("2rem"),
-      3: remToPts(".75rem"),
-      4: remToPts("1rem"),
-      5: remToPts("1.25rem"),
-      6: remToPts("1.5rem"),
-      7: remToPts("1.75rem"),
-      8: remToPts("2rem"),
-      9: remToPts("2.25rem"),
-      10: remToPts("2.5rem"),
-    },
-
     letterSpacing: {
       tighter: remToPts("-0.05rem"),
       tight: remToPts("-0.025rem"),
@@ -483,7 +467,123 @@ module.exports = {
         android: "?attr/clear",
         default: color("transparent"),
       },
+      label: {
+        ios: "label",
+        android: "?attr/label",
+        default: color("gray-900"),
+      },
+      ["label-2"]: {
+        ios: "secondaryLabel",
+        android: "?attr/secondaryLabel",
+        default: color("gray-700"),
+      },
+      ["label-3"]: {
+        ios: "tertiaryLabel",
+        android: "?attr/tertiaryLabel",
+        default: color("gray-500"),
+      },
+      ["label-4"]: {
+        ios: "quaternaryLabel",
+        android: "?attr/quaternaryLabel",
+        default: color("gray-400"),
+      },
+
+      ["fill"]: {
+        ios: "systemFill",
+        android: "?attr/systemFill",
+        default: color("gray-200"),
+      },
+      ["fill-2"]: {
+        ios: "secondarySystemFill",
+        android: "?attr/secondarySystemFill",
+        default: color("gray-300"),
+      },
+      ["fill-3"]: {
+        ios: "tertiarySystemFill",
+        android: "?attr/tertiarySystemFill",
+        default: color("gray-400"),
+      },
+      ["fill-4"]: {
+        ios: "quaternarySystemFill",
+        android: "?attr/quaternarySystemFill",
+        default: color("gray-400"),
+      },
+
+      ["placeholder"]: {
+        ios: "placeholderText",
+        android: "?attr/placeholderText",
+        default: color("gray-700"),
+      },
+
+      ["bg"]: {
+        ios: "systemBackground",
+        android: "?attr/systemBackground",
+        default: color("gray-100"),
+      },
+      ["bg-2"]: {
+        ios: "secondarySystemBackground",
+        android: "?attr/secondarySystemBackground",
+        default: color("gray-200"),
+      },
+      ["bg-3"]: {
+        ios: "tertiarySystemBackground",
+        android: "?attr/tertiarySystemBackground",
+        default: color("gray-300"),
+      },
+
+      ["grouped-bg"]: {
+        ios: "systemGroupedBackground",
+        android: "?attr/systemGroupedBackground",
+        default: color("gray-100"),
+      },
+      ["grouped-bg-2"]: {
+        ios: "secondarySystemGroupedBackground",
+        android: "?attr/secondarySystemGroupedBackground",
+        default: color("gray-100"),
+      },
+      ["grouped-bg-3"]: {
+        ios: "tertiarySystemGroupedBackground",
+        android: "?attr/tertiarySystemGroupedBackground",
+        default: color("gray-100"),
+      },
+
+      ["separator"]: {
+        ios: "separator",
+        android: "?attr/separator",
+        default: color("gray-100"),
+      },
+      ["opaque-separator"]: {
+        ios: "opaqueSeparator",
+        android: "?attr/opaqueSeparator",
+        default: color("gray-100"),
+      },
+
+      ["link"]: {
+        ios: "link",
+        android: "?attr/link",
+        default: color("blue-400"),
+      },
+      ["text-dark"]: {
+        ios: "darkText",
+        android: "?attr/darkText",
+        default: color("gray-900"),
+      },
+      ["text-light"]: {
+        ios: "lightText",
+        android: "?attr/lightText",
+        default: color("gray-600"),
+      },
     }),
+
+    textShadow: {
+      sm: [1, 2, 1, "rgb(0,0,0)"],
+      DEFAULT: [1, 3, 1, "rgb(0,0,0)"],
+      md: [4, 6, -1, "rgb(0,0,0)"],
+      lg: [10, 15, -3, "rgb(0,0,0)"],
+      xl: [20, 25, -5, "rgb(0,0,0)"],
+      "2xl": [25, 50, -12, "rgb(0,0,0)"],
+      none: [0, 0, 0, "rgb(0,0,0)"],
+    },
   },
 
   purge: {

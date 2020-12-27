@@ -2467,7 +2467,7 @@
 			"elevation": 1
 		}
 	},
-	"shadow-DEFAULT": {
+	"shadow": {
 		"default": {
 			"shadowColor": "rgba(0,0,0)",
 			"shadowOffset": {
@@ -7439,405 +7439,6 @@
 	"pe-3.5": {
 		"paddingEnd": 14
 	},
-	"relative": {
-		"position": "relative"
-	},
-	"absolute": {
-		"position": "absolute"
-	},
-	"resize-cover": {
-		"resizeMode": "cover"
-	},
-	"resize-contain": {
-		"resizeMode": "contain"
-	},
-	"resize-stretch": {
-		"resizeMode": "stretch"
-	},
-	"resize-repeat": {
-		"resizeMode": "repeat"
-	},
-	"resize-center": {
-		"resizeMode": "center"
-	},
-	"rotate-0": {
-		"rotate": "0deg"
-	},
-	"-rotate-0": {
-		"rotate": "-0deg"
-	},
-	"rotate-x-0": {
-		"rotateX": "0deg"
-	},
-	"-rotate-x-0": {
-		"rotateX": "-0deg"
-	},
-	"rotate-y-0": {
-		"rotateY": "0deg"
-	},
-	"-rotate-y-0": {
-		"rotateY": "-0deg"
-	},
-	"rotate-1": {
-		"rotate": "1deg"
-	},
-	"-rotate-1": {
-		"rotate": "-1deg"
-	},
-	"rotate-x-1": {
-		"rotateX": "1deg"
-	},
-	"-rotate-x-1": {
-		"rotateX": "-1deg"
-	},
-	"rotate-y-1": {
-		"rotateY": "1deg"
-	},
-	"-rotate-y-1": {
-		"rotateY": "-1deg"
-	},
-	"rotate-2": {
-		"rotate": "2deg"
-	},
-	"-rotate-2": {
-		"rotate": "-2deg"
-	},
-	"rotate-x-2": {
-		"rotateX": "2deg"
-	},
-	"-rotate-x-2": {
-		"rotateX": "-2deg"
-	},
-	"rotate-y-2": {
-		"rotateY": "2deg"
-	},
-	"-rotate-y-2": {
-		"rotateY": "-2deg"
-	},
-	"rotate-3": {
-		"rotate": "3deg"
-	},
-	"-rotate-3": {
-		"rotate": "-3deg"
-	},
-	"rotate-x-3": {
-		"rotateX": "3deg"
-	},
-	"-rotate-x-3": {
-		"rotateX": "-3deg"
-	},
-	"rotate-y-3": {
-		"rotateY": "3deg"
-	},
-	"-rotate-y-3": {
-		"rotateY": "-3deg"
-	},
-	"rotate-6": {
-		"rotate": "6deg"
-	},
-	"-rotate-6": {
-		"rotate": "-6deg"
-	},
-	"rotate-x-6": {
-		"rotateX": "6deg"
-	},
-	"-rotate-x-6": {
-		"rotateX": "-6deg"
-	},
-	"rotate-y-6": {
-		"rotateY": "6deg"
-	},
-	"-rotate-y-6": {
-		"rotateY": "-6deg"
-	},
-	"rotate-12": {
-		"rotate": "12deg"
-	},
-	"-rotate-12": {
-		"rotate": "-12deg"
-	},
-	"rotate-x-12": {
-		"rotateX": "12deg"
-	},
-	"-rotate-x-12": {
-		"rotateX": "-12deg"
-	},
-	"rotate-y-12": {
-		"rotateY": "12deg"
-	},
-	"-rotate-y-12": {
-		"rotateY": "-12deg"
-	},
-	"rotate-30": {
-		"rotate": "30deg"
-	},
-	"-rotate-30": {
-		"rotate": "-30deg"
-	},
-	"rotate-x-30": {
-		"rotateX": "30deg"
-	},
-	"-rotate-x-30": {
-		"rotateX": "-30deg"
-	},
-	"rotate-y-30": {
-		"rotateY": "30deg"
-	},
-	"-rotate-y-30": {
-		"rotateY": "-30deg"
-	},
-	"rotate-45": {
-		"rotate": "45deg"
-	},
-	"-rotate-45": {
-		"rotate": "-45deg"
-	},
-	"rotate-x-45": {
-		"rotateX": "45deg"
-	},
-	"-rotate-x-45": {
-		"rotateX": "-45deg"
-	},
-	"rotate-y-45": {
-		"rotateY": "45deg"
-	},
-	"-rotate-y-45": {
-		"rotateY": "-45deg"
-	},
-	"rotate-90": {
-		"rotate": "90deg"
-	},
-	"-rotate-90": {
-		"rotate": "-90deg"
-	},
-	"rotate-x-90": {
-		"rotateX": "90deg"
-	},
-	"-rotate-x-90": {
-		"rotateX": "-90deg"
-	},
-	"rotate-y-90": {
-		"rotateY": "90deg"
-	},
-	"-rotate-y-90": {
-		"rotateY": "-90deg"
-	},
-	"rotate-180": {
-		"rotate": "180deg"
-	},
-	"-rotate-180": {
-		"rotate": "-180deg"
-	},
-	"rotate-x-180": {
-		"rotateX": "180deg"
-	},
-	"-rotate-x-180": {
-		"rotateX": "-180deg"
-	},
-	"rotate-y-180": {
-		"rotateY": "180deg"
-	},
-	"-rotate-y-180": {
-		"rotateY": "-180deg"
-	},
-	"scale-0": {
-		"scale": 0
-	},
-	"scale-x-0": {
-		"scaleX": 0
-	},
-	"scale-y-0": {
-		"scaleY": 0
-	},
-	"scale-50": {
-		"scale": 0.5
-	},
-	"scale-x-50": {
-		"scaleX": 0.5
-	},
-	"scale-y-50": {
-		"scaleY": 0.5
-	},
-	"scale-75": {
-		"scale": 0.75
-	},
-	"scale-x-75": {
-		"scaleX": 0.75
-	},
-	"scale-y-75": {
-		"scaleY": 0.75
-	},
-	"scale-90": {
-		"scale": 0.9
-	},
-	"scale-x-90": {
-		"scaleX": 0.9
-	},
-	"scale-y-90": {
-		"scaleY": 0.9
-	},
-	"scale-95": {
-		"scale": 0.95
-	},
-	"scale-x-95": {
-		"scaleX": 0.95
-	},
-	"scale-y-95": {
-		"scaleY": 0.95
-	},
-	"scale-100": {
-		"scale": 1
-	},
-	"scale-x-100": {
-		"scaleX": 1
-	},
-	"scale-y-100": {
-		"scaleY": 1
-	},
-	"scale-105": {
-		"scale": 1.05
-	},
-	"scale-x-105": {
-		"scaleX": 1.05
-	},
-	"scale-y-105": {
-		"scaleY": 1.05
-	},
-	"scale-110": {
-		"scale": 1.1
-	},
-	"scale-x-110": {
-		"scaleX": 1.1
-	},
-	"scale-y-110": {
-		"scaleY": 1.1
-	},
-	"scale-125": {
-		"scale": 1.25
-	},
-	"scale-x-125": {
-		"scaleX": 1.25
-	},
-	"scale-y-125": {
-		"scaleY": 1.25
-	},
-	"scale-150": {
-		"scale": 1.5
-	},
-	"scale-x-150": {
-		"scaleX": 1.5
-	},
-	"scale-y-150": {
-		"scaleY": 1.5
-	},
-	"skew-0": {
-		"skew": "0deg"
-	},
-	"-skew-0": {
-		"skew": "-0deg"
-	},
-	"skew-x-0": {
-		"skewX": "0deg"
-	},
-	"-skew-x-0": {
-		"skewX": "-0deg"
-	},
-	"skew-y-0": {
-		"skewY": "0deg"
-	},
-	"-skew-y-0": {
-		"skewY": "-0deg"
-	},
-	"skew-1": {
-		"skew": "1deg"
-	},
-	"-skew-1": {
-		"skew": "-1deg"
-	},
-	"skew-x-1": {
-		"skewX": "1deg"
-	},
-	"-skew-x-1": {
-		"skewX": "-1deg"
-	},
-	"skew-y-1": {
-		"skewY": "1deg"
-	},
-	"-skew-y-1": {
-		"skewY": "-1deg"
-	},
-	"skew-2": {
-		"skew": "2deg"
-	},
-	"-skew-2": {
-		"skew": "-2deg"
-	},
-	"skew-x-2": {
-		"skewX": "2deg"
-	},
-	"-skew-x-2": {
-		"skewX": "-2deg"
-	},
-	"skew-y-2": {
-		"skewY": "2deg"
-	},
-	"-skew-y-2": {
-		"skewY": "-2deg"
-	},
-	"skew-3": {
-		"skew": "3deg"
-	},
-	"-skew-3": {
-		"skew": "-3deg"
-	},
-	"skew-x-3": {
-		"skewX": "3deg"
-	},
-	"-skew-x-3": {
-		"skewX": "-3deg"
-	},
-	"skew-y-3": {
-		"skewY": "3deg"
-	},
-	"-skew-y-3": {
-		"skewY": "-3deg"
-	},
-	"skew-6": {
-		"skew": "6deg"
-	},
-	"-skew-6": {
-		"skew": "-6deg"
-	},
-	"skew-x-6": {
-		"skewX": "6deg"
-	},
-	"-skew-x-6": {
-		"skewX": "-6deg"
-	},
-	"skew-y-6": {
-		"skewY": "6deg"
-	},
-	"-skew-y-6": {
-		"skewY": "-6deg"
-	},
-	"skew-12": {
-		"skew": "12deg"
-	},
-	"-skew-12": {
-		"skew": "-12deg"
-	},
-	"skew-x-12": {
-		"skewX": "12deg"
-	},
-	"-skew-x-12": {
-		"skewX": "-12deg"
-	},
-	"skew-y-12": {
-		"skewY": "12deg"
-	},
-	"-skew-y-12": {
-		"skewY": "-12deg"
-	},
 	"text-platform-blue": {
 		"ios": {
 			"color": {
@@ -8484,6 +8085,1165 @@
 			"backgroundColor": "transparent"
 		}
 	},
+	"text-platform-label": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"label"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/label"
+				]
+			}
+		},
+		"default": {
+			"color": "#18181b"
+		}
+	},
+	"bg-platform-label": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"label"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/label"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#18181b"
+		}
+	},
+	"text-platform-label-2": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"secondaryLabel"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/secondaryLabel"
+				]
+			}
+		},
+		"default": {
+			"color": "#3f3f46"
+		}
+	},
+	"bg-platform-label-2": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"secondaryLabel"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/secondaryLabel"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#3f3f46"
+		}
+	},
+	"text-platform-label-3": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"tertiaryLabel"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/tertiaryLabel"
+				]
+			}
+		},
+		"default": {
+			"color": "#71717a"
+		}
+	},
+	"bg-platform-label-3": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"tertiaryLabel"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/tertiaryLabel"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#71717a"
+		}
+	},
+	"text-platform-label-4": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"quaternaryLabel"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/quaternaryLabel"
+				]
+			}
+		},
+		"default": {
+			"color": "#a1a1aa"
+		}
+	},
+	"bg-platform-label-4": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"quaternaryLabel"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/quaternaryLabel"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#a1a1aa"
+		}
+	},
+	"text-platform-fill": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemFill"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemFill"
+				]
+			}
+		},
+		"default": {
+			"color": "#e4e4e7"
+		}
+	},
+	"bg-platform-fill": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemFill"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemFill"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#e4e4e7"
+		}
+	},
+	"text-platform-fill-2": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"secondarySystemFill"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/secondarySystemFill"
+				]
+			}
+		},
+		"default": {
+			"color": "#d4d4d8"
+		}
+	},
+	"bg-platform-fill-2": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"secondarySystemFill"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/secondarySystemFill"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#d4d4d8"
+		}
+	},
+	"text-platform-fill-3": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"tertiarySystemFill"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/tertiarySystemFill"
+				]
+			}
+		},
+		"default": {
+			"color": "#a1a1aa"
+		}
+	},
+	"bg-platform-fill-3": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"tertiarySystemFill"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/tertiarySystemFill"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#a1a1aa"
+		}
+	},
+	"text-platform-fill-4": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"quaternarySystemFill"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/quaternarySystemFill"
+				]
+			}
+		},
+		"default": {
+			"color": "#a1a1aa"
+		}
+	},
+	"bg-platform-fill-4": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"quaternarySystemFill"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/quaternarySystemFill"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#a1a1aa"
+		}
+	},
+	"text-platform-placeholder": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"placeholderText"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/placeholderText"
+				]
+			}
+		},
+		"default": {
+			"color": "#3f3f46"
+		}
+	},
+	"bg-platform-placeholder": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"placeholderText"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/placeholderText"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#3f3f46"
+		}
+	},
+	"text-platform-bg": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemBackground"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemBackground"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-platform-bg": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemBackground"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemBackground"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-platform-bg-2": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"secondarySystemBackground"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/secondarySystemBackground"
+				]
+			}
+		},
+		"default": {
+			"color": "#e4e4e7"
+		}
+	},
+	"bg-platform-bg-2": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"secondarySystemBackground"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/secondarySystemBackground"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#e4e4e7"
+		}
+	},
+	"text-platform-bg-3": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"tertiarySystemBackground"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/tertiarySystemBackground"
+				]
+			}
+		},
+		"default": {
+			"color": "#d4d4d8"
+		}
+	},
+	"bg-platform-bg-3": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"tertiarySystemBackground"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/tertiarySystemBackground"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#d4d4d8"
+		}
+	},
+	"text-platform-grouped-bg": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"systemGroupedBackground"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/systemGroupedBackground"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-platform-grouped-bg": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"systemGroupedBackground"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/systemGroupedBackground"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-platform-grouped-bg-2": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"secondarySystemGroupedBackground"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/secondarySystemGroupedBackground"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-platform-grouped-bg-2": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"secondarySystemGroupedBackground"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/secondarySystemGroupedBackground"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-platform-grouped-bg-3": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"tertiarySystemGroupedBackground"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/tertiarySystemGroupedBackground"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-platform-grouped-bg-3": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"tertiarySystemGroupedBackground"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/tertiarySystemGroupedBackground"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-platform-separator": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"separator"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/separator"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-platform-separator": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"separator"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/separator"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-platform-opaque-separator": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"opaqueSeparator"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/opaqueSeparator"
+				]
+			}
+		},
+		"default": {
+			"color": "#f4f4f5"
+		}
+	},
+	"bg-platform-opaque-separator": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"opaqueSeparator"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/opaqueSeparator"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#f4f4f5"
+		}
+	},
+	"text-platform-link": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"link"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/link"
+				]
+			}
+		},
+		"default": {
+			"color": "#60a5fa"
+		}
+	},
+	"bg-platform-link": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"link"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/link"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#60a5fa"
+		}
+	},
+	"text-platform-text-dark": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"darkText"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/darkText"
+				]
+			}
+		},
+		"default": {
+			"color": "#18181b"
+		}
+	},
+	"bg-platform-text-dark": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"darkText"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/darkText"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#18181b"
+		}
+	},
+	"text-platform-text-light": {
+		"ios": {
+			"color": {
+				"semantic": [
+					"lightText"
+				]
+			}
+		},
+		"android": {
+			"color": {
+				"resource_paths": [
+					"?attr/lightText"
+				]
+			}
+		},
+		"default": {
+			"color": "#52525b"
+		}
+	},
+	"bg-platform-text-light": {
+		"ios": {
+			"backgroundColor": {
+				"semantic": [
+					"lightText"
+				]
+			}
+		},
+		"android": {
+			"backgroundColor": {
+				"resource_paths": [
+					"?attr/lightText"
+				]
+			}
+		},
+		"default": {
+			"backgroundColor": "#52525b"
+		}
+	},
+	"relative": {
+		"position": "relative"
+	},
+	"absolute": {
+		"position": "absolute"
+	},
+	"resize-cover": {
+		"resizeMode": "cover"
+	},
+	"resize-contain": {
+		"resizeMode": "contain"
+	},
+	"resize-stretch": {
+		"resizeMode": "stretch"
+	},
+	"resize-repeat": {
+		"resizeMode": "repeat"
+	},
+	"resize-center": {
+		"resizeMode": "center"
+	},
+	"rotate-0": {
+		"rotate": "0deg"
+	},
+	"-rotate-0": {
+		"rotate": "-0deg"
+	},
+	"rotate-x-0": {
+		"rotateX": "0deg"
+	},
+	"-rotate-x-0": {
+		"rotateX": "-0deg"
+	},
+	"rotate-y-0": {
+		"rotateY": "0deg"
+	},
+	"-rotate-y-0": {
+		"rotateY": "-0deg"
+	},
+	"rotate-1": {
+		"rotate": "1deg"
+	},
+	"-rotate-1": {
+		"rotate": "-1deg"
+	},
+	"rotate-x-1": {
+		"rotateX": "1deg"
+	},
+	"-rotate-x-1": {
+		"rotateX": "-1deg"
+	},
+	"rotate-y-1": {
+		"rotateY": "1deg"
+	},
+	"-rotate-y-1": {
+		"rotateY": "-1deg"
+	},
+	"rotate-2": {
+		"rotate": "2deg"
+	},
+	"-rotate-2": {
+		"rotate": "-2deg"
+	},
+	"rotate-x-2": {
+		"rotateX": "2deg"
+	},
+	"-rotate-x-2": {
+		"rotateX": "-2deg"
+	},
+	"rotate-y-2": {
+		"rotateY": "2deg"
+	},
+	"-rotate-y-2": {
+		"rotateY": "-2deg"
+	},
+	"rotate-3": {
+		"rotate": "3deg"
+	},
+	"-rotate-3": {
+		"rotate": "-3deg"
+	},
+	"rotate-x-3": {
+		"rotateX": "3deg"
+	},
+	"-rotate-x-3": {
+		"rotateX": "-3deg"
+	},
+	"rotate-y-3": {
+		"rotateY": "3deg"
+	},
+	"-rotate-y-3": {
+		"rotateY": "-3deg"
+	},
+	"rotate-6": {
+		"rotate": "6deg"
+	},
+	"-rotate-6": {
+		"rotate": "-6deg"
+	},
+	"rotate-x-6": {
+		"rotateX": "6deg"
+	},
+	"-rotate-x-6": {
+		"rotateX": "-6deg"
+	},
+	"rotate-y-6": {
+		"rotateY": "6deg"
+	},
+	"-rotate-y-6": {
+		"rotateY": "-6deg"
+	},
+	"rotate-12": {
+		"rotate": "12deg"
+	},
+	"-rotate-12": {
+		"rotate": "-12deg"
+	},
+	"rotate-x-12": {
+		"rotateX": "12deg"
+	},
+	"-rotate-x-12": {
+		"rotateX": "-12deg"
+	},
+	"rotate-y-12": {
+		"rotateY": "12deg"
+	},
+	"-rotate-y-12": {
+		"rotateY": "-12deg"
+	},
+	"rotate-30": {
+		"rotate": "30deg"
+	},
+	"-rotate-30": {
+		"rotate": "-30deg"
+	},
+	"rotate-x-30": {
+		"rotateX": "30deg"
+	},
+	"-rotate-x-30": {
+		"rotateX": "-30deg"
+	},
+	"rotate-y-30": {
+		"rotateY": "30deg"
+	},
+	"-rotate-y-30": {
+		"rotateY": "-30deg"
+	},
+	"rotate-45": {
+		"rotate": "45deg"
+	},
+	"-rotate-45": {
+		"rotate": "-45deg"
+	},
+	"rotate-x-45": {
+		"rotateX": "45deg"
+	},
+	"-rotate-x-45": {
+		"rotateX": "-45deg"
+	},
+	"rotate-y-45": {
+		"rotateY": "45deg"
+	},
+	"-rotate-y-45": {
+		"rotateY": "-45deg"
+	},
+	"rotate-90": {
+		"rotate": "90deg"
+	},
+	"-rotate-90": {
+		"rotate": "-90deg"
+	},
+	"rotate-x-90": {
+		"rotateX": "90deg"
+	},
+	"-rotate-x-90": {
+		"rotateX": "-90deg"
+	},
+	"rotate-y-90": {
+		"rotateY": "90deg"
+	},
+	"-rotate-y-90": {
+		"rotateY": "-90deg"
+	},
+	"rotate-180": {
+		"rotate": "180deg"
+	},
+	"-rotate-180": {
+		"rotate": "-180deg"
+	},
+	"rotate-x-180": {
+		"rotateX": "180deg"
+	},
+	"-rotate-x-180": {
+		"rotateX": "-180deg"
+	},
+	"rotate-y-180": {
+		"rotateY": "180deg"
+	},
+	"-rotate-y-180": {
+		"rotateY": "-180deg"
+	},
+	"scale-0": {
+		"scale": 0
+	},
+	"scale-x-0": {
+		"scaleX": 0
+	},
+	"scale-y-0": {
+		"scaleY": 0
+	},
+	"scale-50": {
+		"scale": 0.5
+	},
+	"scale-x-50": {
+		"scaleX": 0.5
+	},
+	"scale-y-50": {
+		"scaleY": 0.5
+	},
+	"scale-75": {
+		"scale": 0.75
+	},
+	"scale-x-75": {
+		"scaleX": 0.75
+	},
+	"scale-y-75": {
+		"scaleY": 0.75
+	},
+	"scale-90": {
+		"scale": 0.9
+	},
+	"scale-x-90": {
+		"scaleX": 0.9
+	},
+	"scale-y-90": {
+		"scaleY": 0.9
+	},
+	"scale-95": {
+		"scale": 0.95
+	},
+	"scale-x-95": {
+		"scaleX": 0.95
+	},
+	"scale-y-95": {
+		"scaleY": 0.95
+	},
+	"scale-100": {
+		"scale": 1
+	},
+	"scale-x-100": {
+		"scaleX": 1
+	},
+	"scale-y-100": {
+		"scaleY": 1
+	},
+	"scale-105": {
+		"scale": 1.05
+	},
+	"scale-x-105": {
+		"scaleX": 1.05
+	},
+	"scale-y-105": {
+		"scaleY": 1.05
+	},
+	"scale-110": {
+		"scale": 1.1
+	},
+	"scale-x-110": {
+		"scaleX": 1.1
+	},
+	"scale-y-110": {
+		"scaleY": 1.1
+	},
+	"scale-125": {
+		"scale": 1.25
+	},
+	"scale-x-125": {
+		"scaleX": 1.25
+	},
+	"scale-y-125": {
+		"scaleY": 1.25
+	},
+	"scale-150": {
+		"scale": 1.5
+	},
+	"scale-x-150": {
+		"scaleX": 1.5
+	},
+	"scale-y-150": {
+		"scaleY": 1.5
+	},
+	"skew-0": {
+		"skew": "0deg"
+	},
+	"-skew-0": {
+		"skew": "-0deg"
+	},
+	"skew-x-0": {
+		"skewX": "0deg"
+	},
+	"-skew-x-0": {
+		"skewX": "-0deg"
+	},
+	"skew-y-0": {
+		"skewY": "0deg"
+	},
+	"-skew-y-0": {
+		"skewY": "-0deg"
+	},
+	"skew-1": {
+		"skew": "1deg"
+	},
+	"-skew-1": {
+		"skew": "-1deg"
+	},
+	"skew-x-1": {
+		"skewX": "1deg"
+	},
+	"-skew-x-1": {
+		"skewX": "-1deg"
+	},
+	"skew-y-1": {
+		"skewY": "1deg"
+	},
+	"-skew-y-1": {
+		"skewY": "-1deg"
+	},
+	"skew-2": {
+		"skew": "2deg"
+	},
+	"-skew-2": {
+		"skew": "-2deg"
+	},
+	"skew-x-2": {
+		"skewX": "2deg"
+	},
+	"-skew-x-2": {
+		"skewX": "-2deg"
+	},
+	"skew-y-2": {
+		"skewY": "2deg"
+	},
+	"-skew-y-2": {
+		"skewY": "-2deg"
+	},
+	"skew-3": {
+		"skew": "3deg"
+	},
+	"-skew-3": {
+		"skew": "-3deg"
+	},
+	"skew-x-3": {
+		"skewX": "3deg"
+	},
+	"-skew-x-3": {
+		"skewX": "-3deg"
+	},
+	"skew-y-3": {
+		"skewY": "3deg"
+	},
+	"-skew-y-3": {
+		"skewY": "-3deg"
+	},
+	"skew-6": {
+		"skew": "6deg"
+	},
+	"-skew-6": {
+		"skew": "-6deg"
+	},
+	"skew-x-6": {
+		"skewX": "6deg"
+	},
+	"-skew-x-6": {
+		"skewX": "-6deg"
+	},
+	"skew-y-6": {
+		"skewY": "6deg"
+	},
+	"-skew-y-6": {
+		"skewY": "-6deg"
+	},
+	"skew-12": {
+		"skew": "12deg"
+	},
+	"-skew-12": {
+		"skew": "-12deg"
+	},
+	"skew-x-12": {
+		"skewX": "12deg"
+	},
+	"-skew-x-12": {
+		"skewX": "-12deg"
+	},
+	"skew-y-12": {
+		"skewY": "12deg"
+	},
+	"-skew-y-12": {
+		"skewY": "-12deg"
+	},
 	"text-left": {
 		"textAlign": "left"
 	},
@@ -9032,6 +9792,62 @@
 	},
 	"text-decoration-dashed": {
 		"textDecorationStyle": "dashed"
+	},
+	"text-shadow-sm": {
+		"textShadowOffset": {
+			"width": 1,
+			"height": 2
+		},
+		"textShadowRadius": 1,
+		"textShadowColor": "rgb(0,0,0)"
+	},
+	"text-shadow": {
+		"textShadowOffset": {
+			"width": 1,
+			"height": 3
+		},
+		"textShadowRadius": 1,
+		"textShadowColor": "rgb(0,0,0)"
+	},
+	"text-shadow-md": {
+		"textShadowOffset": {
+			"width": 4,
+			"height": 6
+		},
+		"textShadowRadius": -1,
+		"textShadowColor": "rgb(0,0,0)"
+	},
+	"text-shadow-lg": {
+		"textShadowOffset": {
+			"width": 10,
+			"height": 15
+		},
+		"textShadowRadius": -3,
+		"textShadowColor": "rgb(0,0,0)"
+	},
+	"text-shadow-xl": {
+		"textShadowOffset": {
+			"width": 20,
+			"height": 25
+		},
+		"textShadowRadius": -5,
+		"textShadowColor": "rgb(0,0,0)"
+	},
+	"text-shadow-2xl": {
+		"textShadowOffset": {
+			"width": 25,
+			"height": 50
+		},
+		"textShadowRadius": -12,
+		"textShadowColor": "rgb(0,0,0)"
+	},
+	"text-shadow-none": {
+		"textShadowOffset": {
+			"width": 0,
+			"height": 0
+		},
+		"textShadowRadius": 0,
+		"textShadowColor": "rgb(0,0,0)"
 	},
 	"uppercase": {
 		"textTransform": "uppercase"
@@ -9837,22 +10653,22 @@
 	"text-direction-rtl": {
 		"writingDirection": "rtl"
 	},
-	"zIndex-0": {
+	"z-0": {
 		"zIndex": 0
 	},
-	"zIndex-10": {
+	"z-10": {
 		"zIndex": 10
 	},
-	"zIndex-20": {
+	"z-20": {
 		"zIndex": 20
 	},
-	"zIndex-30": {
+	"z-30": {
 		"zIndex": 30
 	},
-	"zIndex-40": {
+	"z-40": {
 		"zIndex": 40
 	},
-	"zIndex-50": {
+	"z-50": {
 		"zIndex": 50
 	}
 }

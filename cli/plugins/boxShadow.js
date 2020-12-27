@@ -6,7 +6,14 @@ function boxShadow(theme) {
       boxShadowName
     ];
 
-    boxShadow[`shadow-${boxShadowName}`] = {
+    if (boxShadowName === "DEFAULT") {
+      boxShadowName = "";
+    } else {
+      boxShadowName = `-${boxShadowName}`;
+    }
+
+
+    boxShadow[`shadow${boxShadowName}`] = {
       default: {
         shadowColor: color,
         shadowOffset: {

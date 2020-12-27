@@ -8,7 +8,7 @@ const { style, variant, useTransition } = create(styles);
 
 export default function App() {
   return (
-    <View style={style(["flex-1", "p-24"])}>
+    <View style={[style(["flex-1", "p-24"])]}>
       <MyComponent />
       <MyComponent />
     </View>
@@ -23,15 +23,16 @@ function MyComponent() {
       success: ["bg-red-500", "scale-100"],
       loading: ["bg-blue-500", "scale-90"],
     },
-    status
+    status,
+    { useNativeDriver: false }
   );
 
   return (
     <View>
       <Animated.View
-        style={[style("w-12 h-24  bg-red-500"), useTransitionStyle]}
+        style={[style("w-12 h-24 bg-red-500"), useTransitionStyle]}
       />
-      <Text style={style("text-2xl")}>Status: {status}</Text>
+      <Text style={style(["text-2xl"])}>Status: {status}</Text>
       <Button
         title="toggle"
         onPress={() =>

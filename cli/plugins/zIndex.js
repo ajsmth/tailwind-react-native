@@ -4,7 +4,7 @@ function zIndex(theme) {
   for (let zIndexName in theme.zIndex) {
     const value = theme.zIndex[zIndexName];
 
-    zIndexes[`zIndex-${zIndexName}`] = {
+    zIndexes[`z-${zIndexName}`] = {
       zIndex: value,
     };
   }
