@@ -31,7 +31,7 @@ function MyComponent() {
   return (
     <View>
       <Animated.View
-        style={[style("w-12 h-24 bg-red-500"), useTransitionStyle]}
+        style={[style("w-12 h-12 bg-red-500 rounded-full"), useTransitionStyle]}
       />
       <Text style={style(["text-2xl"])}>Status: {status}</Text>
       <Button
