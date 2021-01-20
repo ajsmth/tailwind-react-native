@@ -12,8 +12,9 @@
   ],
   "scripts": {
     "dev": "gulp",
-    "prepublish": "node cli/index.js build",
-    "dev:purge": "node cli/index.js purge"
+    "prepublish": "yarn build",
+    "purge": "node cli/index.js purge",
+    "build": "node cli/index.js build"
   },
   "peerDependencies": {
     "react": "*",
