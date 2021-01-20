@@ -1,6 +1,6 @@
 # tailwind-react-native
 
-this library is a configurable, react native specific, port of tailwind. it includes apis like platform colors, dynamic colors, etc with tailwindcss naming conventions, supports custom configurations fairly thoroughly, as well as the ability to purge unused styles from your final build
+this library is a configurable, react native specific, port of tailwind. it supports custom configurations fairly thoroughly, as well as the ability to purge unused styles from your final build
 
 ### alternatives
 
@@ -87,7 +87,7 @@ function MyComponent() {
 
 ### available styles
 
-see the default config here: https://github.com/ajsmth/tailwind-react-native/tree/main/lib/cli/defaultConfig - all of these fields can be overridden / extended via a tailwind.config.js file, similar to how it works with tailwindcss
+see the default config here: https://github.com/ajsmth/tailwind-react-native/tree/main/lib/cli/defaultConfig.js - all of these fields can be overridden / extended via a tailwind.config.js file, similar to how it works with tailwindcss
 
 ### build a custom styles.json
 
