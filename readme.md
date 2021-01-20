@@ -87,7 +87,7 @@ function MyComponent() {
 
 ### available styles
 
-see the default config here: https://github.com/ajsmth/tailwind-react-native/tree/main/lib/cli/defaultConfig - all of these fields can be overridden / extended via a tailwind.config.js file, similar to how it works with tailwindcss
+see the default config here: https://github.com/ajsmth/tailwind-react-native/tree/main/lib/cli/defaultConfig.js - all of these fields can be overridden / extended via a tailwind.config.js file, similar to how it works with tailwindcss
 
 ### build a custom styles.json
 
