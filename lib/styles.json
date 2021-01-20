@@ -2085,280 +2085,280 @@
 		"borderRadius": 0
 	},
 	"rounded-t-none": {
-		"borderRadiusTopLeft": 0,
-		"borderRadiusTopRight": 0
+		"borderTopLeftRadius": 0,
+		"borderTopRightRadius": 0
 	},
 	"rounded-b-none": {
-		"borderRadiusBottomLeft": 0,
-		"borderRadiusBottomRight": 0
+		"borderBottomLeftRadius": 0,
+		"borderBottomRightRadius": 0
 	},
 	"rounded-l-none": {
-		"borderRadiusTopLeft": 0,
-		"borderRadiusBottomLeft": 0
+		"borderTopLeftRadius": 0,
+		"borderBottomLeftRadius": 0
 	},
 	"rounded-r-none": {
-		"borderRadiusTopRight": 0,
-		"borderRadiusBottomRight": 0
+		"borderTopRightRadius": 0,
+		"borderBottomRightRadius": 0
 	},
 	"rounded-tl-none": {
-		"borderRadiusTopLeft": 0
+		"borderTopLeftRadius": 0
 	},
 	"rounded-tr-none": {
-		"borderRadiusTopRight": 0
+		"borderTopRightRadius": 0
 	},
 	"rounded-bl-none": {
-		"borderRadiusBottomLeft": 0
+		"borderBottomLeftRadius": 0
 	},
 	"rounded-br-none": {
-		"borderRadiusBottomRight": 0
+		"borderBottomRightRadius": 0
 	},
 	"rounded-sm": {
 		"borderRadius": 2
 	},
 	"rounded-t-sm": {
-		"borderRadiusTopLeft": 2,
-		"borderRadiusTopRight": 2
+		"borderTopLeftRadius": 2,
+		"borderTopRightRadius": 2
 	},
 	"rounded-b-sm": {
-		"borderRadiusBottomLeft": 2,
-		"borderRadiusBottomRight": 2
+		"borderBottomLeftRadius": 2,
+		"borderBottomRightRadius": 2
 	},
 	"rounded-l-sm": {
-		"borderRadiusTopLeft": 2,
-		"borderRadiusBottomLeft": 2
+		"borderTopLeftRadius": 2,
+		"borderBottomLeftRadius": 2
 	},
 	"rounded-r-sm": {
-		"borderRadiusTopRight": 2,
-		"borderRadiusBottomRight": 2
+		"borderTopRightRadius": 2,
+		"borderBottomRightRadius": 2
 	},
 	"rounded-tl-sm": {
-		"borderRadiusTopLeft": 2
+		"borderTopLeftRadius": 2
 	},
 	"rounded-tr-sm": {
-		"borderRadiusTopRight": 2
+		"borderTopRightRadius": 2
 	},
 	"rounded-bl-sm": {
-		"borderRadiusBottomLeft": 2
+		"borderBottomLeftRadius": 2
 	},
 	"rounded-br-sm": {
-		"borderRadiusBottomRight": 2
+		"borderBottomRightRadius": 2
 	},
 	"rounded": {
 		"borderRadius": 4
 	},
 	"rounded-t": {
-		"borderRadiusTopLeft": 4,
-		"borderRadiusTopRight": 4
+		"borderTopLeftRadius": 4,
+		"borderTopRightRadius": 4
 	},
 	"rounded-b": {
-		"borderRadiusBottomLeft": 4,
-		"borderRadiusBottomRight": 4
+		"borderBottomLeftRadius": 4,
+		"borderBottomRightRadius": 4
 	},
 	"rounded-l": {
-		"borderRadiusTopLeft": 4,
-		"borderRadiusBottomLeft": 4
+		"borderTopLeftRadius": 4,
+		"borderBottomLeftRadius": 4
 	},
 	"rounded-r": {
-		"borderRadiusTopRight": 4,
-		"borderRadiusBottomRight": 4
+		"borderTopRightRadius": 4,
+		"borderBottomRightRadius": 4
 	},
 	"rounded-tl": {
-		"borderRadiusTopLeft": 4
+		"borderTopLeftRadius": 4
 	},
 	"rounded-tr": {
-		"borderRadiusTopRight": 4
+		"borderTopRightRadius": 4
 	},
 	"rounded-bl": {
-		"borderRadiusBottomLeft": 4
+		"borderBottomLeftRadius": 4
 	},
 	"rounded-br": {
-		"borderRadiusBottomRight": 4
+		"borderBottomRightRadius": 4
 	},
 	"rounded-md": {
 		"borderRadius": 6
 	},
 	"rounded-t-md": {
-		"borderRadiusTopLeft": 6,
-		"borderRadiusTopRight": 6
+		"borderTopLeftRadius": 6,
+		"borderTopRightRadius": 6
 	},
 	"rounded-b-md": {
-		"borderRadiusBottomLeft": 6,
-		"borderRadiusBottomRight": 6
+		"borderBottomLeftRadius": 6,
+		"borderBottomRightRadius": 6
 	},
 	"rounded-l-md": {
-		"borderRadiusTopLeft": 6,
-		"borderRadiusBottomLeft": 6
+		"borderTopLeftRadius": 6,
+		"borderBottomLeftRadius": 6
 	},
 	"rounded-r-md": {
-		"borderRadiusTopRight": 6,
-		"borderRadiusBottomRight": 6
+		"borderTopRightRadius": 6,
+		"borderBottomRightRadius": 6
 	},
 	"rounded-tl-md": {
-		"borderRadiusTopLeft": 6
+		"borderTopLeftRadius": 6
 	},
 	"rounded-tr-md": {
-		"borderRadiusTopRight": 6
+		"borderTopRightRadius": 6
 	},
 	"rounded-bl-md": {
-		"borderRadiusBottomLeft": 6
+		"borderBottomLeftRadius": 6
 	},
 	"rounded-br-md": {
-		"borderRadiusBottomRight": 6
+		"borderBottomRightRadius": 6
 	},
 	"rounded-lg": {
 		"borderRadius": 8
 	},
 	"rounded-t-lg": {
-		"borderRadiusTopLeft": 8,
-		"borderRadiusTopRight": 8
+		"borderTopLeftRadius": 8,
+		"borderTopRightRadius": 8
 	},
 	"rounded-b-lg": {
-		"borderRadiusBottomLeft": 8,
-		"borderRadiusBottomRight": 8
+		"borderBottomLeftRadius": 8,
+		"borderBottomRightRadius": 8
 	},
 	"rounded-l-lg": {
-		"borderRadiusTopLeft": 8,
-		"borderRadiusBottomLeft": 8
+		"borderTopLeftRadius": 8,
+		"borderBottomLeftRadius": 8
 	},
 	"rounded-r-lg": {
-		"borderRadiusTopRight": 8,
-		"borderRadiusBottomRight": 8
+		"borderTopRightRadius": 8,
+		"borderBottomRightRadius": 8
 	},
 	"rounded-tl-lg": {
-		"borderRadiusTopLeft": 8
+		"borderTopLeftRadius": 8
 	},
 	"rounded-tr-lg": {
-		"borderRadiusTopRight": 8
+		"borderTopRightRadius": 8
 	},
 	"rounded-bl-lg": {
-		"borderRadiusBottomLeft": 8
+		"borderBottomLeftRadius": 8
 	},
 	"rounded-br-lg": {
-		"borderRadiusBottomRight": 8
+		"borderBottomRightRadius": 8
 	},
 	"rounded-xl": {
 		"borderRadius": 12
 	},
 	"rounded-t-xl": {
-		"borderRadiusTopLeft": 12,
-		"borderRadiusTopRight": 12
+		"borderTopLeftRadius": 12,
+		"borderTopRightRadius": 12
 	},
 	"rounded-b-xl": {
-		"borderRadiusBottomLeft": 12,
-		"borderRadiusBottomRight": 12
+		"borderBottomLeftRadius": 12,
+		"borderBottomRightRadius": 12
 	},
 	"rounded-l-xl": {
-		"borderRadiusTopLeft": 12,
-		"borderRadiusBottomLeft": 12
+		"borderTopLeftRadius": 12,
+		"borderBottomLeftRadius": 12
 	},
 	"rounded-r-xl": {
-		"borderRadiusTopRight": 12,
-		"borderRadiusBottomRight": 12
+		"borderTopRightRadius": 12,
+		"borderBottomRightRadius": 12
 	},
 	"rounded-tl-xl": {
-		"borderRadiusTopLeft": 12
+		"borderTopLeftRadius": 12
 	},
 	"rounded-tr-xl": {
-		"borderRadiusTopRight": 12
+		"borderTopRightRadius": 12
 	},
 	"rounded-bl-xl": {
-		"borderRadiusBottomLeft": 12
+		"borderBottomLeftRadius": 12
 	},
 	"rounded-br-xl": {
-		"borderRadiusBottomRight": 12
+		"borderBottomRightRadius": 12
 	},
 	"rounded-2xl": {
 		"borderRadius": 16
 	},
 	"rounded-t-2xl": {
-		"borderRadiusTopLeft": 16,
-		"borderRadiusTopRight": 16
+		"borderTopLeftRadius": 16,
+		"borderTopRightRadius": 16
 	},
 	"rounded-b-2xl": {
-		"borderRadiusBottomLeft": 16,
-		"borderRadiusBottomRight": 16
+		"borderBottomLeftRadius": 16,
+		"borderBottomRightRadius": 16
 	},
 	"rounded-l-2xl": {
-		"borderRadiusTopLeft": 16,
-		"borderRadiusBottomLeft": 16
+		"borderTopLeftRadius": 16,
+		"borderBottomLeftRadius": 16
 	},
 	"rounded-r-2xl": {
-		"borderRadiusTopRight": 16,
-		"borderRadiusBottomRight": 16
+		"borderTopRightRadius": 16,
+		"borderBottomRightRadius": 16
 	},
 	"rounded-tl-2xl": {
-		"borderRadiusTopLeft": 16
+		"borderTopLeftRadius": 16
 	},
 	"rounded-tr-2xl": {
-		"borderRadiusTopRight": 16
+		"borderTopRightRadius": 16
 	},
 	"rounded-bl-2xl": {
-		"borderRadiusBottomLeft": 16
+		"borderBottomLeftRadius": 16
 	},
 	"rounded-br-2xl": {
-		"borderRadiusBottomRight": 16
+		"borderBottomRightRadius": 16
 	},
 	"rounded-3xl": {
 		"borderRadius": 24
 	},
 	"rounded-t-3xl": {
-		"borderRadiusTopLeft": 24,
-		"borderRadiusTopRight": 24
+		"borderTopLeftRadius": 24,
+		"borderTopRightRadius": 24
 	},
 	"rounded-b-3xl": {
-		"borderRadiusBottomLeft": 24,
-		"borderRadiusBottomRight": 24
+		"borderBottomLeftRadius": 24,
+		"borderBottomRightRadius": 24
 	},
 	"rounded-l-3xl": {
-		"borderRadiusTopLeft": 24,
-		"borderRadiusBottomLeft": 24
+		"borderTopLeftRadius": 24,
+		"borderBottomLeftRadius": 24
 	},
 	"rounded-r-3xl": {
-		"borderRadiusTopRight": 24,
-		"borderRadiusBottomRight": 24
+		"borderTopRightRadius": 24,
+		"borderBottomRightRadius": 24
 	},
 	"rounded-tl-3xl": {
-		"borderRadiusTopLeft": 24
+		"borderTopLeftRadius": 24
 	},
 	"rounded-tr-3xl": {
-		"borderRadiusTopRight": 24
+		"borderTopRightRadius": 24
 	},
 	"rounded-bl-3xl": {
-		"borderRadiusBottomLeft": 24
+		"borderBottomLeftRadius": 24
 	},
 	"rounded-br-3xl": {
-		"borderRadiusBottomRight": 24
+		"borderBottomRightRadius": 24
 	},
 	"rounded-full": {
 		"borderRadius": "50%"
 	},
 	"rounded-t-full": {
-		"borderRadiusTopLeft": "50%",
-		"borderRadiusTopRight": "50%"
+		"borderTopLeftRadius": "50%",
+		"borderTopRightRadius": "50%"
 	},
 	"rounded-b-full": {
-		"borderRadiusBottomLeft": "50%",
-		"borderRadiusBottomRight": "50%"
+		"borderBottomLeftRadius": "50%",
+		"borderBottomRightRadius": "50%"
 	},
 	"rounded-l-full": {
-		"borderRadiusTopLeft": "50%",
-		"borderRadiusBottomLeft": "50%"
+		"borderTopLeftRadius": "50%",
+		"borderBottomLeftRadius": "50%"
 	},
 	"rounded-r-full": {
-		"borderRadiusTopRight": "50%",
-		"borderRadiusBottomRight": "50%"
+		"borderTopRightRadius": "50%",
+		"borderBottomRightRadius": "50%"
 	},
 	"rounded-tl-full": {
-		"borderRadiusTopLeft": "50%"
+		"borderTopLeftRadius": "50%"
 	},
 	"rounded-tr-full": {
-		"borderRadiusTopRight": "50%"
+		"borderTopRightRadius": "50%"
 	},
 	"rounded-bl-full": {
-		"borderRadiusBottomLeft": "50%"
+		"borderBottomLeftRadius": "50%"
 	},
 	"rounded-br-full": {
-		"borderRadiusBottomRight": "50%"
+		"borderBottomRightRadius": "50%"
 	},
 	"border-soid": {
 		"borderStyle": "solid"
