@@ -21,6 +21,7 @@
     "react-native": "*"
   },
   "dependencies": {
+    "cli-progress": "^3.9.0",
     "glob": "^7.1.6",
     "yargs": "^16.2.0"
   },
