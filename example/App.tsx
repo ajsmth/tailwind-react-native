@@ -3,7 +3,6 @@ import { Animated, Button, Text, View } from "react-native";
 
 import styles from "./styles.json";
 
-// @ts-ignore
 import { create } from "tailwind-react-native";
 
 const { style, variant, useTransition } = create(styles);

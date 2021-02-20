@@ -11,10 +11,10 @@
     "index.d.ts"
   ],
   "scripts": {
-    "dev": "gulp",
     "prepublish": "yarn build",
     "purge": "node cli/index.js purge",
-    "build": "node cli/index.js build"
+    "build": "node cli/index.js build",
+    "test": "jest ."
   },
   "peerDependencies": {
     "react": "*",
@@ -25,6 +25,7 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
+    "jest": "^26.6.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "0.63.4",
