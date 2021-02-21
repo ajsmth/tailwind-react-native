@@ -31,15 +31,12 @@ export default function App() {
 if you want to make use of the typescript definitions, you can use an array syntax like so:
 
 ```tsx
-import * as React from 'react
-import { style } from 'tailwind-react-native'
+import * as React from "react";
+import { style } from "tailwind-react-native";
 
 export default function App() {
-    return (
-        <View style={style(["flex-1", "p-24"])} />
-    );
+    return <View style={style(["flex-1", "p-24"])} />;
 }
-
 ```
 
 ### variants / selectors
