@@ -1,11 +1,11 @@
 # tailwind-react-native
 
-this library is a configurable, react native specific, port of tailwind. it supports custom configurations fairly thoroughly, as well as the ability to purge unused styles from your final build
+this library is a configurable, react native specific port of tailwind. it supports custom configurations fairly thoroughly, has typescript definitions, and the ability to purge unused styles from your final build
 
 ### alternatives
 
-- https://github.com/z0al/react-native-styled.macro - super cool build time macro
-- https://github.com/vadimdemedes/tailwind-rn - tailwindcss converted to stylesheet styles
+-   https://github.com/z0al/react-native-styled.macro - super cool build time macro
+-   https://github.com/vadimdemedes/tailwind-rn - tailwindcss converted to stylesheet styles
 
 ### install
 
@@ -20,12 +20,26 @@ import React from "react";
 import { style } from "tailwind-react-native";
 
 export default function App() {
-  return (
-    <View style={style("flex-1 p-24")}>
-      <View style={style("w-24 h-24 bg-platform-red")} />
-    </View>
-  );
+    return (
+        <View style={style("flex-1 p-24")}>
+            <View style={style("w-24 h-24 bg-platform-red")} />
+        </View>
+    );
 }
+```
+
+if you want to make use of the typescript definitions, you can use an array syntax like so:
+
+```tsx
+import * as React from 'react
+import { style } from 'tailwind-react-native'
+
+export default function App() {
+    return (
+        <View style={style(["flex-1", "p-24"])} />
+    );
+}
+
 ```
 
 ### variants / selectors
@@ -36,31 +50,31 @@ you can add custom selectors that represent dynamic styles in your components
 import { variant } from "tailwind-react-native";
 
 function MyComponent() {
-  // apply styles based on the OS the app is running on
-  let platformStyles = variant(
-    `ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
-    Platform.OS
-  );
+    // apply styles based on the OS the app is running on
+    let platformStyles = variant(
+        `ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
+        Platform.OS
+    );
 
-  // optional API using an object instead:
-  platformStyles = variant(
-    {
-      ios: "bg-platform-yellow",
-      android: "bg-platform-blue",
-      web: "bg-platform-red",
-    },
-    Platform.OS
-  );
+    // optional API using an object instead:
+    platformStyles = variant(
+        {
+            ios: "bg-platform-yellow",
+            android: "bg-platform-blue",
+            web: "bg-platform-red",
+        },
+        Platform.OS
+    );
 
-  return <View style={platformStyles} />;
+    return <View style={platformStyles} />;
 }
 ```
 
 this can be useful for applying different styles based on enums like:
 
-- Platform.OS
-- useColorScheme()
-- loading state
+-   Platform.OS
+-   useColorScheme()
+-   loading state
 
 ### transition between styles
 
@@ -68,18 +82,18 @@ this can be useful for applying different styles based on enums like:
 import { useTransition } from "tailwind-react-native";
 
 function MyComponent() {
-  const { status } = useMyApi("...");
+    const { status } = useMyApi("...");
 
-  const transitionStyles = useTransition(
-    {
-      success: "scale-100 opacity-100",
-      error: "scale-100 opacity-95",
-      loading: "scale-95 opacity-90",
-    },
-    status
-  );
+    const transitionStyles = useTransition(
+        {
+            success: "scale-100 opacity-100",
+            error: "scale-100 opacity-95",
+            loading: "scale-95 opacity-90",
+        },
+        status
+    );
 
-  return <Animated.View style={transitionStyles} />;
+    return <Animated.View style={transitionStyles} />;
 }
 ```
 
@@ -116,11 +130,11 @@ you can configure the purge function via your tailwind.config.js file:
 
 ```js
 module.exports = {
-  // ...rest of your config
-  purge: {
-    files: "**/*.{js,tsx}", // what file extensions to scan for styles
-    whitelist: ["bg-red-500", "h-12"], // what classNames to keep regardless of what is scanned
-  },
+    // ...rest of your config
+    purge: {
+        files: "**/*.{js,tsx}", // what file extensions to scan for styles
+        whitelist: ["bg-red-500", "h-12"], // what classNames to keep regardless of what is scanned
+    },
 };
 ```
 
@@ -130,5 +144,5 @@ as noted by the tailwindcss docs, dynamic styles are a tough nut to crack - if y
 
 ### future plans
 
-- more documentation on classes available
-- improve android platform colors, update ios platform colors to include UI colors
+-   more documentation on classes available
+-   improve android platform colors, update ios platform colors to include UI colors
