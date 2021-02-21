@@ -11,7 +11,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublish": "yarn test && yarn build",
     "purge": "node cli/index.js purge",
     "build": "node cli/index.js build",
     "test": "jest ."
