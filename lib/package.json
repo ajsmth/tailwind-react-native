@@ -2,18 +2,18 @@
   "name": "tailwind-react-native",
   "bin": "cli/index.js",
   "version": "0.2.16",
-  "main": "index.js",
+  "main": "build/index.js",
   "files": [
     "styles.json",
-    "index.js",
-    "src/*",
+    "build/*",
     "cli/*",
     "index.d.ts"
   ],
   "scripts": {
-    "prepublish": "yarn test && yarn build",
+    "prepublish": "yarn test && yarn build && yarn bundle",
     "purge": "node cli/index.js purge",
     "build": "node cli/index.js build",
+    "bundle": "rollup -c rollup.config.js",
     "test": "jest ."
   },
   "peerDependencies": {
@@ -21,6 +21,7 @@
     "react-native": "*"
   },
   "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
     "cli-progress": "^3.9.0",
     "glob": "^7.1.6",
     "yargs": "^16.2.0"
@@ -30,6 +31,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "rollup": "^2.41.4"
   }
 }
