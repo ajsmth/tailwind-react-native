@@ -2515,7 +2515,7 @@
 	},
 	"shadow-sm": {
 		"default": {
-			"shadowColor": "rgb(0,0,0)",
+			"shadowColor": "rgba(0,0,0, 0.1)",
 			"shadowOffset": {
 				"width": 1,
 				"height": 2
@@ -2525,20 +2525,26 @@
 		},
 		"android": {
 			"elevation": 1
+		},
+		"web": {
+			"boxShadow": "1px 2px 1px rgba(0,0,0, 0.1)"
 		}
 	},
 	"shadow": {
 		"default": {
-			"shadowColor": "rgba(0,0,0)",
+			"shadowColor": "rgba(0,0,0, 0.1)",
 			"shadowOffset": {
-				"width": 1,
-				"height": 3
+				"width": 0,
+				"height": 1
 			},
-			"shadowOpacity": 0.1,
-			"shadowRadius": 1
+			"shadowOpacity": 0,
+			"shadowRadius": 3
 		},
 		"android": {
-			"elevation": 1
+			"elevation": 3
+		},
+		"web": {
+			"boxShadow": "0px 1px 3px rgba(0,0,0, 0.1)"
 		}
 	},
 	"shadow-md": {
@@ -2553,6 +2559,9 @@
 		},
 		"android": {
 			"elevation": -1
+		},
+		"web": {
+			"boxShadow": "4px 6px -1px rgb(0,0,0)"
 		}
 	},
 	"shadow-lg": {
@@ -2567,6 +2576,9 @@
 		},
 		"android": {
 			"elevation": -3
+		},
+		"web": {
+			"boxShadow": "10px 15px -3px rgb(0,0,0)"
 		}
 	},
 	"shadow-xl": {
@@ -2581,6 +2593,9 @@
 		},
 		"android": {
 			"elevation": -5
+		},
+		"web": {
+			"boxShadow": "20px 25px -5px rgb(0,0,0)"
 		}
 	},
 	"shadow-2xl": {
@@ -2595,6 +2610,9 @@
 		},
 		"android": {
 			"elevation": -12
+		},
+		"web": {
+			"boxShadow": "25px 50px -12px rgb(0,0,0)"
 		}
 	},
 	"shadow-none": {
@@ -2609,6 +2627,9 @@
 		},
 		"android": {
 			"elevation": 0
+		},
+		"web": {
+			"boxShadow": "0px 0px 0px rgb(0,0,0)"
 		}
 	},
 	"direction-ltr": {
@@ -6508,6 +6529,9 @@
 	},
 	"min-w-full": {
 		"minWidth": "100%"
+	},
+	"opacity-0": {
+		"opacity": 0
 	},
 	"opacity-5": {
 		"opacity": 0.05

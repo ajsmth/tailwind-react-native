@@ -8,8 +8,12 @@ import { create } from "tailwind-react-native";
 const { style, variant, useTransition } = create(styles);
 
 export default function App() {
+
+  console.log(style('shadow h-10 w-10 border bg-white'))
   return (
-    <View style={[style(["flex-1", "p-24", "bg-my-awesome-color"])]}>
+    <View style={[style(["flex-1", "p-24"])]}>
+
+      <View style={style('shadow h-10 w-10 bg-white')} />
       <MyComponent />
       <MyComponent />
     </View>
