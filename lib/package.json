@@ -13,6 +13,7 @@
     "prepublish": "yarn test && yarn build && yarn bundle",
     "purge": "node cli/index.js purge",
     "build": "node cli/index.js build",
+    "run:init": "node cli/index.js init",
     "bundle": "rollup -c rollup.config.js",
     "test": "jest ."
   },

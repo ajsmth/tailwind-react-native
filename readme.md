@@ -13,6 +13,14 @@ this library is a configurable, react native specific port of tailwind. it suppo
 yarn add tailwind-react-native
 ```
 
+### quickstart
+
+- quickly generate config files and customizable style function for use in your app:
+
+```bash
+npx tailwind-react-native@latest init
+```
+
 ### api
 
 ```jsx

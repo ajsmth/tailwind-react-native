@@ -22,7 +22,7 @@ function MyComponent() {
   const useTransitionStyle = useTransition(
     {
       success: "scale-110",
-      loading: "scale-90",
+      loading: "scale-75",
     },
     status
   );
