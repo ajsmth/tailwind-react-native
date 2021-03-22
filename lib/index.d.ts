@@ -1,9 +1,7 @@
-import { ViewStyle } from "react-native";
-
 export function create<T>(
   stylesJson: T
 ): {
-  style: (classNames: Array<keyof T> | string) => ViewStyle;
+  style: (classNames: Array<keyof T> | string) => any;
 
   variant: (
     classNames:
@@ -11,7 +9,7 @@ export function create<T>(
       | Record<string, string>
       | string,
     dynamicValue: any
-  ) => ViewStyle;
+  ) => any;
 
   useTransition: (
     classNames:
@@ -19,20 +17,20 @@ export function create<T>(
       | Record<string, string>
       | string,
     dynamicValue: any
-  ) => ViewStyle;
+  ) => any;
 };
 
 import JSON from "./styles.json";
 type Keys = keyof typeof JSON;
 
-export function style(classNames: string | Keys[]): ViewStyle;
+export function style(classNames: string | Keys[]): any;
 
 export function variant(
   classNames: Record<string, Keys[]> | Record<string, string> | string,
   dynamicValue: any
-): ViewStyle;
+): any;
 
 export function useTransition(
   classNames: Record<string, Keys[]> | Record<string, string> | string,
   dynamicValue: any
-): ViewStyle;
+): any;
