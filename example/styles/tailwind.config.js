@@ -12,10 +12,8 @@ module.exports = {
       height: {},
       borderRadius: {
         ish: {
-          android: 42,
-          default: '42%',
-          web: '42%',
-          ios: '42%',
+          android: 100,
+          default: '45%'
         }
       },
       borderWidth: {},

@@ -317,6 +317,1770 @@
 	"bg-current": {
 		"backgroundColor": "currentColor"
 	},
+	"border-black": {
+		"borderColor": "#000"
+	},
+	"border-r-black": {
+		"borderRightColor": "#000"
+	},
+	"border-l-black": {
+		"borderLeftColor": "#000"
+	},
+	"border-t-black": {
+		"borderTopColor": "#000"
+	},
+	"border-b-black": {
+		"borderBottomColor": "#000"
+	},
+	"border-s-black": {
+		"borderStartColor": "#000"
+	},
+	"border-end-black": {
+		"borderEndColor": "#000"
+	},
+	"border-white": {
+		"borderColor": "#fff"
+	},
+	"border-r-white": {
+		"borderRightColor": "#fff"
+	},
+	"border-l-white": {
+		"borderLeftColor": "#fff"
+	},
+	"border-t-white": {
+		"borderTopColor": "#fff"
+	},
+	"border-b-white": {
+		"borderBottomColor": "#fff"
+	},
+	"border-s-white": {
+		"borderStartColor": "#fff"
+	},
+	"border-end-white": {
+		"borderEndColor": "#fff"
+	},
+	"border-gray-50": {
+		"borderColor": "#f9fafb"
+	},
+	"border-r-gray-50": {
+		"borderRightColor": "#f9fafb"
+	},
+	"border-l-gray-50": {
+		"borderLeftColor": "#f9fafb"
+	},
+	"border-t-gray-50": {
+		"borderTopColor": "#f9fafb"
+	},
+	"border-b-gray-50": {
+		"borderBottomColor": "#f9fafb"
+	},
+	"border-s-gray-50": {
+		"borderStartColor": "#f9fafb"
+	},
+	"border-end-gray-50": {
+		"borderEndColor": "#f9fafb"
+	},
+	"border-gray-100": {
+		"borderColor": "#f3f4f6"
+	},
+	"border-r-gray-100": {
+		"borderRightColor": "#f3f4f6"
+	},
+	"border-l-gray-100": {
+		"borderLeftColor": "#f3f4f6"
+	},
+	"border-t-gray-100": {
+		"borderTopColor": "#f3f4f6"
+	},
+	"border-b-gray-100": {
+		"borderBottomColor": "#f3f4f6"
+	},
+	"border-s-gray-100": {
+		"borderStartColor": "#f3f4f6"
+	},
+	"border-end-gray-100": {
+		"borderEndColor": "#f3f4f6"
+	},
+	"border-gray-200": {
+		"borderColor": "#e5e7eb"
+	},
+	"border-r-gray-200": {
+		"borderRightColor": "#e5e7eb"
+	},
+	"border-l-gray-200": {
+		"borderLeftColor": "#e5e7eb"
+	},
+	"border-t-gray-200": {
+		"borderTopColor": "#e5e7eb"
+	},
+	"border-b-gray-200": {
+		"borderBottomColor": "#e5e7eb"
+	},
+	"border-s-gray-200": {
+		"borderStartColor": "#e5e7eb"
+	},
+	"border-end-gray-200": {
+		"borderEndColor": "#e5e7eb"
+	},
+	"border-gray-300": {
+		"borderColor": "#d1d5db"
+	},
+	"border-r-gray-300": {
+		"borderRightColor": "#d1d5db"
+	},
+	"border-l-gray-300": {
+		"borderLeftColor": "#d1d5db"
+	},
+	"border-t-gray-300": {
+		"borderTopColor": "#d1d5db"
+	},
+	"border-b-gray-300": {
+		"borderBottomColor": "#d1d5db"
+	},
+	"border-s-gray-300": {
+		"borderStartColor": "#d1d5db"
+	},
+	"border-end-gray-300": {
+		"borderEndColor": "#d1d5db"
+	},
+	"border-gray-400": {
+		"borderColor": "#9ca3af"
+	},
+	"border-r-gray-400": {
+		"borderRightColor": "#9ca3af"
+	},
+	"border-l-gray-400": {
+		"borderLeftColor": "#9ca3af"
+	},
+	"border-t-gray-400": {
+		"borderTopColor": "#9ca3af"
+	},
+	"border-b-gray-400": {
+		"borderBottomColor": "#9ca3af"
+	},
+	"border-s-gray-400": {
+		"borderStartColor": "#9ca3af"
+	},
+	"border-end-gray-400": {
+		"borderEndColor": "#9ca3af"
+	},
+	"border-gray-500": {
+		"borderColor": "#6b7280"
+	},
+	"border-r-gray-500": {
+		"borderRightColor": "#6b7280"
+	},
+	"border-l-gray-500": {
+		"borderLeftColor": "#6b7280"
+	},
+	"border-t-gray-500": {
+		"borderTopColor": "#6b7280"
+	},
+	"border-b-gray-500": {
+		"borderBottomColor": "#6b7280"
+	},
+	"border-s-gray-500": {
+		"borderStartColor": "#6b7280"
+	},
+	"border-end-gray-500": {
+		"borderEndColor": "#6b7280"
+	},
+	"border-gray-600": {
+		"borderColor": "#4b5563"
+	},
+	"border-r-gray-600": {
+		"borderRightColor": "#4b5563"
+	},
+	"border-l-gray-600": {
+		"borderLeftColor": "#4b5563"
+	},
+	"border-t-gray-600": {
+		"borderTopColor": "#4b5563"
+	},
+	"border-b-gray-600": {
+		"borderBottomColor": "#4b5563"
+	},
+	"border-s-gray-600": {
+		"borderStartColor": "#4b5563"
+	},
+	"border-end-gray-600": {
+		"borderEndColor": "#4b5563"
+	},
+	"border-gray-700": {
+		"borderColor": "#374151"
+	},
+	"border-r-gray-700": {
+		"borderRightColor": "#374151"
+	},
+	"border-l-gray-700": {
+		"borderLeftColor": "#374151"
+	},
+	"border-t-gray-700": {
+		"borderTopColor": "#374151"
+	},
+	"border-b-gray-700": {
+		"borderBottomColor": "#374151"
+	},
+	"border-s-gray-700": {
+		"borderStartColor": "#374151"
+	},
+	"border-end-gray-700": {
+		"borderEndColor": "#374151"
+	},
+	"border-gray-800": {
+		"borderColor": "#1f2937"
+	},
+	"border-r-gray-800": {
+		"borderRightColor": "#1f2937"
+	},
+	"border-l-gray-800": {
+		"borderLeftColor": "#1f2937"
+	},
+	"border-t-gray-800": {
+		"borderTopColor": "#1f2937"
+	},
+	"border-b-gray-800": {
+		"borderBottomColor": "#1f2937"
+	},
+	"border-s-gray-800": {
+		"borderStartColor": "#1f2937"
+	},
+	"border-end-gray-800": {
+		"borderEndColor": "#1f2937"
+	},
+	"border-gray-900": {
+		"borderColor": "#111827"
+	},
+	"border-r-gray-900": {
+		"borderRightColor": "#111827"
+	},
+	"border-l-gray-900": {
+		"borderLeftColor": "#111827"
+	},
+	"border-t-gray-900": {
+		"borderTopColor": "#111827"
+	},
+	"border-b-gray-900": {
+		"borderBottomColor": "#111827"
+	},
+	"border-s-gray-900": {
+		"borderStartColor": "#111827"
+	},
+	"border-end-gray-900": {
+		"borderEndColor": "#111827"
+	},
+	"border-red-50": {
+		"borderColor": "#fef2f2"
+	},
+	"border-r-red-50": {
+		"borderRightColor": "#fef2f2"
+	},
+	"border-l-red-50": {
+		"borderLeftColor": "#fef2f2"
+	},
+	"border-t-red-50": {
+		"borderTopColor": "#fef2f2"
+	},
+	"border-b-red-50": {
+		"borderBottomColor": "#fef2f2"
+	},
+	"border-s-red-50": {
+		"borderStartColor": "#fef2f2"
+	},
+	"border-end-red-50": {
+		"borderEndColor": "#fef2f2"
+	},
+	"border-red-100": {
+		"borderColor": "#fee2e2"
+	},
+	"border-r-red-100": {
+		"borderRightColor": "#fee2e2"
+	},
+	"border-l-red-100": {
+		"borderLeftColor": "#fee2e2"
+	},
+	"border-t-red-100": {
+		"borderTopColor": "#fee2e2"
+	},
+	"border-b-red-100": {
+		"borderBottomColor": "#fee2e2"
+	},
+	"border-s-red-100": {
+		"borderStartColor": "#fee2e2"
+	},
+	"border-end-red-100": {
+		"borderEndColor": "#fee2e2"
+	},
+	"border-red-200": {
+		"borderColor": "#fecaca"
+	},
+	"border-r-red-200": {
+		"borderRightColor": "#fecaca"
+	},
+	"border-l-red-200": {
+		"borderLeftColor": "#fecaca"
+	},
+	"border-t-red-200": {
+		"borderTopColor": "#fecaca"
+	},
+	"border-b-red-200": {
+		"borderBottomColor": "#fecaca"
+	},
+	"border-s-red-200": {
+		"borderStartColor": "#fecaca"
+	},
+	"border-end-red-200": {
+		"borderEndColor": "#fecaca"
+	},
+	"border-red-300": {
+		"borderColor": "#fca5a5"
+	},
+	"border-r-red-300": {
+		"borderRightColor": "#fca5a5"
+	},
+	"border-l-red-300": {
+		"borderLeftColor": "#fca5a5"
+	},
+	"border-t-red-300": {
+		"borderTopColor": "#fca5a5"
+	},
+	"border-b-red-300": {
+		"borderBottomColor": "#fca5a5"
+	},
+	"border-s-red-300": {
+		"borderStartColor": "#fca5a5"
+	},
+	"border-end-red-300": {
+		"borderEndColor": "#fca5a5"
+	},
+	"border-red-400": {
+		"borderColor": "#f87171"
+	},
+	"border-r-red-400": {
+		"borderRightColor": "#f87171"
+	},
+	"border-l-red-400": {
+		"borderLeftColor": "#f87171"
+	},
+	"border-t-red-400": {
+		"borderTopColor": "#f87171"
+	},
+	"border-b-red-400": {
+		"borderBottomColor": "#f87171"
+	},
+	"border-s-red-400": {
+		"borderStartColor": "#f87171"
+	},
+	"border-end-red-400": {
+		"borderEndColor": "#f87171"
+	},
+	"border-red-500": {
+		"borderColor": "#ef4444"
+	},
+	"border-r-red-500": {
+		"borderRightColor": "#ef4444"
+	},
+	"border-l-red-500": {
+		"borderLeftColor": "#ef4444"
+	},
+	"border-t-red-500": {
+		"borderTopColor": "#ef4444"
+	},
+	"border-b-red-500": {
+		"borderBottomColor": "#ef4444"
+	},
+	"border-s-red-500": {
+		"borderStartColor": "#ef4444"
+	},
+	"border-end-red-500": {
+		"borderEndColor": "#ef4444"
+	},
+	"border-red-600": {
+		"borderColor": "#dc2626"
+	},
+	"border-r-red-600": {
+		"borderRightColor": "#dc2626"
+	},
+	"border-l-red-600": {
+		"borderLeftColor": "#dc2626"
+	},
+	"border-t-red-600": {
+		"borderTopColor": "#dc2626"
+	},
+	"border-b-red-600": {
+		"borderBottomColor": "#dc2626"
+	},
+	"border-s-red-600": {
+		"borderStartColor": "#dc2626"
+	},
+	"border-end-red-600": {
+		"borderEndColor": "#dc2626"
+	},
+	"border-red-700": {
+		"borderColor": "#b91c1c"
+	},
+	"border-r-red-700": {
+		"borderRightColor": "#b91c1c"
+	},
+	"border-l-red-700": {
+		"borderLeftColor": "#b91c1c"
+	},
+	"border-t-red-700": {
+		"borderTopColor": "#b91c1c"
+	},
+	"border-b-red-700": {
+		"borderBottomColor": "#b91c1c"
+	},
+	"border-s-red-700": {
+		"borderStartColor": "#b91c1c"
+	},
+	"border-end-red-700": {
+		"borderEndColor": "#b91c1c"
+	},
+	"border-red-800": {
+		"borderColor": "#991b1b"
+	},
+	"border-r-red-800": {
+		"borderRightColor": "#991b1b"
+	},
+	"border-l-red-800": {
+		"borderLeftColor": "#991b1b"
+	},
+	"border-t-red-800": {
+		"borderTopColor": "#991b1b"
+	},
+	"border-b-red-800": {
+		"borderBottomColor": "#991b1b"
+	},
+	"border-s-red-800": {
+		"borderStartColor": "#991b1b"
+	},
+	"border-end-red-800": {
+		"borderEndColor": "#991b1b"
+	},
+	"border-red-900": {
+		"borderColor": "#7f1d1d"
+	},
+	"border-r-red-900": {
+		"borderRightColor": "#7f1d1d"
+	},
+	"border-l-red-900": {
+		"borderLeftColor": "#7f1d1d"
+	},
+	"border-t-red-900": {
+		"borderTopColor": "#7f1d1d"
+	},
+	"border-b-red-900": {
+		"borderBottomColor": "#7f1d1d"
+	},
+	"border-s-red-900": {
+		"borderStartColor": "#7f1d1d"
+	},
+	"border-end-red-900": {
+		"borderEndColor": "#7f1d1d"
+	},
+	"border-yellow-50": {
+		"borderColor": "#fffbeb"
+	},
+	"border-r-yellow-50": {
+		"borderRightColor": "#fffbeb"
+	},
+	"border-l-yellow-50": {
+		"borderLeftColor": "#fffbeb"
+	},
+	"border-t-yellow-50": {
+		"borderTopColor": "#fffbeb"
+	},
+	"border-b-yellow-50": {
+		"borderBottomColor": "#fffbeb"
+	},
+	"border-s-yellow-50": {
+		"borderStartColor": "#fffbeb"
+	},
+	"border-end-yellow-50": {
+		"borderEndColor": "#fffbeb"
+	},
+	"border-yellow-100": {
+		"borderColor": "#fef3c7"
+	},
+	"border-r-yellow-100": {
+		"borderRightColor": "#fef3c7"
+	},
+	"border-l-yellow-100": {
+		"borderLeftColor": "#fef3c7"
+	},
+	"border-t-yellow-100": {
+		"borderTopColor": "#fef3c7"
+	},
+	"border-b-yellow-100": {
+		"borderBottomColor": "#fef3c7"
+	},
+	"border-s-yellow-100": {
+		"borderStartColor": "#fef3c7"
+	},
+	"border-end-yellow-100": {
+		"borderEndColor": "#fef3c7"
+	},
+	"border-yellow-200": {
+		"borderColor": "#fde68a"
+	},
+	"border-r-yellow-200": {
+		"borderRightColor": "#fde68a"
+	},
+	"border-l-yellow-200": {
+		"borderLeftColor": "#fde68a"
+	},
+	"border-t-yellow-200": {
+		"borderTopColor": "#fde68a"
+	},
+	"border-b-yellow-200": {
+		"borderBottomColor": "#fde68a"
+	},
+	"border-s-yellow-200": {
+		"borderStartColor": "#fde68a"
+	},
+	"border-end-yellow-200": {
+		"borderEndColor": "#fde68a"
+	},
+	"border-yellow-300": {
+		"borderColor": "#fcd34d"
+	},
+	"border-r-yellow-300": {
+		"borderRightColor": "#fcd34d"
+	},
+	"border-l-yellow-300": {
+		"borderLeftColor": "#fcd34d"
+	},
+	"border-t-yellow-300": {
+		"borderTopColor": "#fcd34d"
+	},
+	"border-b-yellow-300": {
+		"borderBottomColor": "#fcd34d"
+	},
+	"border-s-yellow-300": {
+		"borderStartColor": "#fcd34d"
+	},
+	"border-end-yellow-300": {
+		"borderEndColor": "#fcd34d"
+	},
+	"border-yellow-400": {
+		"borderColor": "#fbbf24"
+	},
+	"border-r-yellow-400": {
+		"borderRightColor": "#fbbf24"
+	},
+	"border-l-yellow-400": {
+		"borderLeftColor": "#fbbf24"
+	},
+	"border-t-yellow-400": {
+		"borderTopColor": "#fbbf24"
+	},
+	"border-b-yellow-400": {
+		"borderBottomColor": "#fbbf24"
+	},
+	"border-s-yellow-400": {
+		"borderStartColor": "#fbbf24"
+	},
+	"border-end-yellow-400": {
+		"borderEndColor": "#fbbf24"
+	},
+	"border-yellow-500": {
+		"borderColor": "#f59e0b"
+	},
+	"border-r-yellow-500": {
+		"borderRightColor": "#f59e0b"
+	},
+	"border-l-yellow-500": {
+		"borderLeftColor": "#f59e0b"
+	},
+	"border-t-yellow-500": {
+		"borderTopColor": "#f59e0b"
+	},
+	"border-b-yellow-500": {
+		"borderBottomColor": "#f59e0b"
+	},
+	"border-s-yellow-500": {
+		"borderStartColor": "#f59e0b"
+	},
+	"border-end-yellow-500": {
+		"borderEndColor": "#f59e0b"
+	},
+	"border-yellow-600": {
+		"borderColor": "#d97706"
+	},
+	"border-r-yellow-600": {
+		"borderRightColor": "#d97706"
+	},
+	"border-l-yellow-600": {
+		"borderLeftColor": "#d97706"
+	},
+	"border-t-yellow-600": {
+		"borderTopColor": "#d97706"
+	},
+	"border-b-yellow-600": {
+		"borderBottomColor": "#d97706"
+	},
+	"border-s-yellow-600": {
+		"borderStartColor": "#d97706"
+	},
+	"border-end-yellow-600": {
+		"borderEndColor": "#d97706"
+	},
+	"border-yellow-700": {
+		"borderColor": "#b45309"
+	},
+	"border-r-yellow-700": {
+		"borderRightColor": "#b45309"
+	},
+	"border-l-yellow-700": {
+		"borderLeftColor": "#b45309"
+	},
+	"border-t-yellow-700": {
+		"borderTopColor": "#b45309"
+	},
+	"border-b-yellow-700": {
+		"borderBottomColor": "#b45309"
+	},
+	"border-s-yellow-700": {
+		"borderStartColor": "#b45309"
+	},
+	"border-end-yellow-700": {
+		"borderEndColor": "#b45309"
+	},
+	"border-yellow-800": {
+		"borderColor": "#92400e"
+	},
+	"border-r-yellow-800": {
+		"borderRightColor": "#92400e"
+	},
+	"border-l-yellow-800": {
+		"borderLeftColor": "#92400e"
+	},
+	"border-t-yellow-800": {
+		"borderTopColor": "#92400e"
+	},
+	"border-b-yellow-800": {
+		"borderBottomColor": "#92400e"
+	},
+	"border-s-yellow-800": {
+		"borderStartColor": "#92400e"
+	},
+	"border-end-yellow-800": {
+		"borderEndColor": "#92400e"
+	},
+	"border-yellow-900": {
+		"borderColor": "#78350f"
+	},
+	"border-r-yellow-900": {
+		"borderRightColor": "#78350f"
+	},
+	"border-l-yellow-900": {
+		"borderLeftColor": "#78350f"
+	},
+	"border-t-yellow-900": {
+		"borderTopColor": "#78350f"
+	},
+	"border-b-yellow-900": {
+		"borderBottomColor": "#78350f"
+	},
+	"border-s-yellow-900": {
+		"borderStartColor": "#78350f"
+	},
+	"border-end-yellow-900": {
+		"borderEndColor": "#78350f"
+	},
+	"border-green-50": {
+		"borderColor": "#ecfdf5"
+	},
+	"border-r-green-50": {
+		"borderRightColor": "#ecfdf5"
+	},
+	"border-l-green-50": {
+		"borderLeftColor": "#ecfdf5"
+	},
+	"border-t-green-50": {
+		"borderTopColor": "#ecfdf5"
+	},
+	"border-b-green-50": {
+		"borderBottomColor": "#ecfdf5"
+	},
+	"border-s-green-50": {
+		"borderStartColor": "#ecfdf5"
+	},
+	"border-end-green-50": {
+		"borderEndColor": "#ecfdf5"
+	},
+	"border-green-100": {
+		"borderColor": "#d1fae5"
+	},
+	"border-r-green-100": {
+		"borderRightColor": "#d1fae5"
+	},
+	"border-l-green-100": {
+		"borderLeftColor": "#d1fae5"
+	},
+	"border-t-green-100": {
+		"borderTopColor": "#d1fae5"
+	},
+	"border-b-green-100": {
+		"borderBottomColor": "#d1fae5"
+	},
+	"border-s-green-100": {
+		"borderStartColor": "#d1fae5"
+	},
+	"border-end-green-100": {
+		"borderEndColor": "#d1fae5"
+	},
+	"border-green-200": {
+		"borderColor": "#a7f3d0"
+	},
+	"border-r-green-200": {
+		"borderRightColor": "#a7f3d0"
+	},
+	"border-l-green-200": {
+		"borderLeftColor": "#a7f3d0"
+	},
+	"border-t-green-200": {
+		"borderTopColor": "#a7f3d0"
+	},
+	"border-b-green-200": {
+		"borderBottomColor": "#a7f3d0"
+	},
+	"border-s-green-200": {
+		"borderStartColor": "#a7f3d0"
+	},
+	"border-end-green-200": {
+		"borderEndColor": "#a7f3d0"
+	},
+	"border-green-300": {
+		"borderColor": "#6ee7b7"
+	},
+	"border-r-green-300": {
+		"borderRightColor": "#6ee7b7"
+	},
+	"border-l-green-300": {
+		"borderLeftColor": "#6ee7b7"
+	},
+	"border-t-green-300": {
+		"borderTopColor": "#6ee7b7"
+	},
+	"border-b-green-300": {
+		"borderBottomColor": "#6ee7b7"
+	},
+	"border-s-green-300": {
+		"borderStartColor": "#6ee7b7"
+	},
+	"border-end-green-300": {
+		"borderEndColor": "#6ee7b7"
+	},
+	"border-green-400": {
+		"borderColor": "#34d399"
+	},
+	"border-r-green-400": {
+		"borderRightColor": "#34d399"
+	},
+	"border-l-green-400": {
+		"borderLeftColor": "#34d399"
+	},
+	"border-t-green-400": {
+		"borderTopColor": "#34d399"
+	},
+	"border-b-green-400": {
+		"borderBottomColor": "#34d399"
+	},
+	"border-s-green-400": {
+		"borderStartColor": "#34d399"
+	},
+	"border-end-green-400": {
+		"borderEndColor": "#34d399"
+	},
+	"border-green-500": {
+		"borderColor": "#10b981"
+	},
+	"border-r-green-500": {
+		"borderRightColor": "#10b981"
+	},
+	"border-l-green-500": {
+		"borderLeftColor": "#10b981"
+	},
+	"border-t-green-500": {
+		"borderTopColor": "#10b981"
+	},
+	"border-b-green-500": {
+		"borderBottomColor": "#10b981"
+	},
+	"border-s-green-500": {
+		"borderStartColor": "#10b981"
+	},
+	"border-end-green-500": {
+		"borderEndColor": "#10b981"
+	},
+	"border-green-600": {
+		"borderColor": "#059669"
+	},
+	"border-r-green-600": {
+		"borderRightColor": "#059669"
+	},
+	"border-l-green-600": {
+		"borderLeftColor": "#059669"
+	},
+	"border-t-green-600": {
+		"borderTopColor": "#059669"
+	},
+	"border-b-green-600": {
+		"borderBottomColor": "#059669"
+	},
+	"border-s-green-600": {
+		"borderStartColor": "#059669"
+	},
+	"border-end-green-600": {
+		"borderEndColor": "#059669"
+	},
+	"border-green-700": {
+		"borderColor": "#047857"
+	},
+	"border-r-green-700": {
+		"borderRightColor": "#047857"
+	},
+	"border-l-green-700": {
+		"borderLeftColor": "#047857"
+	},
+	"border-t-green-700": {
+		"borderTopColor": "#047857"
+	},
+	"border-b-green-700": {
+		"borderBottomColor": "#047857"
+	},
+	"border-s-green-700": {
+		"borderStartColor": "#047857"
+	},
+	"border-end-green-700": {
+		"borderEndColor": "#047857"
+	},
+	"border-green-800": {
+		"borderColor": "#065f46"
+	},
+	"border-r-green-800": {
+		"borderRightColor": "#065f46"
+	},
+	"border-l-green-800": {
+		"borderLeftColor": "#065f46"
+	},
+	"border-t-green-800": {
+		"borderTopColor": "#065f46"
+	},
+	"border-b-green-800": {
+		"borderBottomColor": "#065f46"
+	},
+	"border-s-green-800": {
+		"borderStartColor": "#065f46"
+	},
+	"border-end-green-800": {
+		"borderEndColor": "#065f46"
+	},
+	"border-green-900": {
+		"borderColor": "#064e3b"
+	},
+	"border-r-green-900": {
+		"borderRightColor": "#064e3b"
+	},
+	"border-l-green-900": {
+		"borderLeftColor": "#064e3b"
+	},
+	"border-t-green-900": {
+		"borderTopColor": "#064e3b"
+	},
+	"border-b-green-900": {
+		"borderBottomColor": "#064e3b"
+	},
+	"border-s-green-900": {
+		"borderStartColor": "#064e3b"
+	},
+	"border-end-green-900": {
+		"borderEndColor": "#064e3b"
+	},
+	"border-blue-50": {
+		"borderColor": "#eff6ff"
+	},
+	"border-r-blue-50": {
+		"borderRightColor": "#eff6ff"
+	},
+	"border-l-blue-50": {
+		"borderLeftColor": "#eff6ff"
+	},
+	"border-t-blue-50": {
+		"borderTopColor": "#eff6ff"
+	},
+	"border-b-blue-50": {
+		"borderBottomColor": "#eff6ff"
+	},
+	"border-s-blue-50": {
+		"borderStartColor": "#eff6ff"
+	},
+	"border-end-blue-50": {
+		"borderEndColor": "#eff6ff"
+	},
+	"border-blue-100": {
+		"borderColor": "#dbeafe"
+	},
+	"border-r-blue-100": {
+		"borderRightColor": "#dbeafe"
+	},
+	"border-l-blue-100": {
+		"borderLeftColor": "#dbeafe"
+	},
+	"border-t-blue-100": {
+		"borderTopColor": "#dbeafe"
+	},
+	"border-b-blue-100": {
+		"borderBottomColor": "#dbeafe"
+	},
+	"border-s-blue-100": {
+		"borderStartColor": "#dbeafe"
+	},
+	"border-end-blue-100": {
+		"borderEndColor": "#dbeafe"
+	},
+	"border-blue-200": {
+		"borderColor": "#bfdbfe"
+	},
+	"border-r-blue-200": {
+		"borderRightColor": "#bfdbfe"
+	},
+	"border-l-blue-200": {
+		"borderLeftColor": "#bfdbfe"
+	},
+	"border-t-blue-200": {
+		"borderTopColor": "#bfdbfe"
+	},
+	"border-b-blue-200": {
+		"borderBottomColor": "#bfdbfe"
+	},
+	"border-s-blue-200": {
+		"borderStartColor": "#bfdbfe"
+	},
+	"border-end-blue-200": {
+		"borderEndColor": "#bfdbfe"
+	},
+	"border-blue-300": {
+		"borderColor": "#93c5fd"
+	},
+	"border-r-blue-300": {
+		"borderRightColor": "#93c5fd"
+	},
+	"border-l-blue-300": {
+		"borderLeftColor": "#93c5fd"
+	},
+	"border-t-blue-300": {
+		"borderTopColor": "#93c5fd"
+	},
+	"border-b-blue-300": {
+		"borderBottomColor": "#93c5fd"
+	},
+	"border-s-blue-300": {
+		"borderStartColor": "#93c5fd"
+	},
+	"border-end-blue-300": {
+		"borderEndColor": "#93c5fd"
+	},
+	"border-blue-400": {
+		"borderColor": "#60a5fa"
+	},
+	"border-r-blue-400": {
+		"borderRightColor": "#60a5fa"
+	},
+	"border-l-blue-400": {
+		"borderLeftColor": "#60a5fa"
+	},
+	"border-t-blue-400": {
+		"borderTopColor": "#60a5fa"
+	},
+	"border-b-blue-400": {
+		"borderBottomColor": "#60a5fa"
+	},
+	"border-s-blue-400": {
+		"borderStartColor": "#60a5fa"
+	},
+	"border-end-blue-400": {
+		"borderEndColor": "#60a5fa"
+	},
+	"border-blue-500": {
+		"borderColor": "#3b82f6"
+	},
+	"border-r-blue-500": {
+		"borderRightColor": "#3b82f6"
+	},
+	"border-l-blue-500": {
+		"borderLeftColor": "#3b82f6"
+	},
+	"border-t-blue-500": {
+		"borderTopColor": "#3b82f6"
+	},
+	"border-b-blue-500": {
+		"borderBottomColor": "#3b82f6"
+	},
+	"border-s-blue-500": {
+		"borderStartColor": "#3b82f6"
+	},
+	"border-end-blue-500": {
+		"borderEndColor": "#3b82f6"
+	},
+	"border-blue-600": {
+		"borderColor": "#2563eb"
+	},
+	"border-r-blue-600": {
+		"borderRightColor": "#2563eb"
+	},
+	"border-l-blue-600": {
+		"borderLeftColor": "#2563eb"
+	},
+	"border-t-blue-600": {
+		"borderTopColor": "#2563eb"
+	},
+	"border-b-blue-600": {
+		"borderBottomColor": "#2563eb"
+	},
+	"border-s-blue-600": {
+		"borderStartColor": "#2563eb"
+	},
+	"border-end-blue-600": {
+		"borderEndColor": "#2563eb"
+	},
+	"border-blue-700": {
+		"borderColor": "#1d4ed8"
+	},
+	"border-r-blue-700": {
+		"borderRightColor": "#1d4ed8"
+	},
+	"border-l-blue-700": {
+		"borderLeftColor": "#1d4ed8"
+	},
+	"border-t-blue-700": {
+		"borderTopColor": "#1d4ed8"
+	},
+	"border-b-blue-700": {
+		"borderBottomColor": "#1d4ed8"
+	},
+	"border-s-blue-700": {
+		"borderStartColor": "#1d4ed8"
+	},
+	"border-end-blue-700": {
+		"borderEndColor": "#1d4ed8"
+	},
+	"border-blue-800": {
+		"borderColor": "#1e40af"
+	},
+	"border-r-blue-800": {
+		"borderRightColor": "#1e40af"
+	},
+	"border-l-blue-800": {
+		"borderLeftColor": "#1e40af"
+	},
+	"border-t-blue-800": {
+		"borderTopColor": "#1e40af"
+	},
+	"border-b-blue-800": {
+		"borderBottomColor": "#1e40af"
+	},
+	"border-s-blue-800": {
+		"borderStartColor": "#1e40af"
+	},
+	"border-end-blue-800": {
+		"borderEndColor": "#1e40af"
+	},
+	"border-blue-900": {
+		"borderColor": "#1e3a8a"
+	},
+	"border-r-blue-900": {
+		"borderRightColor": "#1e3a8a"
+	},
+	"border-l-blue-900": {
+		"borderLeftColor": "#1e3a8a"
+	},
+	"border-t-blue-900": {
+		"borderTopColor": "#1e3a8a"
+	},
+	"border-b-blue-900": {
+		"borderBottomColor": "#1e3a8a"
+	},
+	"border-s-blue-900": {
+		"borderStartColor": "#1e3a8a"
+	},
+	"border-end-blue-900": {
+		"borderEndColor": "#1e3a8a"
+	},
+	"border-indigo-50": {
+		"borderColor": "#eef2ff"
+	},
+	"border-r-indigo-50": {
+		"borderRightColor": "#eef2ff"
+	},
+	"border-l-indigo-50": {
+		"borderLeftColor": "#eef2ff"
+	},
+	"border-t-indigo-50": {
+		"borderTopColor": "#eef2ff"
+	},
+	"border-b-indigo-50": {
+		"borderBottomColor": "#eef2ff"
+	},
+	"border-s-indigo-50": {
+		"borderStartColor": "#eef2ff"
+	},
+	"border-end-indigo-50": {
+		"borderEndColor": "#eef2ff"
+	},
+	"border-indigo-100": {
+		"borderColor": "#e0e7ff"
+	},
+	"border-r-indigo-100": {
+		"borderRightColor": "#e0e7ff"
+	},
+	"border-l-indigo-100": {
+		"borderLeftColor": "#e0e7ff"
+	},
+	"border-t-indigo-100": {
+		"borderTopColor": "#e0e7ff"
+	},
+	"border-b-indigo-100": {
+		"borderBottomColor": "#e0e7ff"
+	},
+	"border-s-indigo-100": {
+		"borderStartColor": "#e0e7ff"
+	},
+	"border-end-indigo-100": {
+		"borderEndColor": "#e0e7ff"
+	},
+	"border-indigo-200": {
+		"borderColor": "#c7d2fe"
+	},
+	"border-r-indigo-200": {
+		"borderRightColor": "#c7d2fe"
+	},
+	"border-l-indigo-200": {
+		"borderLeftColor": "#c7d2fe"
+	},
+	"border-t-indigo-200": {
+		"borderTopColor": "#c7d2fe"
+	},
+	"border-b-indigo-200": {
+		"borderBottomColor": "#c7d2fe"
+	},
+	"border-s-indigo-200": {
+		"borderStartColor": "#c7d2fe"
+	},
+	"border-end-indigo-200": {
+		"borderEndColor": "#c7d2fe"
+	},
+	"border-indigo-300": {
+		"borderColor": "#a5b4fc"
+	},
+	"border-r-indigo-300": {
+		"borderRightColor": "#a5b4fc"
+	},
+	"border-l-indigo-300": {
+		"borderLeftColor": "#a5b4fc"
+	},
+	"border-t-indigo-300": {
+		"borderTopColor": "#a5b4fc"
+	},
+	"border-b-indigo-300": {
+		"borderBottomColor": "#a5b4fc"
+	},
+	"border-s-indigo-300": {
+		"borderStartColor": "#a5b4fc"
+	},
+	"border-end-indigo-300": {
+		"borderEndColor": "#a5b4fc"
+	},
+	"border-indigo-400": {
+		"borderColor": "#818cf8"
+	},
+	"border-r-indigo-400": {
+		"borderRightColor": "#818cf8"
+	},
+	"border-l-indigo-400": {
+		"borderLeftColor": "#818cf8"
+	},
+	"border-t-indigo-400": {
+		"borderTopColor": "#818cf8"
+	},
+	"border-b-indigo-400": {
+		"borderBottomColor": "#818cf8"
+	},
+	"border-s-indigo-400": {
+		"borderStartColor": "#818cf8"
+	},
+	"border-end-indigo-400": {
+		"borderEndColor": "#818cf8"
+	},
+	"border-indigo-500": {
+		"borderColor": "#6366f1"
+	},
+	"border-r-indigo-500": {
+		"borderRightColor": "#6366f1"
+	},
+	"border-l-indigo-500": {
+		"borderLeftColor": "#6366f1"
+	},
+	"border-t-indigo-500": {
+		"borderTopColor": "#6366f1"
+	},
+	"border-b-indigo-500": {
+		"borderBottomColor": "#6366f1"
+	},
+	"border-s-indigo-500": {
+		"borderStartColor": "#6366f1"
+	},
+	"border-end-indigo-500": {
+		"borderEndColor": "#6366f1"
+	},
+	"border-indigo-600": {
+		"borderColor": "#4f46e5"
+	},
+	"border-r-indigo-600": {
+		"borderRightColor": "#4f46e5"
+	},
+	"border-l-indigo-600": {
+		"borderLeftColor": "#4f46e5"
+	},
+	"border-t-indigo-600": {
+		"borderTopColor": "#4f46e5"
+	},
+	"border-b-indigo-600": {
+		"borderBottomColor": "#4f46e5"
+	},
+	"border-s-indigo-600": {
+		"borderStartColor": "#4f46e5"
+	},
+	"border-end-indigo-600": {
+		"borderEndColor": "#4f46e5"
+	},
+	"border-indigo-700": {
+		"borderColor": "#4338ca"
+	},
+	"border-r-indigo-700": {
+		"borderRightColor": "#4338ca"
+	},
+	"border-l-indigo-700": {
+		"borderLeftColor": "#4338ca"
+	},
+	"border-t-indigo-700": {
+		"borderTopColor": "#4338ca"
+	},
+	"border-b-indigo-700": {
+		"borderBottomColor": "#4338ca"
+	},
+	"border-s-indigo-700": {
+		"borderStartColor": "#4338ca"
+	},
+	"border-end-indigo-700": {
+		"borderEndColor": "#4338ca"
+	},
+	"border-indigo-800": {
+		"borderColor": "#3730a3"
+	},
+	"border-r-indigo-800": {
+		"borderRightColor": "#3730a3"
+	},
+	"border-l-indigo-800": {
+		"borderLeftColor": "#3730a3"
+	},
+	"border-t-indigo-800": {
+		"borderTopColor": "#3730a3"
+	},
+	"border-b-indigo-800": {
+		"borderBottomColor": "#3730a3"
+	},
+	"border-s-indigo-800": {
+		"borderStartColor": "#3730a3"
+	},
+	"border-end-indigo-800": {
+		"borderEndColor": "#3730a3"
+	},
+	"border-indigo-900": {
+		"borderColor": "#312e81"
+	},
+	"border-r-indigo-900": {
+		"borderRightColor": "#312e81"
+	},
+	"border-l-indigo-900": {
+		"borderLeftColor": "#312e81"
+	},
+	"border-t-indigo-900": {
+		"borderTopColor": "#312e81"
+	},
+	"border-b-indigo-900": {
+		"borderBottomColor": "#312e81"
+	},
+	"border-s-indigo-900": {
+		"borderStartColor": "#312e81"
+	},
+	"border-end-indigo-900": {
+		"borderEndColor": "#312e81"
+	},
+	"border-purple-50": {
+		"borderColor": "#f5f3ff"
+	},
+	"border-r-purple-50": {
+		"borderRightColor": "#f5f3ff"
+	},
+	"border-l-purple-50": {
+		"borderLeftColor": "#f5f3ff"
+	},
+	"border-t-purple-50": {
+		"borderTopColor": "#f5f3ff"
+	},
+	"border-b-purple-50": {
+		"borderBottomColor": "#f5f3ff"
+	},
+	"border-s-purple-50": {
+		"borderStartColor": "#f5f3ff"
+	},
+	"border-end-purple-50": {
+		"borderEndColor": "#f5f3ff"
+	},
+	"border-purple-100": {
+		"borderColor": "#ede9fe"
+	},
+	"border-r-purple-100": {
+		"borderRightColor": "#ede9fe"
+	},
+	"border-l-purple-100": {
+		"borderLeftColor": "#ede9fe"
+	},
+	"border-t-purple-100": {
+		"borderTopColor": "#ede9fe"
+	},
+	"border-b-purple-100": {
+		"borderBottomColor": "#ede9fe"
+	},
+	"border-s-purple-100": {
+		"borderStartColor": "#ede9fe"
+	},
+	"border-end-purple-100": {
+		"borderEndColor": "#ede9fe"
+	},
+	"border-purple-200": {
+		"borderColor": "#ddd6fe"
+	},
+	"border-r-purple-200": {
+		"borderRightColor": "#ddd6fe"
+	},
+	"border-l-purple-200": {
+		"borderLeftColor": "#ddd6fe"
+	},
+	"border-t-purple-200": {
+		"borderTopColor": "#ddd6fe"
+	},
+	"border-b-purple-200": {
+		"borderBottomColor": "#ddd6fe"
+	},
+	"border-s-purple-200": {
+		"borderStartColor": "#ddd6fe"
+	},
+	"border-end-purple-200": {
+		"borderEndColor": "#ddd6fe"
+	},
+	"border-purple-300": {
+		"borderColor": "#c4b5fd"
+	},
+	"border-r-purple-300": {
+		"borderRightColor": "#c4b5fd"
+	},
+	"border-l-purple-300": {
+		"borderLeftColor": "#c4b5fd"
+	},
+	"border-t-purple-300": {
+		"borderTopColor": "#c4b5fd"
+	},
+	"border-b-purple-300": {
+		"borderBottomColor": "#c4b5fd"
+	},
+	"border-s-purple-300": {
+		"borderStartColor": "#c4b5fd"
+	},
+	"border-end-purple-300": {
+		"borderEndColor": "#c4b5fd"
+	},
+	"border-purple-400": {
+		"borderColor": "#a78bfa"
+	},
+	"border-r-purple-400": {
+		"borderRightColor": "#a78bfa"
+	},
+	"border-l-purple-400": {
+		"borderLeftColor": "#a78bfa"
+	},
+	"border-t-purple-400": {
+		"borderTopColor": "#a78bfa"
+	},
+	"border-b-purple-400": {
+		"borderBottomColor": "#a78bfa"
+	},
+	"border-s-purple-400": {
+		"borderStartColor": "#a78bfa"
+	},
+	"border-end-purple-400": {
+		"borderEndColor": "#a78bfa"
+	},
+	"border-purple-500": {
+		"borderColor": "#8b5cf6"
+	},
+	"border-r-purple-500": {
+		"borderRightColor": "#8b5cf6"
+	},
+	"border-l-purple-500": {
+		"borderLeftColor": "#8b5cf6"
+	},
+	"border-t-purple-500": {
+		"borderTopColor": "#8b5cf6"
+	},
+	"border-b-purple-500": {
+		"borderBottomColor": "#8b5cf6"
+	},
+	"border-s-purple-500": {
+		"borderStartColor": "#8b5cf6"
+	},
+	"border-end-purple-500": {
+		"borderEndColor": "#8b5cf6"
+	},
+	"border-purple-600": {
+		"borderColor": "#7c3aed"
+	},
+	"border-r-purple-600": {
+		"borderRightColor": "#7c3aed"
+	},
+	"border-l-purple-600": {
+		"borderLeftColor": "#7c3aed"
+	},
+	"border-t-purple-600": {
+		"borderTopColor": "#7c3aed"
+	},
+	"border-b-purple-600": {
+		"borderBottomColor": "#7c3aed"
+	},
+	"border-s-purple-600": {
+		"borderStartColor": "#7c3aed"
+	},
+	"border-end-purple-600": {
+		"borderEndColor": "#7c3aed"
+	},
+	"border-purple-700": {
+		"borderColor": "#6d28d9"
+	},
+	"border-r-purple-700": {
+		"borderRightColor": "#6d28d9"
+	},
+	"border-l-purple-700": {
+		"borderLeftColor": "#6d28d9"
+	},
+	"border-t-purple-700": {
+		"borderTopColor": "#6d28d9"
+	},
+	"border-b-purple-700": {
+		"borderBottomColor": "#6d28d9"
+	},
+	"border-s-purple-700": {
+		"borderStartColor": "#6d28d9"
+	},
+	"border-end-purple-700": {
+		"borderEndColor": "#6d28d9"
+	},
+	"border-purple-800": {
+		"borderColor": "#5b21b6"
+	},
+	"border-r-purple-800": {
+		"borderRightColor": "#5b21b6"
+	},
+	"border-l-purple-800": {
+		"borderLeftColor": "#5b21b6"
+	},
+	"border-t-purple-800": {
+		"borderTopColor": "#5b21b6"
+	},
+	"border-b-purple-800": {
+		"borderBottomColor": "#5b21b6"
+	},
+	"border-s-purple-800": {
+		"borderStartColor": "#5b21b6"
+	},
+	"border-end-purple-800": {
+		"borderEndColor": "#5b21b6"
+	},
+	"border-purple-900": {
+		"borderColor": "#4c1d95"
+	},
+	"border-r-purple-900": {
+		"borderRightColor": "#4c1d95"
+	},
+	"border-l-purple-900": {
+		"borderLeftColor": "#4c1d95"
+	},
+	"border-t-purple-900": {
+		"borderTopColor": "#4c1d95"
+	},
+	"border-b-purple-900": {
+		"borderBottomColor": "#4c1d95"
+	},
+	"border-s-purple-900": {
+		"borderStartColor": "#4c1d95"
+	},
+	"border-end-purple-900": {
+		"borderEndColor": "#4c1d95"
+	},
+	"border-pink-50": {
+		"borderColor": "#fdf2f8"
+	},
+	"border-r-pink-50": {
+		"borderRightColor": "#fdf2f8"
+	},
+	"border-l-pink-50": {
+		"borderLeftColor": "#fdf2f8"
+	},
+	"border-t-pink-50": {
+		"borderTopColor": "#fdf2f8"
+	},
+	"border-b-pink-50": {
+		"borderBottomColor": "#fdf2f8"
+	},
+	"border-s-pink-50": {
+		"borderStartColor": "#fdf2f8"
+	},
+	"border-end-pink-50": {
+		"borderEndColor": "#fdf2f8"
+	},
+	"border-pink-100": {
+		"borderColor": "#fce7f3"
+	},
+	"border-r-pink-100": {
+		"borderRightColor": "#fce7f3"
+	},
+	"border-l-pink-100": {
+		"borderLeftColor": "#fce7f3"
+	},
+	"border-t-pink-100": {
+		"borderTopColor": "#fce7f3"
+	},
+	"border-b-pink-100": {
+		"borderBottomColor": "#fce7f3"
+	},
+	"border-s-pink-100": {
+		"borderStartColor": "#fce7f3"
+	},
+	"border-end-pink-100": {
+		"borderEndColor": "#fce7f3"
+	},
+	"border-pink-200": {
+		"borderColor": "#fbcfe8"
+	},
+	"border-r-pink-200": {
+		"borderRightColor": "#fbcfe8"
+	},
+	"border-l-pink-200": {
+		"borderLeftColor": "#fbcfe8"
+	},
+	"border-t-pink-200": {
+		"borderTopColor": "#fbcfe8"
+	},
+	"border-b-pink-200": {
+		"borderBottomColor": "#fbcfe8"
+	},
+	"border-s-pink-200": {
+		"borderStartColor": "#fbcfe8"
+	},
+	"border-end-pink-200": {
+		"borderEndColor": "#fbcfe8"
+	},
+	"border-pink-300": {
+		"borderColor": "#f9a8d4"
+	},
+	"border-r-pink-300": {
+		"borderRightColor": "#f9a8d4"
+	},
+	"border-l-pink-300": {
+		"borderLeftColor": "#f9a8d4"
+	},
+	"border-t-pink-300": {
+		"borderTopColor": "#f9a8d4"
+	},
+	"border-b-pink-300": {
+		"borderBottomColor": "#f9a8d4"
+	},
+	"border-s-pink-300": {
+		"borderStartColor": "#f9a8d4"
+	},
+	"border-end-pink-300": {
+		"borderEndColor": "#f9a8d4"
+	},
+	"border-pink-400": {
+		"borderColor": "#f472b6"
+	},
+	"border-r-pink-400": {
+		"borderRightColor": "#f472b6"
+	},
+	"border-l-pink-400": {
+		"borderLeftColor": "#f472b6"
+	},
+	"border-t-pink-400": {
+		"borderTopColor": "#f472b6"
+	},
+	"border-b-pink-400": {
+		"borderBottomColor": "#f472b6"
+	},
+	"border-s-pink-400": {
+		"borderStartColor": "#f472b6"
+	},
+	"border-end-pink-400": {
+		"borderEndColor": "#f472b6"
+	},
+	"border-pink-500": {
+		"borderColor": "#ec4899"
+	},
+	"border-r-pink-500": {
+		"borderRightColor": "#ec4899"
+	},
+	"border-l-pink-500": {
+		"borderLeftColor": "#ec4899"
+	},
+	"border-t-pink-500": {
+		"borderTopColor": "#ec4899"
+	},
+	"border-b-pink-500": {
+		"borderBottomColor": "#ec4899"
+	},
+	"border-s-pink-500": {
+		"borderStartColor": "#ec4899"
+	},
+	"border-end-pink-500": {
+		"borderEndColor": "#ec4899"
+	},
+	"border-pink-600": {
+		"borderColor": "#db2777"
+	},
+	"border-r-pink-600": {
+		"borderRightColor": "#db2777"
+	},
+	"border-l-pink-600": {
+		"borderLeftColor": "#db2777"
+	},
+	"border-t-pink-600": {
+		"borderTopColor": "#db2777"
+	},
+	"border-b-pink-600": {
+		"borderBottomColor": "#db2777"
+	},
+	"border-s-pink-600": {
+		"borderStartColor": "#db2777"
+	},
+	"border-end-pink-600": {
+		"borderEndColor": "#db2777"
+	},
+	"border-pink-700": {
+		"borderColor": "#be185d"
+	},
+	"border-r-pink-700": {
+		"borderRightColor": "#be185d"
+	},
+	"border-l-pink-700": {
+		"borderLeftColor": "#be185d"
+	},
+	"border-t-pink-700": {
+		"borderTopColor": "#be185d"
+	},
+	"border-b-pink-700": {
+		"borderBottomColor": "#be185d"
+	},
+	"border-s-pink-700": {
+		"borderStartColor": "#be185d"
+	},
+	"border-end-pink-700": {
+		"borderEndColor": "#be185d"
+	},
+	"border-pink-800": {
+		"borderColor": "#9d174d"
+	},
+	"border-r-pink-800": {
+		"borderRightColor": "#9d174d"
+	},
+	"border-l-pink-800": {
+		"borderLeftColor": "#9d174d"
+	},
+	"border-t-pink-800": {
+		"borderTopColor": "#9d174d"
+	},
+	"border-b-pink-800": {
+		"borderBottomColor": "#9d174d"
+	},
+	"border-s-pink-800": {
+		"borderStartColor": "#9d174d"
+	},
+	"border-end-pink-800": {
+		"borderEndColor": "#9d174d"
+	},
+	"border-pink-900": {
+		"borderColor": "#831843"
+	},
+	"border-r-pink-900": {
+		"borderRightColor": "#831843"
+	},
+	"border-l-pink-900": {
+		"borderLeftColor": "#831843"
+	},
+	"border-t-pink-900": {
+		"borderTopColor": "#831843"
+	},
+	"border-b-pink-900": {
+		"borderBottomColor": "#831843"
+	},
+	"border-s-pink-900": {
+		"borderStartColor": "#831843"
+	},
+	"border-end-pink-900": {
+		"borderEndColor": "#831843"
+	},
+	"border-transparent": {
+		"borderColor": "transparent"
+	},
+	"border-r-transparent": {
+		"borderRightColor": "transparent"
+	},
+	"border-l-transparent": {
+		"borderLeftColor": "transparent"
+	},
+	"border-t-transparent": {
+		"borderTopColor": "transparent"
+	},
+	"border-b-transparent": {
+		"borderBottomColor": "transparent"
+	},
+	"border-s-transparent": {
+		"borderStartColor": "transparent"
+	},
+	"border-end-transparent": {
+		"borderEndColor": "transparent"
+	},
+	"border-current": {
+		"borderColor": "currentColor"
+	},
+	"border-r-current": {
+		"borderRightColor": "currentColor"
+	},
+	"border-l-current": {
+		"borderLeftColor": "currentColor"
+	},
+	"border-t-current": {
+		"borderTopColor": "currentColor"
+	},
+	"border-b-current": {
+		"borderBottomColor": "currentColor"
+	},
+	"border-s-current": {
+		"borderStartColor": "currentColor"
+	},
+	"border-end-current": {
+		"borderEndColor": "currentColor"
+	},
 	"rounded-none": {
 		"borderRadius": 0
 	},
@@ -647,144 +2411,82 @@
 	},
 	"rounded-ish": {
 		"android": {
-			"borderRadius": 42
+			"borderRadius": 100
 		},
 		"default": {
-			"borderRadius": "42%"
-		},
-		"web": {
-			"borderRadius": "42%"
-		},
-		"ios": {
-			"borderRadius": "42%"
+			"borderRadius": "45%"
 		}
 	},
 	"rounded-t-ish": {
 		"android": {
-			"borderTopLeftRadius": 42,
-			"borderTopRightRadius": 42
+			"borderTopLeftRadius": 100,
+			"borderTopRightRadius": 100
 		},
 		"default": {
-			"borderTopLeftRadius": "42%",
-			"borderTopRightRadius": "42%"
-		},
-		"web": {
-			"borderTopLeftRadius": "42%",
-			"borderTopRightRadius": "42%"
-		},
-		"ios": {
-			"borderTopLeftRadius": "42%",
-			"borderTopRightRadius": "42%"
+			"borderTopLeftRadius": "45%",
+			"borderTopRightRadius": "45%"
 		}
 	},
 	"rounded-b-ish": {
 		"android": {
-			"borderBottomLeftRadius": 42,
-			"borderBottomRightRadius": 42
+			"borderBottomLeftRadius": 100,
+			"borderBottomRightRadius": 100
 		},
 		"default": {
-			"borderBottomLeftRadius": "42%",
-			"borderBottomRightRadius": "42%"
-		},
-		"web": {
-			"borderBottomLeftRadius": "42%",
-			"borderBottomRightRadius": "42%"
-		},
-		"ios": {
-			"borderBottomLeftRadius": "42%",
-			"borderBottomRightRadius": "42%"
+			"borderBottomLeftRadius": "45%",
+			"borderBottomRightRadius": "45%"
 		}
 	},
 	"rounded-l-ish": {
 		"android": {
-			"borderTopLeftRadius": 42,
-			"borderBottomLeftRadius": 42
+			"borderTopLeftRadius": 100,
+			"borderBottomLeftRadius": 100
 		},
 		"default": {
-			"borderTopLeftRadius": "42%",
-			"borderBottomLeftRadius": "42%"
-		},
-		"web": {
-			"borderTopLeftRadius": "42%",
-			"borderBottomLeftRadius": "42%"
-		},
-		"ios": {
-			"borderTopLeftRadius": "42%",
-			"borderBottomLeftRadius": "42%"
+			"borderTopLeftRadius": "45%",
+			"borderBottomLeftRadius": "45%"
 		}
 	},
 	"rounded-r-ish": {
 		"android": {
-			"borderTopRightRadius": 42,
-			"borderBottomRightRadius": 42
+			"borderTopRightRadius": 100,
+			"borderBottomRightRadius": 100
 		},
 		"default": {
-			"borderTopRightRadius": "42%",
-			"borderBottomRightRadius": "42%"
-		},
-		"web": {
-			"borderTopRightRadius": "42%",
-			"borderBottomRightRadius": "42%"
-		},
-		"ios": {
-			"borderTopRightRadius": "42%",
-			"borderBottomRightRadius": "42%"
+			"borderTopRightRadius": "45%",
+			"borderBottomRightRadius": "45%"
 		}
 	},
 	"rounded-tl-ish": {
 		"android": {
-			"borderTopLeftRadius": 42
+			"borderTopLeftRadius": 100
 		},
 		"default": {
-			"borderTopLeftRadius": "42%"
-		},
-		"web": {
-			"borderTopLeftRadius": "42%"
-		},
-		"ios": {
-			"borderTopLeftRadius": "42%"
+			"borderTopLeftRadius": "45%"
 		}
 	},
 	"rounded-tr-ish": {
 		"android": {
-			"borderTopRightRadius": 42
+			"borderTopRightRadius": 100
 		},
 		"default": {
-			"borderTopRightRadius": "42%"
-		},
-		"web": {
-			"borderTopRightRadius": "42%"
-		},
-		"ios": {
-			"borderTopRightRadius": "42%"
+			"borderTopRightRadius": "45%"
 		}
 	},
 	"rounded-bl-ish": {
 		"android": {
-			"borderBottomLeftRadius": 42
+			"borderBottomLeftRadius": 100
 		},
 		"default": {
-			"borderBottomLeftRadius": "42%"
-		},
-		"web": {
-			"borderBottomLeftRadius": "42%"
-		},
-		"ios": {
-			"borderBottomLeftRadius": "42%"
+			"borderBottomLeftRadius": "45%"
 		}
 	},
 	"rounded-br-ish": {
 		"android": {
-			"borderBottomRightRadius": 42
+			"borderBottomRightRadius": 100
 		},
 		"default": {
-			"borderBottomRightRadius": "42%"
-		},
-		"web": {
-			"borderBottomRightRadius": "42%"
-		},
-		"ios": {
-			"borderBottomRightRadius": "42%"
+			"borderBottomRightRadius": "45%"
 		}
 	},
 	"solid": {
