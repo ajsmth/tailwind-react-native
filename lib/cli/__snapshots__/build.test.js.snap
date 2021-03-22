@@ -4683,6 +4683,9 @@ Object {
   "flex-negative": Object {
     "flex": -1,
   },
+  "flex-nowrap": Object {
+    "flexWrap": "nowrap",
+  },
   "flex-row": Object {
     "flexDirection": "row",
   },
@@ -4695,13 +4698,10 @@ Object {
   "flex-shrink-1": Object {
     "flexShrink": 1,
   },
-  "flex-wrap-flex-nowrap": Object {
-    "flexWrap": "nowrap",
-  },
-  "flex-wrap-flex-wrap": Object {
+  "flex-wrap": Object {
     "flexWrap": "wrap",
   },
-  "flex-wrap-flex-wrap-reverse": Object {
+  "flex-wrap-reverse": Object {
     "flexWrap": "wrap-reverse",
   },
   "font-black": Object {
