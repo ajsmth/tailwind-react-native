@@ -3,949 +3,976 @@
 exports[`default styles.json snapshot 1`] = `
 Object {
   "-m-0": Object {
-    "margin": 0,
+    "margin": -0,
   },
   "-m-0.5": Object {
-    "margin": 2,
+    "margin": -2,
   },
   "-m-1": Object {
-    "margin": 4,
+    "margin": -4,
   },
   "-m-1.5": Object {
-    "margin": 6,
+    "margin": -6,
   },
   "-m-10": Object {
-    "margin": 40,
+    "margin": -40,
   },
   "-m-11": Object {
-    "margin": 44,
+    "margin": -44,
   },
   "-m-12": Object {
-    "margin": 48,
+    "margin": -48,
   },
   "-m-14": Object {
-    "margin": 56,
+    "margin": -56,
   },
   "-m-16": Object {
-    "margin": 64,
+    "margin": -64,
   },
   "-m-2": Object {
-    "margin": 8,
+    "margin": -8,
   },
   "-m-2.5": Object {
-    "margin": 10,
+    "margin": -10,
   },
   "-m-20": Object {
-    "margin": 80,
+    "margin": -80,
   },
   "-m-24": Object {
-    "margin": 96,
+    "margin": -96,
   },
   "-m-28": Object {
-    "margin": 112,
+    "margin": -112,
   },
   "-m-3": Object {
-    "margin": 12,
+    "margin": -12,
   },
   "-m-3.5": Object {
-    "margin": 14,
+    "margin": -14,
   },
   "-m-32": Object {
-    "margin": 128,
+    "margin": -128,
   },
   "-m-36": Object {
-    "margin": 144,
+    "margin": -144,
   },
   "-m-4": Object {
-    "margin": 16,
+    "margin": -16,
   },
   "-m-40": Object {
-    "margin": 160,
+    "margin": -160,
   },
   "-m-44": Object {
-    "margin": 176,
+    "margin": -176,
   },
   "-m-48": Object {
-    "margin": 192,
+    "margin": -192,
   },
   "-m-5": Object {
-    "margin": 20,
+    "margin": -20,
   },
   "-m-52": Object {
-    "margin": 208,
+    "margin": -208,
   },
   "-m-56": Object {
-    "margin": 224,
+    "margin": -224,
   },
   "-m-6": Object {
-    "margin": 24,
+    "margin": -24,
   },
   "-m-60": Object {
-    "margin": 240,
+    "margin": -240,
   },
   "-m-64": Object {
-    "margin": 256,
+    "margin": -256,
   },
   "-m-7": Object {
-    "margin": 28,
+    "margin": -28,
   },
   "-m-72": Object {
-    "margin": 288,
+    "margin": -288,
   },
   "-m-8": Object {
-    "margin": 32,
+    "margin": -32,
   },
   "-m-80": Object {
-    "margin": 320,
+    "margin": -320,
   },
   "-m-9": Object {
-    "margin": 36,
+    "margin": -36,
   },
   "-m-96": Object {
-    "margin": 384,
+    "margin": -384,
+  },
+  "-m-auto": Object {
+    "margin": "-auto",
   },
   "-m-px": Object {
-    "margin": 1,
+    "margin": -1,
   },
   "-mb-0": Object {
-    "marginBottom": 0,
+    "marginBottom": -0,
   },
   "-mb-0.5": Object {
-    "marginBottom": 2,
+    "marginBottom": -2,
   },
   "-mb-1": Object {
-    "marginBottom": 4,
+    "marginBottom": -4,
   },
   "-mb-1.5": Object {
-    "marginBottom": 6,
+    "marginBottom": -6,
   },
   "-mb-10": Object {
-    "marginBottom": 40,
+    "marginBottom": -40,
   },
   "-mb-11": Object {
-    "marginBottom": 44,
+    "marginBottom": -44,
   },
   "-mb-12": Object {
-    "marginBottom": 48,
+    "marginBottom": -48,
   },
   "-mb-14": Object {
-    "marginBottom": 56,
+    "marginBottom": -56,
   },
   "-mb-16": Object {
-    "marginBottom": 64,
+    "marginBottom": -64,
   },
   "-mb-2": Object {
-    "marginBottom": 8,
+    "marginBottom": -8,
   },
   "-mb-2.5": Object {
-    "marginBottom": 10,
+    "marginBottom": -10,
   },
   "-mb-20": Object {
-    "marginBottom": 80,
+    "marginBottom": -80,
   },
   "-mb-24": Object {
-    "marginBottom": 96,
+    "marginBottom": -96,
   },
   "-mb-28": Object {
-    "marginBottom": 112,
+    "marginBottom": -112,
   },
   "-mb-3": Object {
-    "marginBottom": 12,
+    "marginBottom": -12,
   },
   "-mb-3.5": Object {
-    "marginBottom": 14,
+    "marginBottom": -14,
   },
   "-mb-32": Object {
-    "marginBottom": 128,
+    "marginBottom": -128,
   },
   "-mb-36": Object {
-    "marginBottom": 144,
+    "marginBottom": -144,
   },
   "-mb-4": Object {
-    "marginBottom": 16,
+    "marginBottom": -16,
   },
   "-mb-40": Object {
-    "marginBottom": 160,
+    "marginBottom": -160,
   },
   "-mb-44": Object {
-    "marginBottom": 176,
+    "marginBottom": -176,
   },
   "-mb-48": Object {
-    "marginBottom": 192,
+    "marginBottom": -192,
   },
   "-mb-5": Object {
-    "marginBottom": 20,
+    "marginBottom": -20,
   },
   "-mb-52": Object {
-    "marginBottom": 208,
+    "marginBottom": -208,
   },
   "-mb-56": Object {
-    "marginBottom": 224,
+    "marginBottom": -224,
   },
   "-mb-6": Object {
-    "marginBottom": 24,
+    "marginBottom": -24,
   },
   "-mb-60": Object {
-    "marginBottom": 240,
+    "marginBottom": -240,
   },
   "-mb-64": Object {
-    "marginBottom": 256,
+    "marginBottom": -256,
   },
   "-mb-7": Object {
-    "marginBottom": 28,
+    "marginBottom": -28,
   },
   "-mb-72": Object {
-    "marginBottom": 288,
+    "marginBottom": -288,
   },
   "-mb-8": Object {
-    "marginBottom": 32,
+    "marginBottom": -32,
   },
   "-mb-80": Object {
-    "marginBottom": 320,
+    "marginBottom": -320,
   },
   "-mb-9": Object {
-    "marginBottom": 36,
+    "marginBottom": -36,
   },
   "-mb-96": Object {
-    "marginBottom": 384,
+    "marginBottom": -384,
+  },
+  "-mb-auto": Object {
+    "marginBottom": "-auto",
   },
   "-mb-px": Object {
-    "marginBottom": 1,
+    "marginBottom": -1,
   },
   "-me-0": Object {
-    "marginEnd": 0,
+    "marginEnd": -0,
   },
   "-me-0.5": Object {
-    "marginEnd": 2,
+    "marginEnd": -2,
   },
   "-me-1": Object {
-    "marginEnd": 4,
+    "marginEnd": -4,
   },
   "-me-1.5": Object {
-    "marginEnd": 6,
+    "marginEnd": -6,
   },
   "-me-10": Object {
-    "marginEnd": 40,
+    "marginEnd": -40,
   },
   "-me-11": Object {
-    "marginEnd": 44,
+    "marginEnd": -44,
   },
   "-me-12": Object {
-    "marginEnd": 48,
+    "marginEnd": -48,
   },
   "-me-14": Object {
-    "marginEnd": 56,
+    "marginEnd": -56,
   },
   "-me-16": Object {
-    "marginEnd": 64,
+    "marginEnd": -64,
   },
   "-me-2": Object {
-    "marginEnd": 8,
+    "marginEnd": -8,
   },
   "-me-2.5": Object {
-    "marginEnd": 10,
+    "marginEnd": -10,
   },
   "-me-20": Object {
-    "marginEnd": 80,
+    "marginEnd": -80,
   },
   "-me-24": Object {
-    "marginEnd": 96,
+    "marginEnd": -96,
   },
   "-me-28": Object {
-    "marginEnd": 112,
+    "marginEnd": -112,
   },
   "-me-3": Object {
-    "marginEnd": 12,
+    "marginEnd": -12,
   },
   "-me-3.5": Object {
-    "marginEnd": 14,
+    "marginEnd": -14,
   },
   "-me-32": Object {
-    "marginEnd": 128,
+    "marginEnd": -128,
   },
   "-me-36": Object {
-    "marginEnd": 144,
+    "marginEnd": -144,
   },
   "-me-4": Object {
-    "marginEnd": 16,
+    "marginEnd": -16,
   },
   "-me-40": Object {
-    "marginEnd": 160,
+    "marginEnd": -160,
   },
   "-me-44": Object {
-    "marginEnd": 176,
+    "marginEnd": -176,
   },
   "-me-48": Object {
-    "marginEnd": 192,
+    "marginEnd": -192,
   },
   "-me-5": Object {
-    "marginEnd": 20,
+    "marginEnd": -20,
   },
   "-me-52": Object {
-    "marginEnd": 208,
+    "marginEnd": -208,
   },
   "-me-56": Object {
-    "marginEnd": 224,
+    "marginEnd": -224,
   },
   "-me-6": Object {
-    "marginEnd": 24,
+    "marginEnd": -24,
   },
   "-me-60": Object {
-    "marginEnd": 240,
+    "marginEnd": -240,
   },
   "-me-64": Object {
-    "marginEnd": 256,
+    "marginEnd": -256,
   },
   "-me-7": Object {
-    "marginEnd": 28,
+    "marginEnd": -28,
   },
   "-me-72": Object {
-    "marginEnd": 288,
+    "marginEnd": -288,
   },
   "-me-8": Object {
-    "marginEnd": 32,
+    "marginEnd": -32,
   },
   "-me-80": Object {
-    "marginEnd": 320,
+    "marginEnd": -320,
   },
   "-me-9": Object {
-    "marginEnd": 36,
+    "marginEnd": -36,
   },
   "-me-96": Object {
-    "marginEnd": 384,
+    "marginEnd": -384,
+  },
+  "-me-auto": Object {
+    "marginEnd": "-auto",
   },
   "-me-px": Object {
-    "marginEnd": 1,
+    "marginEnd": -1,
   },
   "-ml-0": Object {
-    "marginLeft": 0,
+    "marginLeft": -0,
   },
   "-ml-0.5": Object {
-    "marginLeft": 2,
+    "marginLeft": -2,
   },
   "-ml-1": Object {
-    "marginLeft": 4,
+    "marginLeft": -4,
   },
   "-ml-1.5": Object {
-    "marginLeft": 6,
+    "marginLeft": -6,
   },
   "-ml-10": Object {
-    "marginLeft": 40,
+    "marginLeft": -40,
   },
   "-ml-11": Object {
-    "marginLeft": 44,
+    "marginLeft": -44,
   },
   "-ml-12": Object {
-    "marginLeft": 48,
+    "marginLeft": -48,
   },
   "-ml-14": Object {
-    "marginLeft": 56,
+    "marginLeft": -56,
   },
   "-ml-16": Object {
-    "marginLeft": 64,
+    "marginLeft": -64,
   },
   "-ml-2": Object {
-    "marginLeft": 8,
+    "marginLeft": -8,
   },
   "-ml-2.5": Object {
-    "marginLeft": 10,
+    "marginLeft": -10,
   },
   "-ml-20": Object {
-    "marginLeft": 80,
+    "marginLeft": -80,
   },
   "-ml-24": Object {
-    "marginLeft": 96,
+    "marginLeft": -96,
   },
   "-ml-28": Object {
-    "marginLeft": 112,
+    "marginLeft": -112,
   },
   "-ml-3": Object {
-    "marginLeft": 12,
+    "marginLeft": -12,
   },
   "-ml-3.5": Object {
-    "marginLeft": 14,
+    "marginLeft": -14,
   },
   "-ml-32": Object {
-    "marginLeft": 128,
+    "marginLeft": -128,
   },
   "-ml-36": Object {
-    "marginLeft": 144,
+    "marginLeft": -144,
   },
   "-ml-4": Object {
-    "marginLeft": 16,
+    "marginLeft": -16,
   },
   "-ml-40": Object {
-    "marginLeft": 160,
+    "marginLeft": -160,
   },
   "-ml-44": Object {
-    "marginLeft": 176,
+    "marginLeft": -176,
   },
   "-ml-48": Object {
-    "marginLeft": 192,
+    "marginLeft": -192,
   },
   "-ml-5": Object {
-    "marginLeft": 20,
+    "marginLeft": -20,
   },
   "-ml-52": Object {
-    "marginLeft": 208,
+    "marginLeft": -208,
   },
   "-ml-56": Object {
-    "marginLeft": 224,
+    "marginLeft": -224,
   },
   "-ml-6": Object {
-    "marginLeft": 24,
+    "marginLeft": -24,
   },
   "-ml-60": Object {
-    "marginLeft": 240,
+    "marginLeft": -240,
   },
   "-ml-64": Object {
-    "marginLeft": 256,
+    "marginLeft": -256,
   },
   "-ml-7": Object {
-    "marginLeft": 28,
+    "marginLeft": -28,
   },
   "-ml-72": Object {
-    "marginLeft": 288,
+    "marginLeft": -288,
   },
   "-ml-8": Object {
-    "marginLeft": 32,
+    "marginLeft": -32,
   },
   "-ml-80": Object {
-    "marginLeft": 320,
+    "marginLeft": -320,
   },
   "-ml-9": Object {
-    "marginLeft": 36,
+    "marginLeft": -36,
   },
   "-ml-96": Object {
-    "marginLeft": 384,
+    "marginLeft": -384,
+  },
+  "-ml-auto": Object {
+    "marginLeft": "-auto",
   },
   "-ml-px": Object {
-    "marginLeft": 1,
+    "marginLeft": -1,
   },
   "-mr-0": Object {
-    "marginRight": 0,
+    "marginRight": -0,
   },
   "-mr-0.5": Object {
-    "marginRight": 2,
+    "marginRight": -2,
   },
   "-mr-1": Object {
-    "marginRight": 4,
+    "marginRight": -4,
   },
   "-mr-1.5": Object {
-    "marginRight": 6,
+    "marginRight": -6,
   },
   "-mr-10": Object {
-    "marginRight": 40,
+    "marginRight": -40,
   },
   "-mr-11": Object {
-    "marginRight": 44,
+    "marginRight": -44,
   },
   "-mr-12": Object {
-    "marginRight": 48,
+    "marginRight": -48,
   },
   "-mr-14": Object {
-    "marginRight": 56,
+    "marginRight": -56,
   },
   "-mr-16": Object {
-    "marginRight": 64,
+    "marginRight": -64,
   },
   "-mr-2": Object {
-    "marginRight": 8,
+    "marginRight": -8,
   },
   "-mr-2.5": Object {
-    "marginRight": 10,
+    "marginRight": -10,
   },
   "-mr-20": Object {
-    "marginRight": 80,
+    "marginRight": -80,
   },
   "-mr-24": Object {
-    "marginRight": 96,
+    "marginRight": -96,
   },
   "-mr-28": Object {
-    "marginRight": 112,
+    "marginRight": -112,
   },
   "-mr-3": Object {
-    "marginRight": 12,
+    "marginRight": -12,
   },
   "-mr-3.5": Object {
-    "marginRight": 14,
+    "marginRight": -14,
   },
   "-mr-32": Object {
-    "marginRight": 128,
+    "marginRight": -128,
   },
   "-mr-36": Object {
-    "marginRight": 144,
+    "marginRight": -144,
   },
   "-mr-4": Object {
-    "marginRight": 16,
+    "marginRight": -16,
   },
   "-mr-40": Object {
-    "marginRight": 160,
+    "marginRight": -160,
   },
   "-mr-44": Object {
-    "marginRight": 176,
+    "marginRight": -176,
   },
   "-mr-48": Object {
-    "marginRight": 192,
+    "marginRight": -192,
   },
   "-mr-5": Object {
-    "marginRight": 20,
+    "marginRight": -20,
   },
   "-mr-52": Object {
-    "marginRight": 208,
+    "marginRight": -208,
   },
   "-mr-56": Object {
-    "marginRight": 224,
+    "marginRight": -224,
   },
   "-mr-6": Object {
-    "marginRight": 24,
+    "marginRight": -24,
   },
   "-mr-60": Object {
-    "marginRight": 240,
+    "marginRight": -240,
   },
   "-mr-64": Object {
-    "marginRight": 256,
+    "marginRight": -256,
   },
   "-mr-7": Object {
-    "marginRight": 28,
+    "marginRight": -28,
   },
   "-mr-72": Object {
-    "marginRight": 288,
+    "marginRight": -288,
   },
   "-mr-8": Object {
-    "marginRight": 32,
+    "marginRight": -32,
   },
   "-mr-80": Object {
-    "marginRight": 320,
+    "marginRight": -320,
   },
   "-mr-9": Object {
-    "marginRight": 36,
+    "marginRight": -36,
   },
   "-mr-96": Object {
-    "marginRight": 384,
+    "marginRight": -384,
+  },
+  "-mr-auto": Object {
+    "marginRight": "-auto",
   },
   "-mr-px": Object {
-    "marginRight": 1,
+    "marginRight": -1,
   },
   "-ms-0": Object {
-    "marginStart": 0,
+    "marginStart": -0,
   },
   "-ms-0.5": Object {
-    "marginStart": 2,
+    "marginStart": -2,
   },
   "-ms-1": Object {
-    "marginStart": 4,
+    "marginStart": -4,
   },
   "-ms-1.5": Object {
-    "marginStart": 6,
+    "marginStart": -6,
   },
   "-ms-10": Object {
-    "marginStart": 40,
+    "marginStart": -40,
   },
   "-ms-11": Object {
-    "marginStart": 44,
+    "marginStart": -44,
   },
   "-ms-12": Object {
-    "marginStart": 48,
+    "marginStart": -48,
   },
   "-ms-14": Object {
-    "marginStart": 56,
+    "marginStart": -56,
   },
   "-ms-16": Object {
-    "marginStart": 64,
+    "marginStart": -64,
   },
   "-ms-2": Object {
-    "marginStart": 8,
+    "marginStart": -8,
   },
   "-ms-2.5": Object {
-    "marginStart": 10,
+    "marginStart": -10,
   },
   "-ms-20": Object {
-    "marginStart": 80,
+    "marginStart": -80,
   },
   "-ms-24": Object {
-    "marginStart": 96,
+    "marginStart": -96,
   },
   "-ms-28": Object {
-    "marginStart": 112,
+    "marginStart": -112,
   },
   "-ms-3": Object {
-    "marginStart": 12,
+    "marginStart": -12,
   },
   "-ms-3.5": Object {
-    "marginStart": 14,
+    "marginStart": -14,
   },
   "-ms-32": Object {
-    "marginStart": 128,
+    "marginStart": -128,
   },
   "-ms-36": Object {
-    "marginStart": 144,
+    "marginStart": -144,
   },
   "-ms-4": Object {
-    "marginStart": 16,
+    "marginStart": -16,
   },
   "-ms-40": Object {
-    "marginStart": 160,
+    "marginStart": -160,
   },
   "-ms-44": Object {
-    "marginStart": 176,
+    "marginStart": -176,
   },
   "-ms-48": Object {
-    "marginStart": 192,
+    "marginStart": -192,
   },
   "-ms-5": Object {
-    "marginStart": 20,
+    "marginStart": -20,
   },
   "-ms-52": Object {
-    "marginStart": 208,
+    "marginStart": -208,
   },
   "-ms-56": Object {
-    "marginStart": 224,
+    "marginStart": -224,
   },
   "-ms-6": Object {
-    "marginStart": 24,
+    "marginStart": -24,
   },
   "-ms-60": Object {
-    "marginStart": 240,
+    "marginStart": -240,
   },
   "-ms-64": Object {
-    "marginStart": 256,
+    "marginStart": -256,
   },
   "-ms-7": Object {
-    "marginStart": 28,
+    "marginStart": -28,
   },
   "-ms-72": Object {
-    "marginStart": 288,
+    "marginStart": -288,
   },
   "-ms-8": Object {
-    "marginStart": 32,
+    "marginStart": -32,
   },
   "-ms-80": Object {
-    "marginStart": 320,
+    "marginStart": -320,
   },
   "-ms-9": Object {
-    "marginStart": 36,
+    "marginStart": -36,
   },
   "-ms-96": Object {
-    "marginStart": 384,
+    "marginStart": -384,
+  },
+  "-ms-auto": Object {
+    "marginStart": "-auto",
   },
   "-ms-px": Object {
-    "marginStart": 1,
+    "marginStart": -1,
   },
   "-mt-0": Object {
-    "marginTop": 0,
+    "marginTop": -0,
   },
   "-mt-0.5": Object {
-    "marginTop": 2,
+    "marginTop": -2,
   },
   "-mt-1": Object {
-    "marginTop": 4,
+    "marginTop": -4,
   },
   "-mt-1.5": Object {
-    "marginTop": 6,
+    "marginTop": -6,
   },
   "-mt-10": Object {
-    "marginTop": 40,
+    "marginTop": -40,
   },
   "-mt-11": Object {
-    "marginTop": 44,
+    "marginTop": -44,
   },
   "-mt-12": Object {
-    "marginTop": 48,
+    "marginTop": -48,
   },
   "-mt-14": Object {
-    "marginTop": 56,
+    "marginTop": -56,
   },
   "-mt-16": Object {
-    "marginTop": 64,
+    "marginTop": -64,
   },
   "-mt-2": Object {
-    "marginTop": 8,
+    "marginTop": -8,
   },
   "-mt-2.5": Object {
-    "marginTop": 10,
+    "marginTop": -10,
   },
   "-mt-20": Object {
-    "marginTop": 80,
+    "marginTop": -80,
   },
   "-mt-24": Object {
-    "marginTop": 96,
+    "marginTop": -96,
   },
   "-mt-28": Object {
-    "marginTop": 112,
+    "marginTop": -112,
   },
   "-mt-3": Object {
-    "marginTop": 12,
+    "marginTop": -12,
   },
   "-mt-3.5": Object {
-    "marginTop": 14,
+    "marginTop": -14,
   },
   "-mt-32": Object {
-    "marginTop": 128,
+    "marginTop": -128,
   },
   "-mt-36": Object {
-    "marginTop": 144,
+    "marginTop": -144,
   },
   "-mt-4": Object {
-    "marginTop": 16,
+    "marginTop": -16,
   },
   "-mt-40": Object {
-    "marginTop": 160,
+    "marginTop": -160,
   },
   "-mt-44": Object {
-    "marginTop": 176,
+    "marginTop": -176,
   },
   "-mt-48": Object {
-    "marginTop": 192,
+    "marginTop": -192,
   },
   "-mt-5": Object {
-    "marginTop": 20,
+    "marginTop": -20,
   },
   "-mt-52": Object {
-    "marginTop": 208,
+    "marginTop": -208,
   },
   "-mt-56": Object {
-    "marginTop": 224,
+    "marginTop": -224,
   },
   "-mt-6": Object {
-    "marginTop": 24,
+    "marginTop": -24,
   },
   "-mt-60": Object {
-    "marginTop": 240,
+    "marginTop": -240,
   },
   "-mt-64": Object {
-    "marginTop": 256,
+    "marginTop": -256,
   },
   "-mt-7": Object {
-    "marginTop": 28,
+    "marginTop": -28,
   },
   "-mt-72": Object {
-    "marginTop": 288,
+    "marginTop": -288,
   },
   "-mt-8": Object {
-    "marginTop": 32,
+    "marginTop": -32,
   },
   "-mt-80": Object {
-    "marginTop": 320,
+    "marginTop": -320,
   },
   "-mt-9": Object {
-    "marginTop": 36,
+    "marginTop": -36,
   },
   "-mt-96": Object {
-    "marginTop": 384,
+    "marginTop": -384,
+  },
+  "-mt-auto": Object {
+    "marginTop": "-auto",
   },
   "-mt-px": Object {
-    "marginTop": 1,
+    "marginTop": -1,
   },
   "-mx-0": Object {
-    "marginHorizontal": 0,
+    "marginHorizontal": -0,
   },
   "-mx-0.5": Object {
-    "marginHorizontal": 2,
+    "marginHorizontal": -2,
   },
   "-mx-1": Object {
-    "marginHorizontal": 4,
+    "marginHorizontal": -4,
   },
   "-mx-1.5": Object {
-    "marginHorizontal": 6,
+    "marginHorizontal": -6,
   },
   "-mx-10": Object {
-    "marginHorizontal": 40,
+    "marginHorizontal": -40,
   },
   "-mx-11": Object {
-    "marginHorizontal": 44,
+    "marginHorizontal": -44,
   },
   "-mx-12": Object {
-    "marginHorizontal": 48,
+    "marginHorizontal": -48,
   },
   "-mx-14": Object {
-    "marginHorizontal": 56,
+    "marginHorizontal": -56,
   },
   "-mx-16": Object {
-    "marginHorizontal": 64,
+    "marginHorizontal": -64,
   },
   "-mx-2": Object {
-    "marginHorizontal": 8,
+    "marginHorizontal": -8,
   },
   "-mx-2.5": Object {
-    "marginHorizontal": 10,
+    "marginHorizontal": -10,
   },
   "-mx-20": Object {
-    "marginHorizontal": 80,
+    "marginHorizontal": -80,
   },
   "-mx-24": Object {
-    "marginHorizontal": 96,
+    "marginHorizontal": -96,
   },
   "-mx-28": Object {
-    "marginHorizontal": 112,
+    "marginHorizontal": -112,
   },
   "-mx-3": Object {
-    "marginHorizontal": 12,
+    "marginHorizontal": -12,
   },
   "-mx-3.5": Object {
-    "marginHorizontal": 14,
+    "marginHorizontal": -14,
   },
   "-mx-32": Object {
-    "marginHorizontal": 128,
+    "marginHorizontal": -128,
   },
   "-mx-36": Object {
-    "marginHorizontal": 144,
+    "marginHorizontal": -144,
   },
   "-mx-4": Object {
-    "marginHorizontal": 16,
+    "marginHorizontal": -16,
   },
   "-mx-40": Object {
-    "marginHorizontal": 160,
+    "marginHorizontal": -160,
   },
   "-mx-44": Object {
-    "marginHorizontal": 176,
+    "marginHorizontal": -176,
   },
   "-mx-48": Object {
-    "marginHorizontal": 192,
+    "marginHorizontal": -192,
   },
   "-mx-5": Object {
-    "marginHorizontal": 20,
+    "marginHorizontal": -20,
   },
   "-mx-52": Object {
-    "marginHorizontal": 208,
+    "marginHorizontal": -208,
   },
   "-mx-56": Object {
-    "marginHorizontal": 224,
+    "marginHorizontal": -224,
   },
   "-mx-6": Object {
-    "marginHorizontal": 24,
+    "marginHorizontal": -24,
   },
   "-mx-60": Object {
-    "marginHorizontal": 240,
+    "marginHorizontal": -240,
   },
   "-mx-64": Object {
-    "marginHorizontal": 256,
+    "marginHorizontal": -256,
   },
   "-mx-7": Object {
-    "marginHorizontal": 28,
+    "marginHorizontal": -28,
   },
   "-mx-72": Object {
-    "marginHorizontal": 288,
+    "marginHorizontal": -288,
   },
   "-mx-8": Object {
-    "marginHorizontal": 32,
+    "marginHorizontal": -32,
   },
   "-mx-80": Object {
-    "marginHorizontal": 320,
+    "marginHorizontal": -320,
   },
   "-mx-9": Object {
-    "marginHorizontal": 36,
+    "marginHorizontal": -36,
   },
   "-mx-96": Object {
-    "marginHorizontal": 384,
+    "marginHorizontal": -384,
+  },
+  "-mx-auto": Object {
+    "marginHorizontal": "-auto",
   },
   "-mx-px": Object {
-    "marginHorizontal": 1,
+    "marginHorizontal": -1,
   },
   "-my-0": Object {
-    "marginVertical": 0,
+    "marginVertical": -0,
   },
   "-my-0.5": Object {
-    "marginVertical": 2,
+    "marginVertical": -2,
   },
   "-my-1": Object {
-    "marginVertical": 4,
+    "marginVertical": -4,
   },
   "-my-1.5": Object {
-    "marginVertical": 6,
+    "marginVertical": -6,
   },
   "-my-10": Object {
-    "marginVertical": 40,
+    "marginVertical": -40,
   },
   "-my-11": Object {
-    "marginVertical": 44,
+    "marginVertical": -44,
   },
   "-my-12": Object {
-    "marginVertical": 48,
+    "marginVertical": -48,
   },
   "-my-14": Object {
-    "marginVertical": 56,
+    "marginVertical": -56,
   },
   "-my-16": Object {
-    "marginVertical": 64,
+    "marginVertical": -64,
   },
   "-my-2": Object {
-    "marginVertical": 8,
+    "marginVertical": -8,
   },
   "-my-2.5": Object {
-    "marginVertical": 10,
+    "marginVertical": -10,
   },
   "-my-20": Object {
-    "marginVertical": 80,
+    "marginVertical": -80,
   },
   "-my-24": Object {
-    "marginVertical": 96,
+    "marginVertical": -96,
   },
   "-my-28": Object {
-    "marginVertical": 112,
+    "marginVertical": -112,
   },
   "-my-3": Object {
-    "marginVertical": 12,
+    "marginVertical": -12,
   },
   "-my-3.5": Object {
-    "marginVertical": 14,
+    "marginVertical": -14,
   },
   "-my-32": Object {
-    "marginVertical": 128,
+    "marginVertical": -128,
   },
   "-my-36": Object {
-    "marginVertical": 144,
+    "marginVertical": -144,
   },
   "-my-4": Object {
-    "marginVertical": 16,
+    "marginVertical": -16,
   },
   "-my-40": Object {
-    "marginVertical": 160,
+    "marginVertical": -160,
   },
   "-my-44": Object {
-    "marginVertical": 176,
+    "marginVertical": -176,
   },
   "-my-48": Object {
-    "marginVertical": 192,
+    "marginVertical": -192,
   },
   "-my-5": Object {
-    "marginVertical": 20,
+    "marginVertical": -20,
   },
   "-my-52": Object {
-    "marginVertical": 208,
+    "marginVertical": -208,
   },
   "-my-56": Object {
-    "marginVertical": 224,
+    "marginVertical": -224,
   },
   "-my-6": Object {
-    "marginVertical": 24,
+    "marginVertical": -24,
   },
   "-my-60": Object {
-    "marginVertical": 240,
+    "marginVertical": -240,
   },
   "-my-64": Object {
-    "marginVertical": 256,
+    "marginVertical": -256,
   },
   "-my-7": Object {
-    "marginVertical": 28,
+    "marginVertical": -28,
   },
   "-my-72": Object {
-    "marginVertical": 288,
+    "marginVertical": -288,
   },
   "-my-8": Object {
-    "marginVertical": 32,
+    "marginVertical": -32,
   },
   "-my-80": Object {
-    "marginVertical": 320,
+    "marginVertical": -320,
   },
   "-my-9": Object {
-    "marginVertical": 36,
+    "marginVertical": -36,
   },
   "-my-96": Object {
-    "marginVertical": 384,
+    "marginVertical": -384,
+  },
+  "-my-auto": Object {
+    "marginVertical": "-auto",
   },
   "-my-px": Object {
-    "marginVertical": 1,
+    "marginVertical": -1,
   },
   "-rotate-0": Object {
     "rotate": "-0deg",
@@ -1037,6 +1064,96 @@ Object {
   "-rotate-y-90": Object {
     "rotateY": "-90deg",
   },
+  "-scale-0": Object {
+    "scale": -0,
+  },
+  "-scale-100": Object {
+    "scale": -1,
+  },
+  "-scale-105": Object {
+    "scale": -1.05,
+  },
+  "-scale-110": Object {
+    "scale": -1.1,
+  },
+  "-scale-125": Object {
+    "scale": -1.25,
+  },
+  "-scale-150": Object {
+    "scale": -1.5,
+  },
+  "-scale-50": Object {
+    "scale": -0.5,
+  },
+  "-scale-75": Object {
+    "scale": -0.75,
+  },
+  "-scale-90": Object {
+    "scale": -0.9,
+  },
+  "-scale-95": Object {
+    "scale": -0.95,
+  },
+  "-scale-x-0": Object {
+    "scaleX": -0,
+  },
+  "-scale-x-100": Object {
+    "scaleX": -1,
+  },
+  "-scale-x-105": Object {
+    "scaleX": -1.05,
+  },
+  "-scale-x-110": Object {
+    "scaleX": -1.1,
+  },
+  "-scale-x-125": Object {
+    "scaleX": -1.25,
+  },
+  "-scale-x-150": Object {
+    "scaleX": -1.5,
+  },
+  "-scale-x-50": Object {
+    "scaleX": -0.5,
+  },
+  "-scale-x-75": Object {
+    "scaleX": -0.75,
+  },
+  "-scale-x-90": Object {
+    "scaleX": -0.9,
+  },
+  "-scale-x-95": Object {
+    "scaleX": -0.95,
+  },
+  "-scale-y-0": Object {
+    "scaleY": -0,
+  },
+  "-scale-y-100": Object {
+    "scaleY": -1,
+  },
+  "-scale-y-105": Object {
+    "scaleY": -1.05,
+  },
+  "-scale-y-110": Object {
+    "scaleY": -1.1,
+  },
+  "-scale-y-125": Object {
+    "scaleY": -1.25,
+  },
+  "-scale-y-150": Object {
+    "scaleY": -1.5,
+  },
+  "-scale-y-50": Object {
+    "scaleY": -0.5,
+  },
+  "-scale-y-75": Object {
+    "scaleY": -0.75,
+  },
+  "-scale-y-90": Object {
+    "scaleY": -0.9,
+  },
+  "-scale-y-95": Object {
+    "scaleY": -0.95,
+  },
   "-skew-0": Object {
     "skew": "-0deg",
   },
@@ -1090,6 +1207,111 @@ Object {
   },
   "-skew-y-6": Object {
     "skewY": "-6deg",
+  },
+  "-translate-0": Object {
+    "translate": -0,
+  },
+  "-translate-0.5": Object {
+    "translate": -2,
+  },
+  "-translate-1": Object {
+    "translate": -4,
+  },
+  "-translate-1.5": Object {
+    "translate": -6,
+  },
+  "-translate-10": Object {
+    "translate": -40,
+  },
+  "-translate-11": Object {
+    "translate": -44,
+  },
+  "-translate-12": Object {
+    "translate": -48,
+  },
+  "-translate-14": Object {
+    "translate": -56,
+  },
+  "-translate-16": Object {
+    "translate": -64,
+  },
+  "-translate-2": Object {
+    "translate": -8,
+  },
+  "-translate-2.5": Object {
+    "translate": -10,
+  },
+  "-translate-20": Object {
+    "translate": -80,
+  },
+  "-translate-24": Object {
+    "translate": -96,
+  },
+  "-translate-28": Object {
+    "translate": -112,
+  },
+  "-translate-3": Object {
+    "translate": -12,
+  },
+  "-translate-3.5": Object {
+    "translate": -14,
+  },
+  "-translate-32": Object {
+    "translate": -128,
+  },
+  "-translate-36": Object {
+    "translate": -144,
+  },
+  "-translate-4": Object {
+    "translate": -16,
+  },
+  "-translate-40": Object {
+    "translate": -160,
+  },
+  "-translate-44": Object {
+    "translate": -176,
+  },
+  "-translate-48": Object {
+    "translate": -192,
+  },
+  "-translate-5": Object {
+    "translate": -20,
+  },
+  "-translate-52": Object {
+    "translate": -208,
+  },
+  "-translate-56": Object {
+    "translate": -224,
+  },
+  "-translate-6": Object {
+    "translate": -24,
+  },
+  "-translate-60": Object {
+    "translate": -240,
+  },
+  "-translate-64": Object {
+    "translate": -256,
+  },
+  "-translate-7": Object {
+    "translate": -28,
+  },
+  "-translate-72": Object {
+    "translate": -288,
+  },
+  "-translate-8": Object {
+    "translate": -32,
+  },
+  "-translate-80": Object {
+    "translate": -320,
+  },
+  "-translate-9": Object {
+    "translate": -36,
+  },
+  "-translate-96": Object {
+    "translate": -384,
+  },
+  "-translate-px": Object {
+    "translate": -1,
   },
   "-translate-x-0": Object {
     "translateX": -0,
@@ -1560,7 +1782,7 @@ Object {
       },
     },
     "default": Object {
-      "backgroundColor": "brown-500",
+      "backgroundColor": "brown",
     },
     "ios": Object {
       "backgroundColor": Object {
@@ -1579,7 +1801,7 @@ Object {
       },
     },
     "default": Object {
-      "backgroundColor": "transparent",
+      "backgroundColor": undefined,
     },
     "ios": Object {
       "backgroundColor": Object {
@@ -1826,7 +2048,7 @@ Object {
       },
     },
     "default": Object {
-      "backgroundColor": "#f4f4f5",
+      "backgroundColor": "#e4e4e7",
     },
     "ios": Object {
       "backgroundColor": Object {
@@ -1845,7 +2067,7 @@ Object {
       },
     },
     "default": Object {
-      "backgroundColor": "#f4f4f5",
+      "backgroundColor": "#d4d4d8",
     },
     "ios": Object {
       "backgroundColor": Object {
@@ -2149,7 +2371,7 @@ Object {
       },
     },
     "default": Object {
-      "backgroundColor": "#52525b",
+      "backgroundColor": "#a1a1aa",
     },
     "ios": Object {
       "backgroundColor": Object {
@@ -2290,1882 +2512,94 @@ Object {
     "borderWidth": 8,
   },
   "border-b": Object {
-    "borderBottomWidth": 1,
+    "borderWidthBottom": 1,
   },
   "border-b-0": Object {
-    "borderBottomWidth": 0,
+    "borderWidthBottom": 0,
   },
   "border-b-2": Object {
-    "borderBottomWidth": 2,
+    "borderWidthBottom": 2,
   },
   "border-b-4": Object {
-    "borderBottomWidth": 4,
+    "borderWidthBottom": 4,
   },
   "border-b-8": Object {
-    "borderBottomWidth": 8,
-  },
-  "border-b-black": Object {
-    "borderBottomColor": "#000",
-  },
-  "border-b-blue-100": Object {
-    "borderBottomColor": "#dbeafe",
-  },
-  "border-b-blue-200": Object {
-    "borderBottomColor": "#bfdbfe",
-  },
-  "border-b-blue-300": Object {
-    "borderBottomColor": "#93c5fd",
-  },
-  "border-b-blue-400": Object {
-    "borderBottomColor": "#60a5fa",
-  },
-  "border-b-blue-50": Object {
-    "borderBottomColor": "#eff6ff",
-  },
-  "border-b-blue-500": Object {
-    "borderBottomColor": "#3b82f6",
-  },
-  "border-b-blue-600": Object {
-    "borderBottomColor": "#2563eb",
-  },
-  "border-b-blue-700": Object {
-    "borderBottomColor": "#1d4ed8",
-  },
-  "border-b-blue-800": Object {
-    "borderBottomColor": "#1e40af",
-  },
-  "border-b-blue-900": Object {
-    "borderBottomColor": "#1e3a8a",
-  },
-  "border-b-current": Object {
-    "borderBottomColor": "currentColor",
-  },
-  "border-b-gray-100": Object {
-    "borderBottomColor": "#f3f4f6",
-  },
-  "border-b-gray-200": Object {
-    "borderBottomColor": "#e5e7eb",
-  },
-  "border-b-gray-300": Object {
-    "borderBottomColor": "#d1d5db",
-  },
-  "border-b-gray-400": Object {
-    "borderBottomColor": "#9ca3af",
-  },
-  "border-b-gray-50": Object {
-    "borderBottomColor": "#f9fafb",
-  },
-  "border-b-gray-500": Object {
-    "borderBottomColor": "#6b7280",
-  },
-  "border-b-gray-600": Object {
-    "borderBottomColor": "#4b5563",
-  },
-  "border-b-gray-700": Object {
-    "borderBottomColor": "#374151",
-  },
-  "border-b-gray-800": Object {
-    "borderBottomColor": "#1f2937",
-  },
-  "border-b-gray-900": Object {
-    "borderBottomColor": "#111827",
-  },
-  "border-b-green-100": Object {
-    "borderBottomColor": "#d1fae5",
-  },
-  "border-b-green-200": Object {
-    "borderBottomColor": "#a7f3d0",
-  },
-  "border-b-green-300": Object {
-    "borderBottomColor": "#6ee7b7",
-  },
-  "border-b-green-400": Object {
-    "borderBottomColor": "#34d399",
-  },
-  "border-b-green-50": Object {
-    "borderBottomColor": "#ecfdf5",
-  },
-  "border-b-green-500": Object {
-    "borderBottomColor": "#10b981",
-  },
-  "border-b-green-600": Object {
-    "borderBottomColor": "#059669",
-  },
-  "border-b-green-700": Object {
-    "borderBottomColor": "#047857",
-  },
-  "border-b-green-800": Object {
-    "borderBottomColor": "#065f46",
-  },
-  "border-b-green-900": Object {
-    "borderBottomColor": "#064e3b",
-  },
-  "border-b-indigo-100": Object {
-    "borderBottomColor": "#e0e7ff",
-  },
-  "border-b-indigo-200": Object {
-    "borderBottomColor": "#c7d2fe",
-  },
-  "border-b-indigo-300": Object {
-    "borderBottomColor": "#a5b4fc",
-  },
-  "border-b-indigo-400": Object {
-    "borderBottomColor": "#818cf8",
-  },
-  "border-b-indigo-50": Object {
-    "borderBottomColor": "#eef2ff",
-  },
-  "border-b-indigo-500": Object {
-    "borderBottomColor": "#6366f1",
-  },
-  "border-b-indigo-600": Object {
-    "borderBottomColor": "#4f46e5",
-  },
-  "border-b-indigo-700": Object {
-    "borderBottomColor": "#4338ca",
-  },
-  "border-b-indigo-800": Object {
-    "borderBottomColor": "#3730a3",
-  },
-  "border-b-indigo-900": Object {
-    "borderBottomColor": "#312e81",
-  },
-  "border-b-pink-100": Object {
-    "borderBottomColor": "#fce7f3",
-  },
-  "border-b-pink-200": Object {
-    "borderBottomColor": "#fbcfe8",
-  },
-  "border-b-pink-300": Object {
-    "borderBottomColor": "#f9a8d4",
-  },
-  "border-b-pink-400": Object {
-    "borderBottomColor": "#f472b6",
-  },
-  "border-b-pink-50": Object {
-    "borderBottomColor": "#fdf2f8",
-  },
-  "border-b-pink-500": Object {
-    "borderBottomColor": "#ec4899",
-  },
-  "border-b-pink-600": Object {
-    "borderBottomColor": "#db2777",
-  },
-  "border-b-pink-700": Object {
-    "borderBottomColor": "#be185d",
-  },
-  "border-b-pink-800": Object {
-    "borderBottomColor": "#9d174d",
-  },
-  "border-b-pink-900": Object {
-    "borderBottomColor": "#831843",
-  },
-  "border-b-purple-100": Object {
-    "borderBottomColor": "#ede9fe",
-  },
-  "border-b-purple-200": Object {
-    "borderBottomColor": "#ddd6fe",
-  },
-  "border-b-purple-300": Object {
-    "borderBottomColor": "#c4b5fd",
-  },
-  "border-b-purple-400": Object {
-    "borderBottomColor": "#a78bfa",
-  },
-  "border-b-purple-50": Object {
-    "borderBottomColor": "#f5f3ff",
-  },
-  "border-b-purple-500": Object {
-    "borderBottomColor": "#8b5cf6",
-  },
-  "border-b-purple-600": Object {
-    "borderBottomColor": "#7c3aed",
-  },
-  "border-b-purple-700": Object {
-    "borderBottomColor": "#6d28d9",
-  },
-  "border-b-purple-800": Object {
-    "borderBottomColor": "#5b21b6",
-  },
-  "border-b-purple-900": Object {
-    "borderBottomColor": "#4c1d95",
-  },
-  "border-b-red-100": Object {
-    "borderBottomColor": "#fee2e2",
-  },
-  "border-b-red-200": Object {
-    "borderBottomColor": "#fecaca",
-  },
-  "border-b-red-300": Object {
-    "borderBottomColor": "#fca5a5",
-  },
-  "border-b-red-400": Object {
-    "borderBottomColor": "#f87171",
-  },
-  "border-b-red-50": Object {
-    "borderBottomColor": "#fef2f2",
-  },
-  "border-b-red-500": Object {
-    "borderBottomColor": "#ef4444",
-  },
-  "border-b-red-600": Object {
-    "borderBottomColor": "#dc2626",
-  },
-  "border-b-red-700": Object {
-    "borderBottomColor": "#b91c1c",
-  },
-  "border-b-red-800": Object {
-    "borderBottomColor": "#991b1b",
-  },
-  "border-b-red-900": Object {
-    "borderBottomColor": "#7f1d1d",
-  },
-  "border-b-transparent": Object {
-    "borderBottomColor": "transparent",
-  },
-  "border-b-white": Object {
-    "borderBottomColor": "#fff",
-  },
-  "border-b-yellow-100": Object {
-    "borderBottomColor": "#fef3c7",
-  },
-  "border-b-yellow-200": Object {
-    "borderBottomColor": "#fde68a",
-  },
-  "border-b-yellow-300": Object {
-    "borderBottomColor": "#fcd34d",
-  },
-  "border-b-yellow-400": Object {
-    "borderBottomColor": "#fbbf24",
-  },
-  "border-b-yellow-50": Object {
-    "borderBottomColor": "#fffbeb",
-  },
-  "border-b-yellow-500": Object {
-    "borderBottomColor": "#f59e0b",
-  },
-  "border-b-yellow-600": Object {
-    "borderBottomColor": "#d97706",
-  },
-  "border-b-yellow-700": Object {
-    "borderBottomColor": "#b45309",
-  },
-  "border-b-yellow-800": Object {
-    "borderBottomColor": "#92400e",
-  },
-  "border-b-yellow-900": Object {
-    "borderBottomColor": "#78350f",
-  },
-  "border-black": Object {
-    "borderColor": "#000",
-  },
-  "border-blue-100": Object {
-    "borderColor": "#dbeafe",
-  },
-  "border-blue-200": Object {
-    "borderColor": "#bfdbfe",
-  },
-  "border-blue-300": Object {
-    "borderColor": "#93c5fd",
-  },
-  "border-blue-400": Object {
-    "borderColor": "#60a5fa",
-  },
-  "border-blue-50": Object {
-    "borderColor": "#eff6ff",
-  },
-  "border-blue-500": Object {
-    "borderColor": "#3b82f6",
-  },
-  "border-blue-600": Object {
-    "borderColor": "#2563eb",
-  },
-  "border-blue-700": Object {
-    "borderColor": "#1d4ed8",
-  },
-  "border-blue-800": Object {
-    "borderColor": "#1e40af",
-  },
-  "border-blue-900": Object {
-    "borderColor": "#1e3a8a",
-  },
-  "border-current": Object {
-    "borderColor": "currentColor",
-  },
-  "border-dashed": Object {
-    "borderStyle": "dashed",
-  },
-  "border-dotted": Object {
-    "borderStyle": "dotted",
+    "borderWidthBottom": 8,
   },
   "border-e": Object {
-    "borderEndWidth": 1,
+    "borderWidthEnd": 1,
   },
   "border-e-0": Object {
-    "borderEndWidth": 0,
+    "borderWidthEnd": 0,
   },
   "border-e-2": Object {
-    "borderEndWidth": 2,
+    "borderWidthEnd": 2,
   },
   "border-e-4": Object {
-    "borderEndWidth": 4,
+    "borderWidthEnd": 4,
   },
   "border-e-8": Object {
-    "borderEndWidth": 8,
-  },
-  "border-e-black": Object {
-    "borderEndColor": "#000",
-  },
-  "border-e-blue-100": Object {
-    "borderEndColor": "#dbeafe",
-  },
-  "border-e-blue-200": Object {
-    "borderEndColor": "#bfdbfe",
-  },
-  "border-e-blue-300": Object {
-    "borderEndColor": "#93c5fd",
-  },
-  "border-e-blue-400": Object {
-    "borderEndColor": "#60a5fa",
-  },
-  "border-e-blue-50": Object {
-    "borderEndColor": "#eff6ff",
-  },
-  "border-e-blue-500": Object {
-    "borderEndColor": "#3b82f6",
-  },
-  "border-e-blue-600": Object {
-    "borderEndColor": "#2563eb",
-  },
-  "border-e-blue-700": Object {
-    "borderEndColor": "#1d4ed8",
-  },
-  "border-e-blue-800": Object {
-    "borderEndColor": "#1e40af",
-  },
-  "border-e-blue-900": Object {
-    "borderEndColor": "#1e3a8a",
-  },
-  "border-e-current": Object {
-    "borderEndColor": "currentColor",
-  },
-  "border-e-gray-100": Object {
-    "borderEndColor": "#f3f4f6",
-  },
-  "border-e-gray-200": Object {
-    "borderEndColor": "#e5e7eb",
-  },
-  "border-e-gray-300": Object {
-    "borderEndColor": "#d1d5db",
-  },
-  "border-e-gray-400": Object {
-    "borderEndColor": "#9ca3af",
-  },
-  "border-e-gray-50": Object {
-    "borderEndColor": "#f9fafb",
-  },
-  "border-e-gray-500": Object {
-    "borderEndColor": "#6b7280",
-  },
-  "border-e-gray-600": Object {
-    "borderEndColor": "#4b5563",
-  },
-  "border-e-gray-700": Object {
-    "borderEndColor": "#374151",
-  },
-  "border-e-gray-800": Object {
-    "borderEndColor": "#1f2937",
-  },
-  "border-e-gray-900": Object {
-    "borderEndColor": "#111827",
-  },
-  "border-e-green-100": Object {
-    "borderEndColor": "#d1fae5",
-  },
-  "border-e-green-200": Object {
-    "borderEndColor": "#a7f3d0",
-  },
-  "border-e-green-300": Object {
-    "borderEndColor": "#6ee7b7",
-  },
-  "border-e-green-400": Object {
-    "borderEndColor": "#34d399",
-  },
-  "border-e-green-50": Object {
-    "borderEndColor": "#ecfdf5",
-  },
-  "border-e-green-500": Object {
-    "borderEndColor": "#10b981",
-  },
-  "border-e-green-600": Object {
-    "borderEndColor": "#059669",
-  },
-  "border-e-green-700": Object {
-    "borderEndColor": "#047857",
-  },
-  "border-e-green-800": Object {
-    "borderEndColor": "#065f46",
-  },
-  "border-e-green-900": Object {
-    "borderEndColor": "#064e3b",
-  },
-  "border-e-indigo-100": Object {
-    "borderEndColor": "#e0e7ff",
-  },
-  "border-e-indigo-200": Object {
-    "borderEndColor": "#c7d2fe",
-  },
-  "border-e-indigo-300": Object {
-    "borderEndColor": "#a5b4fc",
-  },
-  "border-e-indigo-400": Object {
-    "borderEndColor": "#818cf8",
-  },
-  "border-e-indigo-50": Object {
-    "borderEndColor": "#eef2ff",
-  },
-  "border-e-indigo-500": Object {
-    "borderEndColor": "#6366f1",
-  },
-  "border-e-indigo-600": Object {
-    "borderEndColor": "#4f46e5",
-  },
-  "border-e-indigo-700": Object {
-    "borderEndColor": "#4338ca",
-  },
-  "border-e-indigo-800": Object {
-    "borderEndColor": "#3730a3",
-  },
-  "border-e-indigo-900": Object {
-    "borderEndColor": "#312e81",
-  },
-  "border-e-pink-100": Object {
-    "borderEndColor": "#fce7f3",
-  },
-  "border-e-pink-200": Object {
-    "borderEndColor": "#fbcfe8",
-  },
-  "border-e-pink-300": Object {
-    "borderEndColor": "#f9a8d4",
-  },
-  "border-e-pink-400": Object {
-    "borderEndColor": "#f472b6",
-  },
-  "border-e-pink-50": Object {
-    "borderEndColor": "#fdf2f8",
-  },
-  "border-e-pink-500": Object {
-    "borderEndColor": "#ec4899",
-  },
-  "border-e-pink-600": Object {
-    "borderEndColor": "#db2777",
-  },
-  "border-e-pink-700": Object {
-    "borderEndColor": "#be185d",
-  },
-  "border-e-pink-800": Object {
-    "borderEndColor": "#9d174d",
-  },
-  "border-e-pink-900": Object {
-    "borderEndColor": "#831843",
-  },
-  "border-e-purple-100": Object {
-    "borderEndColor": "#ede9fe",
-  },
-  "border-e-purple-200": Object {
-    "borderEndColor": "#ddd6fe",
-  },
-  "border-e-purple-300": Object {
-    "borderEndColor": "#c4b5fd",
-  },
-  "border-e-purple-400": Object {
-    "borderEndColor": "#a78bfa",
-  },
-  "border-e-purple-50": Object {
-    "borderEndColor": "#f5f3ff",
-  },
-  "border-e-purple-500": Object {
-    "borderEndColor": "#8b5cf6",
-  },
-  "border-e-purple-600": Object {
-    "borderEndColor": "#7c3aed",
-  },
-  "border-e-purple-700": Object {
-    "borderEndColor": "#6d28d9",
-  },
-  "border-e-purple-800": Object {
-    "borderEndColor": "#5b21b6",
-  },
-  "border-e-purple-900": Object {
-    "borderEndColor": "#4c1d95",
-  },
-  "border-e-red-100": Object {
-    "borderEndColor": "#fee2e2",
-  },
-  "border-e-red-200": Object {
-    "borderEndColor": "#fecaca",
-  },
-  "border-e-red-300": Object {
-    "borderEndColor": "#fca5a5",
-  },
-  "border-e-red-400": Object {
-    "borderEndColor": "#f87171",
-  },
-  "border-e-red-50": Object {
-    "borderEndColor": "#fef2f2",
-  },
-  "border-e-red-500": Object {
-    "borderEndColor": "#ef4444",
-  },
-  "border-e-red-600": Object {
-    "borderEndColor": "#dc2626",
-  },
-  "border-e-red-700": Object {
-    "borderEndColor": "#b91c1c",
-  },
-  "border-e-red-800": Object {
-    "borderEndColor": "#991b1b",
-  },
-  "border-e-red-900": Object {
-    "borderEndColor": "#7f1d1d",
-  },
-  "border-e-transparent": Object {
-    "borderEndColor": "transparent",
-  },
-  "border-e-white": Object {
-    "borderEndColor": "#fff",
-  },
-  "border-e-yellow-100": Object {
-    "borderEndColor": "#fef3c7",
-  },
-  "border-e-yellow-200": Object {
-    "borderEndColor": "#fde68a",
-  },
-  "border-e-yellow-300": Object {
-    "borderEndColor": "#fcd34d",
-  },
-  "border-e-yellow-400": Object {
-    "borderEndColor": "#fbbf24",
-  },
-  "border-e-yellow-50": Object {
-    "borderEndColor": "#fffbeb",
-  },
-  "border-e-yellow-500": Object {
-    "borderEndColor": "#f59e0b",
-  },
-  "border-e-yellow-600": Object {
-    "borderEndColor": "#d97706",
-  },
-  "border-e-yellow-700": Object {
-    "borderEndColor": "#b45309",
-  },
-  "border-e-yellow-800": Object {
-    "borderEndColor": "#92400e",
-  },
-  "border-e-yellow-900": Object {
-    "borderEndColor": "#78350f",
-  },
-  "border-gray-100": Object {
-    "borderColor": "#f3f4f6",
-  },
-  "border-gray-200": Object {
-    "borderColor": "#e5e7eb",
-  },
-  "border-gray-300": Object {
-    "borderColor": "#d1d5db",
-  },
-  "border-gray-400": Object {
-    "borderColor": "#9ca3af",
-  },
-  "border-gray-50": Object {
-    "borderColor": "#f9fafb",
-  },
-  "border-gray-500": Object {
-    "borderColor": "#6b7280",
-  },
-  "border-gray-600": Object {
-    "borderColor": "#4b5563",
-  },
-  "border-gray-700": Object {
-    "borderColor": "#374151",
-  },
-  "border-gray-800": Object {
-    "borderColor": "#1f2937",
-  },
-  "border-gray-900": Object {
-    "borderColor": "#111827",
-  },
-  "border-green-100": Object {
-    "borderColor": "#d1fae5",
-  },
-  "border-green-200": Object {
-    "borderColor": "#a7f3d0",
-  },
-  "border-green-300": Object {
-    "borderColor": "#6ee7b7",
-  },
-  "border-green-400": Object {
-    "borderColor": "#34d399",
-  },
-  "border-green-50": Object {
-    "borderColor": "#ecfdf5",
-  },
-  "border-green-500": Object {
-    "borderColor": "#10b981",
-  },
-  "border-green-600": Object {
-    "borderColor": "#059669",
-  },
-  "border-green-700": Object {
-    "borderColor": "#047857",
-  },
-  "border-green-800": Object {
-    "borderColor": "#065f46",
-  },
-  "border-green-900": Object {
-    "borderColor": "#064e3b",
-  },
-  "border-indigo-100": Object {
-    "borderColor": "#e0e7ff",
-  },
-  "border-indigo-200": Object {
-    "borderColor": "#c7d2fe",
-  },
-  "border-indigo-300": Object {
-    "borderColor": "#a5b4fc",
-  },
-  "border-indigo-400": Object {
-    "borderColor": "#818cf8",
-  },
-  "border-indigo-50": Object {
-    "borderColor": "#eef2ff",
-  },
-  "border-indigo-500": Object {
-    "borderColor": "#6366f1",
-  },
-  "border-indigo-600": Object {
-    "borderColor": "#4f46e5",
-  },
-  "border-indigo-700": Object {
-    "borderColor": "#4338ca",
-  },
-  "border-indigo-800": Object {
-    "borderColor": "#3730a3",
-  },
-  "border-indigo-900": Object {
-    "borderColor": "#312e81",
+    "borderWidthEnd": 8,
   },
   "border-l": Object {
-    "borderLeftWidth": 1,
+    "borderWidthLeft": 1,
   },
   "border-l-0": Object {
-    "borderLeftWidth": 0,
+    "borderWidthLeft": 0,
   },
   "border-l-2": Object {
-    "borderLeftWidth": 2,
+    "borderWidthLeft": 2,
   },
   "border-l-4": Object {
-    "borderLeftWidth": 4,
+    "borderWidthLeft": 4,
   },
   "border-l-8": Object {
-    "borderLeftWidth": 8,
-  },
-  "border-l-black": Object {
-    "borderLeft": "#000",
-  },
-  "border-l-blue-100": Object {
-    "borderLeft": "#dbeafe",
-  },
-  "border-l-blue-200": Object {
-    "borderLeft": "#bfdbfe",
-  },
-  "border-l-blue-300": Object {
-    "borderLeft": "#93c5fd",
-  },
-  "border-l-blue-400": Object {
-    "borderLeft": "#60a5fa",
-  },
-  "border-l-blue-50": Object {
-    "borderLeft": "#eff6ff",
-  },
-  "border-l-blue-500": Object {
-    "borderLeft": "#3b82f6",
-  },
-  "border-l-blue-600": Object {
-    "borderLeft": "#2563eb",
-  },
-  "border-l-blue-700": Object {
-    "borderLeft": "#1d4ed8",
-  },
-  "border-l-blue-800": Object {
-    "borderLeft": "#1e40af",
-  },
-  "border-l-blue-900": Object {
-    "borderLeft": "#1e3a8a",
-  },
-  "border-l-current": Object {
-    "borderLeft": "currentColor",
-  },
-  "border-l-gray-100": Object {
-    "borderLeft": "#f3f4f6",
-  },
-  "border-l-gray-200": Object {
-    "borderLeft": "#e5e7eb",
-  },
-  "border-l-gray-300": Object {
-    "borderLeft": "#d1d5db",
-  },
-  "border-l-gray-400": Object {
-    "borderLeft": "#9ca3af",
-  },
-  "border-l-gray-50": Object {
-    "borderLeft": "#f9fafb",
-  },
-  "border-l-gray-500": Object {
-    "borderLeft": "#6b7280",
-  },
-  "border-l-gray-600": Object {
-    "borderLeft": "#4b5563",
-  },
-  "border-l-gray-700": Object {
-    "borderLeft": "#374151",
-  },
-  "border-l-gray-800": Object {
-    "borderLeft": "#1f2937",
-  },
-  "border-l-gray-900": Object {
-    "borderLeft": "#111827",
-  },
-  "border-l-green-100": Object {
-    "borderLeft": "#d1fae5",
-  },
-  "border-l-green-200": Object {
-    "borderLeft": "#a7f3d0",
-  },
-  "border-l-green-300": Object {
-    "borderLeft": "#6ee7b7",
-  },
-  "border-l-green-400": Object {
-    "borderLeft": "#34d399",
-  },
-  "border-l-green-50": Object {
-    "borderLeft": "#ecfdf5",
-  },
-  "border-l-green-500": Object {
-    "borderLeft": "#10b981",
-  },
-  "border-l-green-600": Object {
-    "borderLeft": "#059669",
-  },
-  "border-l-green-700": Object {
-    "borderLeft": "#047857",
-  },
-  "border-l-green-800": Object {
-    "borderLeft": "#065f46",
-  },
-  "border-l-green-900": Object {
-    "borderLeft": "#064e3b",
-  },
-  "border-l-indigo-100": Object {
-    "borderLeft": "#e0e7ff",
-  },
-  "border-l-indigo-200": Object {
-    "borderLeft": "#c7d2fe",
-  },
-  "border-l-indigo-300": Object {
-    "borderLeft": "#a5b4fc",
-  },
-  "border-l-indigo-400": Object {
-    "borderLeft": "#818cf8",
-  },
-  "border-l-indigo-50": Object {
-    "borderLeft": "#eef2ff",
-  },
-  "border-l-indigo-500": Object {
-    "borderLeft": "#6366f1",
-  },
-  "border-l-indigo-600": Object {
-    "borderLeft": "#4f46e5",
-  },
-  "border-l-indigo-700": Object {
-    "borderLeft": "#4338ca",
-  },
-  "border-l-indigo-800": Object {
-    "borderLeft": "#3730a3",
-  },
-  "border-l-indigo-900": Object {
-    "borderLeft": "#312e81",
-  },
-  "border-l-pink-100": Object {
-    "borderLeft": "#fce7f3",
-  },
-  "border-l-pink-200": Object {
-    "borderLeft": "#fbcfe8",
-  },
-  "border-l-pink-300": Object {
-    "borderLeft": "#f9a8d4",
-  },
-  "border-l-pink-400": Object {
-    "borderLeft": "#f472b6",
-  },
-  "border-l-pink-50": Object {
-    "borderLeft": "#fdf2f8",
-  },
-  "border-l-pink-500": Object {
-    "borderLeft": "#ec4899",
-  },
-  "border-l-pink-600": Object {
-    "borderLeft": "#db2777",
-  },
-  "border-l-pink-700": Object {
-    "borderLeft": "#be185d",
-  },
-  "border-l-pink-800": Object {
-    "borderLeft": "#9d174d",
-  },
-  "border-l-pink-900": Object {
-    "borderLeft": "#831843",
-  },
-  "border-l-purple-100": Object {
-    "borderLeft": "#ede9fe",
-  },
-  "border-l-purple-200": Object {
-    "borderLeft": "#ddd6fe",
-  },
-  "border-l-purple-300": Object {
-    "borderLeft": "#c4b5fd",
-  },
-  "border-l-purple-400": Object {
-    "borderLeft": "#a78bfa",
-  },
-  "border-l-purple-50": Object {
-    "borderLeft": "#f5f3ff",
-  },
-  "border-l-purple-500": Object {
-    "borderLeft": "#8b5cf6",
-  },
-  "border-l-purple-600": Object {
-    "borderLeft": "#7c3aed",
-  },
-  "border-l-purple-700": Object {
-    "borderLeft": "#6d28d9",
-  },
-  "border-l-purple-800": Object {
-    "borderLeft": "#5b21b6",
-  },
-  "border-l-purple-900": Object {
-    "borderLeft": "#4c1d95",
-  },
-  "border-l-red-100": Object {
-    "borderLeft": "#fee2e2",
-  },
-  "border-l-red-200": Object {
-    "borderLeft": "#fecaca",
-  },
-  "border-l-red-300": Object {
-    "borderLeft": "#fca5a5",
-  },
-  "border-l-red-400": Object {
-    "borderLeft": "#f87171",
-  },
-  "border-l-red-50": Object {
-    "borderLeft": "#fef2f2",
-  },
-  "border-l-red-500": Object {
-    "borderLeft": "#ef4444",
-  },
-  "border-l-red-600": Object {
-    "borderLeft": "#dc2626",
-  },
-  "border-l-red-700": Object {
-    "borderLeft": "#b91c1c",
-  },
-  "border-l-red-800": Object {
-    "borderLeft": "#991b1b",
-  },
-  "border-l-red-900": Object {
-    "borderLeft": "#7f1d1d",
-  },
-  "border-l-transparent": Object {
-    "borderLeft": "transparent",
-  },
-  "border-l-white": Object {
-    "borderLeft": "#fff",
-  },
-  "border-l-yellow-100": Object {
-    "borderLeft": "#fef3c7",
-  },
-  "border-l-yellow-200": Object {
-    "borderLeft": "#fde68a",
-  },
-  "border-l-yellow-300": Object {
-    "borderLeft": "#fcd34d",
-  },
-  "border-l-yellow-400": Object {
-    "borderLeft": "#fbbf24",
-  },
-  "border-l-yellow-50": Object {
-    "borderLeft": "#fffbeb",
-  },
-  "border-l-yellow-500": Object {
-    "borderLeft": "#f59e0b",
-  },
-  "border-l-yellow-600": Object {
-    "borderLeft": "#d97706",
-  },
-  "border-l-yellow-700": Object {
-    "borderLeft": "#b45309",
-  },
-  "border-l-yellow-800": Object {
-    "borderLeft": "#92400e",
-  },
-  "border-l-yellow-900": Object {
-    "borderLeft": "#78350f",
-  },
-  "border-pink-100": Object {
-    "borderColor": "#fce7f3",
-  },
-  "border-pink-200": Object {
-    "borderColor": "#fbcfe8",
-  },
-  "border-pink-300": Object {
-    "borderColor": "#f9a8d4",
-  },
-  "border-pink-400": Object {
-    "borderColor": "#f472b6",
-  },
-  "border-pink-50": Object {
-    "borderColor": "#fdf2f8",
-  },
-  "border-pink-500": Object {
-    "borderColor": "#ec4899",
-  },
-  "border-pink-600": Object {
-    "borderColor": "#db2777",
-  },
-  "border-pink-700": Object {
-    "borderColor": "#be185d",
-  },
-  "border-pink-800": Object {
-    "borderColor": "#9d174d",
-  },
-  "border-pink-900": Object {
-    "borderColor": "#831843",
-  },
-  "border-purple-100": Object {
-    "borderColor": "#ede9fe",
-  },
-  "border-purple-200": Object {
-    "borderColor": "#ddd6fe",
-  },
-  "border-purple-300": Object {
-    "borderColor": "#c4b5fd",
-  },
-  "border-purple-400": Object {
-    "borderColor": "#a78bfa",
-  },
-  "border-purple-50": Object {
-    "borderColor": "#f5f3ff",
-  },
-  "border-purple-500": Object {
-    "borderColor": "#8b5cf6",
-  },
-  "border-purple-600": Object {
-    "borderColor": "#7c3aed",
-  },
-  "border-purple-700": Object {
-    "borderColor": "#6d28d9",
-  },
-  "border-purple-800": Object {
-    "borderColor": "#5b21b6",
-  },
-  "border-purple-900": Object {
-    "borderColor": "#4c1d95",
+    "borderWidthLeft": 8,
   },
   "border-r": Object {
-    "borderRightWidth": 1,
+    "borderWidthRight": 1,
   },
   "border-r-0": Object {
-    "borderRightWidth": 0,
+    "borderWidthRight": 0,
   },
   "border-r-2": Object {
-    "borderRightWidth": 2,
+    "borderWidthRight": 2,
   },
   "border-r-4": Object {
-    "borderRightWidth": 4,
+    "borderWidthRight": 4,
   },
   "border-r-8": Object {
-    "borderRightWidth": 8,
-  },
-  "border-r-black": Object {
-    "borderRightColor": "#000",
-  },
-  "border-r-blue-100": Object {
-    "borderRightColor": "#dbeafe",
-  },
-  "border-r-blue-200": Object {
-    "borderRightColor": "#bfdbfe",
-  },
-  "border-r-blue-300": Object {
-    "borderRightColor": "#93c5fd",
-  },
-  "border-r-blue-400": Object {
-    "borderRightColor": "#60a5fa",
-  },
-  "border-r-blue-50": Object {
-    "borderRightColor": "#eff6ff",
-  },
-  "border-r-blue-500": Object {
-    "borderRightColor": "#3b82f6",
-  },
-  "border-r-blue-600": Object {
-    "borderRightColor": "#2563eb",
-  },
-  "border-r-blue-700": Object {
-    "borderRightColor": "#1d4ed8",
-  },
-  "border-r-blue-800": Object {
-    "borderRightColor": "#1e40af",
-  },
-  "border-r-blue-900": Object {
-    "borderRightColor": "#1e3a8a",
-  },
-  "border-r-current": Object {
-    "borderRightColor": "currentColor",
-  },
-  "border-r-gray-100": Object {
-    "borderRightColor": "#f3f4f6",
-  },
-  "border-r-gray-200": Object {
-    "borderRightColor": "#e5e7eb",
-  },
-  "border-r-gray-300": Object {
-    "borderRightColor": "#d1d5db",
-  },
-  "border-r-gray-400": Object {
-    "borderRightColor": "#9ca3af",
-  },
-  "border-r-gray-50": Object {
-    "borderRightColor": "#f9fafb",
-  },
-  "border-r-gray-500": Object {
-    "borderRightColor": "#6b7280",
-  },
-  "border-r-gray-600": Object {
-    "borderRightColor": "#4b5563",
-  },
-  "border-r-gray-700": Object {
-    "borderRightColor": "#374151",
-  },
-  "border-r-gray-800": Object {
-    "borderRightColor": "#1f2937",
-  },
-  "border-r-gray-900": Object {
-    "borderRightColor": "#111827",
-  },
-  "border-r-green-100": Object {
-    "borderRightColor": "#d1fae5",
-  },
-  "border-r-green-200": Object {
-    "borderRightColor": "#a7f3d0",
-  },
-  "border-r-green-300": Object {
-    "borderRightColor": "#6ee7b7",
-  },
-  "border-r-green-400": Object {
-    "borderRightColor": "#34d399",
-  },
-  "border-r-green-50": Object {
-    "borderRightColor": "#ecfdf5",
-  },
-  "border-r-green-500": Object {
-    "borderRightColor": "#10b981",
-  },
-  "border-r-green-600": Object {
-    "borderRightColor": "#059669",
-  },
-  "border-r-green-700": Object {
-    "borderRightColor": "#047857",
-  },
-  "border-r-green-800": Object {
-    "borderRightColor": "#065f46",
-  },
-  "border-r-green-900": Object {
-    "borderRightColor": "#064e3b",
-  },
-  "border-r-indigo-100": Object {
-    "borderRightColor": "#e0e7ff",
-  },
-  "border-r-indigo-200": Object {
-    "borderRightColor": "#c7d2fe",
-  },
-  "border-r-indigo-300": Object {
-    "borderRightColor": "#a5b4fc",
-  },
-  "border-r-indigo-400": Object {
-    "borderRightColor": "#818cf8",
-  },
-  "border-r-indigo-50": Object {
-    "borderRightColor": "#eef2ff",
-  },
-  "border-r-indigo-500": Object {
-    "borderRightColor": "#6366f1",
-  },
-  "border-r-indigo-600": Object {
-    "borderRightColor": "#4f46e5",
-  },
-  "border-r-indigo-700": Object {
-    "borderRightColor": "#4338ca",
-  },
-  "border-r-indigo-800": Object {
-    "borderRightColor": "#3730a3",
-  },
-  "border-r-indigo-900": Object {
-    "borderRightColor": "#312e81",
-  },
-  "border-r-pink-100": Object {
-    "borderRightColor": "#fce7f3",
-  },
-  "border-r-pink-200": Object {
-    "borderRightColor": "#fbcfe8",
-  },
-  "border-r-pink-300": Object {
-    "borderRightColor": "#f9a8d4",
-  },
-  "border-r-pink-400": Object {
-    "borderRightColor": "#f472b6",
-  },
-  "border-r-pink-50": Object {
-    "borderRightColor": "#fdf2f8",
-  },
-  "border-r-pink-500": Object {
-    "borderRightColor": "#ec4899",
-  },
-  "border-r-pink-600": Object {
-    "borderRightColor": "#db2777",
-  },
-  "border-r-pink-700": Object {
-    "borderRightColor": "#be185d",
-  },
-  "border-r-pink-800": Object {
-    "borderRightColor": "#9d174d",
-  },
-  "border-r-pink-900": Object {
-    "borderRightColor": "#831843",
-  },
-  "border-r-purple-100": Object {
-    "borderRightColor": "#ede9fe",
-  },
-  "border-r-purple-200": Object {
-    "borderRightColor": "#ddd6fe",
-  },
-  "border-r-purple-300": Object {
-    "borderRightColor": "#c4b5fd",
-  },
-  "border-r-purple-400": Object {
-    "borderRightColor": "#a78bfa",
-  },
-  "border-r-purple-50": Object {
-    "borderRightColor": "#f5f3ff",
-  },
-  "border-r-purple-500": Object {
-    "borderRightColor": "#8b5cf6",
-  },
-  "border-r-purple-600": Object {
-    "borderRightColor": "#7c3aed",
-  },
-  "border-r-purple-700": Object {
-    "borderRightColor": "#6d28d9",
-  },
-  "border-r-purple-800": Object {
-    "borderRightColor": "#5b21b6",
-  },
-  "border-r-purple-900": Object {
-    "borderRightColor": "#4c1d95",
-  },
-  "border-r-red-100": Object {
-    "borderRightColor": "#fee2e2",
-  },
-  "border-r-red-200": Object {
-    "borderRightColor": "#fecaca",
-  },
-  "border-r-red-300": Object {
-    "borderRightColor": "#fca5a5",
-  },
-  "border-r-red-400": Object {
-    "borderRightColor": "#f87171",
-  },
-  "border-r-red-50": Object {
-    "borderRightColor": "#fef2f2",
-  },
-  "border-r-red-500": Object {
-    "borderRightColor": "#ef4444",
-  },
-  "border-r-red-600": Object {
-    "borderRightColor": "#dc2626",
-  },
-  "border-r-red-700": Object {
-    "borderRightColor": "#b91c1c",
-  },
-  "border-r-red-800": Object {
-    "borderRightColor": "#991b1b",
-  },
-  "border-r-red-900": Object {
-    "borderRightColor": "#7f1d1d",
-  },
-  "border-r-transparent": Object {
-    "borderRightColor": "transparent",
-  },
-  "border-r-white": Object {
-    "borderRightColor": "#fff",
-  },
-  "border-r-yellow-100": Object {
-    "borderRightColor": "#fef3c7",
-  },
-  "border-r-yellow-200": Object {
-    "borderRightColor": "#fde68a",
-  },
-  "border-r-yellow-300": Object {
-    "borderRightColor": "#fcd34d",
-  },
-  "border-r-yellow-400": Object {
-    "borderRightColor": "#fbbf24",
-  },
-  "border-r-yellow-50": Object {
-    "borderRightColor": "#fffbeb",
-  },
-  "border-r-yellow-500": Object {
-    "borderRightColor": "#f59e0b",
-  },
-  "border-r-yellow-600": Object {
-    "borderRightColor": "#d97706",
-  },
-  "border-r-yellow-700": Object {
-    "borderRightColor": "#b45309",
-  },
-  "border-r-yellow-800": Object {
-    "borderRightColor": "#92400e",
-  },
-  "border-r-yellow-900": Object {
-    "borderRightColor": "#78350f",
-  },
-  "border-red-100": Object {
-    "borderColor": "#fee2e2",
-  },
-  "border-red-200": Object {
-    "borderColor": "#fecaca",
-  },
-  "border-red-300": Object {
-    "borderColor": "#fca5a5",
-  },
-  "border-red-400": Object {
-    "borderColor": "#f87171",
-  },
-  "border-red-50": Object {
-    "borderColor": "#fef2f2",
-  },
-  "border-red-500": Object {
-    "borderColor": "#ef4444",
-  },
-  "border-red-600": Object {
-    "borderColor": "#dc2626",
-  },
-  "border-red-700": Object {
-    "borderColor": "#b91c1c",
-  },
-  "border-red-800": Object {
-    "borderColor": "#991b1b",
-  },
-  "border-red-900": Object {
-    "borderColor": "#7f1d1d",
+    "borderWidthRight": 8,
   },
   "border-s": Object {
-    "borderStartWidth": 1,
+    "borderWidthStart": 1,
   },
   "border-s-0": Object {
-    "borderStartWidth": 0,
+    "borderWidthStart": 0,
   },
   "border-s-2": Object {
-    "borderStartWidth": 2,
+    "borderWidthStart": 2,
   },
   "border-s-4": Object {
-    "borderStartWidth": 4,
+    "borderWidthStart": 4,
   },
   "border-s-8": Object {
-    "borderStartWidth": 8,
-  },
-  "border-s-black": Object {
-    "borderStartColor": "#000",
-  },
-  "border-s-blue-100": Object {
-    "borderStartColor": "#dbeafe",
-  },
-  "border-s-blue-200": Object {
-    "borderStartColor": "#bfdbfe",
-  },
-  "border-s-blue-300": Object {
-    "borderStartColor": "#93c5fd",
-  },
-  "border-s-blue-400": Object {
-    "borderStartColor": "#60a5fa",
-  },
-  "border-s-blue-50": Object {
-    "borderStartColor": "#eff6ff",
-  },
-  "border-s-blue-500": Object {
-    "borderStartColor": "#3b82f6",
-  },
-  "border-s-blue-600": Object {
-    "borderStartColor": "#2563eb",
-  },
-  "border-s-blue-700": Object {
-    "borderStartColor": "#1d4ed8",
-  },
-  "border-s-blue-800": Object {
-    "borderStartColor": "#1e40af",
-  },
-  "border-s-blue-900": Object {
-    "borderStartColor": "#1e3a8a",
-  },
-  "border-s-current": Object {
-    "borderStartColor": "currentColor",
-  },
-  "border-s-gray-100": Object {
-    "borderStartColor": "#f3f4f6",
-  },
-  "border-s-gray-200": Object {
-    "borderStartColor": "#e5e7eb",
-  },
-  "border-s-gray-300": Object {
-    "borderStartColor": "#d1d5db",
-  },
-  "border-s-gray-400": Object {
-    "borderStartColor": "#9ca3af",
-  },
-  "border-s-gray-50": Object {
-    "borderStartColor": "#f9fafb",
-  },
-  "border-s-gray-500": Object {
-    "borderStartColor": "#6b7280",
-  },
-  "border-s-gray-600": Object {
-    "borderStartColor": "#4b5563",
-  },
-  "border-s-gray-700": Object {
-    "borderStartColor": "#374151",
-  },
-  "border-s-gray-800": Object {
-    "borderStartColor": "#1f2937",
-  },
-  "border-s-gray-900": Object {
-    "borderStartColor": "#111827",
-  },
-  "border-s-green-100": Object {
-    "borderStartColor": "#d1fae5",
-  },
-  "border-s-green-200": Object {
-    "borderStartColor": "#a7f3d0",
-  },
-  "border-s-green-300": Object {
-    "borderStartColor": "#6ee7b7",
-  },
-  "border-s-green-400": Object {
-    "borderStartColor": "#34d399",
-  },
-  "border-s-green-50": Object {
-    "borderStartColor": "#ecfdf5",
-  },
-  "border-s-green-500": Object {
-    "borderStartColor": "#10b981",
-  },
-  "border-s-green-600": Object {
-    "borderStartColor": "#059669",
-  },
-  "border-s-green-700": Object {
-    "borderStartColor": "#047857",
-  },
-  "border-s-green-800": Object {
-    "borderStartColor": "#065f46",
-  },
-  "border-s-green-900": Object {
-    "borderStartColor": "#064e3b",
-  },
-  "border-s-indigo-100": Object {
-    "borderStartColor": "#e0e7ff",
-  },
-  "border-s-indigo-200": Object {
-    "borderStartColor": "#c7d2fe",
-  },
-  "border-s-indigo-300": Object {
-    "borderStartColor": "#a5b4fc",
-  },
-  "border-s-indigo-400": Object {
-    "borderStartColor": "#818cf8",
-  },
-  "border-s-indigo-50": Object {
-    "borderStartColor": "#eef2ff",
-  },
-  "border-s-indigo-500": Object {
-    "borderStartColor": "#6366f1",
-  },
-  "border-s-indigo-600": Object {
-    "borderStartColor": "#4f46e5",
-  },
-  "border-s-indigo-700": Object {
-    "borderStartColor": "#4338ca",
-  },
-  "border-s-indigo-800": Object {
-    "borderStartColor": "#3730a3",
-  },
-  "border-s-indigo-900": Object {
-    "borderStartColor": "#312e81",
-  },
-  "border-s-pink-100": Object {
-    "borderStartColor": "#fce7f3",
-  },
-  "border-s-pink-200": Object {
-    "borderStartColor": "#fbcfe8",
-  },
-  "border-s-pink-300": Object {
-    "borderStartColor": "#f9a8d4",
-  },
-  "border-s-pink-400": Object {
-    "borderStartColor": "#f472b6",
-  },
-  "border-s-pink-50": Object {
-    "borderStartColor": "#fdf2f8",
-  },
-  "border-s-pink-500": Object {
-    "borderStartColor": "#ec4899",
-  },
-  "border-s-pink-600": Object {
-    "borderStartColor": "#db2777",
-  },
-  "border-s-pink-700": Object {
-    "borderStartColor": "#be185d",
-  },
-  "border-s-pink-800": Object {
-    "borderStartColor": "#9d174d",
-  },
-  "border-s-pink-900": Object {
-    "borderStartColor": "#831843",
-  },
-  "border-s-purple-100": Object {
-    "borderStartColor": "#ede9fe",
-  },
-  "border-s-purple-200": Object {
-    "borderStartColor": "#ddd6fe",
-  },
-  "border-s-purple-300": Object {
-    "borderStartColor": "#c4b5fd",
-  },
-  "border-s-purple-400": Object {
-    "borderStartColor": "#a78bfa",
-  },
-  "border-s-purple-50": Object {
-    "borderStartColor": "#f5f3ff",
-  },
-  "border-s-purple-500": Object {
-    "borderStartColor": "#8b5cf6",
-  },
-  "border-s-purple-600": Object {
-    "borderStartColor": "#7c3aed",
-  },
-  "border-s-purple-700": Object {
-    "borderStartColor": "#6d28d9",
-  },
-  "border-s-purple-800": Object {
-    "borderStartColor": "#5b21b6",
-  },
-  "border-s-purple-900": Object {
-    "borderStartColor": "#4c1d95",
-  },
-  "border-s-red-100": Object {
-    "borderStartColor": "#fee2e2",
-  },
-  "border-s-red-200": Object {
-    "borderStartColor": "#fecaca",
-  },
-  "border-s-red-300": Object {
-    "borderStartColor": "#fca5a5",
-  },
-  "border-s-red-400": Object {
-    "borderStartColor": "#f87171",
-  },
-  "border-s-red-50": Object {
-    "borderStartColor": "#fef2f2",
-  },
-  "border-s-red-500": Object {
-    "borderStartColor": "#ef4444",
-  },
-  "border-s-red-600": Object {
-    "borderStartColor": "#dc2626",
-  },
-  "border-s-red-700": Object {
-    "borderStartColor": "#b91c1c",
-  },
-  "border-s-red-800": Object {
-    "borderStartColor": "#991b1b",
-  },
-  "border-s-red-900": Object {
-    "borderStartColor": "#7f1d1d",
-  },
-  "border-s-transparent": Object {
-    "borderStartColor": "transparent",
-  },
-  "border-s-white": Object {
-    "borderStartColor": "#fff",
-  },
-  "border-s-yellow-100": Object {
-    "borderStartColor": "#fef3c7",
-  },
-  "border-s-yellow-200": Object {
-    "borderStartColor": "#fde68a",
-  },
-  "border-s-yellow-300": Object {
-    "borderStartColor": "#fcd34d",
-  },
-  "border-s-yellow-400": Object {
-    "borderStartColor": "#fbbf24",
-  },
-  "border-s-yellow-50": Object {
-    "borderStartColor": "#fffbeb",
-  },
-  "border-s-yellow-500": Object {
-    "borderStartColor": "#f59e0b",
-  },
-  "border-s-yellow-600": Object {
-    "borderStartColor": "#d97706",
-  },
-  "border-s-yellow-700": Object {
-    "borderStartColor": "#b45309",
-  },
-  "border-s-yellow-800": Object {
-    "borderStartColor": "#92400e",
-  },
-  "border-s-yellow-900": Object {
-    "borderStartColor": "#78350f",
-  },
-  "border-soid": Object {
-    "borderStyle": "solid",
+    "borderWidthStart": 8,
   },
   "border-t": Object {
-    "borderTopWidth": 1,
+    "borderWidthTop": 1,
   },
   "border-t-0": Object {
-    "borderTopWidth": 0,
+    "borderWidthTop": 0,
   },
   "border-t-2": Object {
-    "borderTopWidth": 2,
+    "borderWidthTop": 2,
   },
   "border-t-4": Object {
-    "borderTopWidth": 4,
+    "borderWidthTop": 4,
   },
   "border-t-8": Object {
-    "borderTopWidth": 8,
-  },
-  "border-t-black": Object {
-    "borderTopColor": "#000",
-  },
-  "border-t-blue-100": Object {
-    "borderTopColor": "#dbeafe",
-  },
-  "border-t-blue-200": Object {
-    "borderTopColor": "#bfdbfe",
-  },
-  "border-t-blue-300": Object {
-    "borderTopColor": "#93c5fd",
-  },
-  "border-t-blue-400": Object {
-    "borderTopColor": "#60a5fa",
-  },
-  "border-t-blue-50": Object {
-    "borderTopColor": "#eff6ff",
-  },
-  "border-t-blue-500": Object {
-    "borderTopColor": "#3b82f6",
-  },
-  "border-t-blue-600": Object {
-    "borderTopColor": "#2563eb",
-  },
-  "border-t-blue-700": Object {
-    "borderTopColor": "#1d4ed8",
-  },
-  "border-t-blue-800": Object {
-    "borderTopColor": "#1e40af",
-  },
-  "border-t-blue-900": Object {
-    "borderTopColor": "#1e3a8a",
-  },
-  "border-t-current": Object {
-    "borderTopColor": "currentColor",
-  },
-  "border-t-gray-100": Object {
-    "borderTopColor": "#f3f4f6",
-  },
-  "border-t-gray-200": Object {
-    "borderTopColor": "#e5e7eb",
-  },
-  "border-t-gray-300": Object {
-    "borderTopColor": "#d1d5db",
-  },
-  "border-t-gray-400": Object {
-    "borderTopColor": "#9ca3af",
-  },
-  "border-t-gray-50": Object {
-    "borderTopColor": "#f9fafb",
-  },
-  "border-t-gray-500": Object {
-    "borderTopColor": "#6b7280",
-  },
-  "border-t-gray-600": Object {
-    "borderTopColor": "#4b5563",
-  },
-  "border-t-gray-700": Object {
-    "borderTopColor": "#374151",
-  },
-  "border-t-gray-800": Object {
-    "borderTopColor": "#1f2937",
-  },
-  "border-t-gray-900": Object {
-    "borderTopColor": "#111827",
-  },
-  "border-t-green-100": Object {
-    "borderTopColor": "#d1fae5",
-  },
-  "border-t-green-200": Object {
-    "borderTopColor": "#a7f3d0",
-  },
-  "border-t-green-300": Object {
-    "borderTopColor": "#6ee7b7",
-  },
-  "border-t-green-400": Object {
-    "borderTopColor": "#34d399",
-  },
-  "border-t-green-50": Object {
-    "borderTopColor": "#ecfdf5",
-  },
-  "border-t-green-500": Object {
-    "borderTopColor": "#10b981",
-  },
-  "border-t-green-600": Object {
-    "borderTopColor": "#059669",
-  },
-  "border-t-green-700": Object {
-    "borderTopColor": "#047857",
-  },
-  "border-t-green-800": Object {
-    "borderTopColor": "#065f46",
-  },
-  "border-t-green-900": Object {
-    "borderTopColor": "#064e3b",
-  },
-  "border-t-indigo-100": Object {
-    "borderTopColor": "#e0e7ff",
-  },
-  "border-t-indigo-200": Object {
-    "borderTopColor": "#c7d2fe",
-  },
-  "border-t-indigo-300": Object {
-    "borderTopColor": "#a5b4fc",
-  },
-  "border-t-indigo-400": Object {
-    "borderTopColor": "#818cf8",
-  },
-  "border-t-indigo-50": Object {
-    "borderTopColor": "#eef2ff",
-  },
-  "border-t-indigo-500": Object {
-    "borderTopColor": "#6366f1",
-  },
-  "border-t-indigo-600": Object {
-    "borderTopColor": "#4f46e5",
-  },
-  "border-t-indigo-700": Object {
-    "borderTopColor": "#4338ca",
-  },
-  "border-t-indigo-800": Object {
-    "borderTopColor": "#3730a3",
-  },
-  "border-t-indigo-900": Object {
-    "borderTopColor": "#312e81",
-  },
-  "border-t-pink-100": Object {
-    "borderTopColor": "#fce7f3",
-  },
-  "border-t-pink-200": Object {
-    "borderTopColor": "#fbcfe8",
-  },
-  "border-t-pink-300": Object {
-    "borderTopColor": "#f9a8d4",
-  },
-  "border-t-pink-400": Object {
-    "borderTopColor": "#f472b6",
-  },
-  "border-t-pink-50": Object {
-    "borderTopColor": "#fdf2f8",
-  },
-  "border-t-pink-500": Object {
-    "borderTopColor": "#ec4899",
-  },
-  "border-t-pink-600": Object {
-    "borderTopColor": "#db2777",
-  },
-  "border-t-pink-700": Object {
-    "borderTopColor": "#be185d",
-  },
-  "border-t-pink-800": Object {
-    "borderTopColor": "#9d174d",
-  },
-  "border-t-pink-900": Object {
-    "borderTopColor": "#831843",
-  },
-  "border-t-purple-100": Object {
-    "borderTopColor": "#ede9fe",
-  },
-  "border-t-purple-200": Object {
-    "borderTopColor": "#ddd6fe",
-  },
-  "border-t-purple-300": Object {
-    "borderTopColor": "#c4b5fd",
-  },
-  "border-t-purple-400": Object {
-    "borderTopColor": "#a78bfa",
-  },
-  "border-t-purple-50": Object {
-    "borderTopColor": "#f5f3ff",
-  },
-  "border-t-purple-500": Object {
-    "borderTopColor": "#8b5cf6",
-  },
-  "border-t-purple-600": Object {
-    "borderTopColor": "#7c3aed",
-  },
-  "border-t-purple-700": Object {
-    "borderTopColor": "#6d28d9",
-  },
-  "border-t-purple-800": Object {
-    "borderTopColor": "#5b21b6",
-  },
-  "border-t-purple-900": Object {
-    "borderTopColor": "#4c1d95",
-  },
-  "border-t-red-100": Object {
-    "borderTopColor": "#fee2e2",
-  },
-  "border-t-red-200": Object {
-    "borderTopColor": "#fecaca",
-  },
-  "border-t-red-300": Object {
-    "borderTopColor": "#fca5a5",
-  },
-  "border-t-red-400": Object {
-    "borderTopColor": "#f87171",
-  },
-  "border-t-red-50": Object {
-    "borderTopColor": "#fef2f2",
-  },
-  "border-t-red-500": Object {
-    "borderTopColor": "#ef4444",
-  },
-  "border-t-red-600": Object {
-    "borderTopColor": "#dc2626",
-  },
-  "border-t-red-700": Object {
-    "borderTopColor": "#b91c1c",
-  },
-  "border-t-red-800": Object {
-    "borderTopColor": "#991b1b",
-  },
-  "border-t-red-900": Object {
-    "borderTopColor": "#7f1d1d",
-  },
-  "border-t-transparent": Object {
-    "borderTopColor": "transparent",
-  },
-  "border-t-white": Object {
-    "borderTopColor": "#fff",
-  },
-  "border-t-yellow-100": Object {
-    "borderTopColor": "#fef3c7",
-  },
-  "border-t-yellow-200": Object {
-    "borderTopColor": "#fde68a",
-  },
-  "border-t-yellow-300": Object {
-    "borderTopColor": "#fcd34d",
-  },
-  "border-t-yellow-400": Object {
-    "borderTopColor": "#fbbf24",
-  },
-  "border-t-yellow-50": Object {
-    "borderTopColor": "#fffbeb",
-  },
-  "border-t-yellow-500": Object {
-    "borderTopColor": "#f59e0b",
-  },
-  "border-t-yellow-600": Object {
-    "borderTopColor": "#d97706",
-  },
-  "border-t-yellow-700": Object {
-    "borderTopColor": "#b45309",
-  },
-  "border-t-yellow-800": Object {
-    "borderTopColor": "#92400e",
-  },
-  "border-t-yellow-900": Object {
-    "borderTopColor": "#78350f",
-  },
-  "border-tl": Object {
-    "borderWidthTopLeft": 1,
-  },
-  "border-tl-0": Object {
-    "borderWidthTopLeft": 0,
-  },
-  "border-tl-2": Object {
-    "borderWidthTopLeft": 2,
-  },
-  "border-tl-4": Object {
-    "borderWidthTopLeft": 4,
-  },
-  "border-tl-8": Object {
-    "borderWidthTopLeft": 8,
-  },
-  "border-transparent": Object {
-    "borderColor": "transparent",
-  },
-  "border-white": Object {
-    "borderColor": "#fff",
-  },
-  "border-yellow-100": Object {
-    "borderColor": "#fef3c7",
-  },
-  "border-yellow-200": Object {
-    "borderColor": "#fde68a",
-  },
-  "border-yellow-300": Object {
-    "borderColor": "#fcd34d",
-  },
-  "border-yellow-400": Object {
-    "borderColor": "#fbbf24",
-  },
-  "border-yellow-50": Object {
-    "borderColor": "#fffbeb",
-  },
-  "border-yellow-500": Object {
-    "borderColor": "#f59e0b",
-  },
-  "border-yellow-600": Object {
-    "borderColor": "#d97706",
-  },
-  "border-yellow-700": Object {
-    "borderColor": "#b45309",
-  },
-  "border-yellow-800": Object {
-    "borderColor": "#92400e",
-  },
-  "border-yellow-900": Object {
-    "borderColor": "#78350f",
+    "borderWidthTop": 8,
   },
   "bottom-0": Object {
     "bottom": 0,
@@ -4314,11 +2748,17 @@ Object {
   "content-stretch": Object {
     "alignContent": "stretch",
   },
+  "dashed": Object {
+    "borderStyle": "dashed",
+  },
   "direction-ltr": Object {
     "direction": "ltr",
   },
   "direction-rtl": Object {
     "direction": "rtl",
+  },
+  "dotted": Object {
+    "borderStyle": "dotted",
   },
   "end-0": Object {
     "end": 0,
@@ -4479,9 +2919,6 @@ Object {
   "flex-negative": Object {
     "flex": -1,
   },
-  "flex-nowrap": Object {
-    "flexWrap": "nowrap",
-  },
   "flex-row": Object {
     "flexDirection": "row",
   },
@@ -4494,10 +2931,13 @@ Object {
   "flex-shrink-1": Object {
     "flexShrink": 1,
   },
-  "flex-wrap": Object {
+  "flex-wrap-flex-nowrap": Object {
+    "flexWrap": "nowrap",
+  },
+  "flex-wrap-flex-wrap": Object {
     "flexWrap": "wrap",
   },
-  "flex-wrap-reverse": Object {
+  "flex-wrap-flex-wrap-reverse": Object {
     "flexWrap": "wrap-reverse",
   },
   "font-black": Object {
@@ -4511,6 +2951,9 @@ Object {
   },
   "font-extralight": Object {
     "fontWeight": "200",
+  },
+  "font-hi": Object {
+    "fontFamily": "321",
   },
   "font-light": Object {
     "fontWeight": "300",
@@ -5562,6 +4005,9 @@ Object {
   "max-w-px": Object {
     "maxWidth": 1,
   },
+  "max-w-tiny": Object {
+    "maxWidth": 0.25,
+  },
   "mb-0": Object {
     "marginBottom": 0,
   },
@@ -5663,6 +4109,9 @@ Object {
   },
   "mb-96": Object {
     "marginBottom": 384,
+  },
+  "mb-auto": Object {
+    "marginBottom": "auto",
   },
   "mb-px": Object {
     "marginBottom": 1,
@@ -5768,6 +4217,9 @@ Object {
   },
   "me-96": Object {
     "marginEnd": 384,
+  },
+  "me-auto": Object {
+    "marginEnd": "auto",
   },
   "me-px": Object {
     "marginEnd": 1,
@@ -6078,6 +4530,9 @@ Object {
   "min-w-px": Object {
     "minWidth": 1,
   },
+  "min-w-tiny": Object {
+    "minWidth": 0.25,
+  },
   "ml-0": Object {
     "marginLeft": 0,
   },
@@ -6179,6 +4634,9 @@ Object {
   },
   "ml-96": Object {
     "marginLeft": 384,
+  },
+  "ml-auto": Object {
+    "marginLeft": "auto",
   },
   "ml-px": Object {
     "marginLeft": 1,
@@ -6285,6 +4743,9 @@ Object {
   "mr-96": Object {
     "marginRight": 384,
   },
+  "mr-auto": Object {
+    "marginRight": "auto",
+  },
   "mr-px": Object {
     "marginRight": 1,
   },
@@ -6390,6 +4851,9 @@ Object {
   "ms-96": Object {
     "marginStart": 384,
   },
+  "ms-auto": Object {
+    "marginStart": "auto",
+  },
   "ms-px": Object {
     "marginStart": 1,
   },
@@ -6494,6 +4958,9 @@ Object {
   },
   "mt-96": Object {
     "marginTop": 384,
+  },
+  "mt-auto": Object {
+    "marginTop": "auto",
   },
   "mt-px": Object {
     "marginTop": 1,
@@ -6716,6 +5183,9 @@ Object {
   },
   "normal-case": Object {
     "textTransform": "none",
+  },
+  "opacity-0": Object {
+    "opacity": 0,
   },
   "opacity-10": Object {
     "opacity": 0.1,
@@ -7963,8 +6433,14 @@ Object {
     "borderBottomRightRadius": 24,
   },
   "rounded-b-full": Object {
-    "borderBottomLeftRadius": "50%",
-    "borderBottomRightRadius": "50%",
+    "android": Object {
+      "borderBottomLeftRadius": 100,
+      "borderBottomRightRadius": 100,
+    },
+    "default": Object {
+      "borderBottomLeftRadius": "50%",
+      "borderBottomRightRadius": "50%",
+    },
   },
   "rounded-b-lg": Object {
     "borderBottomLeftRadius": 8,
@@ -7996,7 +6472,12 @@ Object {
     "borderBottomLeftRadius": 24,
   },
   "rounded-bl-full": Object {
-    "borderBottomLeftRadius": "50%",
+    "android": Object {
+      "borderBottomLeftRadius": 100,
+    },
+    "default": Object {
+      "borderBottomLeftRadius": "50%",
+    },
   },
   "rounded-bl-lg": Object {
     "borderBottomLeftRadius": 8,
@@ -8023,7 +6504,12 @@ Object {
     "borderBottomRightRadius": 24,
   },
   "rounded-br-full": Object {
-    "borderBottomRightRadius": "50%",
+    "android": Object {
+      "borderBottomRightRadius": 100,
+    },
+    "default": Object {
+      "borderBottomRightRadius": "50%",
+    },
   },
   "rounded-br-lg": Object {
     "borderBottomRightRadius": 8,
@@ -8041,7 +6527,12 @@ Object {
     "borderBottomRightRadius": 12,
   },
   "rounded-full": Object {
-    "borderRadius": "50%",
+    "android": Object {
+      "borderRadius": 100,
+    },
+    "default": Object {
+      "borderRadius": "50%",
+    },
   },
   "rounded-l": Object {
     "borderBottomLeftRadius": 4,
@@ -8056,8 +6547,14 @@ Object {
     "borderTopLeftRadius": 24,
   },
   "rounded-l-full": Object {
-    "borderBottomLeftRadius": "50%",
-    "borderTopLeftRadius": "50%",
+    "android": Object {
+      "borderBottomLeftRadius": 100,
+      "borderTopLeftRadius": 100,
+    },
+    "default": Object {
+      "borderBottomLeftRadius": "50%",
+      "borderTopLeftRadius": "50%",
+    },
   },
   "rounded-l-lg": Object {
     "borderBottomLeftRadius": 8,
@@ -8101,8 +6598,14 @@ Object {
     "borderTopRightRadius": 24,
   },
   "rounded-r-full": Object {
-    "borderBottomRightRadius": "50%",
-    "borderTopRightRadius": "50%",
+    "android": Object {
+      "borderBottomRightRadius": 100,
+      "borderTopRightRadius": 100,
+    },
+    "default": Object {
+      "borderBottomRightRadius": "50%",
+      "borderTopRightRadius": "50%",
+    },
   },
   "rounded-r-lg": Object {
     "borderBottomRightRadius": 8,
@@ -8140,8 +6643,14 @@ Object {
     "borderTopRightRadius": 24,
   },
   "rounded-t-full": Object {
-    "borderTopLeftRadius": "50%",
-    "borderTopRightRadius": "50%",
+    "android": Object {
+      "borderTopLeftRadius": 100,
+      "borderTopRightRadius": 100,
+    },
+    "default": Object {
+      "borderTopLeftRadius": "50%",
+      "borderTopRightRadius": "50%",
+    },
   },
   "rounded-t-lg": Object {
     "borderTopLeftRadius": 8,
@@ -8173,7 +6682,12 @@ Object {
     "borderTopLeftRadius": 24,
   },
   "rounded-tl-full": Object {
-    "borderTopLeftRadius": "50%",
+    "android": Object {
+      "borderTopLeftRadius": 100,
+    },
+    "default": Object {
+      "borderTopLeftRadius": "50%",
+    },
   },
   "rounded-tl-lg": Object {
     "borderTopLeftRadius": 8,
@@ -8200,7 +6714,12 @@ Object {
     "borderTopRightRadius": 24,
   },
   "rounded-tr-full": Object {
-    "borderTopRightRadius": "50%",
+    "android": Object {
+      "borderTopRightRadius": 100,
+    },
+    "default": Object {
+      "borderTopRightRadius": "50%",
+    },
   },
   "rounded-tr-lg": Object {
     "borderTopRightRadius": 8,
@@ -8330,100 +6849,70 @@ Object {
   },
   "shadow": Object {
     "android": Object {
-      "elevation": 1,
+      "elevation": 2,
     },
-    "default": Object {
+    "ios": Object {
       "shadowColor": "rgba(0,0,0)",
       "shadowOffset": Object {
-        "height": 3,
-        "width": 1,
+        "height": 1,
+        "width": 0,
       },
       "shadowOpacity": 0.1,
-      "shadowRadius": 1,
+      "shadowRadius": 3,
     },
-  },
-  "shadow-2xl": Object {
-    "android": Object {
-      "elevation": -12,
-    },
-    "default": Object {
-      "shadowColor": "rgb(0,0,0)",
-      "shadowOffset": Object {
-        "height": 50,
-        "width": 25,
-      },
-      "shadowOpacity": 0.25,
-      "shadowRadius": -12,
+    "web": Object {
+      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     },
   },
   "shadow-lg": Object {
     "android": Object {
-      "elevation": -3,
+      "elevation": 6,
     },
-    "default": Object {
-      "shadowColor": "rgb(0,0,0)",
+    "ios": Object {
+      "shadowColor": "rgba(0,0,0)",
       "shadowOffset": Object {
-        "height": 15,
-        "width": 10,
+        "height": 4,
+        "width": 0,
       },
       "shadowOpacity": 0.1,
-      "shadowRadius": -3,
+      "shadowRadius": 0,
+    },
+    "web": Object {
+      "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     },
   },
   "shadow-md": Object {
     "android": Object {
-      "elevation": -1,
+      "elevation": 3,
     },
-    "default": Object {
-      "shadowColor": "rgb(0,0,0)",
+    "ios": Object {
+      "shadowColor": "rgba(0,0,0)",
       "shadowOffset": Object {
-        "height": 6,
-        "width": 4,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": -1,
-    },
-  },
-  "shadow-none": Object {
-    "android": Object {
-      "elevation": 0,
-    },
-    "default": Object {
-      "shadowColor": "rgb(0,0,0)",
-      "shadowOffset": Object {
-        "height": 0,
+        "height": 4,
         "width": 0,
       },
-      "shadowOpacity": 0,
-      "shadowRadius": 0,
+      "shadowOpacity": 0.1,
+      "shadowRadius": 6,
+    },
+    "web": Object {
+      "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     },
   },
   "shadow-sm": Object {
     "android": Object {
       "elevation": 1,
     },
-    "default": Object {
-      "shadowColor": "rgb(0,0,0)",
+    "ios": Object {
+      "shadowColor": "rgba(0,0,0)",
       "shadowOffset": Object {
-        "height": 2,
-        "width": 1,
+        "height": 1,
+        "width": 0,
       },
       "shadowOpacity": 0.05,
-      "shadowRadius": 1,
+      "shadowRadius": 2,
     },
-  },
-  "shadow-xl": Object {
-    "android": Object {
-      "elevation": -5,
-    },
-    "default": Object {
-      "shadowColor": "rgb(0,0,0)",
-      "shadowOffset": Object {
-        "height": 25,
-        "width": 20,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": -5,
+    "web": Object {
+      "boxShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
     },
   },
   "skew-0": Object {
@@ -8479,6 +6968,9 @@ Object {
   },
   "skew-y-6": Object {
     "skewY": "6deg",
+  },
+  "solid": Object {
+    "borderStyle": "solid",
   },
   "start-0": Object {
     "start": 0,
@@ -8608,39 +7100,30 @@ Object {
   },
   "text-2xl": Object {
     "fontSize": 24,
-    "lineHeight": 32,
   },
   "text-3xl": Object {
     "fontSize": 30,
-    "lineHeight": 36,
   },
   "text-4xl": Object {
     "fontSize": 36,
-    "lineHeight": 40,
   },
   "text-5xl": Object {
     "fontSize": 48,
-    "lineHeight": 48,
   },
   "text-6xl": Object {
     "fontSize": 60,
-    "lineHeight": 60,
   },
   "text-7xl": Object {
     "fontSize": 72,
-    "lineHeight": 72,
   },
   "text-8xl": Object {
     "fontSize": 96,
-    "lineHeight": 96,
   },
   "text-9xl": Object {
     "fontSize": 128,
-    "lineHeight": 128,
   },
   "text-base": Object {
     "fontSize": 16,
-    "lineHeight": 24,
   },
   "text-black": Object {
     "color": "#000",
@@ -8800,7 +7283,6 @@ Object {
   },
   "text-lg": Object {
     "fontSize": 18,
-    "lineHeight": 28,
   },
   "text-pink-100": Object {
     "color": "#fce7f3",
@@ -8917,7 +7399,7 @@ Object {
       },
     },
     "default": Object {
-      "color": "brown-500",
+      "color": "brown",
     },
     "ios": Object {
       "color": Object {
@@ -8936,7 +7418,7 @@ Object {
       },
     },
     "default": Object {
-      "color": "transparent",
+      "color": undefined,
     },
     "ios": Object {
       "color": Object {
@@ -9183,7 +7665,7 @@ Object {
       },
     },
     "default": Object {
-      "color": "#f4f4f5",
+      "color": "#e4e4e7",
     },
     "ios": Object {
       "color": Object {
@@ -9202,7 +7684,7 @@ Object {
       },
     },
     "default": Object {
-      "color": "#f4f4f5",
+      "color": "#d4d4d8",
     },
     "ios": Object {
       "color": Object {
@@ -9506,7 +7988,7 @@ Object {
       },
     },
     "default": Object {
-      "color": "#52525b",
+      "color": "#a1a1aa",
     },
     "ios": Object {
       "color": Object {
@@ -9851,64 +8333,51 @@ Object {
     "textShadowColor": "#78350f",
   },
   "text-shadow": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 3,
-      "width": 1,
+    "default": Object {
+      "textShadowColor": "rgba(0,0,0)",
+      "textShadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "textShadowOpacity": 0.1,
+      "textShadowRadius": 3,
     },
-    "textShadowRadius": 1,
-  },
-  "text-shadow-2xl": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 50,
-      "width": 25,
-    },
-    "textShadowRadius": -12,
   },
   "text-shadow-lg": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 15,
-      "width": 10,
+    "default": Object {
+      "textShadowColor": "rgba(0,0,0)",
+      "textShadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "textShadowOpacity": 0.1,
+      "textShadowRadius": 0,
     },
-    "textShadowRadius": -3,
   },
   "text-shadow-md": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 6,
-      "width": 4,
+    "default": Object {
+      "textShadowColor": "rgba(0,0,0)",
+      "textShadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "textShadowOpacity": 0.1,
+      "textShadowRadius": 6,
     },
-    "textShadowRadius": -1,
-  },
-  "text-shadow-none": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 0,
-      "width": 0,
-    },
-    "textShadowRadius": 0,
   },
   "text-shadow-sm": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 2,
-      "width": 1,
+    "default": Object {
+      "textShadowColor": "rgba(0,0,0)",
+      "textShadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "textShadowOpacity": 0.05,
+      "textShadowRadius": 2,
     },
-    "textShadowRadius": 1,
-  },
-  "text-shadow-xl": Object {
-    "textShadowColor": "rgb(0,0,0)",
-    "textShadowOffset": Object {
-      "height": 25,
-      "width": 20,
-    },
-    "textShadowRadius": -5,
   },
   "text-sm": Object {
     "fontSize": 14,
-    "lineHeight": 20,
   },
   "text-transparent": Object {
     "color": "transparent",
@@ -9930,11 +8399,9 @@ Object {
   },
   "text-xl": Object {
     "fontSize": 20,
-    "lineHeight": 28,
   },
   "text-xs": Object {
     "fontSize": 12,
-    "lineHeight": 16,
   },
   "text-yellow-100": Object {
     "color": "#fef3c7",
@@ -10109,6 +8576,111 @@ Object {
   },
   "tracking-widest": Object {
     "letterSpacing": 1.6,
+  },
+  "translate-0": Object {
+    "translate": 0,
+  },
+  "translate-0.5": Object {
+    "translate": 2,
+  },
+  "translate-1": Object {
+    "translate": 4,
+  },
+  "translate-1.5": Object {
+    "translate": 6,
+  },
+  "translate-10": Object {
+    "translate": 40,
+  },
+  "translate-11": Object {
+    "translate": 44,
+  },
+  "translate-12": Object {
+    "translate": 48,
+  },
+  "translate-14": Object {
+    "translate": 56,
+  },
+  "translate-16": Object {
+    "translate": 64,
+  },
+  "translate-2": Object {
+    "translate": 8,
+  },
+  "translate-2.5": Object {
+    "translate": 10,
+  },
+  "translate-20": Object {
+    "translate": 80,
+  },
+  "translate-24": Object {
+    "translate": 96,
+  },
+  "translate-28": Object {
+    "translate": 112,
+  },
+  "translate-3": Object {
+    "translate": 12,
+  },
+  "translate-3.5": Object {
+    "translate": 14,
+  },
+  "translate-32": Object {
+    "translate": 128,
+  },
+  "translate-36": Object {
+    "translate": 144,
+  },
+  "translate-4": Object {
+    "translate": 16,
+  },
+  "translate-40": Object {
+    "translate": 160,
+  },
+  "translate-44": Object {
+    "translate": 176,
+  },
+  "translate-48": Object {
+    "translate": 192,
+  },
+  "translate-5": Object {
+    "translate": 20,
+  },
+  "translate-52": Object {
+    "translate": 208,
+  },
+  "translate-56": Object {
+    "translate": 224,
+  },
+  "translate-6": Object {
+    "translate": 24,
+  },
+  "translate-60": Object {
+    "translate": 240,
+  },
+  "translate-64": Object {
+    "translate": 256,
+  },
+  "translate-7": Object {
+    "translate": 28,
+  },
+  "translate-72": Object {
+    "translate": 288,
+  },
+  "translate-8": Object {
+    "translate": 32,
+  },
+  "translate-80": Object {
+    "translate": 320,
+  },
+  "translate-9": Object {
+    "translate": 36,
+  },
+  "translate-96": Object {
+    "translate": 384,
+  },
+  "translate-px": Object {
+    "translate": 1,
   },
   "translate-x-0": Object {
     "translateX": 0,
@@ -10481,6 +9053,9 @@ Object {
   },
   "w-px": Object {
     "width": 1,
+  },
+  "w-tiny": Object {
+    "width": 0.25,
   },
   "z-0": Object {
     "zIndex": 0,
