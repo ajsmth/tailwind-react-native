@@ -1,13 +1,14 @@
 {
   "private": true,
   "scripts": {
+    "web": "yarn workspace tailwind-example expo start --web",
     "postinstall": "expo-yarn-workspaces postinstall"
   },
   "workspaces": [
     "example",
-    "lib"
+    "packages/*"
   ],
   "devDependencies": {
-    "expo-yarn-workspaces": "^1.2.1"
+    "expo-yarn-workspaces": "^1.5.0"
   }
 }
