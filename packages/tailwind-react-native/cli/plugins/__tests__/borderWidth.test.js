@@ -12,6 +12,6 @@ test("borderWidth", () => {
   const output = plugin(themeConfig);
 
   expect(output["border"]).toEqual({ borderWidth: 1 });
-  expect(output["border-l"]).toEqual({ borderWidthLeft: 1 });
-  expect(output["border-l-2"]).toEqual({ borderWidthLeft: 2 });
+  expect(output["border-l"]).toEqual({ borderLeftWidth: 1 });
+  expect(output["border-l-2"]).toEqual({ borderLeftWidth: 2 });
 });

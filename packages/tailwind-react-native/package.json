@@ -20,7 +20,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-web": "*"
   },
   "dependencies": {
     "@rollup/plugin-json": "^4.1.0",

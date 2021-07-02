@@ -2512,19 +2512,19 @@ Object {
     "borderWidth": 8,
   },
   "border-b": Object {
-    "borderWidthBottom": 1,
+    "borderBottomWidth": 1,
   },
   "border-b-0": Object {
-    "borderWidthBottom": 0,
+    "borderBottomWidth": 0,
   },
   "border-b-2": Object {
-    "borderWidthBottom": 2,
+    "borderBottomWidth": 2,
   },
   "border-b-4": Object {
-    "borderWidthBottom": 4,
+    "borderBottomWidth": 4,
   },
   "border-b-8": Object {
-    "borderWidthBottom": 8,
+    "borderBottomWidth": 8,
   },
   "border-b-black": Object {
     "borderBottomColor": "#000",
@@ -2815,19 +2815,19 @@ Object {
     "borderColor": "currentColor",
   },
   "border-e": Object {
-    "borderWidthEnd": 1,
+    "borderEndWidth": 1,
   },
   "border-e-0": Object {
-    "borderWidthEnd": 0,
+    "borderEndWidth": 0,
   },
   "border-e-2": Object {
-    "borderWidthEnd": 2,
+    "borderEndWidth": 2,
   },
   "border-e-4": Object {
-    "borderWidthEnd": 4,
+    "borderEndWidth": 4,
   },
   "border-e-8": Object {
-    "borderWidthEnd": 8,
+    "borderEndWidth": 8,
   },
   "border-end-black": Object {
     "borderEndColor": "#000",
@@ -3172,19 +3172,19 @@ Object {
     "borderColor": "#312e81",
   },
   "border-l": Object {
-    "borderWidthLeft": 1,
+    "borderLeftWidth": 1,
   },
   "border-l-0": Object {
-    "borderWidthLeft": 0,
+    "borderLeftWidth": 0,
   },
   "border-l-2": Object {
-    "borderWidthLeft": 2,
+    "borderLeftWidth": 2,
   },
   "border-l-4": Object {
-    "borderWidthLeft": 4,
+    "borderLeftWidth": 4,
   },
   "border-l-8": Object {
-    "borderWidthLeft": 8,
+    "borderLeftWidth": 8,
   },
   "border-l-black": Object {
     "borderLeftColor": "#000",
@@ -3499,19 +3499,19 @@ Object {
     "borderColor": "#4c1d95",
   },
   "border-r": Object {
-    "borderWidthRight": 1,
+    "borderRightWidth": 1,
   },
   "border-r-0": Object {
-    "borderWidthRight": 0,
+    "borderRightWidth": 0,
   },
   "border-r-2": Object {
-    "borderWidthRight": 2,
+    "borderRightWidth": 2,
   },
   "border-r-4": Object {
-    "borderWidthRight": 4,
+    "borderRightWidth": 4,
   },
   "border-r-8": Object {
-    "borderWidthRight": 8,
+    "borderRightWidth": 8,
   },
   "border-r-black": Object {
     "borderRightColor": "#000",
@@ -3796,19 +3796,19 @@ Object {
     "borderColor": "#7f1d1d",
   },
   "border-s": Object {
-    "borderWidthStart": 1,
+    "borderStartWidth": 1,
   },
   "border-s-0": Object {
-    "borderWidthStart": 0,
+    "borderStartWidth": 0,
   },
   "border-s-2": Object {
-    "borderWidthStart": 2,
+    "borderStartWidth": 2,
   },
   "border-s-4": Object {
-    "borderWidthStart": 4,
+    "borderStartWidth": 4,
   },
   "border-s-8": Object {
-    "borderWidthStart": 8,
+    "borderStartWidth": 8,
   },
   "border-s-black": Object {
     "borderStartColor": "#000",
@@ -4063,19 +4063,19 @@ Object {
     "borderStartColor": "#78350f",
   },
   "border-t": Object {
-    "borderWidthTop": 1,
+    "borderTopWidth": 1,
   },
   "border-t-0": Object {
-    "borderWidthTop": 0,
+    "borderTopWidth": 0,
   },
   "border-t-2": Object {
-    "borderWidthTop": 2,
+    "borderTopWidth": 2,
   },
   "border-t-4": Object {
-    "borderWidthTop": 4,
+    "borderTopWidth": 4,
   },
   "border-t-8": Object {
-    "borderWidthTop": 8,
+    "borderTopWidth": 8,
   },
   "border-t-black": Object {
     "borderTopColor": "#000",

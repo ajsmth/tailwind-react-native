@@ -8,7 +8,7 @@ const pluginConfig = {
     ["border-t"]: ["borderTopWidth"],
     ["border-b"]: ["borderBottomWidth"],
     ["border-l"]: ["borderLeftWidth"],
-    ["border-r"]: ["borderRightWidt"],
+    ["border-r"]: ["borderRightWidth"],
     ["border-s"]: ["borderStartWidth"],
     ["border-e"]: ["borderEndWidth"],
   },
