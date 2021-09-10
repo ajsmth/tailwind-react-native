@@ -2481,104 +2481,104 @@ var styles = {
 	borderWidth: 0
 },
 	"border-t-0": {
-	borderWidthTop: 0
+	borderTopWidth: 0
 },
 	"border-b-0": {
-	borderWidthBottom: 0
+	borderBottomWidth: 0
 },
 	"border-l-0": {
-	borderWidthLeft: 0
+	borderLeftWidth: 0
 },
 	"border-r-0": {
-	borderWidthRight: 0
+	borderRightWidth: 0
 },
 	"border-s-0": {
-	borderWidthStart: 0
+	borderStartWidth: 0
 },
 	"border-e-0": {
-	borderWidthEnd: 0
+	borderEndWidth: 0
 },
 	"border-2": {
 	borderWidth: 2
 },
 	"border-t-2": {
-	borderWidthTop: 2
+	borderTopWidth: 2
 },
 	"border-b-2": {
-	borderWidthBottom: 2
+	borderBottomWidth: 2
 },
 	"border-l-2": {
-	borderWidthLeft: 2
+	borderLeftWidth: 2
 },
 	"border-r-2": {
-	borderWidthRight: 2
+	borderRightWidth: 2
 },
 	"border-s-2": {
-	borderWidthStart: 2
+	borderStartWidth: 2
 },
 	"border-e-2": {
-	borderWidthEnd: 2
+	borderEndWidth: 2
 },
 	"border-4": {
 	borderWidth: 4
 },
 	"border-t-4": {
-	borderWidthTop: 4
+	borderTopWidth: 4
 },
 	"border-b-4": {
-	borderWidthBottom: 4
+	borderBottomWidth: 4
 },
 	"border-l-4": {
-	borderWidthLeft: 4
+	borderLeftWidth: 4
 },
 	"border-r-4": {
-	borderWidthRight: 4
+	borderRightWidth: 4
 },
 	"border-s-4": {
-	borderWidthStart: 4
+	borderStartWidth: 4
 },
 	"border-e-4": {
-	borderWidthEnd: 4
+	borderEndWidth: 4
 },
 	"border-8": {
 	borderWidth: 8
 },
 	"border-t-8": {
-	borderWidthTop: 8
+	borderTopWidth: 8
 },
 	"border-b-8": {
-	borderWidthBottom: 8
+	borderBottomWidth: 8
 },
 	"border-l-8": {
-	borderWidthLeft: 8
+	borderLeftWidth: 8
 },
 	"border-r-8": {
-	borderWidthRight: 8
+	borderRightWidth: 8
 },
 	"border-s-8": {
-	borderWidthStart: 8
+	borderStartWidth: 8
 },
 	"border-e-8": {
-	borderWidthEnd: 8
+	borderEndWidth: 8
 },
 	border: border,
 	"border-t": {
-	borderWidthTop: 1
+	borderTopWidth: 1
 },
 	"border-b": {
-	borderWidthBottom: 1
+	borderBottomWidth: 1
 },
 	"border-l": {
-	borderWidthLeft: 1
+	borderLeftWidth: 1
 },
 	"border-r": {
-	borderWidthRight: 1
+	borderRightWidth: 1
 },
 	"border-s": {
-	borderWidthStart: 1
+	borderStartWidth: 1
 },
 	"border-e": {
-	borderWidthEnd: 1
+	borderEndWidth: 1
 },
 	"shadow-sm": {
 	ios: {
