@@ -8,6 +8,7 @@ export default [
     output: {
       file: "build/index.js",
       format: "cjs",
+      exports: "default",
     },
     plugins: [json()],
     external: ["react", "react-native"],
