@@ -12,8 +12,10 @@
     "purge:json": "node cli/index.js purge",
     "build:json": "node cli/index.js build",
     "build": "rollup -c rollup.config.js",
+    "build:watch": "rollup -c rollup.config.js --watch",
     "run:init": "node cli/index.js init",
-    "test": "jest ."
+    "test": "jest .",
+    "test:fns": "jest src"
   },
   "peerDependencies": {
     "react": "*",
@@ -32,6 +34,7 @@
     "@rollup/plugin-commonjs": "^20.0.0",
     "chalk": "^4.1.2",
     "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "0.63.4",

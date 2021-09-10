@@ -25,12 +25,12 @@ npx tailwind-react-native@latest init
 
 ```jsx
 import React from "react";
-import { style } from "../styles";
+import sx from "../styles";
 
 export default function App() {
   return (
-    <View style={style("flex-1 p-24")}>
-      <View style={style("w-24 h-24 bg-platform-red")} />
+    <View style={sx("flex-1 p-24")}>
+      <View style={sx("w-24 h-24 bg-platform-red")} />
     </View>
   );
 }
@@ -40,10 +40,10 @@ if you want to make use of the typescript definitions, you can use an array synt
 
 ```tsx
 import * as React from "react";
-import { style } from "tailwind-react-native";
+import sx from "../styles";
 
 export default function App() {
-  return <View style={style(["flex-1", "p-24"])} />;
+  return <View style={sx(["flex-1", "p-24"])} />;
 }
 ```
 
@@ -52,23 +52,18 @@ export default function App() {
 you can add custom selectors that represent dynamic styles in your components
 
 ```jsx
-import { variant } from "tailwind-react-native";
+import sx from "../styles";
 
 function MyComponent() {
-  // apply styles based on the OS the app is running on
-  let platformStyles = variant(
-    `ios:bg-platform-yellow android:bg-platform-blue web:bg-platform-red`,
-    Platform.OS
-  );
+  const theme = useColorScheme();
 
-  // optional API using an object instead:
-  platformStyles = variant(
-    {
+  const platformStyles = sx(
+    Platform.select({
       ios: "bg-platform-yellow",
       android: "bg-platform-blue",
       web: "bg-platform-red",
-    },
-    Platform.OS
+    }),
+    theme === "dark" && "bg-white"
   );
 
   return <View style={platformStyles} />;
@@ -111,17 +106,17 @@ module.exports = {
 npx tailwind-react-native@latest build --config path/to/config --out path/for/styles
 ```
 
-## how it works: 
+## how it works:
 
 there are two parts to this library - the cli which generates a `styles.json` file and the `create` function which takes this json and makes useful helper functions that can be used in your code:
 
 ```jsx
-import { create } from "tailwind-react-native";
+import create from "tailwind-react-native";
 import styles from "./styles.json";
 
-const { style, variant } = create(styles);
+const fn = create(styles);
 
-style("flex-1 bg-green-500 py-12");
+fn("flex-1 bg-green-500 py-12");
 ```
 
 **_Note:_** this is what the `init` function of the cli does for you
