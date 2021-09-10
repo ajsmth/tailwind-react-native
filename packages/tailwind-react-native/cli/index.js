@@ -34,8 +34,7 @@ function cli() {
             console.log("ERR: ", err);
           }
 
-
-          const relativeStyleJsonPath = path.relative(process.cwd(), filePath)
+          const relativeStyleJsonPath = path.relative(process.cwd(), filePath);
           console.log("✅ Done!");
           console.log(
             `🎉 The ${chalk.bold(
@@ -75,7 +74,7 @@ function cli() {
       console.log(`scanning ${projectFolder} for styles`);
       purge(projectFolder, styles, filesGlob, whitelist).then(
         (purgedStyles) => {
-          console.log(`writing purged styles to file ${outPath}`);
+          console.log(`Writing purged styles to file ${outPath}`);
           fs.writeFile(
             outPath,
             JSON.stringify(purgedStyles, null, "\t"),
@@ -93,24 +92,24 @@ function cli() {
     .option("out", {
       alias: "o",
       type: "string",
-      description: "file path to write to",
+      description: "File path to write to",
     })
     .option("config", {
       alias: "c",
       type: "string",
-      description: "path to your tailwind.config.js file",
+      description: "Path to your tailwind.config.js file",
     })
     .command("init", "initialize a new tailwind setup", async ({ argv }) => {
       const outputDirName = argv.dir || "styles";
 
       console.log(`Initializing tailwind-react-native directory`);
-      const inputDir = path.resolve(__dirname, "initPresets");
+      const inputDir = path.resolve(__dirname, "..", "template");
       const outDir = path.resolve(process.cwd(), outputDirName);
 
       const inputIndexFile = path.resolve(inputDir, "index.js");
       const inputConfigFile = path.resolve(inputDir, "tailwind.config.js");
 
-      const outputIndexFile = path.resolve(outDir, "index.js");
+      const outputIndexFile = path.resolve(outDir, "index.ts");
       const outputConfigFile = path.resolve(outDir, "tailwind.config.js");
       const outputStylesFile = path.resolve(outDir, "styles.json");
 
@@ -126,17 +125,16 @@ function cli() {
         outputStylesFile,
         JSON.stringify(styles, null, "\t")
       ).catch((err) => {
-        console.log("error");
         console.log({ err });
       });
 
-      console.log(`Done! - Initialized tailwind in ${outDir}`);
+      console.log(`✅ Done! - Initialized tailwind-react-native in ${outDir}`);
     })
     .option("dir", {
       alias: "d",
       type: "string",
       description:
-        "name of the directory to put output into - defaults to styles",
+        "Name of the directory to put template files into - defaults to styles",
     }).argv;
 }
 

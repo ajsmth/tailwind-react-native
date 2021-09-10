@@ -10,13 +10,7 @@ module.exports = {
       inset: {},
       width: {},
       height: {},
-      borderRadius: {
-        wow: {
-          android: 100,
-          ios: 30,
-          default: '45%'
-        }
-      },
+      borderRadius: {},
       borderWidth: {},
       opacity: {},
       zIndex: {},
