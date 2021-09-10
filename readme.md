@@ -21,8 +21,6 @@ quickly generate config files and customizable style function for use in your ap
 npx tailwind-react-native@latest init
 ```
 
-this is the recommended approach as it will set you up to quickly update your config with any custom styles your app might need in the future!
-
 ## api
 
 ```jsx
@@ -113,7 +111,9 @@ module.exports = {
 npx tailwind-react-native@latest build --config path/to/config --out path/for/styles
 ```
 
-## using your own config / styles
+## how it works: 
+
+there are two parts to this library - the cli which generates a `styles.json` file and the `create` function which takes this json and makes useful helper functions that can be used in your code:
 
 ```jsx
 import { create } from "tailwind-react-native";

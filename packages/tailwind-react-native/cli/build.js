@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const defaultConfig = require("./defaultConfig");
 const defaultPlugins = require("./plugins");
 const mergeConfigs = require("./util/mergeConfigs");

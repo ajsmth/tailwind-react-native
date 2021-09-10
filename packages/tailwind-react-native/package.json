@@ -1,21 +1,18 @@
 {
   "name": "tailwind-react-native",
-  "bin": "cli/index.js",
   "version": "0.3.5",
-  "main": "index.js",
+  "bin": "bin/index.js",
+  "main": "build/index.js",
+  "types": "index.d.ts",
   "files": [
-    "styles.json",
-    "build/*",
-    "cli/*",
-    "src/*",
-    "index.d.ts"
+    "build/*"
   ],
   "scripts": {
-    "prepublish": "yarn test && yarn build && yarn bundle",
-    "purge": "node cli/index.js purge",
-    "build": "node cli/index.js build",
+    "prepublish": "yarn test && yarn build",
+    "purge:json": "node cli/index.js purge",
+    "build:json": "node cli/index.js build",
+    "build": "rollup -c rollup.config.js",
     "run:init": "node cli/index.js init",
-    "bundle": "rollup -c rollup.config.js",
     "test": "jest ."
   },
   "peerDependencies": {
@@ -32,11 +29,13 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
     "jest": "^26.6.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "0.63.4",
     "react-native-web": "~0.13.12",
-    "rollup": "^2.41.4"
+    "rollup": "^2.41.4",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }

@@ -1,9 +1,8 @@
-import styles from "../styles.json";
 import createStyleFn from "./style";
 import createVariantFn from "./variant";
 import createTransitionFns from "./transition";
 
-function create(styleMap = styles) {
+export function create(styleMap = {}) {
   const style = createStyleFn(styleMap);
   const variant = createVariantFn(style);
   const transitionFns = createTransitionFns(variant);
@@ -15,4 +14,4 @@ function create(styleMap = styles) {
   };
 }
 
-export default create;
+
