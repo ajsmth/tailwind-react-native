@@ -2409,81 +2409,112 @@
 			"borderBottomRightRadius": 100
 		}
 	},
-	"rounded-ish": {
+	"rounded-wow": {
 		"android": {
 			"borderRadius": 100
+		},
+		"ios": {
+			"borderRadius": 30
 		},
 		"default": {
 			"borderRadius": "45%"
 		}
 	},
-	"rounded-t-ish": {
+	"rounded-t-wow": {
 		"android": {
 			"borderTopLeftRadius": 100,
 			"borderTopRightRadius": 100
+		},
+		"ios": {
+			"borderTopLeftRadius": 30,
+			"borderTopRightRadius": 30
 		},
 		"default": {
 			"borderTopLeftRadius": "45%",
 			"borderTopRightRadius": "45%"
 		}
 	},
-	"rounded-b-ish": {
+	"rounded-b-wow": {
 		"android": {
 			"borderBottomLeftRadius": 100,
 			"borderBottomRightRadius": 100
+		},
+		"ios": {
+			"borderBottomLeftRadius": 30,
+			"borderBottomRightRadius": 30
 		},
 		"default": {
 			"borderBottomLeftRadius": "45%",
 			"borderBottomRightRadius": "45%"
 		}
 	},
-	"rounded-l-ish": {
+	"rounded-l-wow": {
 		"android": {
 			"borderTopLeftRadius": 100,
 			"borderBottomLeftRadius": 100
+		},
+		"ios": {
+			"borderTopLeftRadius": 30,
+			"borderBottomLeftRadius": 30
 		},
 		"default": {
 			"borderTopLeftRadius": "45%",
 			"borderBottomLeftRadius": "45%"
 		}
 	},
-	"rounded-r-ish": {
+	"rounded-r-wow": {
 		"android": {
 			"borderTopRightRadius": 100,
 			"borderBottomRightRadius": 100
+		},
+		"ios": {
+			"borderTopRightRadius": 30,
+			"borderBottomRightRadius": 30
 		},
 		"default": {
 			"borderTopRightRadius": "45%",
 			"borderBottomRightRadius": "45%"
 		}
 	},
-	"rounded-tl-ish": {
+	"rounded-tl-wow": {
 		"android": {
 			"borderTopLeftRadius": 100
+		},
+		"ios": {
+			"borderTopLeftRadius": 30
 		},
 		"default": {
 			"borderTopLeftRadius": "45%"
 		}
 	},
-	"rounded-tr-ish": {
+	"rounded-tr-wow": {
 		"android": {
 			"borderTopRightRadius": 100
+		},
+		"ios": {
+			"borderTopRightRadius": 30
 		},
 		"default": {
 			"borderTopRightRadius": "45%"
 		}
 	},
-	"rounded-bl-ish": {
+	"rounded-bl-wow": {
 		"android": {
 			"borderBottomLeftRadius": 100
+		},
+		"ios": {
+			"borderBottomLeftRadius": 30
 		},
 		"default": {
 			"borderBottomLeftRadius": "45%"
 		}
 	},
-	"rounded-br-ish": {
+	"rounded-br-wow": {
 		"android": {
 			"borderBottomRightRadius": 100
+		},
+		"ios": {
+			"borderBottomRightRadius": 30
 		},
 		"default": {
 			"borderBottomRightRadius": "45%"
@@ -2511,7 +2542,7 @@
 		"borderLeftWidth": 0
 	},
 	"border-r-0": {
-		"borderRightWidt": 0
+		"borderRightWidth": 0
 	},
 	"border-s-0": {
 		"borderStartWidth": 0
@@ -2532,7 +2563,7 @@
 		"borderLeftWidth": 2
 	},
 	"border-r-2": {
-		"borderRightWidt": 2
+		"borderRightWidth": 2
 	},
 	"border-s-2": {
 		"borderStartWidth": 2
@@ -2553,7 +2584,7 @@
 		"borderLeftWidth": 4
 	},
 	"border-r-4": {
-		"borderRightWidt": 4
+		"borderRightWidth": 4
 	},
 	"border-s-4": {
 		"borderStartWidth": 4
@@ -2574,7 +2605,7 @@
 		"borderLeftWidth": 8
 	},
 	"border-r-8": {
-		"borderRightWidt": 8
+		"borderRightWidth": 8
 	},
 	"border-s-8": {
 		"borderStartWidth": 8
@@ -2595,7 +2626,7 @@
 		"borderLeftWidth": 1
 	},
 	"border-r": {
-		"borderRightWidt": 1
+		"borderRightWidth": 1
 	},
 	"border-s": {
 		"borderStartWidth": 1

@@ -11,8 +11,9 @@ module.exports = {
       width: {},
       height: {},
       borderRadius: {
-        ish: {
+        wow: {
           android: 100,
+          ios: 30,
           default: '45%'
         }
       },

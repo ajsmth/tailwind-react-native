@@ -4,7 +4,7 @@ const { hideBin } = require("yargs/helpers");
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
-
+const chalk = require("chalk");
 const build = require("./build");
 const purge = require("./purge");
 
@@ -13,41 +13,49 @@ const writefile = util.promisify(fs.writeFile);
 
 function cli() {
   yargs(hideBin(process.argv))
-    .command("build", "build the styles", ({ argv }) => {
-      let configPath = argv.config || process.cwd();
-      const configFileInCwd = path.resolve(configPath, "tailwind.config.js");
-      let customConfig = {};
+    .command(
+      "build",
+      "Builds a `styles.json` file at the specified path",
+      ({ argv }) => {
+        let configPath = argv.config || process.cwd();
+        const configFileInCwd = path.resolve(configPath, "tailwind.config.js");
+        let customConfig = {};
 
-      if (fs.existsSync(configFileInCwd)) {
-        customConfig = require(configFileInCwd);
-        console.log(`using custom config at ${configPath} to generate styles`);
-      }
-
-      let outputPath = argv.out || process.cwd();
-      const styles = build(customConfig);
-      const filePath = path.resolve(outputPath, "styles.json");
-
-      console.log(`writing styles.json to ${filePath}`);
-
-      fs.writeFile(filePath, JSON.stringify(styles, null, "\t"), (err) => {
-        if (err !== null) {
-          console.log("ERR: ", err);
+        if (fs.existsSync(configFileInCwd)) {
+          customConfig = require(configFileInCwd);
         }
 
-        console.log("Done!");
-      });
-    })
+        let outputPath = argv.out || process.cwd();
+        const styles = build(customConfig);
+        const filePath = path.resolve(outputPath, "styles.json");
+
+        fs.writeFile(filePath, JSON.stringify(styles, null, "\t"), (err) => {
+          if (err !== null) {
+            console.log("ERR: ", err);
+          }
+
+
+          const relativeStyleJsonPath = path.relative(process.cwd(), filePath)
+          console.log("✅ Done!");
+          console.log(
+            `🎉 The ${chalk.bold(
+              `styles.json`
+            )} file can be found here: ${relativeStyleJsonPath}`
+          );
+        });
+      }
+    )
     .option("config", {
       alias: "c",
       type: "string",
-      description: "path to a custom tailwind.config.js file",
+      description: "Path to a tailwind.config.js file",
     })
     .option("out", {
       alias: "o",
       type: "string",
-      description: "path to write the generated styles.json file",
+      description: "Where to write the generated styles.json file",
     })
-    .command("purge", "purge unused styles from styles.json", ({ argv }) => {
+    .command("purge", "Purge unused styles from styles.json", ({ argv }) => {
       const configDir = argv.config || process.cwd();
       const configPath = path.resolve(configDir, "tailwind.config.js");
 
@@ -132,4 +140,4 @@ function cli() {
     }).argv;
 }
 
-module.exports = cli
+module.exports = cli;

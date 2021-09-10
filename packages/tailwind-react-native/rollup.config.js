@@ -1,7 +1,6 @@
 import json from "@rollup/plugin-json";
-import commonjs from '@rollup/plugin-commonjs';
+import commonjs from "@rollup/plugin-commonjs";
 import { terser } from "rollup-plugin-terser";
-
 
 export default [
   {
@@ -20,7 +19,21 @@ export default [
       format: "cjs",
       exports: "default",
     },
-    plugins: [commonjs(), terser()],
-    external: ["fs", "path", "util", "glob", "cli-progress", "yargs/yargs", "yargs/helpers"],
+    plugins: [
+      commonjs({
+        ignoreDynamicRequires: true,
+      }),
+      terser(),
+    ],
+    external: [
+      "fs",
+      "path",
+      "util",
+      "glob",
+      "cli-progress",
+      "yargs/yargs",
+      "yargs/helpers",
+      "chalk",
+    ],
   },
 ];
