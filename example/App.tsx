@@ -16,8 +16,6 @@ const Image = create("Image", {
 })
 
 const Text = create("Text", {
-  
-
   props: {
     color: {
       success: sx("text-green-500"),
@@ -45,7 +43,7 @@ export default function App() {
   return (
     <View style={[sx(["flex-1", "p-24"])]}>
       <View style={sx("flex-1")}>
-        <Text color="danger" variant="h2">
+        <Text variant="h1">
           Hello
         </Text>
       </View>

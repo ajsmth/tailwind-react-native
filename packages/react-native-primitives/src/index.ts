@@ -16,6 +16,8 @@ import {
   StyleProp,
   StyleSheet,
   ViewStyle,
+  ImageStyle,
+  TextStyle,
 } from "react-native";
 
 type PrimitiveOption = "Button" | "View" | "Image" | "Text";
@@ -37,12 +39,8 @@ type PropsMap = {
 type StylesMap = {
   Button: ViewStyle;
   View: ViewStyle;
-  Image: ViewStyle;
-  Text: ViewStyle;
-};
-
-type VariantMap = {
-  [key: string]: { [key: string]: any };
+  Image: ImageStyle;
+  Text: TextStyle;
 };
 
 type Options<Type> = {
@@ -70,23 +68,23 @@ type ScreenSizeQuery = {
   width?: { [key: string]: any };
 };
 
-type StyleVariants = {
-  base?: any;
-  props?: VariantMap;
+type Variants<O extends PrimitiveOption> = {
+  base?: StyleProp<StylesMap[O]>;
+  props?: { [key: string]: { [key: string]: any } };
   variants?: { [key: string]: any };
   queries?: Queries;
 };
 
-export function create<Variants extends StyleVariants>(
-  component: PrimitiveOption,
-  variants: Variants
+export function create<O extends PrimitiveOption, V extends Variants<O>>(
+  component: O,
+  variants: V
 ) {
   const styleFn = getStylesFn(variants);
   const Primitive = PrimitiveMap[component];
 
   function Component(
     props: PropsMap[typeof component] &
-      Options<Variants["props"]> & { variant?: keyof Variants["variants"] }
+      Options<Variants<O>["props"]> & { variant?: keyof V["variants"] }
   ) {
     const qs = useQueryStyles(variants.queries);
     const ss = useScreenSizeStyles(variants?.queries?.screen);
@@ -101,7 +99,7 @@ export function create<Variants extends StyleVariants>(
   return Component;
 }
 
-export function getStylesFn<Variants extends StyleVariants>(options: Variants) {
+export function getStylesFn<T>(options: Variants<T>) {
   let styles = options.base || {};
   options.props = options.props || {};
 
