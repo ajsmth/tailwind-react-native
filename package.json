@@ -1,8 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "web": "yarn workspace tailwind-example expo start --web",
-    "postinstall": "expo-yarn-workspaces postinstall"
+    "web": "yarn workspace tailwind-example expo start --web"
   },
   "workspaces": [
     "example",

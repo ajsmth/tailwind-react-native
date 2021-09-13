@@ -17,7 +17,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "userInterfaceStyle": "automatic",
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -27,9 +26,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "packagerOpts": {
-      "config": "./metro.config.js",
-      "projectRoots": ""
-    }
+    "userInterfaceStyle": "automatic"
   }
 }

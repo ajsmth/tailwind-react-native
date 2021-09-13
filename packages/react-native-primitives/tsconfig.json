@@ -4,11 +4,12 @@
     "jsx": "react-native",
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
-    "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true,
     "outDir": "build",
-    "rootDir": "src"
-  }
+    "declaration": true,    
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "__tests__"]
 }
