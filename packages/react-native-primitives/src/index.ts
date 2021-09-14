@@ -12,37 +12,8 @@ import {
   TextStyle,
 } from "react-native";
 
-type Queries<T> = {
-  appearance?: {
-    light?: T;
-    dark?: T;
-  };
-
-  accessibility?: {
-    boldText?: T;
-    grayScale?: T;
-    invertColors?: T;
-    reduceTransparency?: T;
-  };
-
-  screen?: ScreenSizeQuery<T>;
-};
-
-type ScreenSizeQuery<T> = {
-  height?: { [key: string]: T };
-  width?: { [key: string]: T };
-};
-
-type Variants<Style> = {
-  base?: StyleProp<Style>;
-  variants?: { [key: string]: { [key: string]: StyleProp<Style> } };
-  queries?: Queries<Style>;
-};
-
-type VariantProp<Type> = {
-  variant?: keyof Type;
-};
-
+// this was the best way I could think of to get the right style props
+// ordering is important - view style overrides the others when placed first
 type StyleFor<T> = T extends { style?: StyleProp<ImageStyle> }
   ? StyleProp<ImageStyle>
   : T extends { style?: StyleProp<TextStyle> }
@@ -55,6 +26,28 @@ type Options<T> = {
   base?: StyleFor<T>;
   variants?: VariantMap<StyleFor<T>>;
   queries?: Queries<StyleFor<T>>;
+  props?: Partial<T>;
+};
+
+type Queries<T> = {
+  appearance?: {
+    light?: any;
+    dark?: any;
+  };
+
+  accessibility?: {
+    boldText?: any;
+    grayScale?: any;
+    invertColors?: any;
+    reduceTransparency?: any;
+  };
+
+  screen?: ScreenSizeQuery<T>;
+};
+
+type ScreenSizeQuery<T> = {
+  height?: { [key: string]: T };
+  width?: { [key: string]: T };
 };
 
 type VariantMap<T> = { [key: string]: { [key2: string]: T } };
@@ -63,11 +56,23 @@ type Nested<Type> = {
   [Property in keyof Type]?: keyof Type[Property];
 };
 
+type PartialOption<Type> = {
+  [Property in keyof Type]?: keyof Type[Property];
+};
+
+type Selectors<VariantMap, Style> = {
+  light?: Partial<{
+    [K in keyof VariantMap]: {
+      [T in keyof VariantMap[K]]?: StyleFor<Style>;
+    };
+  }>;
+};
+
 export function create<T, O extends Options<T>>(
   component: React.ComponentType<T>,
-  config: O
+  config: O & { selectors?: Selectors<O["variants"], T> }
 ) {
-  const styleFn = getStylesFn(config);
+  const styleFn = getStylesFn<T>(config);
 
   function Component(
     props: React.PropsWithChildren<T & Nested<typeof config["variants"]>>
@@ -78,6 +83,7 @@ export function create<T, O extends Options<T>>(
 
     return React.createElement<T>(component, {
       ...props,
+      ...config.props,
       // @ts-ignore
       style: [style, props.style, qs, ss],
     });
@@ -90,11 +96,14 @@ export function getStylesFn<T>(options: Options<T>) {
   let styles: any = options.base || {};
 
   function handleVariantProps(props: any) {
+    // @ts-ignore
     options.variants = options.variants || {};
 
     for (let key in props) {
+      // @ts-ignore
       if (options.variants[key]) {
         const value = props[key];
+        // @ts-ignore
         const styleValue = options.variants[key][value];
 
         styles = StyleSheet.compose(styles, styleValue);
