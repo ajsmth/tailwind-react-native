@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "web": "yarn workspace tailwind-example expo start --web"
+    "start": "cd example && yarn start",
+    "build": "cd library && yarn build --watch"
   },
   "workspaces": [
     "example",
-    "packages/*"
+    "library"
   ],
   "devDependencies": {
     "expo-yarn-workspaces": "^1.5.0"
