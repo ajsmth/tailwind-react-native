@@ -1,6 +1,6 @@
 {
   "name": "tailwind-react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "bin/index.js",
   "main": "build/index.js",
   "types": "index.d.ts",
