@@ -1,13 +1,14 @@
 {
   "name": "tailwind-react-native",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": "bin/index.js",
   "main": "build/index.js",
   "types": "index.d.ts",
   "files": [
     "build/*",
     "bin/*",
-    "template/*"
+    "template/*",
+    "index.d.ts"
   ],
   "scripts": {
     "prepublish": "yarn test && yarn build",
