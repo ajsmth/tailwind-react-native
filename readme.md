@@ -2,8 +2,11 @@
 
 this library is a configurable, react native specific port of tailwind. it supports custom configurations fairly thoroughly, has typescript definitions, and the ability to purge unused styles from your final build
 
+*Note*: `tailwindcss-react-native` looks like the most tailwind-y solution to date - I would recommend taking a look at it before using this lib!
+
 ## alternatives
 
+- https://github.com/marklawlor/tailwindcss-react-native - slick babel plugin approach
 - https://github.com/z0al/react-native-styled.macro - super cool build time macro
 - https://github.com/vadimdemedes/tailwind-rn - tailwindcss converted to stylesheet styles
 
